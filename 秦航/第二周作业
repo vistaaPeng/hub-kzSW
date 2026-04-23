@@ -1,0 +1,78 @@
+import torch
+import torch.nn as nn
+import numpy as np
+
+#建立模型
+class TorchModel(nn.Module):
+    def __init__(self,input_size):
+        super().__init__()
+        self.linear = nn.Linear(input_size,input_size)
+    def forward(self,x):
+        pred_y = self.linear(x)
+        return pred_y
+
+#制定数据集的规律
+def create_data():
+    x = np.random.randn(6) #6维随机数
+    y = x.argmax()  #根据规则得到的真实值
+    return x , y
+
+#创建数据集
+def create_dataset(data_count):
+    X , Y = [],[]
+    for _ in range(data_count):
+        x , y  = create_data()
+        X.append(x)
+        Y.append(y)
+    return torch.FloatTensor(X) , torch.LongTensor(Y)
+
+#训练主程序
+def main():
+    #初始化参数
+    epoch_num = 100 #训练的轮次数
+    batch_size = 40 #每次训练的样本数量
+    total_sample_num = 5000 #训练一轮的总样本数量
+    sr = 0.02 #学习率
+    input_size = 6 #输入维度
+    model = TorchModel(input_size) #模型实例化
+    loss_func = nn.CrossEntropyLoss() #选择损失函数并实例化
+    #获取训练数据集
+    train_x , train_y = create_dataset(total_sample_num)
+    #选择优化器
+    optim = torch.optim.Adam(model.parameters(),lr = sr)
+    #外层循环开始
+    for epoch in range(epoch_num):
+        model.train()  #告诉Pytorch训练开始
+        batch_step = total_sample_num // batch_size
+        #内层循环开始
+        for i in range(batch_step):
+            x = train_x[batch_size*i:batch_size*(1 + i)]
+            y = train_y[batch_size*i:batch_size*(1 + i)]
+            #计算损失值
+            pred_y = model(x)
+            loss = loss_func(pred_y,y)
+            #计算梯度
+            loss.backward()
+            #更新权重
+            optim.step()
+            #梯度清零
+            optim.zero_grad()
+        print("第%d轮, loss:%f" % (epoch + 1, loss))
+    #开始测试模型
+    print("========="*60)
+    print("测试模型开始")
+    model.eval()  #测试模型
+    count = 0
+    test_num = 1000
+    with torch.no_grad(): # 不计算梯度
+        for _ in range(test_num):
+            x , true_y = create_data()
+            x = torch.FloatTensor(x)
+            pred_y = model(x).argmax().item()
+            if pred_y == true_y:
+                count += 1
+    print("测试了:%d次, 正确了:%d次" % (test_num,count))
+    print(f"正确率:{(count / test_num)*100:.2f}%")
+            
+if __name__ == '__main__':
+    main()
