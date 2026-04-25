@@ -36,7 +36,6 @@ def build_sample():
 
 
 # 随机生成一批样本
-# 正负样本均匀生成
 def build_dataset(total_sample_num):
     X = []
     Y = []
