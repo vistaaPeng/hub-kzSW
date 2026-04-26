@@ -1,0 +1,68 @@
+# 第二周作业：
+# 尝试完成一个多分类任务的训练:一个随机向量，哪一维数字最大就属于第几类。
+
+#作业步骤：
+#1，创建一个产出随机向量的函数，返回一个数列
+#2，对1步骤中的数列，进行处理，并返回结果
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+import torch
+import torch.nn as nn
+
+#生成一个3个数的样本
+def build_sample(number):
+    x = np.random.random(number)#生成 5 个 0 ~ 1 之间的随机小数,返回一个长度为5的一维数组。
+    return x
+
+#样本组成一个列
+def build_dataset(build_number=10,number=3):
+    x = []
+    for i in range(build_number):
+        x.append(build_sample(number))
+    #print(x)
+    print("已经随机生成样本组")
+    return x
+
+#开始训练    
+def evaluate(wheel = 10,number = 5):
+    #随机生成列表
+    
+    x = build_dataset(wheel,number) #决定随机输出多少轮，多少个的数据
+    print(f"随机样本共比较{wheel}轮，每轮{number}个数，具体如下：")
+    for i,k in enumerate(x):
+        print(k)
+    
+    #需要返回的列表：最大数，最大数的序列号
+    serial_max = []
+
+    print("开始比较...")
+
+    for i,k in enumerate(x):
+        #print(f"本轮的比较的数据为:{k}")
+        max_i = 0
+        max_num = 0
+        
+        for l,m in enumerate(k):
+            max = []
+            if m >= max_num:
+                max_num = m
+                max_i = l
+            
+        max.append(max_num)#输出最大数字
+        max.append(max_i)#输出最大数字的序列号，从0开始计算
+        serial_max.append(max)#输出最大数字、序列号
+    #print(f"比较结果如下:{serial_max}")
+    print("比较过程结束。")
+    return serial_max
+
+def main():
+    serial_max = evaluate(100,5000)#多少轮，多少个
+    print("比较结果如下：")
+    for i,k in enumerate(serial_max):
+        print(f"第{i}轮:本轮最大值为{k[0]},属于第{k[1]}类")
+
+#入口函数
+if __name__ == "__main__":
+    main()
