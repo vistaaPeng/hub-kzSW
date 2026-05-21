@@ -1,0 +1,279 @@
+<|user|>
+什么是人工智能？
+
+<|assistant|>
+人工智能是让机器模拟人类智能行为的一系列技术，包括学习、推理、感知与决策。
+
+<|end|>
+
+<|user|>
+什么是 Transformer？
+
+<|assistant|>
+Transformer 是一种基于自注意力机制的深度学习模型，广泛用于自然语言处理任务。
+
+<|end|>
+
+<|user|>
+Transformer 的核心机制是什么？
+
+<|assistant|>
+Transformer 的核心机制是 Attention，它能够计算不同 token 之间的相关性。
+
+<|end|>
+
+<|user|>
+什么是 Attention？
+
+<|assistant|>
+Attention 是一种根据相关性动态分配权重的机制，可以让模型关注重要信息。
+
+<|end|>
+
+<|user|>
+什么是 Self-Attention？
+
+<|assistant|>
+Self-Attention 是序列内部 token 之间互相关注的机制。
+
+<|end|>
+
+<|user|>
+什么是多头注意力？
+
+<|assistant|>
+多头注意力会并行学习多种不同的注意力模式，从而增强模型表达能力。
+
+<|end|>
+
+<|user|>
+为什么 GPT 能生成文本？
+
+<|assistant|>
+因为 GPT 使用 next-token prediction，不断预测下一个 token，从而实现文本生成。
+
+<|end|>
+
+<|user|>
+什么是 next-token prediction？
+
+<|assistant|>
+next-token prediction 是根据前面的 token 预测下一个 token 的训练目标。
+
+<|end|>
+
+<|user|>
+为什么 BERT 不适合生成？
+
+<|assistant|>
+因为 BERT 使用双向 Attention，并且训练目标是填空任务，不适合自回归生成。
+
+<|end|>
+
+<|user|>
+什么是 Causal Mask？
+
+<|assistant|>
+Causal Mask 是一种下三角 Attention Mask，用于防止模型看到未来 token。
+
+<|end|>
+
+<|user|>
+为什么生成模型需要 Causal Mask？
+
+<|assistant|>
+因为生成时模型只能依赖历史 token，不能提前看到未来内容。
+
+<|end|>
+
+<|user|>
+什么是 Decoder-only 架构？
+
+<|assistant|>
+Decoder-only 是只使用 Transformer Decoder 的结构，GPT 和 Llama 都属于这种架构。
+
+<|end|>
+
+<|user|>
+什么是 Encoder-only 架构？
+
+<|assistant|>
+Encoder-only 是只使用 Transformer Encoder 的结构，BERT 属于这一类型。
+
+<|end|>
+
+<|user|>
+什么是 SFT？
+
+<|assistant|>
+SFT 是监督微调，通过大量指令与回答数据训练模型学会对话与回答问题。
+
+<|end|>
+
+<|user|>
+SFT 改变了什么？
+
+<|assistant|>
+SFT 改变了模型输出的形式，使模型学会按照指令回答问题。
+
+<|end|>
+
+<|user|>
+大模型的知识来自哪里？
+
+<|assistant|>
+大模型的大部分知识来自海量预训练语料。
+
+<|end|>
+
+<|user|>
+什么是 Temperature Sampling？
+
+<|assistant|>
+Temperature Sampling 通过调整概率分布尖锐程度控制生成文本的随机性。
+
+<|end|>
+
+<|user|>
+temperature 越高会怎样？
+
+<|assistant|>
+temperature 越高，概率分布越平坦，生成结果越随机。
+
+<|end|>
+
+<|user|>
+什么是 Top-K Sampling？
+
+<|assistant|>
+Top-K Sampling 只从概率最高的 K 个 token 中进行采样。
+
+<|end|>
+
+<|user|>
+什么是 Top-P Sampling？
+
+<|assistant|>
+Top-P Sampling 会动态选择累计概率达到 P 的 token 集合进行采样。
+
+<|end|>
+
+<|user|>
+为什么需要采样策略？
+
+<|assistant|>
+因为直接选择最大概率 token 会导致生成内容重复且缺乏多样性。
+
+<|end|>
+
+<|user|>
+什么是语言模型？
+
+<|assistant|>
+语言模型是用于建模文本概率分布的模型。
+
+<|end|>
+
+<|user|>
+什么是 token？
+
+<|assistant|>
+token 是文本切分后的基本单位，可以是字、词或子词。
+
+<|end|>
+
+<|user|>
+什么是 tokenizer？
+
+<|assistant|>
+tokenizer 用于将文本转换为 token id。
+
+<|end|>
+
+<|user|>
+什么是 embedding？
+
+<|assistant|>
+embedding 是 token 的向量表示，用于输入神经网络。
+
+<|end|>
+
+<|user|>
+什么是 Position Embedding？
+
+<|assistant|>
+Position Embedding 用于表示 token 在序列中的位置信息。
+
+<|end|>
+
+<|user|>
+什么是 logits？
+
+<|assistant|>
+logits 是模型输出的未归一化分数。
+
+<|end|>
+
+<|user|>
+softmax 的作用是什么？
+
+<|assistant|>
+softmax 可以把 logits 转换成概率分布。
+
+<|end|>
+
+<|user|>
+为什么 Transformer 能并行训练？
+
+<|assistant|>
+因为 Transformer 不依赖循环结构，可以同时处理整个序列。
+
+<|end|>
+
+<|user|>
+什么是 autoregressive generation？
+
+<|assistant|>
+autoregressive generation 是一种逐 token 生成文本的方法。
+
+<|end|>
+
+<|user|>
+什么是 EOS token？
+
+<|assistant|>
+EOS token 表示文本结束。
+
+<|end|>
+
+<|user|>
+什么是 loss？
+
+<|assistant|>
+loss 用于衡量模型预测与真实标签之间的差距。
+
+<|end|>
+
+<|user|>
+什么是 Cross Entropy Loss？
+
+<|assistant|>
+Cross Entropy Loss 是语言模型中最常用的分类损失函数。
+
+<|end|>
+
+<|user|>
+什么是 PyTorch？
+
+<|assistant|>
+PyTorch 是一个流行的深度学习框架。
+
+<|end|>
+
+<|user|>
+什么是 GPU？
+
+<|assistant|>
+GPU 是适合大规模并行计算的处理器，常用于训练深度学习模型。
+
+<|end|>
