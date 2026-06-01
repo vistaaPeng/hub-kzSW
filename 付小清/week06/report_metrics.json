@@ -1,0 +1,36 @@
+{
+  "bert": [
+    {
+      "tag": "CLS 池化",
+      "val_acc": 0.5618,
+      "val_macro_f1": 0.549969617261729
+    },
+    {
+      "tag": "CLS + 类别加权",
+      "val_acc": 0.5593,
+      "val_macro_f1": 0.5534157237096211
+    },
+    {
+      "tag": "Mean 池化",
+      "val_acc": 0.5657,
+      "val_macro_f1": 0.5489
+    },
+    {
+      "tag": "Max 池化",
+      "val_acc": 0.558,
+      "val_macro_f1": 0.5538284467073711
+    }
+  ],
+  "llm": [
+    {
+      "tag": "zero_shot",
+      "accuracy": 0.36,
+      "unparseable": 58
+    },
+    {
+      "tag": "sft",
+      "accuracy": 0.58,
+      "unparseable": 2
+    }
+  ]
+}
