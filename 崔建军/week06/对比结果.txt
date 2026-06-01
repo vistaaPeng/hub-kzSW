@@ -1,0 +1,230 @@
+=================================================
+python train.py
+=================================================
+
+使用设备: cuda
+类别数: 15
+使用 BERT 预训练目录: D:\BaiduNetdiskDownload\AI\pretrain_models\bert-base-chinese
+DataLoader 构建完成
+  train: 53360 条, 1668 batch
+  val  : 10000 条, 313 batch
+  test : 10000 条, 313 batch
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 53821.67it/s]
+模型参数量: 102.3M  (BERT: 102.3M, 分类头: 11.5K)
+池化策略: cls
+使用普通 CrossEntropyLoss
+总训练步数: 5004, warmup: 500
+Epoch 1/3 | train_loss=1.4451 train_acc=0.5098 | val_acc=0.5571 val_macro_f1=0.5438 | 338s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_cls.pt  (val_acc=0.5571)
+Epoch 2/3 | train_loss=1.0557 train_acc=0.6117 | val_acc=0.5692 val_macro_f1=0.5587 | 358s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_cls.pt  (val_acc=0.5692)
+                                                                                                                                                                        
+分类报告：
+              precision    recall  f1-score   support
+
+          故事       0.56      0.45      0.50       215
+          文化       0.54      0.53      0.54       736
+          娱乐       0.54      0.60      0.57       910
+          体育       0.73      0.72      0.72       767
+          财经       0.48      0.47      0.47       956
+          房产       0.60      0.63      0.61       378
+          汽车       0.70      0.63      0.66       791
+          教育       0.58      0.60      0.59       646
+          科技       0.53      0.55      0.54      1089
+          军事       0.56      0.53      0.54       716
+          旅游       0.50      0.46      0.48       693
+          国际       0.50      0.54      0.52       905
+          证券       0.43      0.29      0.35        45
+          农业       0.50      0.57      0.53       494
+          电竞       0.67      0.64      0.65       659
+
+    accuracy                           0.56     10000
+   macro avg       0.56      0.55      0.55     10000
+weighted avg       0.57      0.56      0.56     10000
+
+Epoch 3/3 | train_loss=0.8391 train_acc=0.6880 | val_acc=0.5646 val_macro_f1=0.5517 | 354s
+
+训练完成。最优 val_acc=0.5692
+训练日志 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\train_log_cls.json
+
+
+=================================================
+python train.py --pool mean --epochs 3
+=================================================
+
+使用设备: cuda
+类别数: 15
+使用 BERT 预训练目录: D:\BaiduNetdiskDownload\AI\pretrain_models\bert-base-chinese
+DataLoader 构建完成
+  train: 53360 条, 1668 batch
+  val  : 10000 条, 313 batch
+  test : 10000 条, 313 batch
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 99093.73it/s]
+模型参数量: 102.3M  (BERT: 102.3M, 分类头: 11.5K)
+池化策略: mean
+使用普通 CrossEntropyLoss
+总训练步数: 5004, warmup: 500
+Epoch 1/3 | train_loss=1.4343 train_acc=0.5122 | val_acc=0.5566 val_macro_f1=0.5241 | 315s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_mean.pt  (val_acc=0.5566)
+Epoch 2/3 | train_loss=1.0390 train_acc=0.6199 | val_acc=0.5597 val_macro_f1=0.5319 | 325s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_mean.pt  (val_acc=0.5597)
+                                                                                                                                                                        
+分类报告：
+              precision    recall  f1-score   support
+
+          故事       0.50      0.46      0.48       215
+          文化       0.52      0.55      0.54       736
+          娱乐       0.57      0.58      0.57       910
+          体育       0.73      0.71      0.72       767
+          财经       0.49      0.52      0.50       956
+          房产       0.58      0.63      0.61       378
+          汽车       0.70      0.62      0.66       791
+          教育       0.57      0.58      0.57       646
+          科技       0.53      0.51      0.52      1089
+          军事       0.55      0.54      0.54       716
+          旅游       0.51      0.49      0.50       693
+          国际       0.50      0.53      0.52       905
+          证券       0.53      0.40      0.46        45
+          农业       0.51      0.54      0.53       494
+          电竞       0.69      0.64      0.66       659
+
+    accuracy                           0.57     10000
+   macro avg       0.56      0.55      0.56     10000
+weighted avg       0.57      0.57      0.57     10000
+
+Epoch 3/3 | train_loss=0.8152 train_acc=0.6962 | val_acc=0.5655 val_macro_f1=0.5585 | 363s
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_mean.pt  (val_acc=0.5655)
+
+训练完成。最优 val_acc=0.5655
+训练日志 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\train_log_mean.json
+
+
+=================================================
+python train.py --pool max  --epochs 3
+=================================================
+
+使用设备: cuda
+类别数: 15
+使用 BERT 预训练目录: D:\BaiduNetdiskDownload\AI\pretrain_models\bert-base-chinese
+DataLoader 构建完成
+  train: 53360 条, 1668 batch
+  val  : 10000 条, 313 batch
+  test : 10000 条, 313 batch
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 52971.16it/s]
+模型参数量: 102.3M  (BERT: 102.3M, 分类头: 11.5K)
+池化策略: max
+使用普通 CrossEntropyLoss
+总训练步数: 5004, warmup: 500
+Epoch 1/3 | train_loss=1.4832 train_acc=0.5029 | val_acc=0.5489 val_macro_f1=0.5348 | 335s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_max.pt  (val_acc=0.5489)
+Epoch 2/3 | train_loss=1.0910 train_acc=0.6020 | val_acc=0.5609 val_macro_f1=0.5525 | 348s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_max.pt  (val_acc=0.5609)
+                                                                                                                                                                        
+分类报告：
+              precision    recall  f1-score   support
+
+          故事       0.50      0.54      0.52       215
+          文化       0.51      0.57      0.54       736
+          娱乐       0.57      0.55      0.56       910
+          体育       0.72      0.72      0.72       767
+          财经       0.48      0.46      0.47       956
+          房产       0.59      0.68      0.63       378
+          汽车       0.68      0.66      0.67       791
+          教育       0.58      0.57      0.58       646
+          科技       0.53      0.47      0.50      1089
+          军事       0.56      0.51      0.53       716
+          旅游       0.51      0.44      0.47       693
+          国际       0.48      0.54      0.51       905
+          证券       0.40      0.58      0.47        45
+          农业       0.50      0.60      0.54       494
+          电竞       0.67      0.64      0.66       659
+
+    accuracy                           0.56     10000
+   macro avg       0.55      0.57      0.56     10000
+weighted avg       0.56      0.56      0.56     10000
+
+Epoch 3/3 | train_loss=0.8901 train_acc=0.6712 | val_acc=0.5608 val_macro_f1=0.5588 | 335s
+
+训练完成。最优 val_acc=0.5609
+训练日志 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\train_log_max.json
+
+
+=================================================
+python train.py --pool max --use_class_weight
+=================================================
+
+使用设备: cuda
+类别数: 15
+使用 BERT 预训练目录: D:\BaiduNetdiskDownload\AI\pretrain_models\bert-base-chinese
+DataLoader 构建完成
+  train: 53360 条, 1668 batch
+  val  : 10000 条, 313 batch
+  test : 10000 条, 313 batch
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<?, ?it/s]
+模型参数量: 102.3M  (BERT: 102.3M, 分类头: 11.5K)
+池化策略: max
+类别权重（用于加权 loss）：
+   0 故事  : 3.202
+   1 文化  : 0.872
+   2 娱乐  : 0.715
+   3 体育  : 0.891
+   4 财经  : 0.684
+   5 房产  : 1.688
+   6 汽车  : 0.864
+   7 教育  : 1.035
+   8 科技  : 0.597
+   9 军事  : 0.979
+  10 旅游  : 1.056
+  11 国际  : 0.733
+  12 证券  : 13.842
+  13 农业  : 1.233
+  14 电竞  : 1.049
+使用加权 CrossEntropyLoss
+总训练步数: 5004, warmup: 500
+Epoch 1/3 | train_loss=1.4987 train_acc=0.4843 | val_acc=0.5425 val_macro_f1=0.5331 | 332s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_max_weighted.pt  (val_acc=0.5425)
+Epoch 2/3 | train_loss=1.0509 train_acc=0.5960 | val_acc=0.5494 val_macro_f1=0.5415 | 321s                                                                              
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_max_weighted.pt  (val_acc=0.5494)
+                                                                                                                                                                        
+分类报告：
+              precision    recall  f1-score   support
+
+          故事       0.40      0.68      0.51       215
+          文化       0.54      0.53      0.53       736
+          娱乐       0.62      0.51      0.56       910
+          体育       0.72      0.73      0.72       767
+          财经       0.50      0.41      0.45       956
+          房产       0.52      0.72      0.61       378
+          汽车       0.70      0.65      0.67       791
+          教育       0.53      0.59      0.56       646
+          科技       0.56      0.44      0.50      1089
+          军事       0.50      0.60      0.54       716
+          旅游       0.49      0.52      0.50       693
+          国际       0.49      0.43      0.46       905
+          证券       0.31      0.71      0.44        45
+          农业       0.50      0.60      0.54       494
+          电竞       0.64      0.68      0.66       659
+
+    accuracy                           0.56     10000
+   macro avg       0.54      0.59      0.55     10000
+weighted avg       0.56      0.56      0.55     10000
+
+Epoch 3/3 | train_loss=0.8289 train_acc=0.6659 | val_acc=0.5553 val_macro_f1=0.5504 | 330s
+  ✓ 新最优模型已保存 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\checkpoints\best_max_weighted.pt  (val_acc=0.5553)
+
+训练完成。最优 val_acc=0.5553
+训练日志 → D:\BaiduNetdiskDownload\AI\week6文本分类问题2\week6文本分类问题\text_classification项目\outputs\train_log_max_weighted.json
+
+
+
+=================================================
+=================================================
+总结
+三种池化策略在本任务中差异较小，cls 池化在整体精度上略有优势；
+类别加权损失是解决类别不平衡的有效手段，会牺牲整体精度换取小样本类别性能提升；
+所有方案在 3 轮训练内均完成收敛，bert-base-chinese 在该 15 分类文本任务中，核心指标稳定在 0.56~0.57 区间。
+=================================================
+=================================================
+
+
+
