@@ -1,0 +1,298 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import math
+
+
+class MultiHeadAttention(nn.Module):
+    """多头注意力机制"""
+
+    def __init__(self, d_model, num_heads, dropout=0.1):
+        super().__init__()
+        assert d_model % num_heads == 0, "d_model must be divisible by num_heads"
+
+        self.d_model = d_model
+        self.num_heads = num_heads
+        self.d_k = d_model // num_heads
+
+        # 线性变换层
+        self.W_Q = nn.Linear(d_model, d_model)
+        self.W_K = nn.Linear(d_model, d_model)
+        self.W_V = nn.Linear(d_model, d_model)
+        self.W_O = nn.Linear(d_model, d_model)
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, query, key, value, mask=None):
+        """
+        query: [batch, seq_len_q, d_model]
+        key:   [batch, seq_len_k, d_model]
+        value: [batch, seq_len_v, d_model]
+        mask:  [batch, seq_len_q, seq_len_k] 可选
+        """
+        batch_size = query.size(0)
+
+        # 1. 线性变换并拆分为多个头
+        Q = self.W_Q(query).view(batch_size, -1, self.num_heads, self.d_k).transpose(1, 2)
+        K = self.W_K(key).view(batch_size, -1, self.num_heads, self.d_k).transpose(1, 2)
+        V = self.W_V(value).view(batch_size, -1, self.num_heads, self.d_k).transpose(1, 2)
+
+        # 2. 计算注意力分数
+        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.d_k)
+
+        # 3. 应用 mask（可选）
+        if mask is not None:
+            scores = scores.masked_fill(mask == 0, -1e9)
+
+        # 4. Softmax 得到注意力权重
+        attn_weights = F.softmax(scores, dim=-1)
+        attn_weights = self.dropout(attn_weights)
+
+        # 5. 加权求和
+        context = torch.matmul(attn_weights, V)
+
+        # 6. 合并多个头
+        context = context.transpose(1, 2).contiguous().view(batch_size, -1, self.d_model)
+
+        # 7. 最终线性变换
+        output = self.W_O(context)
+
+        return output
+
+
+class PositionWiseFeedForward(nn.Module):
+    """位置前馈网络"""
+
+    def __init__(self, d_model, d_ff, dropout=0.1):
+        super().__init__()
+        self.linear1 = nn.Linear(d_model, d_ff)
+        self.linear2 = nn.Linear(d_ff, d_model)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        return self.linear2(self.dropout(F.relu(self.linear1(x))))
+
+
+class PositionalEncoding(nn.Module):
+    """位置编码"""
+
+    def __init__(self, d_model, max_len=5000, dropout=0.1):
+        super().__init__()
+        self.dropout = nn.Dropout(dropout)
+
+        # 创建位置编码矩阵
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+
+        div_term = torch.exp(torch.arange(0, d_model, 2).float() *
+                             -(math.log(10000.0) / d_model))
+
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+        pe = pe.unsqueeze(0)  # [1, max_len, d_model]
+
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        x = x + self.pe[:, :x.size(1), :]
+        return self.dropout(x)
+
+
+class EncoderLayer(nn.Module):
+    """编码器层"""
+
+    def __init__(self, d_model, num_heads, d_ff, dropout=0.1):
+        super().__init__()
+        self.self_attn = MultiHeadAttention(d_model, num_heads, dropout)
+        self.feed_forward = PositionWiseFeedForward(d_model, d_ff, dropout)
+
+        self.norm1 = nn.LayerNorm(d_model)
+        self.norm2 = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, mask=None):
+        # 1. 多头自注意力 + 残差连接 + LayerNorm
+        attn_output = self.self_attn(x, x, x, mask)
+        x = self.norm1(x + self.dropout(attn_output))
+
+        # 2. 前馈网络 + 残差连接 + LayerNorm
+        ff_output = self.feed_forward(x)
+        x = self.norm2(x + self.dropout(ff_output))
+
+        return x
+
+
+class DecoderLayer(nn.Module):
+    """解码器层"""
+
+    def __init__(self, d_model, num_heads, d_ff, dropout=0.1):
+        super().__init__()
+        self.self_attn = MultiHeadAttention(d_model, num_heads, dropout) # 自注意力
+        self.cross_attn = MultiHeadAttention(d_model, num_heads, dropout) # 交叉注意力
+        self.feed_forward = PositionWiseFeedForward(d_model, d_ff, dropout)
+
+        self.norm1 = nn.LayerNorm(d_model)
+        self.norm2 = nn.LayerNorm(d_model)
+        self.norm3 = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, encoder_output, src_mask=None, tgt_mask=None):
+        # 1. 掩码自注意力（防止看到未来信息）
+        attn_output = self.self_attn(x, x, x, tgt_mask)
+        x = self.norm1(x + self.dropout(attn_output))
+
+        # 2. 编码器-解码器注意力
+        attn_output = self.cross_attn(x, encoder_output, encoder_output, src_mask)
+        x = self.norm2(x + self.dropout(attn_output))
+
+        # 3. 前馈网络
+        ff_output = self.feed_forward(x)
+        x = self.norm3(x + self.dropout(ff_output))
+
+        return x
+
+
+class Transformer(nn.Module):
+    """原始 Transformer 完整模型"""
+
+    def __init__(self,
+                 src_vocab_size,  # 源语言词汇表大小
+                 tgt_vocab_size,  # 目标语言词汇表大小
+                 d_model=512,  # 模型维度
+                 num_heads=8,  # 注意力头数
+                 num_encoder_layers=6,  # 编码器层数
+                 num_decoder_layers=6,  # 解码器层数
+                 d_ff=2048,  # 前馈网络维度
+                 max_len=5000,  # 最大序列长度
+                 dropout=0.1):
+        super().__init__()
+
+        # 嵌入层
+        self.encoder_embedding = nn.Embedding(src_vocab_size, d_model)
+        self.decoder_embedding = nn.Embedding(tgt_vocab_size, d_model)
+        self.positional_encoding = PositionalEncoding(d_model, max_len, dropout)
+
+        # 编码器和解码器
+        self.encoder_layers = nn.ModuleList([
+            EncoderLayer(d_model, num_heads, d_ff, dropout)
+            for _ in range(num_encoder_layers)
+        ])
+
+        self.decoder_layers = nn.ModuleList([
+            DecoderLayer(d_model, num_heads, d_ff, dropout)
+            for _ in range(num_decoder_layers)
+        ])
+
+        # 输出层
+        self.fc_out = nn.Linear(d_model, tgt_vocab_size)
+        self.dropout = nn.Dropout(dropout)
+
+        # 初始化参数
+        self._init_parameters()
+
+    def _init_parameters(self):
+        """Xavier 初始化参数"""
+        for p in self.parameters():
+            if p.dim() > 1:
+                nn.init.xavier_uniform_(p)
+
+    def generate_mask(self, src, tgt):
+        """生成 padding mask 和 subsequent mask"""
+        src_mask = (src != 0).unsqueeze(1).unsqueeze(2)  # [batch, 1, 1, src_len]
+        tgt_mask = (tgt != 0).unsqueeze(1).unsqueeze(3)  # [batch, 1, tgt_len, 1]
+
+        # 生成后续掩码（防止看到未来的 token）
+        seq_len = tgt.size(1)
+        subsequent_mask = torch.triu(torch.ones((seq_len, seq_len)), diagonal=1).bool()
+        subsequent_mask = subsequent_mask.to(tgt.device)
+        subsequent_mask = subsequent_mask.unsqueeze(0).unsqueeze(0)
+
+        tgt_mask = tgt_mask & ~subsequent_mask  # 结合 padding mask 和 subsequent mask
+
+        return src_mask, tgt_mask
+
+    def encode(self, src, src_mask):
+        """编码器前向传播"""
+        src_embedded = self.encoder_embedding(src) * math.sqrt(self.encoder_embedding.embedding_dim)
+        src_embedded = self.positional_encoding(src_embedded)
+
+        encoder_output = src_embedded
+        for encoder_layer in self.encoder_layers:
+            encoder_output = encoder_layer(encoder_output, src_mask)
+
+        return encoder_output
+
+    def decode(self, tgt, encoder_output, src_mask, tgt_mask):
+        """解码器前向传播"""
+        tgt_embedded = self.decoder_embedding(tgt) * math.sqrt(self.decoder_embedding.embedding_dim)
+        tgt_embedded = self.positional_encoding(tgt_embedded)
+
+        decoder_output = tgt_embedded
+        for decoder_layer in self.decoder_layers:
+            decoder_output = decoder_layer(decoder_output, encoder_output, src_mask, tgt_mask)
+
+        return decoder_output
+
+    def forward(self, src, tgt):
+        """
+        src: [batch, src_len]
+        tgt: [batch, tgt_len]
+        """
+        src_mask, tgt_mask = self.generate_mask(src, tgt)
+
+        # 编码
+        encoder_output = self.encode(src, src_mask)
+
+        # 解码
+        decoder_output = self.decode(tgt, encoder_output, src_mask, tgt_mask)
+
+        # 输出层
+        output = self.fc_out(decoder_output)  # [batch, tgt_len, tgt_vocab_size]
+
+        return output
+
+
+# 使用示例
+if __name__ == "__main__":
+    # 超参数设置（论文中的标准配置）
+    src_vocab_size = 10000
+    tgt_vocab_size = 10000
+    d_model = 512
+    num_heads = 8
+    num_encoder_layers = 6
+    num_decoder_layers = 6
+    d_ff = 2048
+    max_len = 100
+    dropout = 0.1
+
+    # 创建模型
+    model = Transformer(
+        src_vocab_size=src_vocab_size,
+        tgt_vocab_size=tgt_vocab_size,
+        d_model=d_model,
+        num_heads=num_heads,
+        num_encoder_layers=num_encoder_layers,
+        num_decoder_layers=num_decoder_layers,
+        d_ff=d_ff,
+        max_len=max_len,
+        dropout=dropout
+    )
+
+    # 测试数据
+    batch_size = 2
+    src_len = 10
+    tgt_len = 8
+
+    src = torch.randint(1, src_vocab_size, (batch_size, src_len))  # 0 作为 padding token
+    tgt = torch.randint(1, tgt_vocab_size, (batch_size, tgt_len))
+
+    # 前向传播
+    output = model(src, tgt)
+    print(f"输入形状: src={src.shape}, tgt={tgt.shape}")
+    print(f"输出形状: {output.shape}")  # [batch, tgt_len, tgt_vocab_size]
+
+    # 计算参数量
+    total_params = sum(p.numel() for p in model.parameters())
+    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f"\n总参数量: {total_params:,}")
+    print(f"可训练参数量: {trainable_params:,}")
