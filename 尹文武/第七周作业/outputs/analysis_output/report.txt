@@ -1,0 +1,31 @@
+{
+  "datasets": {
+    "test": {
+      "samples": 4636,
+      "tokens": 219197,
+      "entities": 7707
+    },
+    "train": {
+      "samples": 20864,
+      "tokens": 979180,
+      "entities": 33992
+    },
+    "validation": {
+      "samples": 2318,
+      "tokens": 109870,
+      "entities": 3819
+    }
+  },
+  "entity_types": [
+    "LOC",
+    "ORG",
+    "PER"
+  ],
+  "label_count": 7,
+  "total_entities": 45518,
+  "unique_entities": 12941,
+  "bio_errors": 0,
+  "avg_sentence_length": 47.03,
+  "max_sentence_length": 577,
+  "min_sentence_length": 6
+}

@@ -1,0 +1,24 @@
+
+================================================================================
+模型                                                                 F1         P         R
+--------------------------------------------------------------------------------
+roberta_peoples_daily_crf                                      0.9573    0.9553    0.9593
+peoples_daily_crf                                              0.9568    0.9533    0.9604
+peoples_daily_linear                                           0.9493    0.9421    0.9565
+roberta_peoples_daily_linear                                   0.9468    0.9418    0.9519
+QLoRA_peoples_daily_qlora_full_peoples_daily                   0.9058    0.9506    0.8651
+MiniCPM5_r64_peoples_daily_peoples_daily                       0.8551    0.8736    0.8374
+MiniCPM5_peoples_daily_peoples_daily                           0.8132    0.8638    0.7682
+QLoRA_cluener2020_qlora_f_cluener2020                          0.7856    0.7821    0.7890
+crf_e10                                                        0.7742    0.7518    0.7979
+roberta_crf_e7                                                 0.7720    0.7419    0.8047
+roberta_crf_e10                                                0.7713    0.7444    0.8001
+roberta_crf_e5                                                 0.7691    0.7385    0.8024
+crf_e5                                                         0.7657    0.7330    0.8014
+crf_e7                                                         0.7652    0.7343    0.7988
+QLoRA_cluener2020                                              0.7579    0.7809    0.7363
+roberta_linear                                                 0.7537    0.7169    0.7946
+linear                                                         0.7485    0.7107    0.7907
+MiniCPM5_r64_cluener2020                                       0.7260    0.7454    0.7077
+MiniCPM5_cluener2020                                           0.6939    0.7166    0.6725
+================================================================================

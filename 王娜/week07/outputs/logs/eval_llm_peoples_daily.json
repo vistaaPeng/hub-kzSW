@@ -1,0 +1,116 @@
+{
+  "platform": "kimi",
+  "model": "moonshot-v1-8k",
+  "n_samples": 3,
+  "zero_shot": {
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999,
+    "tp": 6,
+    "pred_total": 7,
+    "gold_total": 8
+  },
+  "few_shot": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1": 0.4,
+    "tp": 2,
+    "pred_total": 2,
+    "gold_total": 8
+  },
+  "detail": [
+    {
+      "text": "钟书看到后，立即回信向学昭女士自我检讨，谴责自己“少不解事，又好谐戏，同学复怂恿之，逞才行小慧……”",
+      "gold": [
+        {
+          "text": "钟书",
+          "type": "PER"
+        },
+        {
+          "text": "学昭",
+          "type": "PER"
+        }
+      ],
+      "zero_shot": [
+        {
+          "text": "钟书",
+          "type": "PER"
+        },
+        {
+          "text": "学昭",
+          "type": "PER"
+        }
+      ],
+      "few_shot": []
+    },
+    {
+      "text": "中国队的苗立杰年纪恰好是保拉的一半，今年只有18岁，被队友们称为“苗苗”。",
+      "gold": [
+        {
+          "text": "苗立杰",
+          "type": "PER"
+        },
+        {
+          "text": "保拉",
+          "type": "PER"
+        },
+        {
+          "text": "苗苗",
+          "type": "PER"
+        },
+        {
+          "text": "中国队",
+          "type": "ORG"
+        }
+      ],
+      "zero_shot": [
+        {
+          "text": "苗立杰",
+          "type": "PER"
+        },
+        {
+          "text": "保拉",
+          "type": "PER"
+        },
+        {
+          "text": "中国队",
+          "type": "ORG"
+        }
+      ],
+      "few_shot": [
+        {
+          "text": "保拉",
+          "type": "PER"
+        },
+        {
+          "text": "中国队",
+          "type": "ORG"
+        }
+      ]
+    },
+    {
+      "text": "在休斯敦航天城，最值得探究的还是约翰逊太空中心的“幕后秘密”。",
+      "gold": [
+        {
+          "text": "约翰逊太空中心",
+          "type": "LOC"
+        },
+        {
+          "text": "休斯敦航天城",
+          "type": "LOC"
+        }
+      ],
+      "zero_shot": [
+        {
+          "text": "约翰逊太空中心",
+          "type": "ORG"
+        },
+        {
+          "text": "休斯敦航天城",
+          "type": "LOC"
+        }
+      ],
+      "few_shot": []
+    }
+  ]
+}

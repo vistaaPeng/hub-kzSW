@@ -1,0 +1,14 @@
+{
+  "dataset": "peoples_daily",
+  "model": "BERT+CRF",
+  "split": "test",
+  "precision": 0.942481,
+  "recall": 0.952349,
+  "f1": 0.94739,
+  "illegal_stats": {
+    "illegal_start": 0,
+    "illegal_transition": 52,
+    "total_seqs": 4636,
+    "total_illegal": 52
+  }
+}

@@ -1,0 +1,40 @@
+
+
+================================================================================
+Week07 NER 实验 — 24 组完整结果汇总
+================================================================================
+
+=== 基础实验（18 组，3 epoch 固定超参）===
+
+ 1. RoBERTa CRF   peoples_daily   0.9573  seqeval
+ 2. BERT CRF      peoples_daily   0.9568  seqeval
+ 3. BERT Linear   peoples_daily   0.9493  seqeval
+ 4. RoBERTa Linear peoples_daily  0.9468  seqeval
+ 5. MiniCPM5 r=64 peoples_daily   0.8551  span F1
+ 6. QLoRA 7B      peoples_daily   0.8415  span F1
+ 7. MiniCPM5 r=8  peoples_daily   0.8132  span F1
+ 8. BERT CRF      cluener2020     0.7582  seqeval
+ 9. QLoRA 7B      cluener2020     0.7579  span F1
+10. RoBERTa CRF   cluener2020     0.7577  seqeval
+11. RoBERTa Linear cluener2020    0.7537  seqeval
+12. BERT Linear   cluener2020     0.7485  seqeval
+13. MiniCPM5 r=64 cluener2020     0.7260  span F1
+14. MiniCPM5 r=8  cluener2020     0.6939  span F1
+15. DeepSeek few-shot peoples_daily 0.6239 span F1
+16. DeepSeek zero-shot peoples_daily 0.5471 span F1
+17. DeepSeek few-shot cluener2020   0.4821 span F1
+18. DeepSeek zero-shot cluener2020  0.4747 span F1
+
+=== epoch 消融（6 组，cluener2020 CRF）===
+
+epoch=3:  BERT 0.7582  RoBERTa 0.7577  非法转移 245/1343 (18.2%)
+epoch=5:  BERT 0.7657  RoBERTa 0.7691  非法转移 193/1343 (14.4%)
+epoch=7:  BERT 0.7652  RoBERTa 0.7720  非法转移 183/1343 (13.7%) +1 非法开头
+epoch=10: BERT 0.7742  RoBERTa 0.7713  非法转移 135/1343 (10.2%) +2 非法开头
+
+=== QLoRA 全量数据验证 ===
+
+QLoRA cluener2020:  5000条 0.7579 → 10748条 0.7856 (+0.028, 反超 BERT)
+QLoRA peoples_daily: 5000条 0.8415 → 20864条 0.9058 (+0.064)
+
+================================================================================

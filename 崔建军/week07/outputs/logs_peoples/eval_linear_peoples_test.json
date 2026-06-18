@@ -1,0 +1,13 @@
+{
+  "model": "BERT+Linear",
+  "split": "test",
+  "precision": 0.93351,
+  "recall": 0.947919,
+  "f1": 0.940659,
+  "illegal_stats": {
+    "illegal_start": 0,
+    "illegal_transition": 128,
+    "total_seqs": 4636,
+    "total_illegal": 128
+  }
+}

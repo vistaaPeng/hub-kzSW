@@ -1,0 +1,14 @@
+{
+  "model": "peoples_daily+Linear",
+  "dataset": "peoples_daily",
+  "split": "validation",
+  "precision": 0.942095,
+  "recall": 0.956522,
+  "f1": 0.949254,
+  "illegal_stats": {
+    "illegal_start": 0,
+    "illegal_transition": 62,
+    "total_seqs": 2318,
+    "total_illegal": 62
+  }
+}

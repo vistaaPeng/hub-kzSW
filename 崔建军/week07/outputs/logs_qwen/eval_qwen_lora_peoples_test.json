@@ -1,0 +1,14 @@
+{
+  "split": "test",
+  "entity_precision": 0.5882669951497421,
+  "entity_recall": 0.6767936226749336,
+  "entity_f1": 0.6294328431978253,
+  "illegal_stats": {
+    "illegal_start": 0,
+    "illegal_transition": 708,
+    "total_seqs": 4636,
+    "total_illegal": 708
+  },
+  "checkpoint_epoch": 3,
+  "checkpoint_val_f1": 0.6435393029140478
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 27.850671,
+    "val_loss": 8.17722,
+    "val_entity_f1": 0.707004,
+    "elapsed_s": 55.6
+  },
+  {
+    "epoch": 2,
+    "train_loss": 7.050708,
+    "val_loss": 7.210278,
+    "val_entity_f1": 0.745648,
+    "elapsed_s": 53.8
+  },
+  {
+    "epoch": 3,
+    "train_loss": 5.117799,
+    "val_loss": 7.225519,
+    "val_entity_f1": 0.762636,
+    "elapsed_s": 53.7
+  },
+  {
+    "epoch": 4,
+    "train_loss": 3.924827,
+    "val_loss": 7.429358,
+    "val_entity_f1": 0.76317,
+    "elapsed_s": 53.8
+  },
+  {
+    "epoch": 5,
+    "train_loss": 3.172562,
+    "val_loss": 7.657333,
+    "val_entity_f1": 0.765666,
+    "elapsed_s": 53.9
+  }
+]

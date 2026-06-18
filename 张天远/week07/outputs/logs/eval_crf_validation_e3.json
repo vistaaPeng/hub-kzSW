@@ -1,0 +1,14 @@
+{
+  "model": "cluener2020+CRF",
+  "dataset": "cluener2020",
+  "split": "validation",
+  "precision": 0.722501,
+  "recall": 0.797526,
+  "f1": 0.758162,
+  "illegal_stats": {
+    "illegal_start": 0,
+    "illegal_transition": 245,
+    "total_seqs": 1343,
+    "total_illegal": 245
+  }
+}

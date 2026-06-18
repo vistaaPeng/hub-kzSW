@@ -1,0 +1,26 @@
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 模型文件
+*.pt
+*.pth
+*.bin
+bert-base-chinese/
+outputs/
+
+# Hugging Face 缓存
+.cache/
+.huggingface/
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+
+# 环境配置
+.env
+.env.local
+.DS_Store
