@@ -1,0 +1,40 @@
+{
+  "dataset": "afqmc",
+  "corpus_size": 8611,
+  "dim": 768,
+  "nlist": 50,
+  "n_queries": 200,
+  "k": 10,
+  "index_flat": {
+    "build_s": 0.013104915618896484,
+    "latency_ms": 0.9536,
+    "recall@10": 1.0
+  },
+  "index_ivf": [
+    {
+      "nprobe": 1,
+      "latency_ms": 0.0193,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 2,
+      "latency_ms": 0.0254,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 5,
+      "latency_ms": 0.0729,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 10,
+      "latency_ms": 0.1649,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 20,
+      "latency_ms": 0.3409,
+      "recall@10": 1.0
+    }
+  ]
+}

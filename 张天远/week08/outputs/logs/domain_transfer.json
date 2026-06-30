@@ -1,0 +1,74 @@
+[
+  {
+    "train_dataset": "afqmc",
+    "eval_dataset": "afqmc",
+    "cross_domain": false,
+    "accuracy": 0.6768,
+    "f1": 0.6707,
+    "threshold": 0.53
+  },
+  {
+    "train_dataset": "afqmc",
+    "eval_dataset": "bq_corpus",
+    "cross_domain": true,
+    "accuracy": 0.7251,
+    "f1": 0.7249,
+    "threshold": 0.43
+  },
+  {
+    "train_dataset": "afqmc",
+    "eval_dataset": "lcqmc",
+    "cross_domain": true,
+    "accuracy": 0.6848,
+    "f1": 0.6846,
+    "threshold": 0.81
+  },
+  {
+    "train_dataset": "bq_corpus",
+    "eval_dataset": "afqmc",
+    "cross_domain": true,
+    "accuracy": 0.6497,
+    "f1": 0.6433,
+    "threshold": 0.82
+  },
+  {
+    "train_dataset": "bq_corpus",
+    "eval_dataset": "bq_corpus",
+    "cross_domain": false,
+    "accuracy": 0.8636,
+    "f1": 0.8634,
+    "threshold": 0.67
+  },
+  {
+    "train_dataset": "bq_corpus",
+    "eval_dataset": "lcqmc",
+    "cross_domain": true,
+    "accuracy": 0.6708,
+    "f1": 0.6697,
+    "threshold": 0.91
+  },
+  {
+    "train_dataset": "lcqmc",
+    "eval_dataset": "afqmc",
+    "cross_domain": true,
+    "accuracy": 0.6367,
+    "f1": 0.6271,
+    "threshold": 0.83
+  },
+  {
+    "train_dataset": "lcqmc",
+    "eval_dataset": "bq_corpus",
+    "cross_domain": true,
+    "accuracy": 0.662,
+    "f1": 0.6615,
+    "threshold": 0.41
+  },
+  {
+    "train_dataset": "lcqmc",
+    "eval_dataset": "lcqmc",
+    "cross_domain": false,
+    "accuracy": 0.7885,
+    "f1": 0.7878,
+    "threshold": 0.73
+  }
+]
