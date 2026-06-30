@@ -1,0 +1,12 @@
+{
+  "dataset": "lcqmc",
+  "model_type": "biencoder",
+  "loss": "triplet",
+  "split": "test",
+  "num_samples": 12500,
+  "accuracy": 0.84,
+  "f1": 0.8399653239424474,
+  "f1_pos": 0.8376096135108801,
+  "threshold": 0.8300000000000001,
+  "auc": 0.9165853439999999
+}

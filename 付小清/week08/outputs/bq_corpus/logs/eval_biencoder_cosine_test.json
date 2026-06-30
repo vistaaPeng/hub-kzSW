@@ -1,0 +1,12 @@
+{
+  "dataset": "bq_corpus",
+  "model_type": "biencoder",
+  "loss": "cosine",
+  "split": "test",
+  "num_samples": 8620,
+  "accuracy": 0.8073085846867749,
+  "f1": 0.8070017959075034,
+  "f1_pos": 0.8163220170297467,
+  "threshold": 0.67,
+  "auc": 0.8797256688899997
+}

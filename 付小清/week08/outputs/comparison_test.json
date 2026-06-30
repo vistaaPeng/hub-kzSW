@@ -1,0 +1,76 @@
+[
+  {
+    "dataset": "lcqmc",
+    "method": "BiEncoder + Cosine",
+    "model_type": "biencoder",
+    "loss": "cosine",
+    "split": "test",
+    "num_samples": 12500,
+    "accuracy": 0.82208,
+    "f1": 0.8220744202538193,
+    "f1_pos": 0.8230708035003977,
+    "threshold": 0.97,
+    "auc": 0.9047989248000001
+  },
+  {
+    "dataset": "lcqmc",
+    "method": "BiEncoder + Triplet",
+    "model_type": "biencoder",
+    "loss": "triplet",
+    "split": "test",
+    "num_samples": 12500,
+    "accuracy": 0.84,
+    "f1": 0.8399653239424474,
+    "f1_pos": 0.8376096135108801,
+    "threshold": 0.8300000000000001,
+    "auc": 0.9165853439999999
+  },
+  {
+    "dataset": "lcqmc",
+    "method": "CrossEncoder",
+    "model_type": "crossencoder",
+    "loss": null,
+    "split": "test",
+    "num_samples": 12500,
+    "accuracy": 0.84888,
+    "f1": 0.8475142261558312,
+    "f1_pos": 0.8619454797924432
+  },
+  {
+    "dataset": "bq_corpus",
+    "method": "BiEncoder + Cosine",
+    "model_type": "biencoder",
+    "loss": "cosine",
+    "split": "test",
+    "num_samples": 8620,
+    "accuracy": 0.8073085846867749,
+    "f1": 0.8070017959075034,
+    "f1_pos": 0.8163220170297467,
+    "threshold": 0.67,
+    "auc": 0.8797256688899997
+  },
+  {
+    "dataset": "bq_corpus",
+    "method": "BiEncoder + Triplet",
+    "model_type": "biencoder",
+    "loss": "triplet",
+    "split": "test",
+    "num_samples": 8620,
+    "accuracy": 0.8193735498839907,
+    "f1": 0.8193456839291964,
+    "f1_pos": 0.8234894002947512,
+    "threshold": 0.55,
+    "auc": 0.8980314433601444
+  },
+  {
+    "dataset": "bq_corpus",
+    "method": "CrossEncoder",
+    "model_type": "crossencoder",
+    "loss": null,
+    "split": "test",
+    "num_samples": 8620,
+    "accuracy": 0.8353828306264501,
+    "f1": 0.8353751540705903,
+    "f1_pos": 0.8349808117222933
+  }
+]
