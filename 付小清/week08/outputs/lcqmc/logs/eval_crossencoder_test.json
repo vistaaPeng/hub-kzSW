@@ -1,0 +1,10 @@
+{
+  "dataset": "lcqmc",
+  "model_type": "crossencoder",
+  "loss": null,
+  "split": "test",
+  "num_samples": 12500,
+  "accuracy": 0.84888,
+  "f1": 0.8475142261558312,
+  "f1_pos": 0.8619454797924432
+}

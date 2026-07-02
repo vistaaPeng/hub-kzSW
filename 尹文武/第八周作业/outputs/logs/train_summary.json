@@ -1,0 +1,20 @@
+{
+  "model_type": "biencoder",
+  "loss_type": "cosine",
+  "best_checkpoint": "C:\\Users\\sean\\Projects\\hub-kzSW\\尹文武\\第八周作业\\outputs\\checkpoints\\best_biencoder_model.pt",
+  "best_f1": 0.8523465087139765,
+  "history": {
+    "loss": [
+      0.26774118931536195,
+      0.20123786617355668
+    ],
+    "accuracy": [
+      0.7889066125290023,
+      0.849622969837587
+    ],
+    "f1": [
+      0.7953321616871705,
+      0.8523465087139765
+    ]
+  }
+}

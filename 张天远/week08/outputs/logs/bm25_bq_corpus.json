@@ -1,0 +1,8 @@
+{
+  "dataset": "bq_corpus",
+  "k1": 1.5,
+  "b": 0.75,
+  "accuracy": 0.6764125768650655,
+  "f1_weighted": 0.6762354966038361,
+  "threshold": 0.13
+}
