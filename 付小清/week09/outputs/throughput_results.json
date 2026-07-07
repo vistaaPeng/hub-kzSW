@@ -1,0 +1,28 @@
+{
+  "gpu": "NVIDIA GeForce GTX 1060 6GB",
+  "model_path": "/mnt/e/DeepLearning/week9/pretrain_models/Qwen2-0.5B-Instruct",
+  "n_prompts": 50,
+  "max_new_tokens": 100,
+  "batch_size": 8,
+  "results": {
+    "serial": {
+      "time": 150.0543999671936,
+      "gen_tokens": 3642,
+      "qps": 0.33321248834377065,
+      "tps": 24.271197650960254
+    },
+    "batch": {
+      "time": 56.48833680152893,
+      "gen_tokens": 3581,
+      "qps": 0.8851384698344789,
+      "tps": 63.39361720954538
+    },
+    "vllm": {
+      "time": 1.15,
+      "gen_tokens": 3492,
+      "qps": 43.57,
+      "tps": 3043.0,
+      "_note": "课程参考数据，本机需在 WSL2 中运行完整 benchmark"
+    }
+  }
+}
