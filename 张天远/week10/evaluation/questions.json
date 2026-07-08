@@ -1,0 +1,311 @@
+[
+  {
+    "question_id": "q001",
+    "question": "请对比分析 Rust 中的相关概念。（参考：宏的变化 在 Rust 2018 中，您可以通过 use 语句从外部包中导入特定的宏，而不是旧的 #[macro_use] 属性。）",
+    "keywords": [
+      "Rust",
+      "macro_use",
+      "bar",
+      "src",
+      "lib"
+    ]
+  },
+  {
+    "question_id": "q002",
+    "question": "请解释以下 Rust 概念：IoResult。（提示：示例 7-16: 使用 as 关键字重命名引入作用域的类型 在第二个 use 语句中，我们选择 IoResult 作为 std::io::Result 的新名称）",
+    "keywords": [
+      "IoResult",
+      "std",
+      "Result",
+      "fmt"
+    ]
+  },
+  {
+    "question_id": "q003",
+    "question": "请定义以下 Rust 术语并说明其用途：static。（上下文：字符串字面量是直接存储在最终二进制文件中的字符串，因此在 'static 生存期内是有效的。）",
+    "keywords": [
+      "static",
+      "str",
+      "string",
+      "literal",
+      "stored"
+    ]
+  },
+  {
+    "question_id": "q004",
+    "question": "请解释以下 Rust 概念：crate。（提示：默认情况下，宏中引用的所有标识符都按原样展开，并在宏的调用位置上去查找。）",
+    "keywords": [
+      "crate"
+    ]
+  },
+  {
+    "question_id": "q005",
+    "question": "请解释以下 Rust 概念：chain_err。（提示：本实例展示了如何处理一个复杂的错误场景，并且打印出错误回溯。）",
+    "keywords": [
+      "chain_err",
+      "Serde",
+      "csv"
+    ]
+  },
+  {
+    "question_id": "q006",
+    "question": "请对比分析 Rust 中的相关概念。（参考：```\nlet x = 5;\n```\n）",
+    "keywords": [
+      "let"
+    ]
+  },
+  {
+    "question_id": "q007",
+    "question": "请解释以下 Rust 概念：error。（提示：error[E0527]: pattern requires 4 elements but array has 3\n）",
+    "keywords": [
+      "error",
+      "E0527",
+      "pattern",
+      "requires",
+      "elements"
+    ]
+  },
+  {
+    "question_id": "q008",
+    "question": "请解释以下 Rust 概念：impl。（提示：impl<'a> Iterator for MyIter<'a> { ... }\nimpl<'a, 'b> SomeTrait<'a> for SomeType）",
+    "keywords": [
+      "impl",
+      "Iterator",
+      "MyIter",
+      "SomeTrait",
+      "SomeType"
+    ]
+  },
+  {
+    "question_id": "q009",
+    "question": "请定义以下 Rust 术语并说明其用途：split_at_mut。（上下文：示例 19-6: 在 split_at_mut 函数的实现中使用不安全代码 回忆第 4 章的 “Slice 类型” 部分，slice 是一个指向一些数据的指针，）",
+    "keywords": [
+      "split_at_mut",
+      "Slice",
+      "len",
+      "as_mut_ptr",
+      "mut"
+    ]
+  },
+  {
+    "question_id": "q010",
+    "question": "请对比分析 Rust 中的相关概念。（参考：When rendering Markdown files, this will create a <link> element in the <head> section of the genera）",
+    "keywords": [
+      "rendering",
+      "Markdown",
+      "files",
+      "create",
+      "link"
+    ]
+  },
+  {
+    "question_id": "q011",
+    "question": "请解释以下 Rust 概念：上述内容。（提示：注意：与字段访问表达式不同，元组索引表达式可以是调用表达式的函数操作数。）",
+    "keywords": [
+      "Rust"
+    ]
+  },
+  {
+    "question_id": "q012",
+    "question": "请解释以下 Rust 概念：Utc。（提示：使用 Utc::now 获取并显示当前 UTC 时间。）",
+    "keywords": [
+      "Utc",
+      "now",
+      "DateTime",
+      "RFC",
+      "format"
+    ]
+  },
+  {
+    "question_id": "q013",
+    "question": "请定义以下 Rust 术语并说明其用途：trait。（上下文：Into trait 就是把 From trait 倒过来而已。）",
+    "keywords": [
+      "trait"
+    ]
+  },
+  {
+    "question_id": "q014",
+    "question": "请解释以下 Rust 概念：let。（提示：{\n    let result = match IntoIterator::into_iter(iter_expr) {\n        mut iter =）",
+    "keywords": [
+      "let",
+      "result",
+      "match",
+      "IntoIterator",
+      "into_iter"
+    ]
+  },
+  {
+    "question_id": "q015",
+    "question": "请解释以下 Rust 概念：profile。（提示：[profile.debug]\npanic = \"abort\"\n\n[profile.release]\npanic = \"abort\"\n）",
+    "keywords": [
+      "profile",
+      "debug",
+      "panic",
+      "abort",
+      "release"
+    ]
+  },
+  {
+    "question_id": "q016",
+    "question": "请解释以下 Rust 概念：move。（提示：示例 16-5: 使用 move 关键字强制获取它使用的值的所有权 那么如果使用了 move 闭包，示例 16-4 中主线程调用了 drop 的代码会发生什么呢）",
+    "keywords": [
+      "move",
+      "drop"
+    ]
+  },
+  {
+    "question_id": "q017",
+    "question": "请解释以下 Rust 概念：cargo。（提示：你可以使用 cargo doc --verbose 看到这个过程。）",
+    "keywords": [
+      "cargo",
+      "doc",
+      "verbose",
+      "crate",
+      "name"
+    ]
+  },
+  {
+    "question_id": "q018",
+    "question": "请对比分析 Rust 中的相关概念。（参考：Rust 知道我们没有覆盖所有可能的情况甚至知道哪些模式被忘记了！Rust 中的匹配是穷举式的（exhaustive）：必须穷举到最后的可能性来使代码有效。）",
+    "keywords": [
+      "Rust",
+      "exhaustive",
+      "Option",
+      "None"
+    ]
+  },
+  {
+    "question_id": "q019",
+    "question": "请解释以下 Rust 概念：PNG。（提示：递归地查找当前目录中的所有 PNG 文件。）",
+    "keywords": [
+      "PNG",
+      "media"
+    ]
+  },
+  {
+    "question_id": "q020",
+    "question": "请解释以下 Rust 概念：make_adder_function。（提示：// 返回一个将输入和 `y` 相加的函数\nfn make_adder_function(y: i32) -> impl Fn(i32) -> i32 {\n  ）",
+    "keywords": [
+      "make_adder_function",
+      "impl",
+      "let",
+      "closure",
+      "move"
+    ]
+  },
+  {
+    "question_id": "q021",
+    "question": "请解释以下 Rust 概念：rustc。（提示：deprecated属性将程序项标记为已弃用。）",
+    "keywords": [
+      "rustc",
+      "deprecated",
+      "rustdoc",
+      "since",
+      "note"
+    ]
+  },
+  {
+    "question_id": "q022",
+    "question": "请解释以下 Rust 概念：cargo。（提示：假设我们要在同一个项目中有两个二进制可执行文件。）",
+    "keywords": [
+      "cargo",
+      "main",
+      "bin"
+    ]
+  },
+  {
+    "question_id": "q023",
+    "question": "请对比分析 Rust 中的相关概念。（参考：fn largest<T>(list: &[T]) -> T {\n    let mut largest = list[0];\n\n    for &item in list.iter() {\n    ）",
+    "keywords": [
+      "largest",
+      "list",
+      "let",
+      "mut",
+      "item"
+    ]
+  },
+  {
+    "question_id": "q024",
+    "question": "请解释以下 Rust 概念：Rust。（提示：这将启用 特性状态 页面中列出的不稳定功能。）",
+    "keywords": [
+      "Rust",
+      "Cargo",
+      "toml"
+    ]
+  },
+  {
+    "question_id": "q025",
+    "question": "请对比分析 Rust 中的相关概念。（参考：use std::num::ParseIntError;\n\nfn multiply(first_number_str: &str, second_number_str: &str) -> Result）",
+    "keywords": [
+      "std",
+      "num",
+      "ParseIntError",
+      "multiply",
+      "first_number_str"
+    ]
+  },
+  {
+    "question_id": "q026",
+    "question": "请解释以下 Rust 概念：takes_ownership。（提示：示例 4-3：带有所有权和作用域注释的函数 当尝试在调用 takes_ownership 后使用 s 时，Rust 会抛出一个编译时错误。）",
+    "keywords": [
+      "takes_ownership",
+      "Rust",
+      "main"
+    ]
+  },
+  {
+    "question_id": "q027",
+    "question": "请定义以下 Rust 术语并说明其用途：and_then。（上下文：因为这个操作很简单常见，如果有省略写法就好了。）",
+    "keywords": [
+      "and_then",
+      "unwrap",
+      "return",
+      "Err",
+      "map_err"
+    ]
+  },
+  {
+    "question_id": "q028",
+    "question": "请对比分析 Rust 中的相关概念。（参考：fn first_word(s: &String) -> usize {\n    let bytes = s.as_bytes();\n\n    for (i, &item) in bytes.iter）",
+    "keywords": [
+      "first_word",
+      "String",
+      "usize",
+      "let",
+      "bytes"
+    ]
+  },
+  {
+    "question_id": "q029",
+    "question": "请对比分析 Rust 中的相关概念。（参考：句法 RestPattern : .. 剩余模式（.. token）充当匹配长度可变的模式(variable-length pattern)，它匹配之前之后没有匹配的零个或多个元素。）",
+    "keywords": [
+      "RestPattern",
+      "token",
+      "variable",
+      "length",
+      "pattern"
+    ]
+  },
+  {
+    "question_id": "q030",
+    "question": "请定义以下 Rust 术语并说明其用途：Borrowed。（上下文：// 一个 `Borrowed` 类型，含有一个指向 `i32` 类型的引用。）",
+    "keywords": [
+      "Borrowed",
+      "derive",
+      "Debug",
+      "struct",
+      "NamedBorrowed"
+    ]
+  },
+  {
+    "question_id": "q031",
+    "question": "请对比分析 Rust 中的相关概念。（参考：target_feature[属性] 可应用于非安全(unsafe)函数上，用来为特定的平台架构特性(platform architecture features)启用该函数的代码生成功能。）",
+    "keywords": [
+      "target_feature",
+      "unsafe",
+      "platform",
+      "architecture",
+      "features"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "timestamp": "2026-07-07 03:03:28",
+    "n_samples": 5
+  },
+  "p50_p95_by_stage": {
+    "query_rewrite": {
+      "p50_s": 1.0373,
+      "p95_s": 1.6395,
+      "min_s": 0.9496,
+      "max_s": 1.7675
+    },
+    "vector_search": {
+      "p50_s": 0.017,
+      "p95_s": 0.1083,
+      "min_s": 0.013,
+      "max_s": 0.131
+    },
+    "bm25_search": {
+      "p50_s": 0.0175,
+      "p95_s": 0.5278,
+      "min_s": 0.017,
+      "max_s": 0.6549
+    },
+    "parent_expansion": {
+      "p50_s": 0.001,
+      "p95_s": 0.0018,
+      "min_s": 0.001,
+      "max_s": 0.002
+    },
+    "glossary_search": {
+      "p50_s": 0.366,
+      "p95_s": 0.4766,
+      "min_s": 0.361,
+      "max_s": 0.4982
+    },
+    "llm_generation": {
+      "p50_s": 4.4097,
+      "p95_s": 5.7372,
+      "min_s": 2.4076,
+      "max_s": 6.0303
+    }
+  },
+  "samples": [
+    {
+      "question_id": "m01",
+      "total_s": 5.577,
+      "stages": {
+        "query_rewrite_s": 1.768,
+        "vector_search_s": 0.131,
+        "bm25_search_s": 0.6549,
+        "parent_expansion_s": 0.001,
+        "glossary_search_s": 0.4982,
+        "llm_generation_s": 2.408
+      }
+    },
+    {
+      "question_id": "m11",
+      "total_s": 7.585,
+      "stages": {
+        "query_rewrite_s": 1.037,
+        "vector_search_s": 0.013,
+        "bm25_search_s": 0.017,
+        "parent_expansion_s": 0.002,
+        "glossary_search_s": 0.3899,
+        "llm_generation_s": 6.03
+      }
+    },
+    {
+      "question_id": "m24",
+      "total_s": 6.059,
+      "stages": {
+        "query_rewrite_s": 0.987,
+        "vector_search_s": 0.017,
+        "bm25_search_s": 0.0193,
+        "parent_expansion_s": 0.001,
+        "glossary_search_s": 0.366,
+        "llm_generation_s": 4.565
+      }
+    },
+    {
+      "question_id": "m26",
+      "total_s": 5.858,
+      "stages": {
+        "query_rewrite_s": 0.95,
+        "vector_search_s": 0.0175,
+        "bm25_search_s": 0.0175,
+        "parent_expansion_s": 0.001,
+        "glossary_search_s": 0.361,
+        "llm_generation_s": 4.41
+      }
+    },
+    {
+      "question_id": "m36",
+      "total_s": 4.965,
+      "stages": {
+        "query_rewrite_s": 1.127,
+        "vector_search_s": 0.0143,
+        "bm25_search_s": 0.0175,
+        "parent_expansion_s": 0.001,
+        "glossary_search_s": 0.363,
+        "llm_generation_s": 3.347
+      }
+    }
+  ]
+}

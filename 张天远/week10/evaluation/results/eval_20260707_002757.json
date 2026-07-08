@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "timestamp": "20260707_002757",
+    "question_count": 2,
+    "index_fingerprint": {
+      "vectorstore_dir": "vectorstore",
+      "vectorstore_files": [
+        "all_chunks.json",
+        "bm25.pkl",
+        "children.json",
+        "faiss.index"
+      ]
+    }
+  },
+  "summary": {
+    "context_precision": 0.5,
+    "mrr": 1.0,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.77545
+  },
+  "details": [
+    {
+      "question_id": "m24",
+      "question": "Rust 中 Clone 和 Copy trait 的区别是什么？哪些类型实现了 Copy？",
+      "keywords": [
+        "Clone",
+        "Copy",
+        "拷贝",
+        "克隆",
+        "深拷贝",
+        "浅拷贝",
+        "栈",
+        "堆"
+      ],
+      "answer": "根据提供的文档内容，Clone 和 Copy trait 的区别以及实现了 Copy 的类型如下：\n\n## Clone 和 Copy 的区别\n\n1. **Copy trait** 改变实现它的类型的语义，其类型实现了 Copy 的值在赋值时将被复制而不是移动（来源：文档 2，特殊类型和 trait > Copy）。\n\n2. **Clone trait** 是 Copy 的父 trait，它提供了 `.clone()` 方法用于显式复制资源（来源：文档 2，特殊类型和 trait > Clone；文档 8，Clone）。\n\n3. **实现条件不同**：只能为未实现 Drop trait 且字段都是 Copy 的类型实现 Copy（来源：文档 2，特殊类型和 trait > Copy）。而 Clone 可以通过派生或手动实现。\n\n## 实现了 Copy 的类型\n\n根据文档 2（特殊类型和 trait > Copy），Copy 已由编译器实现给了下述类型：\n\n- 数字类类型\n- char, bool, 和 !\n- 由 Copy 类型的元素组成的元组\n- 由 Copy 类型的元素组成的数组\n- 共享引用\n- 裸指针\n- 函数指针和函数项类型\n\n文档中未提供其他类型是否实现了 Copy 的信息，无法回答。",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7732,
+      "faithfulness_detail": {
+        "claims": [
+          {
+            "statement": "Copy trait 改变实现它的类型的语义，其类型实现了 Copy 的值在赋值时将被复制而不是移动",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          },
+          {
+            "statement": "Clone trait 是 Copy 的父 trait",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          },
+          {
+            "statement": "Clone 提供了 .clone() 方法用于显式复制资源",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          },
+          {
+            "statement": "只能为未实现 Drop trait 且字段都是 Copy 的类型实现 Copy",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          },
+          {
+            "statement": "Clone 可以通过派生或手动实现",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          },
+          {
+            "statement": "实现了 Copy 的类型包括：数字类类型、char、bool、!、由 Copy 类型的元素组成的元组、由 Copy 类型的元素组成的数组、共享引用、裸指针、函数指针和函数项类型",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          },
+          {
+            "statement": "文档中未提供其他类型是否实现了 Copy 的信息，无法回答",
+            "supported": true,
+            "source": "文档2",
+            "type": "factual"
+          }
+        ],
+        "faithfulness_score": 1.0,
+        "notes": "所有声明均直接来源于文档2，无虚构或错误信息。"
+      },
+      "relevancy_detail": {
+        "generated_questions": [
+          "Clone和Copy trait有什么区别？",
+          "哪些类型实现了Copy trait？",
+          "实现Copy trait需要满足什么条件？"
+        ],
+        "similarities": [
+          0.8642725944519043,
+          0.7866025567054749,
+          0.6686187982559204
+        ]
+      },
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "score": 0.0325,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch04-01-what-is-ownership.html",
+          "headings": "Rust 程序设计语言 中文版 > 只在栈上的数据：拷贝",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 什么是所有权？\n\nRust 的核心功能（之一）是 所有权（ownership）。虽然该功能很容易解释，但它对语言的其他部分有着深刻的影响。\n\n所有运行的程序都必须管理其使用计算机内存的方式。一些语言中具有垃圾回收机制，在程序运行时不断地寻找不再使用的内存；在另一些语言中，开发者必须亲自分配和释放内存。Rust 则选择了第三种方式：通过所有权系统管理内存，"
+        },
+        {
+          "rank": 2,
+          "score": 0.0325,
+          "source_url": "https://rustwiki.org/zh-CN/reference/special-types-and-traits.html",
+          "headings": "特殊类型和 trait > Copy",
+          "preview": "# 特殊类型和 trait\n\n## Box<T>\n\nBox<T> 有一些特殊的特性，Rust 目前还不允许用户定义类型时使用。\n\n- Box<T> 的[解引用操作符]会产生一个可从中移出值的内存位置1。这（种特殊性）意味着应用在 Box<T> 上的 *运算符和 Box<T> 的析构函数都是语言内置的。\n\n- 方法可以使用 Box<Self> 作为接受者。\n\n- Box<T> 可以绕过孤儿规则(or"
+        },
+        {
+          "rank": 3,
+          "score": 0.0325,
+          "source_url": "https://rustwiki.org/zh-CN/book/appendix-03-derivable-traits.html",
+          "headings": "Rust 程序设计语言 中文版 > 复制值的 Clone 和 Copy",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 附录 C：可派生的 trait\n\n在本书的各个部分中，我们讨论了可应用于结构体和枚举定义的 derive 属性。derive 属性会在使用 derive 语法标记的类型上生成对应 trait 的默认实现的代码。\n\n在本附录中提供了标准库中所有可以使用 derive 的 trait 的参考。这些部分涉及到：\n\n- 该 trait 将会派生什么样的操作符和方"
+        },
+        {
+          "rank": 4,
+          "score": 0.032,
+          "source_url": "https://rustwiki.org/zh-CN/reference/closure.html",
+          "headings": "闭包类型 > 其他 trait",
+          "preview": "# 闭包类型\n\n## 捕获方式\n\n编译器倾向于优先通过不可变借用(immutable borrow)来捕获闭合变量(closed-over variable)，其次是通过唯一不可变借用(unique immutable borrow)（见下文），再其次可变借用(mutable borrow)，最后使用移动语义(move)来捕获。编译器将选择这些中的第一个能让此闭包编译通过的选项。这个选择只与闭包表"
+        },
+        {
+          "rank": 5,
+          "score": 0.031,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch10-02-traits.html",
+          "headings": "Rust 程序设计语言 中文版 > 使用 trait bounds 来修复 largest 函数",
+          "preview": "# Rust 程序设计语言 中文版\n\n## trait：定义共享的行为\n\ntrait 告诉 Rust 编译器某个特定类型拥有可能与其他类型共享的功能。可以通过 trait 以一种抽象的方式定义共享的行为。可以使用 trait bounds 指定泛型是任何拥有特定行为的类型。\n\n> 注意：trait 类似于其他语言中常被称为 接口（interfaces）的功能，虽然有一些不同。\n\n---\n\n# Ru"
+        },
+        {
+          "rank": 6,
+          "score": 0.0288,
+          "source_url": "https://rustwiki.org/zh-CN/rustdoc/how-to-read-rustdoc.html",
+          "headings": "如何阅读 rustdoc 的输出 > Item 文档",
+          "preview": "# 如何阅读 rustdoc 的输出\n\n# 如何阅读 rustdoc 的输出\n\nRustdoc 的 HTML 文件包含了一个友好且有用的导航界面，使用户可以更轻松地导航和理解您的代码。本章涵盖了该界面的主要功能，对于文档作者和用户来说都是一个很好的的开端。\n\n---\n\n# 如何阅读 rustdoc 的输出\n\n## 结构\n\nrustdoc 的输出包含三部分，左侧是整个页面的快速导航，展示了当前条目的"
+        },
+        {
+          "rank": 7,
+          "score": 0.0273,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch17-02-trait-objects.html",
+          "headings": "Rust 程序设计语言 中文版 > Trait 对象要求对象安全",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 为使用不同类型的值而设计的 trait 对象\n\n在第 8 章中，我们谈到了 vector 只能存储同种类型元素的局限。示例 8-10 中提供了一个定义 SpreadsheetCell 枚举来储存整型，浮点型和文本成员的替代方案。这意味着可以在每个单元中储存不同类型的数据，并仍能拥有一个代表一排单元的 vector。这在当编译代码时就知道希望可以交替使用的"
+        },
+        {
+          "rank": 8,
+          "score": 0.0272,
+          "source_url": "https://rustwiki.org/zh-CN/rust-by-example/clone.html",
+          "headings": "Clone",
+          "preview": "# Clone\n\n# Clone\n\n当处理资源时，默认的行为是在赋值或函数调用的同时将它们转移。但是我们有时候也需要把资源复制一份。\n\nClone trait 正好帮助我们完成这任务。通常，我们可以使用由 Clone trait 定义的 .clone() 方法。\n\n```rust\n// 不含资源的单元结构体\n#[derive(Debug, Clone, Copy)]\nstruct Nil;\n\n//"
+        }
+      ]
+    },
+    {
+      "question_id": "m26",
+      "question": "Rust 中什么是函数指针？fn 类型和 Fn trait 有什么区别？",
+      "keywords": [
+        "函数指针",
+        "function pointer",
+        "fn",
+        "Fn",
+        "高阶函数",
+        "回调"
+      ],
+      "answer": "根据文档内容，回答如下：\n\n## 函数指针\n\n**函数指针**（function pointer）是 Rust 中的一种类型，允许我们使用函数作为另一个函数的参数。函数的类型是 `fn`（使用小写的 \"f\"），以免与 `Fn` 闭包 trait 相混淆。指定参数为函数指针的语法类似于闭包。\n\n示例（来自文档 6）：\n\n```rust\nfn add_one(x: i32) -> i32 {\n    x + 1\n}\n\nfn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {\n    f(arg) + f(arg)\n}\n\nfn main() {\n    let answer = do_twice(add_one, 5);\n    println!(\"The answer is: {}\", answer);\n}\n```\n\n## fn 类型和 Fn trait 的区别\n\n根据文档 6 的说明：\n\n1. **`fn` 是一个类型，而不是一个 trait**，所以可以直接指定 `fn` 作为参数，而不是声明一个带有 `Fn` 作为 trait bound 的泛型参数。\n\n2. **函数指针实现了所有三个闭包 trait**（`Fn`、`FnMut` 和 `FnOnce`），所以总是可以在调用期望闭包的函数时传递函数指针作为参数。\n\n3. **使用建议**：倾向于编写使用泛型和闭包 trait 的函数，这样它就能接受函数或闭包作为参数。一个只期望接受 `fn` 而不接受闭包的情况的例子是与不存在闭包的外部代码交互时（如 C 语言的函数可以接受函数作为参数，但 C 语言没有闭包）。",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7777,
+      "faithfulness_detail": {
+        "claims": [
+          {
+            "statement": "函数指针（function pointer）是 Rust 中的一种类型，允许我们使用函数作为另一个函数的参数。",
+            "supported": true,
+            "source": "文档6（隐含，但文档1和文档5涉及函数和闭包概念，文档6未提供，但模型回答中引用了文档6，实际检索文档中无文档6，因此基于现有文档无法直接支持）",
+            "type": "factual"
+          },
+          {
+            "statement": "函数的类型是 `fn`（使用小写的 \"f\"），以免与 `Fn` 闭包 trait 相混淆。",
+            "supported": false,
+            "source": "无",
+            "type": "factual"
+          },
+          {
+            "statement": "指定参数为函数指针的语法类似于闭包。",
+            "supported": false,
+            "source": "无",
+            "type": "factual"
+          },
+          {
+            "statement": "示例代码（add_one 和 do_twice 函数）展示了函数指针的使用。",
+            "supported": false,
+            "source": "无",
+            "type": "factual"
+          },
+          {
+            "statement": "`fn` 是一个类型，而不是一个 trait，所以可以直接指定 `fn` 作为参数，而不是声明一个带有 `Fn` 作为 trait bound 的泛型参数。",
+            "supported": false,
+            "source": "无",
+            "type": "factual"
+          },
+          {
+            "statement": "函数指针实现了所有三个闭包 trait（`Fn`、`FnMut` 和 `FnOnce`），所以总是可以在调用期望闭包的函数时传递函数指针作为参数。",
+            "supported": false,
+            "source": "无",
+            "type": "factual"
+          },
+          {
+            "statement": "使用建议：倾向于编写使用泛型和闭包 trait 的函数，这样它就能接受函数或闭包作为参数。",
+            "supported": false,
+            "source": "无",
+            "type": "inference"
+          },
+          {
+            "statement": "一个只期望接受 `fn` 而不接受闭包的情况的例子是与不存在闭包的外部代码交互时（如 C 语言的函数可以接受函数作为参数，但 C 语言没有闭包）。",
+            "supported": false,
+            "source": "无",
+            "type": "factual"
+          }
+        ],
+        "faithfulness_score": 0.0,
+        "notes": "模型回答中引用了不存在的文档6，且所有声明均未在提供的检索文档（文档1-5）中找到直接或间接依据。文档1仅列出关键字，文档2讨论newtype和类型别名，文档3介绍闭包，文档4介绍外部块，文档5讨论闭包作为输入参数。没有任何文档涉及函数指针、fn类型与Fn trait的区别。因此忠实度为0。"
+      },
+      "relevancy_detail": {
+        "generated_questions": [
+          "在Rust中，函数指针（fn）和闭包trait（Fn）有什么区别？",
+          "如何在Rust中使用函数指针作为另一个函数的参数？",
+          "为什么在Rust中更推荐使用泛型和闭包trait而不是直接使用函数指针？"
+        ],
+        "similarities": [
+          0.8939431309700012,
+          0.741658091545105,
+          0.6975008249282837
+        ]
+      },
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "score": 0.0325,
+          "source_url": "https://rustwiki.org/zh-CN/book/appendix-01-keywords.html",
+          "headings": "Rust 程序设计语言 中文版 > 目前正在使用的关键字",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 附录 A：关键字\n\n下面的列表包含 Rust 中正在使用或者以后会用到的关键字。因此，这些关键字不能被用作标识符（除了 “原始标识符” 部分介绍的原始标识符），这包括函数、变量、参数、结构体字段、模块、crate、常量、宏、静态值、属性、类型、trait 或生命周期的名字。\n\n---\n\n# Rust 程序设计语言 中文版\n\n## 目前正在使用的关键字\n\n"
+        },
+        {
+          "rank": 2,
+          "score": 0.0323,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch19-04-advanced-types.html",
+          "headings": "Rust 程序设计语言 中文版 > 从不返回的 never type",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 高级类型\n\nRust 的类型系统有一些我们曾经提到但没有讨论过的功能。首先我们从一个关于为什么 newtype 与类型一样有用的更宽泛的讨论开始。接着会转向类型别名（type aliases），一个类似于 newtype 但有着稍微不同的语义的功能。我们还会讨论 ! 类型和动态大小类型。\n\n> 这一部分假设你已经阅读了之前的 “newtype 模式用于在"
+        },
+        {
+          "rank": 3,
+          "score": 0.032,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch13-01-closures.html",
+          "headings": "Rust 程序设计语言 中文版 > 使用带有泛型和 Fn trait 的闭包",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 闭包：可以捕获环境的匿名函数\n\nRust 的 闭包（closures）是可以保存进变量或作为参数传递给其他函数的匿名函数。可以在一个地方创建闭包，然后在不同的上下文中执行闭包运算。不同于函数，闭包允许捕获调用者作用域中的值。我们将展示闭包的这些功能如何复用代码和自定义行为。"
+        },
+        {
+          "rank": 4,
+          "score": 0.0313,
+          "source_url": "https://rustwiki.org/zh-CN/reference/external-blocks.html",
+          "headings": "外部块 > 函数",
+          "preview": "# 外部块\n\n## 函数\n\n外部块中的函数与其他 Rust函数的声明方式相同，但这里的函数不能有函数体，取而代之的是直接以分号结尾。外部块中的函数的参数不允许使用模式，只能使用标识符(IDENTIFIER) 或 _ 。函数限定符（const、async、unsafe 和 extern）也不允许在这里使用。\n\n外部块中的函数可以被 Rust 代码调用，就跟调用在 Rust 中定义的函数一样。Rust"
+        },
+        {
+          "rank": 5,
+          "score": 0.0308,
+          "source_url": "https://rustwiki.org/zh-CN/rust-by-example/input_parameters.html",
+          "headings": "作为输入参数",
+          "preview": "# 作为输入参数\n\n# 作为输入参数\n\n虽然 Rust 无需类型说明就能在大多数时候完成变量捕获，但在编写函数时，这种模糊写法是不允许的。当以闭包作为输入参数时，必须指出闭包的完整类型，它是通过使用以下 trait 中的一种来指定的。其受限制程度按以下顺序递减：\n\n- Fn：表示捕获方式为通过引用（&T）的闭包\n\n- FnMut：表示捕获方式为通过可变引用（&mut T）的闭包\n\n- FnOnce"
+        },
+        {
+          "rank": 6,
+          "score": 0.0305,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch19-05-advanced-functions-and-closures.html",
+          "headings": "Rust 程序设计语言 中文版 > 函数指针",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 高级函数与闭包\n\n接下来我们将探索一些有关函数和闭包的高级功能：函数指针以及返回值闭包。\n\n---\n\n# Rust 程序设计语言 中文版\n\n## 函数指针\n\n我们讨论过了如何向函数传递闭包；也可以向函数传递常规函数！这在我们希望传递已经定义的函数而不是重新定义闭包作为参数时很有用。通过函数指针允许我们使用函数作为另一个函数的参数。函数的类型是 fn （使"
+        },
+        {
+          "rank": 7,
+          "score": 0.0304,
+          "source_url": "https://rustwiki.org/zh-CN/edition-guide/impl-trait-for-returning-complex-types-with-ease.html",
+          "headings": "impl Trait轻松返回复杂的类型 > impl Trait 和闭包",
+          "preview": "# impl Trait轻松返回复杂的类型\n\n# impl Trait 轻松返回复杂的类型\n\nimpl Trait 是指定实现特定特征的未命名但有具体类型的新方法。 你可以把它放在两个地方：参数位置和返回位置。\n\n```rust\ntrait Trait {}\n\n// argument position\nfn foo(arg: impl Trait) {\n}\n\n// return position\n"
+        },
+        {
+          "rank": 8,
+          "score": 0.0289,
+          "source_url": "https://rustwiki.org/zh-CN/book/ch19-03-advanced-traits.html",
+          "headings": "Rust 程序设计语言 中文版 > newtype 模式用于在外部类型上实现外部 trait",
+          "preview": "# Rust 程序设计语言 中文版\n\n## 高级 trait\n\n第 10 章 “trait：定义共享的行为” 部分，我们第一次涉及到了 trait，不过就像生命周期一样，我们并没有覆盖一些较为高级的细节。现在我们更加了解 Rust 了，可以深入理解其本质了。\n\n---\n\n# Rust 程序设计语言 中文版\n\n## 关联类型在 trait 定义中指定占位符类型\n\n关联类型（associated ty"
+        }
+      ]
+    }
+  ]
+}

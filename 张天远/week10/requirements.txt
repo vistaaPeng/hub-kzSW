@@ -1,0 +1,29 @@
+# RAG Scratch - Rust 知识库问答系统
+# Python 3.12, Windows, GTX 1080 Ti
+
+# === 数据下载 ===
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+
+# === 分词 ===
+jieba>=0.42.1
+
+# === 向量检索 ===
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+
+# === BM25 ===
+rank-bm25>=0.2.2
+
+# === 重排 ===
+# bge-reranker-base 通过 sentence-transformers 加载
+
+# === LLM ===
+openai>=1.50.0  # DeepSeek API 兼容 OpenAI 接口
+
+# === 评估 ===
+ragas>=0.2.0
+
+# === 工具 ===
+tqdm>=4.66.0

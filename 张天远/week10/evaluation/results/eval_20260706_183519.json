@@ -1,0 +1,610 @@
+{
+  "timestamp": "20260706_183519",
+  "question_count": 40,
+  "summary": {
+    "context_precision": 0.71875,
+    "mrr": 1.0
+  },
+  "details": [
+    {
+      "question_id": "m01",
+      "question": "Rust 中的所有权（ownership）是什么？有哪些核心规则？",
+      "answer": "根据提供的文档内容，Rust 中的所有权（ownership）是 Rust 的核心功能之一，它让 Rust 无需垃圾回收器即可保证内存安全。所有权系统通过编译器在编译时根据一系列规则检查来管理内存，在运行时不会减慢程序速度。\n\n所有权的核心规则如下（来源：文档 3，章节：Rust 程序设计语言 中文版 > 所有权规则）：\n\n1. **Rust 中的每一个值都有一个被称为其 所有者（owner）的变量。**\n2. **值在任一时刻有且只有一个所有者。**\n3. **当所有者（变量）离开作用域，这个值将被丢弃。**\n\n此外，文档还提到所有权系统主要处理以下问题（来源：文档 3，章节：Rust 程序",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.875,
+      "answer_relevancy": 0.8163,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 使用线程同时运行代码\n\n在大部分现代操作系统中，已执行程序的代码在一个 进程（process）中运行，操作系统则负责管理多个进程。在程序内部，也可以拥有多个",
+        "# Rust 程序设计语言 中文版\n\n## 切片 Slice 类型\n\n另一个没有所有权的数据类型是 slice。slice 允许你引用集合中一段连续的元素序列，而不用引用整个集合。\n\n这里有一个编程小",
+        "# Rust 程序设计语言 中文版\n\n## 什么是所有权？\n\nRust 的核心功能（之一）是 所有权（ownership）。虽然该功能很容易解释，但它对语言的其他部分有着深刻的影响。\n\n所有运行的程序"
+      ]
+    },
+    {
+      "question_id": "m02",
+      "question": "Rust 的借用（borrowing）机制如何工作？可变借用和不可变借用的区别是什么？",
+      "answer": "根据提供的文档内容，Rust 的借用机制通过引用（`&T`）来访问数据而不取得其所有权，编译器（通过借用检查）静态地保证引用总是指向有效的对象，即当存在引用指向一个对象时，该对象不能被销毁（来源：文档 4）。\n\n可变借用和不可变借用的区别体现在借用规则中：\n- 在任意给定时刻，只能拥有一个可变引用或任意数量的不可变引用之一（而不是两者）。\n- 引用必须总是有效的（来源：文档 3）。\n\n具体来说：\n- 不可变借用（`&T`）允许通过共享引用访问数据，但不能修改数据。\n- 可变借用（`&mut T`）允许通过可变引用修改数据，但同一时间只能有一个可变引用存在（来源：文档 3）。\n\n文档中通过示例说",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.7778,
+      "answer_relevancy": 0.7402,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 生命周期与引用有效性\n\n当在第 4 章讨论 “引用与借用” 部分时，我们遗漏了一个重要的细节：Rust 中的每一个引用都有其 生命周期（lifetime），",
+        "# Rust 程序设计语言 中文版\n\n## 通过 Deref trait 将智能指针当作常规引用处理\n\n实现 Deref trait 允许我们重载 解引用运算符（dereference operato",
+        "# Rust 程序设计语言 中文版\n\n## RefCell<T> 和内部可变性模式\n\n内部可变性（Interior mutability）是 Rust 中的一个设计模式，它允许你即使在有不可变引用时也"
+      ]
+    },
+    {
+      "question_id": "m03",
+      "question": "Rust 中什么是生命周期（lifetime）？生命周期标注语法是什么？",
+      "answer": "根据文档内容，Rust 中的**生命周期（lifetime）** 是指“引用保持有效的作用域”（来源：文档1，Rust 程序设计语言 中文版 > 生命周期与引用有效性）。其主要目标是避免悬垂引用，确保程序不会引用非预期或已释放的数据（来源：文档1，生命周期避免了悬垂引用）。Rust 编译器通过借用检查器比较作用域来确保所有借用都是有效的（来源：文档1，借用检查器）。\n\n**生命周期标注语法**如下：\n- 使用撇号（`'`）显式标出生命周期，例如 `foo<'a>` 表示 `foo` 带有一个生命周期参数 `'a`（来源：文档3，显式标注）。\n- 对于引用类型，标注语法为 `&'a T`，其中 ",
+      "context_precision": 1.0,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.7565,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 生命周期与引用有效性\n\n当在第 4 章讨论 “引用与借用” 部分时，我们遗漏了一个重要的细节：Rust 中的每一个引用都有其 生命周期（lifetime），",
+        "# 生命周期(类型参数)省略\n\n## 函数上的生命周期(类型参数)省略\n\n为了使常用模式使用起来更方便，可以在函数项、函数指针和闭包trait1的签名中省略生命周期类型参数。以下规则用于推断出被省略的",
+        "# 显式标注\n\n# 显式标注\n\n借用检查器使用显式的生命周期标记来明确引用的有效时间应该持续多久。在生命周期没有省略1的情况下，Rust 需要显式标注来确定引用的生命周期应该是什么样的。可以用撇号显式"
+      ]
+    },
+    {
+      "question_id": "m04",
+      "question": "Rust 中如何使用 struct 定义结构体？有哪些类型的结构体？",
+      "answer": "根据提供的文档内容，Rust 中使用 `struct` 关键字定义结构体，主要有以下三种类型：\n\n1. **元组结构体（tuple struct）**：实际上是具名元组。例如：\n   ```rust\n   struct Pair(i32, f32);\n   ```\n   （来源：rust-by-example | 章节：结构体）\n\n2. **经典的 C 语言风格结构体（C struct）**：包含命名字段。例如：\n   ```rust\n   struct Person {\n       name: String,\n       age: u8,\n   }\n   ```\n   （来源：rust-",
+      "context_precision": 1.0,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.857,
+      "answer_relevancy": 0.8435,
+      "sources_preview": [
+        "# 使用结构体组织相关联的数据\n\n# 使用结构体组织相关联的数据\n\nstruct，或者 structure，是一个自定义数据类型，允许你命名和包装多个相关的值，从而形成一个有意义的组合。如果你熟悉一门",
+        "# 结构体\n\n# 结构体\n\n结构体（structure，缩写成 struct）有 3 种类型，使用 struct 关键字来创建：\n\n- 元组结构体（tuple struct），事实上就是具名元组而已。",
+        "# Rust 程序设计语言 中文版\n\n## 定义并实例化结构体\n\n结构体和我们在“元组类型”章节论过的元组类似。和元组一样，结构体的每一部分可以是不同类型。但不同于元组，结构体需要命名各部分数据以便能"
+      ]
+    },
+    {
+      "question_id": "m05",
+      "question": "Rust 的枚举（enum）和模式匹配（match）如何使用？",
+      "answer": "根据提供的文档内容，Rust 的枚举（enum）和模式匹配（match）的使用方法如下：\n\n## 枚举（enum）\n\n枚举允许你通过列举可能的**成员（variants）**来定义一个类型。例如，可以定义一个硬币枚举：\n\n```rust\nenum Coin {\n    Penny,\n    Nickel,\n    Dime,\n    Quarter,\n}\n```\n\n（来源：文档 1 \"枚举和模式匹配\"）\n\n## 模式匹配（match）\n\n### 基本语法\n`match` 表达式允许将一个值与一系列的模式相比较，并根据相匹配的模式执行相应代码。其形式为：\n\n```text\nmatch VALUE",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.5714,
+      "answer_relevancy": 0.832,
+      "sources_preview": [
+        "# 枚举和模式匹配\n\n# 枚举和模式匹配\n\n本章介绍 枚举（enumerations），也被称作 enums。枚举允许你通过列举可能的 成员（variants） 来定义一个类型。首先，我们会定义并使用",
+        "# match 匹配\n\n# match 匹配\n\nRust 通过 match 关键字来提供模式匹配，和 C 语言的 switch 用法类似。第一个匹配分支会被比对，并且所有可能的值都必须被覆盖。\n\n``",
+        "# Rust 程序设计语言 中文版\n\n## match 控制流运算符\n\nRust 有一个叫做 match 的极为强大的控制流运算符，它允许我们将一个值与一系列的模式相比较，并根据相匹配的模式执行相应代"
+      ]
+    },
+    {
+      "question_id": "m06",
+      "question": "Rust 中什么是 trait？如何为类型实现 trait？",
+      "answer": "根据提供的文档内容，回答如下：\n\n## 什么是 trait？\n\ntrait 告诉 Rust 编译器某个特定类型拥有可能与其他类型共享的功能。可以通过 trait 以一种抽象的方式定义共享的行为。trait 类似于其他语言中常被称为**接口（interfaces）**的功能，虽然有一些不同。\n\ntrait 定义是一种将方法签名组合起来的方法，目的是定义一个实现某些目的所必需的行为的集合。例如：\n\n```rust\npub trait Summary {\n    fn summarize(&self) -> String;\n}\n```\n\n（来源：文档 2，章节：trait：定义共享的行为 / 定义 ",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.5556,
+      "answer_relevancy": 0.7511,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 高级 trait\n\n第 10 章 “trait：定义共享的行为” 部分，我们第一次涉及到了 trait，不过就像生命周期一样，我们并没有覆盖一些较为高级的细",
+        "# Rust 程序设计语言 中文版\n\n## trait：定义共享的行为\n\ntrait 告诉 Rust 编译器某个特定类型拥有可能与其他类型共享的功能。可以通过 trait 以一种抽象的方式定义共享的行",
+        "# Rust 程序设计语言 中文版\n\n## 为使用不同类型的值而设计的 trait 对象\n\n在第 8 章中，我们谈到了 vector 只能存储同种类型元素的局限。示例 8-10 中提供了一个定义 Sp"
+      ]
+    },
+    {
+      "question_id": "m07",
+      "question": "Rust 的泛型（generics）如何定义和使用？什么是 trait bound？",
+      "answer": "根据提供的文档内容，Rust 的泛型和 trait bound 的定义与使用如下：\n\n## 泛型（generics）的定义与使用\n\n**定义**：泛型是具体类型或其他属性的抽象替代。我们可以表达泛型的属性，比如他们的行为或如何与其他泛型相关联，而不需要在编写和编译代码时知道他们在这里实际上代表什么（来源：文档1）。\n\n**使用方式**：\n1. **在函数定义中使用泛型**：当使用泛型定义函数时，本来在函数签名中指定参数和返回值的类型的地方，会改用泛型来表示。类型参数声明位于函数名称与参数列表中间的尖括号 `<>` 中（来源：文档6）。例如：\n   ```rust\n   fn largest<T",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.444,
+      "answer_relevancy": 0.773,
+      "sources_preview": [
+        "# 泛型、trait 和生命周期\n\n# 泛型、trait 和生命周期\n\n每一个编程语言都有高效处理重复概念的工具。在 Rust 中其工具之一就是 泛型（generics）。泛型是具体类型或其他属性的抽",
+        "# Rust 程序设计语言 中文版\n\n## trait：定义共享的行为\n\ntrait 告诉 Rust 编译器某个特定类型拥有可能与其他类型共享的功能。可以通过 trait 以一种抽象的方式定义共享的行",
+        "# 泛型\n\n# 泛型\n\n泛型（generic）是关于泛化类型和函数功能，以扩大其适用范围的话题。泛型极大地减少了代码的重复，但它自身的语法很要求细心。也就是说，采用泛型意味着仔细地指定泛型类型具体化时"
+      ]
+    },
+    {
+      "question_id": "m08",
+      "question": "Rust 中如何处理错误？Result 和 Option 类型分别用于什么场景？",
+      "answer": "根据提供的文档内容，Rust 中的错误处理主要通过 `Result` 和 `Option` 类型来实现，它们分别适用于不同的场景：\n\n### 1. `Result` 类型的使用场景\n- **当错误有可能发生，且应当由调用者处理时，使用 `Result`**（来源：文档 2，rust-by-example > 错误处理）。\n- **返回 `Result` 是定义可能会失败的函数的一个好的默认选择**，因为它将选择权交给调用者，调用者可以决定是否恢复错误或将其视为不可恢复（来源：文档 1，book > Rust 程序设计语言 中文版 > 使用 panic! 还是不用 panic!）。\n- **当错",
+      "context_precision": 1.0,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.5833,
+      "answer_relevancy": 0.8488,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 使用 panic! 还是不用 panic!\n\n那么，该如何决定何时应该 panic! 以及何时应该返回 Result 呢？如果代码 panic，就没有恢复的",
+        "# 错误处理\n\n# 错误处理\n\n错误处理（error handling）是处理可能发生的失败情况的过程。例如读取一个文件时失败了，如果继续使用这个无效的输入，那显然是有问题的。注意到并且显式地处理这种",
+        "# 关于本书\n\n# 关于本书\n\n---\n\n# 关于本书\n\n## 目录\n\n- 指南目标读者\n\n- 如何阅读指南\n\n- 如何使用实例\n\n- 关于错误处理\n\n- 关于 crate 的说明\n\n---\n\n# 关"
+      ]
+    },
+    {
+      "question_id": "m09",
+      "question": "Rust 中如何使用 cargo 创建和管理项目？Cargo.toml 的作用是什么？",
+      "answer": "根据提供的文档内容，以下是关于如何使用 Cargo 创建和管理项目以及 Cargo.toml 作用的回答：\n\n## 使用 Cargo 创建项目\n\n要创建一个新项目，可以使用 `cargo new` 命令。例如：\n\n```console\n$ cargo new guessing_game\n$ cd guessing_game\n```\n\n第一个命令 `cargo new` 把项目的名称作为第一个参数，第二个命令进入到新创建的项目目录（来源：文档 1，章节：编写猜数字游戏 > 创建一个新项目）。\n\nCargo 会生成以下文件结构：\n- 一个 `Cargo.toml` 文件\n- 一个 `src` 目录",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.8182,
+      "answer_relevancy": 0.7248,
+      "sources_preview": [
+        "# 编写猜数字游戏\n\n# 编写猜数字游戏\n\n让我们一起动手完成一个项目，来快速上手 Rust！本章将介绍 Rust 中一些常用概念，并向你展示如何在实际项目中运用它们。你将会学到 let、match、",
+        "# Rust 程序设计语言 中文版\n\n## Hello, Cargo!\n\nCargo 是 Rust 的构建系统和包管理器。大多数 Rustacean 们使用 Cargo 来管理他们的 Rust 项目，",
+        "# 依赖\n\n# 依赖\n\n大多数程序都会依赖于某些库。如果你曾经手动管理过库依赖，那么你就知道这会带来的极大的痛苦。幸运的是，Rust 的生态链标配 cargo 工具！cargo 可以管理项目的依赖关系"
+      ]
+    },
+    {
+      "question_id": "m10",
+      "question": "Rust 中什么是模块系统（module system）？mod、use、pub 关键字的作用是什么？",
+      "answer": "根据提供的文档内容，Rust 的模块系统（module system）是一种将代码按层次分成多个逻辑单元（模块），并管理这些模块之间可见性（公有或私有）的机制（来源：文档 6）。\n\n各关键字的作用如下：\n\n### `mod` 关键字\n- 用于**定义一个模块**（来源：文档 8）。\n- 模块是项（item）的集合，项可以是：函数、结构体、trait、impl 块，甚至其它模块（来源：文档 6）。\n\n### `use` 关键字\n- 用于**引入外部空间的符号**（来源：文档 8）。\n- 结合 `pub` 使用时（`pub use`），可以**公开重导出程序项**，允许通过重导出短路“隐私链”，使",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.3636,
+      "answer_relevancy": 0.7632,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 路径用于引用模块树中的项\n\n来看一下 Rust 如何在模块树中找到一个项的位置，我们使用路径的方式，就像在文件系统使用路径一样。如果我们想要调用一个函数，我",
+        "# 可见性与隐私权\n\n## pub(in path), pub(crate), pub(super), and pub(self)\n\n除了公有和私有之外，Rust 还允许用户（用关键字 pub ）声明",
+        "# 简介\n\n# 简介\n\n> 注意：本书的版本（英文版）与出版的 The Rust Programming Language 和电子版的 No Starch Press 一致。\n\n欢迎阅读《Rust 程"
+      ]
+    },
+    {
+      "question_id": "m11",
+      "question": "Rust 中 String 和 &str 的区别是什么？何时使用哪个？",
+      "answer": "根据文档内容，Rust 中 `String` 和 `&str` 的区别如下：\n\n**`String`**：\n- 被存储为由字节组成的 vector（`Vec<u8>`），但保证了它一定是一个有效的 UTF-8 序列（来源：文档 1）\n- 是堆分配的、可增长的、且不是零结尾的（来源：文档 1）\n- 是可变的、有所有权的、UTF-8 编码的字符串类型（来源：文档 2）\n\n**`&str`**：\n- 是一个总是指向有效 UTF-8 序列的切片（`&[u8]`），并可用来查看 `String` 的内容（来源：文档 1）\n- 是字符串 slice，通常以被借用的形式出现（来源：文档 2）\n- 字符串字面",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9279,
+      "sources_preview": [
+        "# 字符串\n\n# 字符串\n\nRust 中有两种字符串类型：String 和 &str。\n\nString 被存储为由字节组成的 vector（Vec<u8>），但保证了它一定是一个有效的 UTF-8 序",
+        "# Rust 程序设计语言 中文版\n\n## 使用字符串存储 UTF-8 编码的文本\n\n第 4 章已经讲过一些字符串的内容，不过现在让我们更深入地了解它。字符串是新晋 Rustacean 们通常会被困住",
+        "# Rust 程序设计语言 中文版\n\n## 使用线程同时运行代码\n\n在大部分现代操作系统中，已执行程序的代码在一个 进程（process）中运行，操作系统则负责管理多个进程。在程序内部，也可以拥有多个"
+      ]
+    },
+    {
+      "question_id": "m12",
+      "question": "Rust 中 Vec（向量）如何使用？有哪些常用方法？",
+      "answer": "根据提供的文档内容，Rust 中 Vec（向量）的使用方法如下：\n\n## 创建 Vec\n\n1. **使用 `Vec::new` 创建空向量**：\n   ```rust\n   let v: Vec<i32> = Vec::new();\n   ```\n   （来源：文档 2，Rust 程序设计语言 中文版 > 新建 vector）\n\n2. **使用 `vec!` 宏创建带初始值的向量**：\n   ```rust\n   let v = vec![1, 2, 3];\n   ```\n   （来源：文档 2，Rust 程序设计语言 中文版 > 新建 vector）\n\n## 常用方法\n\n1. **`push",
+      "context_precision": 0.375,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.827,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 所有可能会用到模式的位置\n\n模式出现在 Rust 的很多地方。你已经在不经意间使用了很多模式！本部分是一个所有有效模式位置的参考。\n\n---\n\n# Rust",
+        "# Rust 程序设计语言 中文版\n\n## vector 用来储存一系列的值\n\n我们要讲到的第一个类型是 Vec<T>，也被称为 vector。vector 允许我们在一个单独的数据结构中储存多个值，",
+        "# 类型推断\n\n# 类型推断\n\nRust 的类型推断引擎是很聪明的，它不只是在初始化时看看右值（r-value）的类型而已，它还会考察变量之后会怎样使用，借此推断类型。这是一个类型推导的进阶例子：\n\n"
+      ]
+    },
+    {
+      "question_id": "m13",
+      "question": "Rust 中 HashMap 如何使用？如何插入、获取、更新键值对？",
+      "answer": "根据提供的文档内容，以下是 Rust 中 HashMap 的使用方法，包括插入、获取和更新键值对：\n\n## 新建 HashMap\n\n可以使用 `new` 创建一个空的 HashMap：\n\n```rust\nuse std::collections::HashMap;\n\nlet mut scores = HashMap::new();\n```\n\n注意必须首先 `use` 标准库中集合部分的 `HashMap`，因为它并没有被 prelude 自动引用（来源：文档 1，章节：新建一个哈希 map）。\n\n## 插入键值对\n\n使用 `insert` 方法增加元素：\n\n```rust\nscores.ins",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.767,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 哈希 map 储存键值对\n\n最后介绍的常用集合类型是 哈希 map（hash map）。HashMap<K, V> 类型储存了一个键类型 K 对应一个值类型",
+        "# Rust 程序设计语言 中文版\n\n## 使用 use 关键字将名称引入作用域\n\n到目前为止，似乎我们编写的用于调用函数的路径都很冗长且重复，并不方便。例如，示例 7-7 中，无论我们选择 add_",
+        "# 目录遍历\n\n# 目录遍历\n\n---\n\n# 目录遍历\n\n## 过去 24 小时内修改过的文件名\n\n通过调用 env::current_dir 获取当前工作目录，然后通过 fs::read_dir 读"
+      ]
+    },
+    {
+      "question_id": "m14",
+      "question": "Rust 中什么是闭包（closure）？闭包如何捕获环境变量？",
+      "answer": "根据文档内容，Rust 中的闭包（closure）是**一类能够捕获周围作用域中变量的函数**，也叫做 lambda 表达式或者 lambda（来源：文档1）。闭包是**可以保存进变量或作为参数传递给其他函数的匿名函数**，可以在一个地方创建闭包，然后在不同的上下文中执行闭包运算（来源：文档2）。\n\n关于闭包如何捕获环境变量，文档提供了以下信息：\n\n1. **捕获方式**：编译器倾向于优先通过不可变借用（immutable borrow）来捕获闭合变量，其次是通过唯一不可变借用（unique immutable borrow），再其次可变借用（mutable borrow），最后使用移动语义（",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7873,
+      "sources_preview": [
+        "# 闭包\n\n# 闭包\n\nRust 中的闭包（closure），也叫做 lambda 表达式或者 lambda，是一类能够捕获周围作用域中变量的函数。例如，一个可以捕获 x 变量的闭包如下：\n\n```R",
+        "# Rust 程序设计语言 中文版\n\n## 闭包：可以捕获环境的匿名函数\n\nRust 的 闭包（closures）是可以保存进变量或作为参数传递给其他函数的匿名函数。可以在一个地方创建闭包，然后在不同",
+        "# 作为输入参数\n\n# 作为输入参数\n\n虽然 Rust 无需类型说明就能在大多数时候完成变量捕获，但在编写函数时，这种模糊写法是不允许的。当以闭包作为输入参数时，必须指出闭包的完整类型，它是通过使用以"
+      ]
+    },
+    {
+      "question_id": "m15",
+      "question": "Rust 中迭代器（iterator）如何使用？什么是迭代器适配器和消费器？",
+      "answer": "根据提供的文档内容，以下是关于 Rust 中迭代器（iterator）的使用方法，以及迭代器适配器和消费器的说明：\n\n## 迭代器的基本使用\n\n在 Rust 中，迭代器是**惰性的（lazy）**，这意味着在调用方法使用迭代器之前它都不会有效果。创建迭代器后，可以选择用多种方式利用它。\n\n**创建迭代器**：可以通过调用 `iter` 方法在 vector 上创建迭代器：\n```rust\nlet v1 = vec![1, 2, 3];\nlet v1_iter = v1.iter();\n```\n（来源：文档 1，Rust 程序设计语言 中文版 > 使用迭代器处理元素序列）\n\n**在 for 循环",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.716,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 使用迭代器处理元素序列\n\n迭代器模式允许你对一个序列的项进行某些处理。迭代器（iterator）负责遍历序列中的每一项和决定序列何时结束的逻辑。当使用迭代器",
+        "# Rust 程序设计语言 中文版\n\n## 改进 I/O 项目\n\n有了这些关于迭代器的新知识，我们可以使用迭代器来改进第 12 章中 I/O 项目的实现来使得代码更简洁明了。让我们看看迭代器如何能够改",
+        "# impl Trait\n\n# impl Trait\n\n如果函数返回实现了 MyTrait 的类型，可以将其返回类型编写为 -> impl MyTrait。这可以大大简化你的类型签名！\n\n```rus"
+      ]
+    },
+    {
+      "question_id": "m16",
+      "question": "Rust 中什么是智能指针？Box、Rc、Arc、RefCell 各有什么用途？",
+      "answer": "根据提供的文档内容，回答如下：\n\n## 什么是智能指针？\n\n智能指针（smart pointers）是一类数据结构，它们的表现类似指针，但是也拥有额外的元数据和功能。在 Rust 中，普通引用和智能指针的一个额外的区别是引用是一类只借用数据的指针；相反，在大部分情况下，智能指针**拥有**它们指向的数据。智能指针通常使用结构体实现，其区别于常规结构体的显著特性在于实现了 `Deref` 和 `Drop` trait。`Deref` trait 允许智能指针结构体实例表现得像引用一样，`Drop` trait 允许自定义当智能指针离开作用域时运行的代码。[文档 1]\n\n## Box<T> 的用途",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.2,
+      "answer_relevancy": 0.5104,
+      "sources_preview": [
+        "# 智能指针\n\n# 智能指针\n\n指针 （pointer）是一个包含内存地址的变量的通用概念。这个地址引用，或 “指向”（points at）一些其他数据。Rust 中最常见的指针是第 4 章介绍的 引",
+        "# Rust 程序设计语言 中文版\n\n## RefCell<T> 和内部可变性模式\n\n内部可变性（Interior mutability）是 Rust 中的一个设计模式，它允许你即使在有不可变引用时也",
+        "# Rust 程序设计语言 中文版\n\n## 不安全 Rust\n\n目前为止讨论过的代码都有 Rust 在编译时会强制执行的内存安全保证。然而，Rust 还隐藏有第二种语言，它不会强制执行这类内存安全保证"
+      ]
+    },
+    {
+      "question_id": "m17",
+      "question": "Rust 中如何使用 unsafe 代码？什么场景下必须使用 unsafe？",
+      "answer": "根据提供的文档内容，Rust 中使用 unsafe 代码的方式和必须使用的场景如下：\n\n## 如何使用 unsafe 代码\n\n可以通过 `unsafe` 关键字来切换到不安全 Rust，开启一个存放不安全代码的块。例如：\n\n```rust\nunsafe {\n    // 不安全操作\n}\n```\n\n（来源：文档 2 - Rust 程序设计语言 中文版 > 不安全的超能力）\n\n## 必须使用 unsafe 的场景\n\n文档中列出了两类必须使用 unsafe 的操作集合：\n\n### 文档 1 中的四类不安全操作：\n- 解引用裸指针\n- 通过 FFI 调用函数\n- 调用不安全的函数\n- 内联汇编（inl",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8899,
+      "sources_preview": [
+        "# 不安全操作\n\n# 不安全操作\n\n在本章一开始，我们借用官方文档的一句话，“在整个代码库（code base，指构建一个软件系统所使用的全部代码）中，要尽可能减少不安全代码的量”。记住这句话，接着我",
+        "# Rust 程序设计语言 中文版\n\n## 不安全 Rust\n\n目前为止讨论过的代码都有 Rust 在编译时会强制执行的内存安全保证。然而，Rust 还隐藏有第二种语言，它不会强制执行这类内存安全保证",
+        "# Rust 程序设计语言 中文版\n\n## 将 crate 发布到 Crates.io\n\n我们曾经在项目中使用 crates.io 上的包作为依赖，不过你也可以通过发布自己的包来向别人分享代码。cra"
+      ]
+    },
+    {
+      "question_id": "m18",
+      "question": "Rust 中如何编写和运行测试？#[test] 属性和 assert 宏的用法是什么？",
+      "answer": "根据文档内容，Rust 中编写和运行测试的方法如下：\n\n## 编写测试\n\n测试函数是用来验证非测试代码是否按照期望的方式运行的。测试函数体通常执行三种操作：\n- 设置任何所需的数据或状态\n- 运行需要测试的代码\n- 断言其结果是我们所期望的\n\n（来源：book | 章节：Rust 程序设计语言 中文版 > 测试函数剖析）\n\n## #[test] 属性\n\n测试函数需要加上 `#[test]` 属性。大多数单元测试会被放到一个叫 `tests` 的、带有 `#[cfg(test)]` 属性的模块中。（来源：rust-by-example | 章节：单元测试）\n\n示例：\n```rust\n#[cfg(",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7757,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 如何编写测试\n\nRust 中的测试函数是用来验证非测试代码是否按照期望的方式运行的。测试函数体通常执行如下三种操作：\n\n- 设置任何所需的数据或状态\n\n- ",
+        "# 单元测试\n\n# 单元测试\n\n测试（test）是这样一种 Rust 函数：它保证其他部分的代码按照所希望的行为正常运行。测试函数的函数体通常会进行一些配置，运行我们想要测试的代码，然后断言（asse",
+        "# Rust 程序设计语言 中文版\n\n## 测试的组织结构\n\n本章一开始就提到，测试是一个复杂的概念，而且不同的开发者也采用不同的技术和组织。Rust 社区倾向于根据测试的两个主要分类来考虑问题：单元"
+      ]
+    },
+    {
+      "question_id": "m19",
+      "question": "Rust 中如何编写文档注释？rustdoc 工具如何生成文档？",
+      "answer": "根据提供的文档内容，Rust 中编写文档注释和生成文档的方法如下：\n\n## 编写文档注释\n\nRust 有两种文档注释语法：\n\n1. **外部文档注释**（outer doc comments）：使用 `///` 或 `/** ... */`，为注释之后的项生成文档。例如：\n   ```rust\n   /// Adds one to the number given.\n   pub fn add_one(x: i32) -> i32 {\n       x + 1\n   }\n   ```\n   （来源：文档 2，Rust 程序设计语言 中文版 > 编写有用的文档注释）\n\n2. **内部文档注释**",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.25,
+      "answer_relevancy": 0.8222,
+      "sources_preview": [
+        "# 文档测试\n\n# 文档测试\n\n为 Rust 工程编写文档的主要方式是在源代码中写注释。文档注释使用 markdown 语法书写，支持代码块。Rust 很注重正确性，这些注释中的代码块也会被编译并且用",
+        "# Rust 程序设计语言 中文版\n\n## 将 crate 发布到 Crates.io\n\n我们曾经在项目中使用 crates.io 上的包作为依赖，不过你也可以通过发布自己的包来向别人分享代码。cra",
+        "# 什么是 rustdoc？\n\n# 什么是 rustdoc？\n\n> 中文翻译注（The Chinese translation of The rustdoc Book）： 👉 查看更多 Rust 官方"
+      ]
+    },
+    {
+      "question_id": "m20",
+      "question": "Rust 中什么是并发（concurrency）？如何使用线程（thread）和消息传递？",
+      "answer": "根据提供的文档内容，以下是关于 Rust 中并发（concurrency）以及如何使用线程（thread）和消息传递的说明：\n\n## 什么是并发（concurrency）\n\n并发编程（Concurrent programming）代表程序的不同部分相互独立的执行。Rust 通过所有权和类型系统，使得很多并发错误成为**编译时错误**而非运行时错误，这被称为**无畏并发（fearless concurrency）**。Rust 提供了多种工具来以符合实际情况和需求的方式为问题建模，包括：\n- 创建线程来同时运行多段代码\n- 消息传递（Message passing）并发，其中通道（channel",
+      "context_precision": 1.0,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.8889,
+      "answer_relevancy": 0.6507,
+      "sources_preview": [
+        "# 无畏并发\n\n# 无畏并发\n\n安全且高效的处理并发编程是 Rust 的另一个主要目标。并发编程（Concurrent programming），代表程序的不同部分相互独立的执行，而 并行编程（par",
+        "# Rust 程序设计语言 中文版\n\n## 使用消息传递在线程间传送数据\n\n一个日益流行的确保安全并发的方式是 消息传递（message passing），这里线程或 actor 通过发送包含数据的消",
+        "# Rust 程序设计语言 中文版\n\n## 使用 Sync 和 Send trait 的可扩展并发\n\nRust 的并发模型中一个有趣的方面是：语言本身对并发知之 甚少。我们之前讨论的几乎所有内容，都属"
+      ]
+    },
+    {
+      "question_id": "m21",
+      "question": "Rust 中 async/await 异步编程如何工作？Future trait 是什么？",
+      "answer": "根据提供的文档内容，关于 async/await 异步编程和 Future trait 的信息如下：\n\n## async/await 异步编程\n\n**async 块**是求值为 future 的块表达式的一个变体。执行一个异步块类似于执行一个闭包表达式：它的即时效果是生成并返回一个匿名类型。异步块返回的类型实现了 `std::future::Future` trait（来源：文档 1，块表达式 > async块）。\n\n**异步上下文**由异步块和异步函数的函数体建立，可以包含 `await` 表达式（来源：文档 1，块表达式 > 异步上下文）。\n\n**捕获方式**：异步块使用与闭包相同的捕获方",
+      "context_precision": 0.375,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7663,
+      "sources_preview": [
+        "# 块表达式\n\n## async块\n\n> 句法 AsyncBlockExpression : async move? BlockExpression\n\n*异步块(async block)*是求值为 f",
+        "# async/await 早期的并发\n\n# async/await 早期的并发\n\nRust 2018 的初始版本不会附带 async/await 支持，但是我们保留了关键字，以便将来的版本包含它们。",
+        "# 特质 trait\n\n# 特质 trait\n\ntrait 是对未知类型 Self 定义的方法集。该类型也可以访问同一个 trait 中定义的其他方法。\n\n对任何数据类型都可以实现 trait。在下面"
+      ]
+    },
+    {
+      "question_id": "m22",
+      "question": "Rust 中宏（macro）如何使用？macro_rules! 和过程宏的区别是什么？",
+      "answer": "# Rust 中宏的使用方法\n\n## 宏的调用方式\n\n根据文档，宏调用是在编译时执行宏，并用执行结果替换该调用。宏调用使用感叹号 `!` 语法，可以在以下位置调用：\n\n- 表达式和语句\n- 模式\n- 类型\n- 程序项，包括关联程序项\n- macro_rules 转码器\n- 外部块\n\n当宏调用被用作程序项或语句时，如果不使用花括号，则在结尾处须添加分号。\n\n## macro_rules! 和过程宏的区别\n\n根据文档内容，两者的主要区别如下：\n\n### 1. 定义方式不同\n\n**macro_rules! 宏**：使用 `macro_rules!` 关键字创建，属于声明宏。\n\n**过程宏**：由带有",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.357,
+      "answer_relevancy": 0.7856,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 宏\n\n我们已经在本书中使用过像 println! 这样的宏了，不过还没完全探索什么是宏以及它是如何工作的。宏（Macro）指的是 Rust 中一系列的功能：",
+        "# 使用macro_rules!来创建宏\n\n# 使用 macro_rules! 来创建宏\n\nRust 提供了一个强大的宏系统，可进行元编程（metaprogramming）。你已经在前面的章节中看到，",
+        "# 通过名称链接 item\n\n# 通过名称链接 item\n\nRustdoc 能够使用 item 的路径直接内部链接。这称为 'intra-doc link'。\n\n比如，下面的代码可以链接 Bar 的页"
+      ]
+    },
+    {
+      "question_id": "m23",
+      "question": "Rust 中什么是 Deref 和 Drop trait？它们如何实现自动解引用和资源清理？",
+      "answer": "根据提供的文档内容，回答如下：\n\n## Deref trait\n\n**Deref trait** 允许我们重载**解引用运算符** `*`（与乘法运算符或通相区别）。通过实现 Deref trait 的智能指针可以被当作常规引用来对待，可以编写操作引用的代码并用于智能指针（来源：文档1）。\n\n### 自动解引用\n\n**自动解引用**（autoderef）是指：如果容器操作数的类型实现了 Deref 或 DerefMut（取决于该操作数是否为可变），则会尽可能多次地自动解引用，以使字段访问成为可能（来源：文档5）。\n\n## Drop trait\n\n**Drop trait** 是 Rust 中实",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7864,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 通过 Deref trait 将智能指针当作常规引用处理\n\n实现 Deref trait 允许我们重载 解引用运算符（dereference operato",
+        "# RAII\n\n# RAII\n\nRust 的变量不只是在栈中保存数据：它们也占有资源，比如 Box<T> 占有堆（heap）中的内存。Rust 强制实行 RAII（Resource Acquisiti",
+        "# Rust 程序设计语言 中文版\n\n## 使用 Drop Trait 运行清理代码\n\n对于智能指针模式来说第二个重要的 trait 是 Drop，其允许我们在值要离开作用域时执行一些代码。可以为任何"
+      ]
+    },
+    {
+      "question_id": "m24",
+      "question": "Rust 中 Clone 和 Copy trait 的区别是什么？哪些类型实现了 Copy？",
+      "answer": "根据文档内容，Clone 和 Copy trait 的区别及实现 Copy 的类型如下：\n\n## Clone 和 Copy 的区别\n\n1. **Copy trait** 改变实现它的类型的语义，其类型实现了 Copy 的值在赋值时将被复制而不是移动（来源：文档 3，Copy 章节）。\n\n2. **Clone trait** 是 Copy 的超类trait，它提供了 `.clone()` 方法用于显式复制资源（来源：文档 3，Clone 章节；文档 5）。\n\n3. **实现条件不同**：\n   - 只能为未实现 Drop trait 且字段都是 Copy 的类型实现 Copy（来源：文档 3，C",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.1538,
+      "answer_relevancy": 0.831,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 为使用不同类型的值而设计的 trait 对象\n\n在第 8 章中，我们谈到了 vector 只能存储同种类型元素的局限。示例 8-10 中提供了一个定义 Sp",
+        "# Rust 程序设计语言 中文版\n\n## 什么是所有权？\n\nRust 的核心功能（之一）是 所有权（ownership）。虽然该功能很容易解释，但它对语言的其他部分有着深刻的影响。\n\n所有运行的程序",
+        "# 特殊类型和 trait\n\n## Box<T>\n\nBox<T> 有一些特殊的特性，Rust 目前还不允许用户定义类型时使用。\n\n- Box<T> 的[解引用操作符]会产生一个可从中移出值的内存位置1"
+      ]
+    },
+    {
+      "question_id": "m25",
+      "question": "Rust 中如何实现多态？trait 对象（dyn Trait）和泛型各有什么优劣？",
+      "answer": "根据提供的文档内容，可以回答如下：\n\n## Rust 中实现多态的方式\n\nRust 通过 **trait 对象** 和 **泛型** 两种方式实现多态。\n\n### 1. trait 对象（dyn Trait）\n\ntrait 对象允许在运行时处理不同类型的值，只要它们实现了相同的 trait。文档中提到：\n\n> \"编写库的时候，我们不可能知晓并定义所有其他开发者希望创建的类型。我们所知晓的是 gui 需要记录一系列不同类型的值，并需要能够对其中每一个值调用 draw 方法。\"（来源：文档 1）\n\n使用 `dyn Trait` 语法，例如 `Box<dyn Trait>` 或 `&dyn Trai",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7418,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 为使用不同类型的值而设计的 trait 对象\n\n在第 8 章中，我们谈到了 vector 只能存储同种类型元素的局限。示例 8-10 中提供了一个定义 Sp",
+        "# Rust 程序设计语言 中文版\n\n## 面向对象语言的特征\n\n关于一个语言被称为面向对象所需的功能，在编程社区内并未达成一致意见。Rust 被很多不同的编程范式影响，包括面向对象编程；比如第 13",
+        "# dyn Traittrait 对象\n\n# dyn Trait trait 对象\n\ndyn Trait 是使用 trait 对象的新语法，简而言之：\n\n- Box<Trait> becomes Bo"
+      ]
+    },
+    {
+      "question_id": "m26",
+      "question": "Rust 中什么是函数指针？fn 类型和 Fn trait 有什么区别？",
+      "answer": "根据文档内容，回答如下：\n\n## 什么是函数指针？\n\n函数指针（function pointer）允许你使用函数作为另一个函数的参数。函数的类型是 `fn`（使用小写的 \"f\"），以免与 `Fn` 闭包 trait 相混淆。`fn` 被称为函数指针。指定参数为函数指针的语法类似于闭包，如示例所示：\n\n```rust\nfn add_one(x: i32) -> i32 {\n    x + 1\n}\n\nfn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {\n    f(arg) + f(arg)\n}\n\nfn main() {\n    let answer ",
+      "context_precision": 0.375,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7277,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 附录 A：关键字\n\n下面的列表包含 Rust 中正在使用或者以后会用到的关键字。因此，这些关键字不能被用作标识符（除了 “原始标识符” 部分介绍的原始标识符",
+        "# Rust 程序设计语言 中文版\n\n## 闭包：可以捕获环境的匿名函数\n\nRust 的 闭包（closures）是可以保存进变量或作为参数传递给其他函数的匿名函数。可以在一个地方创建闭包，然后在不同",
+        "# Rust 程序设计语言 中文版\n\n## 高级类型\n\nRust 的类型系统有一些我们曾经提到但没有讨论过的功能。首先我们从一个关于为什么 newtype 与类型一样有用的更宽泛的讨论开始。接着会转向"
+      ]
+    },
+    {
+      "question_id": "m27",
+      "question": "Rust 中什么是 newtype 模式？它如何提供类型安全性？",
+      "answer": "根据提供的文档内容，newtype 模式是一种将现有类型封装在一个新结构体中的惯用法，用于提供类型安全和抽象。\n\n**newtype 模式的定义：**\n- 文档 2 提到：“newtype 模式可以用于一些其他我们还未讨论的功能，包括静态的确保某值不被混淆，和用来表示一个值的单元。” 示例中展示了 `Millimeters` 和 `Meters` 结构体都在 newtype 中封装了 `u32` 值。\n- 文档 8 进一步说明：“newtype 惯用法能保证在编译时，提供给程序的都是正确的类型。” 示例中定义了 `Years(i64)` 和 `Days(i64)` 两个结构体，分别封装了 `i",
+      "context_precision": 0.375,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.6667,
+      "answer_relevancy": 0.8408,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 高级 trait\n\n第 10 章 “trait：定义共享的行为” 部分，我们第一次涉及到了 trait，不过就像生命周期一样，我们并没有覆盖一些较为高级的细",
+        "# Rust 程序设计语言 中文版\n\n## 高级类型\n\nRust 的类型系统有一些我们曾经提到但没有讨论过的功能。首先我们从一个关于为什么 newtype 与类型一样有用的更宽泛的讨论开始。接着会转向",
+        "# 高级特征\n\n# 高级特征\n\n现在我们已经学习了 Rust 编程语言中最常用的部分。在第 20 章开始另一个新项目之前，让我们聊聊一些总有一天你会遇上的部分内容。你可以将本章作为不经意间遇到未知的内"
+      ]
+    },
+    {
+      "question_id": "m28",
+      "question": "Rust 中什么是切片（slice）？切片和数组、Vec 的关系是什么？",
+      "answer": "根据提供的文档内容，Rust 中的切片（slice）是一种类型，它和数组类似，但其大小在编译时是不确定的。切片是一个双字对象（two-word object），第一个字是一个指向数据的指针，第二个字是切片的长度。这个“字”的宽度和 `usize` 相同，由处理器架构决定。切片的类型标记为 `&[T]`（来源：文档 1）。\n\n切片和数组、`Vec` 的关系如下：\n\n1. **切片与数组**：数组的大小在编译时确定，类型标记为 `[T; length]`。切片可以用来借用数组的一部分。例如，`&xs` 可以借用整个数组作为切片，`&ys[1 .. 4]` 可以借用数组的一部分作为切片（来源：文档 ",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.818,
+      "answer_relevancy": 0.8326,
+      "sources_preview": [
+        "# 数组和切片\n\n# 数组和切片\n\n数组（array）是一组拥有相同类型 T 的对象的集合，在内存中是连续存储的。数组使用中括号 [] 来创建，且它们的大小在编译时会被确定。数组的类型标记为 [T; ",
+        "# 术语表\n\n## 抽象句法树\n\n“抽象句法树”，或“AST”，是编译器编译程序时，程序结构的中间表示形式。 An ‘abstract syntax tree’, or ‘AST’, is an in",
+        "# 切片模式\n\n# 切片模式\n\n你有没有试过，用模式匹配去匹配切片的内容和结构？ Rust 2018 将让你做到这一点。\n\n例如，我们想要接受一个名单列表并回复问候语。使用切片模式，我们可以用以下方式"
+      ]
+    },
+    {
+      "question_id": "m29",
+      "question": "Rust 中 From 和 Into trait 的作用是什么？如何实现类型转换？",
+      "answer": "根据文档内容，Rust 中 `From` 和 `Into` trait 的作用及类型转换实现方式如下：\n\n## From 和 Into 的作用\n\n`From` 和 `Into` 两个 trait 是**内部相关联的**，用于解决类型之间的转换问题。它们是最一般的类型转换 trait（来源：文档 1）。\n\n- **From trait**：允许一种类型定义“怎么根据另一种类型生成自己”，提供了一种类型转换的简单机制（来源：文档 2）。\n- **Into trait**：是 `From` trait 的“倒过来”。如果为类型实现了 `From`，那么同时也就**免费获得**了 `Into`（来源：",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.8215,
+      "sources_preview": [
+        "# 类型转换\n\n# 类型转换\n\nRust 使用 trait 解决类型之间的转换问题。最一般的转换会用到 From 和 Into 两个 trait。不过，即便常见的情况也可能会用到特别的 trait，尤",
+        "# From和Into\n\n# From 和 Into\n\nFrom 和 Into 两个 trait 是内部相关联的，实际上这是它们实现的一部分。如果我们能够从类型 B 得到类型 A，那么很容易相信我们也",
+        "# TryFromandTryInto\n\n# TryFrom and TryInto\n\n类似于 From 和 Into，TryFrom 和 TryInto 是类型转换的通用 trait。不同于 Fro"
+      ]
+    },
+    {
+      "question_id": "m30",
+      "question": "Rust 中什么是条件编译（conditional compilation）？#[cfg] 属性如何使用？",
+      "answer": "根据提供的文档内容，Rust 中的条件编译（conditional compilation）是一种通过配置谓词（configuration predicate）来决定是否编译特定代码的机制。它可以通过两种不同的操作符实现：\n\n1. **`cfg` 属性**：在属性位置中使用 `#[cfg(...)]`\n2. **`cfg!` 宏**：在布尔表达式中使用 `cfg!(...)`\n\n两种形式使用的参数语法都相同（来源：文档1）。\n\n`#[cfg]` 属性的使用方式如下：\n\n- **基本语法**：`#[cfg(配置谓词)]`，根据配置谓词有条件地包括它所附加的东西。如果谓词为真，则重写该部分代码，使",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7531,
+      "sources_preview": [
+        "# cfg\n\n# cfg\n\n条件编译可能通过两种不同的操作符实现：\n\n- cfg 属性：在属性位置中使用 #[cfg(...)]\n\n- cfg! 宏：在布尔表达式中使用 cfg!(...)\n\n两种形式",
+        "# Rust 程序设计语言 中文版\n\n## 测试的组织结构\n\n本章一开始就提到，测试是一个复杂的概念，而且不同的开发者也采用不同的技术和组织。Rust 社区倾向于根据测试的两个主要分类来考虑问题：单元",
+        "# 条件编译\n\n## 设置配置选项\n\n设置哪些配置选项是在 crate 编译期时就静态确定的。一些选项属于编译器设置集(compiler-set)，这部分选项是编译器根据相关编译数据设置的。其他选项属"
+      ]
+    },
+    {
+      "question_id": "m31",
+      "question": "Rust 中 extern crate 和 use 的区别是什么？2018 edition 后有什么变化？",
+      "answer": "根据文档内容，`extern crate` 和 `use` 的区别及 2018 edition 后的变化如下：\n\n## 基本区别\n\n- **`extern crate`**：用于将外部 crate 导入到项目中。在 Rust 2015 中，这是使用外部 crate 的必要步骤。\n- **`use`**：用于将特定路径（如模块、函数、宏等）引入当前作用域，以便使用更短的路径引用它们。\n\n## 2018 edition 后的变化\n\n### 1. `extern crate` 不再需要\n\n根据文档 1：\n\n> 这个非常简单：您不再需要编写 extern crate 来将crate导入到您的项目中。\n",
+      "context_precision": 1.0,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.8218,
+      "sources_preview": [
+        "# 路径清晰化\n\n# 路径清晰化\n\n对于刚接触 Rust 的人来说，模块系统通常是最困难的事情之一。 当然，每个人掌握东西的时间都不同，但是有一个根本原因，导致了为什么对许多人来说模块系统如此混乱： ",
+        "# 预导入包\n\n## 标准库预导入包\n\n标准库预导入包包含了 std::prelude::v1模块中的名称。如果使用no_std属性，那么它将使用core::prelude::v1模块中的名称。\n\n-",
+        "# Rust 程序设计语言 中文版\n\n## 附录 E：版本\n\n早在第 1 章，我们见过 cargo new 在 Cargo.toml 中增加了一些有关 edition 的元数据。本附录将解释其意义！\n"
+      ]
+    },
+    {
+      "question_id": "m32",
+      "question": "Rust 中 let 语句的模式解构（pattern destructuring）如何使用？",
+      "answer": "根据文档内容，Rust 中 `let` 语句的模式解构（pattern destructuring）可以通过以下方式使用：\n\n1. **解构结构体**：使用 `let` 绑定来解构结构体，例如：\n   ```rust\n   let Point { x: left_edge, y: top_edge } = point;\n   ```\n   这会从 `point` 结构体中提取 `x` 和 `y` 字段的值，并分别绑定到 `left_edge` 和 `top_edge` 变量。（来源：文档 7 \"结构体\"）\n\n2. **解构元组结构体**：使用 `let` 绑定来解构元组结构体，例如：\n   `",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.7594,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 模式语法\n\n在本书中我们已领略过许多不同类型模式的例子。在本节中，我们收集了模式中所有有效的语法，并讨论了为什么可能要使用每个语法。\n\n---\n\n# Rus",
+        "# Rust 程序设计语言 中文版\n\n## 所有可能会用到模式的位置\n\n模式出现在 Rust 的很多地方。你已经在不经意间使用了很多模式！本部分是一个所有有效模式位置的参考。\n\n---\n\n# Rust",
+        "# Rust 程序设计语言 中文版\n\n## 附录 A：关键字\n\n下面的列表包含 Rust 中正在使用或者以后会用到的关键字。因此，这些关键字不能被用作标识符（除了 “原始标识符” 部分介绍的原始标识符"
+      ]
+    },
+    {
+      "question_id": "m33",
+      "question": "Rust 中如何定义和使用常量（const）和静态变量（static）？",
+      "answer": "根据文档内容，Rust 中常量和静态变量的定义和使用方式如下：\n\n## 常量（const）\n\n**定义方式**：\n- 使用 `const` 关键字声明，需要显式类型声明\n- 不可改变的值\n- 可以在任意作用域声明，包括全局作用域\n\n```rust\nconst THRESHOLD: i32 = 10;\n```\n\n**使用方式**：\n- 可以在函数中直接访问\n- 不能修改 `const` 常量（编译报错）\n\n```rust\nfn is_big(n: i32) -> bool {\n    n > THRESHOLD  // 在函数中访问常量\n}\n\nfn main() {\n    println!(\"",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.788,
+      "sources_preview": [
+        "# 常量\n\n# 常量\n\nRust 有两种常量，可以在任意作用域声明，包括全局作用域。它们都需要显式的类型声明：\n\n- const：不可改变的值（通常使用这种）。\n\n- static：具有 'stati",
+        "# 在static和const中的更简单的生命周期\n\n# 在 static 和 const 中的更简单的生命周期\n\n在以往的 Rust 中，在需要的时候，你必须更加明确的在 static 或者 con",
+        "# 外部块\n\n## 函数\n\n外部块中的函数与其他 Rust函数的声明方式相同，但这里的函数不能有函数体，取而代之的是直接以分号结尾。外部块中的函数的参数不允许使用模式，只能使用标识符(IDENTIFI"
+      ]
+    },
+    {
+      "question_id": "m34",
+      "question": "Rust 中 mut、ref、move 关键字在模式匹配中的作用是什么？",
+      "answer": "根据提供的文档内容，`mut`、`ref`、`move` 关键字在模式匹配中的作用如下：\n\n### 1. `mut` 关键字\n- **作用**：表示引用、裸指针或模式绑定的可变性。\n- **来源**：文档 1（Rust 程序设计语言 中文版 > 目前正在使用的关键字）\n\n### 2. `ref` 关键字\n- **作用**：通过引用绑定。在模式匹配中，`ref` 用于创建对值的引用，而不是获取值的所有权。\n- **来源**：文档 1（Rust 程序设计语言 中文版 > 目前正在使用的关键字）\n- **补充说明**：在文档 6（指针和引用）中进一步解释，`ref` 用于解构时创建引用，例如：\n  ",
+      "context_precision": 0.75,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8091,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 附录 A：关键字\n\n下面的列表包含 Rust 中正在使用或者以后会用到的关键字。因此，这些关键字不能被用作标识符（除了 “原始标识符” 部分介绍的原始标识符",
+        "# 默认匹配绑定\n\n# 默认匹配绑定\n\n你有过借用 Option<T> 然后进行匹配的经历嘛？你可能写成下面这样：\n\n```rust\nlet s: &Option<String> = &Some(\"h",
+        "# 模式\n\n## 解构\n\n模式可用于解构结构体(struct)、枚举(enum)和元组。解构将一个值分解成它的组件组成，使用的句法与创建此类值时的几乎相同。在检验对象表达式的类型为结构体(struct"
+      ]
+    },
+    {
+      "question_id": "m35",
+      "question": "Rust 中 #[derive] 属性可以自动实现哪些 trait？如何自定义 derive？",
+      "answer": "根据提供的文档内容，回答如下：\n\n### 一、可以通过 `#[derive]` 属性自动实现的 trait\n\n根据文档，以下 trait 可以通过 `derive` 属性自动实现：\n\n1. **比较 trait**：`Eq`、`PartialEq`、`Ord`、`PartialOrd`（来源：文档 3 \"派生\" 章节）\n2. **`Clone`**：用来从 `&T` 创建副本 `T`（来源：文档 3 \"派生\" 章节）\n3. **`Copy`**：使类型具有“复制语义”而非“移动语义”（来源：文档 3 \"派生\" 章节）\n4. **`Hash`**：从 `&T` 计算哈希值（来源：文档 3 \"派生",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7887,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 宏\n\n我们已经在本书中使用过像 println! 这样的宏了，不过还没完全探索什么是宏以及它是如何工作的。宏（Macro）指的是 Rust 中一系列的功能：",
+        "# Rust 程序设计语言 中文版\n\n## 附录 C：可派生的 trait\n\n在本书的各个部分中，我们讨论了可应用于结构体和枚举定义的 derive 属性。derive 属性会在使用 derive 语",
+        "# 派生\n\n# 派生\n\n通过 #[derive] 属性，编译器能够提供某些 trait 的基本实现。如果需要更复杂的行为，这些 trait 也可以手动实现。\n\n下面是可以自动派生的 trait：\n\n-"
+      ]
+    },
+    {
+      "question_id": "m36",
+      "question": "Rust 中什么是孤儿规则（orphan rule）？它如何限制 trait 实现？",
+      "answer": "根据提供的文档内容，孤儿规则（orphan rules）是用于检查 trait 实现一致性的规则之一。文档中明确指出：\n\n> 一个 trait实现如果未通过孤儿规则(orphan rules)检查或有 trait实现重叠(implementations overlap)发生，则认为 trait实现不一致(incoherent)。\n\n（来源：reference | 章节：实现 > trait实现的一致性）\n\n关于孤儿规则如何限制 trait 实现，文档中仅提到它是判断 trait 实现是否一致（coherent）的两个条件之一，但**未提供孤儿规则的具体定义或限制细节**。因此，无法进一步说明孤",
+      "context_precision": 0.5,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.627,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## trait：定义共享的行为\n\ntrait 告诉 Rust 编译器某个特定类型拥有可能与其他类型共享的功能。可以通过 trait 以一种抽象的方式定义共享的行",
+        "# 实现\n\n## 固有实现\n\n固有实现被定义为一段由关键字 impl，泛型类型声明，指向标称类型(nominal type)的路径，一个 where子句和一对花括号括起来的一组*类型关联项(assoc",
+        "# Rust 程序设计语言 中文版\n\n## 高级 trait\n\n第 10 章 “trait：定义共享的行为” 部分，我们第一次涉及到了 trait，不过就像生命周期一样，我们并没有覆盖一些较为高级的细"
+      ]
+    },
+    {
+      "question_id": "m37",
+      "question": "Rust 中如何使用 Cargo 管理依赖和 features？[dependencies] 和 [features] 的配置方法？",
+      "answer": "根据提供的文档内容，关于 Cargo 管理依赖和 features 的信息如下：\n\n## 关于 [dependencies] 的配置\n\n文档中提到了 [dependencies] 表块的使用方法：\n\n1. **基本配置**：在 Cargo.toml 文件中，`[dependencies]` 是一个表块的开头，用于列出项目所依赖的任何包（在 Rust 中，代码包被称为 crate）。例如：\n   ```toml\n   [package]\n   name = \"hello_cargo\"\n   version = \"0.1.0\"\n   edition = \"2021\"\n\n   [dependenci",
+      "context_precision": 0.875,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.8889,
+      "answer_relevancy": 0.6154,
+      "sources_preview": [
+        "# 迁移你的代码到新版本\n\n# 迁移你的代码到新版本\n\n新版本可能会改变您编写 Rust 的方式 - 它们会添加新的语法，语言和库功能，但也会删除功能。 例如，try，async和await是 Rus",
+        "# Rust 程序设计语言 中文版\n\n## Hello, Cargo!\n\nCargo 是 Rust 的构建系统和包管理器。大多数 Rustacean 们使用 Cargo 来管理他们的 Rust 项目，",
+        "# 编写猜数字游戏\n\n# 编写猜数字游戏\n\n让我们一起动手完成一个项目，来快速上手 Rust！本章将介绍 Rust 中一些常用概念，并向你展示如何在实际项目中运用它们。你将会学到 let、match、"
+      ]
+    },
+    {
+      "question_id": "m38",
+      "question": "Rust 中什么是关联类型（associated type）？它和泛型参数有什么区别？",
+      "answer": "根据文档内容，关联类型（associated type）是“一个将类型占位符与 trait 相关联的方式，这样 trait 的方法签名中就可以使用这些占位符类型。trait 的实现者会针对特定的实现在这个类型的位置指定相应的具体类型。如此可以定义一个使用多种类型的 trait，直到实现此 trait 时都无需知道这些类型具体是什么。”（来源：book，章节：关联类型在 trait 定义中指定占位符类型）\n\n关联类型和泛型参数的区别在于：\n\n1. **实现次数不同**：当 trait 有泛型参数时，可以多次实现这个 trait，每次需改变泛型参数的具体类型。而通过关联类型，则不能多次实现这个 t",
+      "context_precision": 1.0,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7644,
+      "sources_preview": [
+        "# Rust 程序设计语言 中文版\n\n## 高级 trait\n\n第 10 章 “trait：定义共享的行为” 部分，我们第一次涉及到了 trait，不过就像生命周期一样，我们并没有覆盖一些较为高级的细",
+        "# 关联项\n\n# 关联项\n\n“关联项”（associated item）指与多种类型的项有关的一组规则。它是 trait 泛型的扩展，允许在 trait 内部定义新的项。\n\n一个这样的项就叫做一个关联",
+        "# 关联项\n\n## 关联函数和方法\n\n关联函数是与一个类型相关联的函数。\n\n关联函数声明为关联函数定义声明签名。它的书写格式和函数项一样，除了函数体被替换为 ;。\n\n标识符是关联函数的名称。关联函数的"
+      ]
+    },
+    {
+      "question_id": "m39",
+      "question": "Rust 中如何输出格式化字符串？format!、println!、write! 宏的用法？",
+      "answer": "根据提供的文档内容，Rust 中输出格式化字符串主要通过 `std::fmt` 模块中的宏实现，包括 `format!`、`println!`、`write!` 等。以下是它们的用法说明：\n\n---\n\n### 1. `format!` 宏\n- **功能**：将格式化文本写入字符串（`String`）。\n- **用法**：返回一个 `String` 类型的值。\n- **示例**（来自[文档 1]）：\n  ```rust\n  let s = format!(\"{} days\", 31);  // 返回 \"31 days\"\n  ```\n\n---\n\n### 2. `println!` 宏\n- **功能",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.2727,
+      "answer_relevancy": 0.7788,
+      "sources_preview": [
+        "# 格式化输出\n\n# 格式化输出\n\n打印操作由 std::fmt 里面所定义的一系列宏来处理，包括：\n\n- format!：将格式化文本写到字符串。\n\n- print!：与 format! 类似，但将",
+        "# 格式化\n\n# 格式化\n\n我们已经看到，格式化的方式是通过格式字符串来指定的：\n\n- format!(\"{}\", foo) -> \"3735928559\"\n\n- format!(\"0x{:X}\", ",
+        "# Rust 程序设计语言 中文版\n\n## 一个使用结构体的示例程序\n\n为了理解何时会需要使用结构体，让我们编写一个计算长方形面积的程序。我们会从单独的变量开始，接着重构程序直到使用结构体替代他们为止"
+      ]
+    },
+    {
+      "question_id": "m40",
+      "question": "Rust 中什么是属性（attribute）？常用的内置属性有哪些？",
+      "answer": "根据提供的文档内容，Rust 中的属性（attribute）是应用于某些模块、crate 或项的元数据（metadata）[文档 8]。常用的内置属性包括：\n\n1. **`cfg` 和 `cfg_attr`**：活跃属性，用于条件编译。例如 `#[cfg(test)]` 告诉 Rust 只在执行 `cargo test` 时才编译和运行测试代码 [文档 1][文档 2]。\n\n2. **`test`**：在测试编译形式中是惰性属性，在其他编译形式中是活跃属性。用于标注测试函数 [文档 1][文档 2]。\n\n3. **`inline`**：代码生成属性，用于提示编译器进行内联扩展。有三种形式：\n ",
+      "context_precision": 0.625,
+      "mrr": 1.0,
+      "num_sources": 8,
+      "faithfulness": 0.1765,
+      "answer_relevancy": 0.8171,
+      "sources_preview": [
+        "# 属性\n\n## 元项/元程序项属性句法\n\n“元项(meta item)”是遵循 Attr 产生式（见本章头部）的句法，Rust 的大多数内置属性(built-in attributes)都使用了此句",
+        "# Rust 程序设计语言 中文版\n\n## 测试的组织结构\n\n本章一开始就提到，测试是一个复杂的概念，而且不同的开发者也采用不同的技术和组织。Rust 社区倾向于根据测试的两个主要分类来考虑问题：单元",
+        "# Rust 程序设计语言 中文版\n\n## 如何编写测试\n\nRust 中的测试函数是用来验证非测试代码是否按照期望的方式运行的。测试函数体通常执行如下三种操作：\n\n- 设置任何所需的数据或状态\n\n- "
+      ]
+    }
+  ]
+}

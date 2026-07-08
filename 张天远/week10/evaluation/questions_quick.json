@@ -1,0 +1,28 @@
+[
+  {
+    "question_id": "m24",
+    "question": "Rust 中 Clone 和 Copy trait 的区别是什么？哪些类型实现了 Copy？",
+    "keywords": [
+      "Clone",
+      "Copy",
+      "拷贝",
+      "克隆",
+      "深拷贝",
+      "浅拷贝",
+      "栈",
+      "堆"
+    ]
+  },
+  {
+    "question_id": "m26",
+    "question": "Rust 中什么是函数指针？fn 类型和 Fn trait 有什么区别？",
+    "keywords": [
+      "函数指针",
+      "function pointer",
+      "fn",
+      "Fn",
+      "高阶函数",
+      "回调"
+    ]
+  }
+]
