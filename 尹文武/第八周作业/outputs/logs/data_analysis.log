@@ -1,0 +1,35 @@
+{
+  "sample_count": 68960,
+  "label_distribution": {
+    "0": 34522,
+    "1": 34438
+  },
+  "positive_ratio": 0.4993909512761021,
+  "negative_ratio": 0.5006090487238979,
+  "text1_length_stats": {
+    "mean": 13.346142691415313,
+    "median": 10.0,
+    "max": 47181,
+    "min": 1,
+    "p95": 24.0
+  },
+  "text2_length_stats": {
+    "mean": 14.485600348027843,
+    "median": 10.0,
+    "max": 51842,
+    "min": 1,
+    "p95": 26.0
+  },
+  "length_diff_stats": {
+    "mean": 10.147085266821346,
+    "median": 4.0,
+    "max": 51820,
+    "p95": 19.0
+  },
+  "missing_values": {
+    "text1_missing": 0,
+    "text2_missing": 0,
+    "label_missing": 0
+  },
+  "duplicate_samples": 12
+}

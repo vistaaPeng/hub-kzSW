@@ -1,0 +1,17 @@
+# vLLM 部署演示项目依赖
+# 云端实际环境：torch 2.5.1+cu124 锁死，vLLM 0.7.3
+# pip install 需跳过（已手动安装），详见 run_all_cloud.sh Step 0
+
+# 核心推理引擎（已手动安装，仅记录版本）
+# vllm==0.7.3               # 兼容 torch 2.5.1 的最后版本
+# torch==2.5.1+cu124         # 云端锁死，不可升级
+# transformers==4.57.6       # 4.x 最后稳定版（5.x 删除了 all_special_tokens_extended）
+
+# 运行时依赖（如需重装请用此列表）
+openai>=1.40.0
+jsonschema>=4.20.0
+matplotlib>=3.7.0
+numpy>=1.26.0
+requests>=2.31.0
+httpx>=0.25.0
+accelerate>=1.0.0

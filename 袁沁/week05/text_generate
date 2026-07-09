@@ -1,0 +1,278 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import Dataset, DataLoader
+import math
+import random
+
+# -------------------- 超参数 --------------------
+BATCH_SIZE = 64
+BLOCK_SIZE = 128          # 上下文长度（最大预测依赖长度）
+EMBED_DIM = 256
+N_HEAD = 8
+N_LAYER = 6
+DROPOUT = 0.2
+LEARNING_RATE = 3e-4
+MAX_EPOCHS = 50
+EVAL_INTERVAL = 500
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# -------------------- 数据准备 --------------------
+# 使用一个简短的莎士比亚风格文本（可以直接替换为任意 .txt 文件）
+TEXT = """
+First Witch: When shall we three meet again?
+In thunder, lightning, or in rain?
+Second Witch: When the hurlyburly's done,
+When the battle's lost and won.
+Third Witch: That will be ere the set of sun.
+First Witch: Where the place?
+Second Witch: Upon the heath.
+Third Witch: There to meet with Macbeth.
+"""
+
+# 字符级分词：建立字符 ↔ 索引映射
+chars = sorted(list(set(TEXT)))
+vocab_size = len(chars)
+stoi = {ch: i for i, ch in enumerate(chars)}
+itos = {i: ch for i, ch in enumerate(chars)}
+encode = lambda s: [stoi[c] for c in s]          # 字符串 → token列表
+decode = lambda l: ''.join([itos[i] for i in l])  # token列表 → 字符串
+
+# 将整个文本转换为 tensor
+data = torch.tensor(encode(TEXT), dtype=torch.long)
+
+# 训练/验证分割（90% 训练，10% 验证）
+n = int(0.9 * len(data))
+train_data = data[:n]
+val_data = data[n:]
+
+class CharDataset(Dataset):
+    def __init__(self, data, block_size):
+        self.data = data
+        self.block_size = block_size
+
+    def __len__(self):
+        return len(self.data) - self.block_size
+
+    def __getitem__(self, idx):
+        x = self.data[idx:idx+self.block_size]
+        y = self.data[idx+1:idx+self.block_size+1]
+        return x, y
+
+train_dataset = CharDataset(train_data, BLOCK_SIZE)
+val_dataset = CharDataset(val_data, BLOCK_SIZE)
+
+train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
+
+# -------------------- 模型定义 --------------------
+class SelfAttention(nn.Module):
+    """单头自注意力（带有因果掩码）"""
+    def __init__(self, embed_dim, dropout=0.1):
+        super().__init__()
+        self.key = nn.Linear(embed_dim, embed_dim, bias=False)
+        self.query = nn.Linear(embed_dim, embed_dim, bias=False)
+        self.value = nn.Linear(embed_dim, embed_dim, bias=False)
+        self.dropout = nn.Dropout(dropout)
+        # 因果掩码将在 forward 中生成
+
+    def forward(self, x):
+        B, T, C = x.shape
+        k = self.key(x)   # (B,T,C)
+        q = self.query(x) # (B,T,C)
+        v = self.value(x)
+
+        # 缩放点积注意力
+        att = (q @ k.transpose(-2, -1)) / math.sqrt(C)  # (B,T,T)
+        # 生成因果掩码（上三角为 -inf）
+        mask = torch.triu(torch.ones(T, T, device=x.device), diagonal=1).bool()
+        att = att.masked_fill(mask, float('-inf'))
+        att = F.softmax(att, dim=-1)
+        att = self.dropout(att)
+        out = att @ v   # (B,T,C)
+        return out
+
+class MultiHeadAttention(nn.Module):
+    """多头自注意力"""
+    def __init__(self, embed_dim, n_head, dropout=0.1):
+        super().__init__()
+        assert embed_dim % n_head == 0
+        self.n_head = n_head
+        self.head_dim = embed_dim // n_head
+        self.attentions = nn.ModuleList([SelfAttention(embed_dim, dropout) for _ in range(n_head)])
+        self.proj = nn.Linear(embed_dim, embed_dim)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        # 分别计算每个头，最后拼接
+        out = torch.cat([att(x) for att in self.attentions], dim=-1)
+        out = self.proj(out)
+        out = self.dropout(out)
+        return out
+
+class FeedForward(nn.Module):
+    """前馈网络（MLP）"""
+    def __init__(self, embed_dim, dropout=0.1):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(embed_dim, 4 * embed_dim),
+            nn.GELU(),
+            nn.Linear(4 * embed_dim, embed_dim),
+            nn.Dropout(dropout)
+        )
+
+    def forward(self, x):
+        return self.net(x)
+
+class TransformerBlock(nn.Module):
+    """一个完整的 Transformer Decoder 块"""
+    def __init__(self, embed_dim, n_head, dropout=0.1):
+        super().__init__()
+        self.ln1 = nn.LayerNorm(embed_dim)
+        self.attn = MultiHeadAttention(embed_dim, n_head, dropout)
+        self.ln2 = nn.LayerNorm(embed_dim)
+        self.ff = FeedForward(embed_dim, dropout)
+
+    def forward(self, x):
+        x = x + self.attn(self.ln1(x))   # 残差 + 层归一化
+        x = x + self.ff(self.ln2(x))
+        return x
+
+class LanguageModel(nn.Module):
+    def __init__(self, vocab_size, embed_dim, n_head, n_layer, block_size, dropout=0.1):
+        super().__init__()
+        self.token_embedding = nn.Embedding(vocab_size, embed_dim)
+        self.position_embedding = nn.Embedding(block_size, embed_dim)
+        self.blocks = nn.Sequential(*[TransformerBlock(embed_dim, n_head, dropout) for _ in range(n_layer)])
+        self.ln_f = nn.LayerNorm(embed_dim)
+        self.head = nn.Linear(embed_dim, vocab_size)
+
+        # 权重初始化
+        self.apply(self._init_weights)
+
+    def _init_weights(self, module):
+        if isinstance(module, (nn.Linear, nn.Embedding)):
+            torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+            if isinstance(module, nn.Linear) and module.bias is not None:
+                torch.nn.init.zeros_(module.bias)
+
+    def forward(self, idx, targets=None):
+        B, T = idx.shape
+        assert T <= self.position_embedding.num_embeddings, "序列长度超过位置编码表大小"
+
+        # 词嵌入 + 位置嵌入
+        tok_emb = self.token_embedding(idx)                     # (B,T,C)
+        pos_emb = self.position_embedding(torch.arange(T, device=idx.device))  # (T,C)
+        x = tok_emb + pos_emb                                   # (B,T,C)
+
+        x = self.blocks(x)                                      # 通过所有 Transformer 块
+        x = self.ln_f(x)
+        logits = self.head(x)                                   # (B,T,vocab_size)
+
+        loss = None
+        if targets is not None:
+            B, T, C = logits.shape
+            logits = logits.view(B*T, C)
+            targets = targets.view(B*T)
+            loss = F.cross_entropy(logits, targets)
+
+        return logits, loss
+
+    @torch.no_grad()
+    def generate(self, idx, max_new_tokens, temperature=1.0, top_k=None):
+        """自回归生成文本
+        idx: 起始 token 序列 (1, T)
+        """
+        for _ in range(max_new_tokens):
+            # 如果当前序列长度超过 block_size，只取最后 block_size 个 token
+            idx_cond = idx if idx.size(1) <= BLOCK_SIZE else idx[:, -BLOCK_SIZE:]
+            logits, _ = self.forward(idx_cond)
+            logits = logits[:, -1, :] / temperature          # 取最后一个时间步
+
+            if top_k is not None:
+                v, _ = torch.topk(logits, min(top_k, logits.size(-1)))
+                logits[logits < v[:, [-1]]] = -float('Inf')
+
+            probs = F.softmax(logits, dim=-1)
+            next_token = torch.multinomial(probs, num_samples=1)
+            idx = torch.cat([idx, next_token], dim=1)
+
+        return idx
+
+# -------------------- 训练 --------------------
+model = LanguageModel(vocab_size, EMBED_DIM, N_HEAD, N_LAYER, BLOCK_SIZE, DROPOUT).to(DEVICE)
+optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
+
+def estimate_loss():
+    """在训练和验证集上评估 loss"""
+    model.eval()
+    losses = {}
+    for split, loader in [('train', train_loader), ('val', val_loader)]:
+        total_loss = 0
+        steps = 0
+        with torch.no_grad():
+            for x, y in loader:
+                x, y = x.to(DEVICE), y.to(DEVICE)
+                _, loss = model(x, y)
+                total_loss += loss.item()
+                steps += 1
+                if steps > 50:   # 为加速评估，只取前50个batch
+                    break
+        losses[split] = total_loss / steps
+    model.train()
+    return losses
+
+print(f"训练设备: {DEVICE}")
+print(f"模型参数量: {sum(p.numel() for p in model.parameters())/1e6:.2f}M")
+
+for epoch in range(MAX_EPOCHS):
+    model.train()
+    total_loss = 0
+    for i, (x, y) in enumerate(train_loader):
+        x, y = x.to(DEVICE), y.to(DEVICE)
+        logits, loss = model(x, y)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
+
+        total_loss += loss.item()
+        if i % 100 == 0 and i > 0:
+            print(f"epoch {epoch+1:2d} | step {i:4d} | loss: {loss.item():.4f}")
+
+        if i % EVAL_INTERVAL == 0:
+            losses = estimate_loss()
+            print(f"step {i}: train_loss {losses['train']:.4f}, val_loss {losses['val']:.4f}")
+
+    avg_loss = total_loss / len(train_loader)
+    print(f"Epoch {epoch+1} finished, average loss: {avg_loss:.4f}")
+
+# 保存模型
+torch.save(model.state_dict(), "language_model.pth")
+print("模型已保存为 language_model.pth")
+
+# -------------------- 文本生成示例 --------------------
+def generate_text(prompt, max_new_tokens=100, temperature=0.8, top_k=40):
+    model.eval()
+    start_ids = encode(prompt)
+    idx = torch.tensor([start_ids], dtype=torch.long, device=DEVICE)
+    generated = model.generate(idx, max_new_tokens, temperature, top_k)
+    return decode(generated[0].tolist())
+
+print("\n" + "="*50)
+print("生成示例（temperature=0.8, top_k=40）:")
+print("="*50)
+prompt = "First Witch:"
+print(f"prompt: {prompt}")
+print(generate_text(prompt, max_new_tokens=150, temperature=0.8, top_k=40))
+
+# 也可以尝试不同温度
+print("\n" + "="*50)
+print("高随机性生成（temperature=1.2）:")
+print("="*50)
+print(generate_text("Second Witch:", max_new_tokens=100, temperature=1.2, top_k=60))
+
+# 如果你想从空白开始生成
+print("\n" + "="*50)
+print("从空字符开始生成:")
+print("="*50)
+print(generate_text("", max_new_tokens=100, temperature=0.8, top_k=40))

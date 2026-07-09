@@ -1,0 +1,60 @@
+{
+  "config": {
+    "transformers_model": "C:/Users/sean/Downloads/LLM_modules/qwen2.5-7b",
+    "ollama_base_url": "http://127.0.0.1:11434",
+    "ollama_model": "qwen2.5:7b",
+    "n_prompts": 50,
+    "max_new_tokens": 100,
+    "batch_size": 8,
+    "concurrency": 8,
+    "keep_alive": "30m"
+  },
+  "results": {
+    "transformers_serial": {
+      "time": 747.4258721000515,
+      "successful": 50,
+      "request_errors": 0,
+      "gen_tokens": 5000,
+      "qps": 0.06689626605982263,
+      "tps": 6.689626605982262,
+      "avg_latency": 14.948476821996737,
+      "p50_latency": 15.676608650013804,
+      "p95_latency": 25.157010009954682
+    },
+    "transformers_batch": {
+      "time": 492.4474151999457,
+      "successful": 50,
+      "request_errors": 0,
+      "gen_tokens": 5000,
+      "qps": 0.10153368350953529,
+      "tps": 10.153368350953528,
+      "avg_latency": 74.38298218398354,
+      "p50_latency": 74.33074380003382,
+      "p95_latency": 80.16119309992064
+    },
+    "ollama_serial": {
+      "time": 37.612742500030436,
+      "successful": 50,
+      "request_errors": 0,
+      "gen_tokens": 5000,
+      "qps": 1.3293367267744314,
+      "tps": 132.93367267744313,
+      "avg_latency": 0.7521983100054785,
+      "p50_latency": 0.7449252500082366,
+      "p95_latency": 0.7898007249692455,
+      "errors": []
+    },
+    "ollama_concurrent": {
+      "time": 33.21144699992146,
+      "successful": 50,
+      "request_errors": 0,
+      "gen_tokens": 5000,
+      "qps": 1.5055050145848279,
+      "tps": 150.55050145848278,
+      "avg_latency": 4.949011672004126,
+      "p50_latency": 5.258463949954603,
+      "p95_latency": 5.485650529956911,
+      "errors": []
+    }
+  }
+}

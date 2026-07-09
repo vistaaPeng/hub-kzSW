@@ -1,0 +1,27 @@
+{
+  "model": "/root/autodl-tmp/huggingface_cache/hub/models--openbmb--MiniCPM5-1B/snapshots/4e9de7a0778dc1c362e983e6858f0e77542cbdca",
+  "model_name": "4e9de7a0778dc1c362e983e6858f0e77542cbdca",
+  "n_prompts": 50,
+  "max_new_tokens": 100,
+  "batch_size": 8,
+  "results": {
+    "serial": {
+      "time": 52.12341570854187,
+      "gen_tokens": 5000,
+      "qps": 0.9592617697885465,
+      "tps": 95.92617697885466
+    },
+    "batch": {
+      "time": 8.873998403549194,
+      "gen_tokens": 5000,
+      "qps": 5.634438696766305,
+      "tps": 563.4438696766306
+    },
+    "vllm": {
+      "time": 0.8748087882995605,
+      "gen_tokens": 5000,
+      "qps": 57.15534716699544,
+      "tps": 5715.534716699543
+    }
+  }
+}

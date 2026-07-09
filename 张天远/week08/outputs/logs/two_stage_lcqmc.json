@@ -1,0 +1,40 @@
+{
+  "k": 100,
+  "n_val": 8802,
+  "n_pos_queries": 4402,
+  "pair_classification": {
+    "biencoder": {
+      "accuracy": 0.7921,
+      "f1_weighted": 0.792,
+      "threshold": 0.8
+    },
+    "crossencoder": {
+      "accuracy": 0.8208,
+      "f1_weighted": 0.8207
+    }
+  },
+  "retrieval": {
+    "biencoder": {
+      "mrr": 0.6161,
+      "recall_at_k": {
+        "1": 0.4575,
+        "5": 0.8119,
+        "10": 0.8462,
+        "20": 0.8705,
+        "50": 0.8985,
+        "100": 0.9141
+      }
+    },
+    "crossencoder_rerank": {
+      "mrr": 0.7631,
+      "recall_at_k": {
+        "1": 0.5931,
+        "5": 0.9839,
+        "10": 0.9952,
+        "20": 0.9989,
+        "50": 1.0,
+        "100": 1.0
+      }
+    }
+  }
+}

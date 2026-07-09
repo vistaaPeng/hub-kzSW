@@ -1,0 +1,11 @@
+{
+  "dataset": "C:\\Users\\sean\\Projects\\hub-kzSW\\尹文武\\第八周作业\\data\\bq_corpus\\test.jsonl",
+  "model_path": "C:\\Users\\sean\\Projects\\hub-kzSW\\尹文武\\第八周作业\\outputs\\checkpoints\\best_model.pt",
+  "metrics": {
+    "accuracy": 0.9032482598607888,
+    "precision": 0.8981149012567325,
+    "recall": 0.9132816065723414,
+    "f1": 0.9056347589952478
+  },
+  "sample_count": 8620
+}

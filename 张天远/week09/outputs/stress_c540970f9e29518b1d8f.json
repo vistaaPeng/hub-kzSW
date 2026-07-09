@@ -1,0 +1,41 @@
+{
+  "model": "/root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d",
+  "model_name": "c540970f9e29518b1d8f06ab8b24cba66ad77b6d",
+  "n_prompts": 200,
+  "results": [
+    {
+      "mode": "serial",
+      "total_time": 97.26702404022217,
+      "n": 200,
+      "gen_tokens": 9252,
+      "qps": 2.056195323887933,
+      "tps": 95.11959568305579,
+      "latency_p50": 0.3445615768432617,
+      "latency_p95": 0.843522822856903,
+      "latency_p99": 0.8520478868484497
+    },
+    {
+      "mode": "batch=32",
+      "total_time": 7.604490518569946,
+      "n": 200,
+      "gen_tokens": 9265,
+      "qps": 26.30024976842377,
+      "tps": 1218.3590705222311,
+      "latency_p50": 1.077773094177246,
+      "latency_p95": 1.1077353954315186,
+      "latency_p99": 1.1077353954315186
+    },
+    {
+      "mode": "vLLM",
+      "total_time": 1.375507116317749,
+      "n": 200,
+      "gen_tokens": 9570,
+      "qps": 145.40091986975878,
+      "tps": 6957.434015767958,
+      "latency_p50": 0.9561907052993774,
+      "latency_p95": 1.366187572479248,
+      "latency_p99": 1.3716944503784179,
+      "gpu_util_approx": "~95%"
+    }
+  ]
+}

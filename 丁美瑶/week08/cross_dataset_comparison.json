@@ -1,0 +1,22 @@
+{
+  "bq_corpus": {
+    "biencoder_cosine": {
+      "threshold": 0.68,
+      "accuracy": 0.8647,
+      "f1": 0.8646,
+      "output": "设备: cuda\n加载 checkpoint: D:\\workspace\\AA\\w8\\文本匹配项目\\outputs\\checkpoints\\bq_corpus_biencoder_cosine_best.pt\n训练信息: {'bert_path': 'D:\\\\workspace\\\\AA\\\\w8\\\\文本匹配项目\\\\bert-base-chinese\\\\bert-base-chinese', 'data_dir': 'D:\\\\workspace\\\\AA\\\\w8\\\\文本匹配项目\\\\data\\\\bq_corpus', 'loss': 'cosine', 'pool': 'mean', 'num_hidden_layers': 4, 'epochs': 3, 'batch_size': 32, 'max_length': 64, 'lr': 2e-05, 'head_lr_mult': 5.0, 'warmup_ratio': 0.1, 'grad_accum': 1, 'margin': 0.3}\n模型: BiEncoder (pool=mean, layers=4)\n参数量: 45.6M  (BERT 骨干: 45.6M)\n\n==================================================\nBiEncoder 评估结果（validation，8620 条）\n  最优阈值: 0.68\n  Accuracy: 0.8647\n  F1      : 0.8646\n  AUC     : 0.9247\n  图表已保存 → D:\\workspace\\AA\\w8\\文本匹配项目\\outputs\\figures\\biencoder_validation_sim_dist.png\n\n              precision    recall  f1-score   support\n\n         不相似       0.89      0.83      0.86      4291\n          相似       0.84      0.90      0.87      4329\n\n    accuracy                           0.86      8620\n   macro avg       0.87      0.86      0.86      8620\nweighted avg       0.87      0.86      0.86      8620\n\n\u001b[0m"
+    },
+    "biencoder_triplet": {
+      "threshold": 0.54,
+      "accuracy": 0.8586,
+      "f1": 0.8586,
+      "output": "设备: cuda\n加载 checkpoint: D:\\workspace\\AA\\w8\\文本匹配项目\\outputs\\checkpoints\\bq_corpus_biencoder_triplet_best.pt\n训练信息: {'bert_path': 'D:\\\\workspace\\\\AA\\\\w8\\\\文本匹配项目\\\\bert-base-chinese\\\\bert-base-chinese', 'data_dir': 'D:\\\\workspace\\\\AA\\\\w8\\\\文本匹配项目\\\\data\\\\bq_corpus', 'loss': 'triplet', 'pool': 'mean', 'num_hidden_layers': 4, 'epochs': 3, 'batch_size': 32, 'max_length': 64, 'lr': 2e-05, 'head_lr_mult': 5.0, 'warmup_ratio': 0.1, 'grad_accum': 1, 'margin': 0.3}\n模型: BiEncoder (pool=mean, layers=4)\n参数量: 45.6M  (BERT 骨干: 45.6M)\n\n==================================================\nBiEncoder 评估结果（validation，8620 条）\n  最优阈值: 0.54\n  Accuracy: 0.8586\n  F1      : 0.8586\n  AUC     : 0.9293\n  图表已保存 → D:\\workspace\\AA\\w8\\文本匹配项目\\outputs\\figures\\biencoder_validation_sim_dist.png\n\n              precision    recall  f1-score   support\n\n         不相似       0.87      0.84      0.86      4291\n          相似       0.85      0.87      0.86      4329\n\n    accuracy                           0.86      8620\n   macro avg       0.86      0.86      0.86      8620\nweighted avg       0.86      0.86      0.86      8620\n\n\u001b[0m"
+    },
+    "crossencoder": {
+      "accuracy": 0.8806,
+      "f1": 0.8806,
+      "output": "设备: cuda\n加载 checkpoint: D:\\workspace\\AA\\w8\\文本匹配项目\\outputs\\checkpoints\\bq_corpus_crossencoder_best.pt\n训练信息: {'bert_path': 'D:\\\\workspace\\\\AA\\\\w8\\\\文本匹配项目\\\\bert-base-chinese\\\\bert-base-chinese', 'data_dir': 'D:\\\\workspace\\\\AA\\\\w8\\\\文本匹配项目\\\\data\\\\bq_corpus', 'num_hidden_layers': 4, 'epochs': 3, 'batch_size': 32, 'max_length': 128, 'lr': 2e-05, 'head_lr_mult': 5.0, 'warmup_ratio': 0.1, 'grad_accum': 1}\n模型: CrossEncoder (layers=4)\n参数量: 45.6M  (BERT 骨干: 45.6M)\n\n==================================================\nCrossEncoder 评估结果（validation，8620 条）\n  Accuracy: 0.8806\n  F1      : 0.8806\n\n              precision    recall  f1-score   support\n\n         不相似       0.88      0.89      0.88      4291\n          相似       0.89      0.87      0.88      4329\n\n    accuracy                           0.88      8620\n   macro avg       0.88      0.88      0.88      8620\nweighted avg       0.88      0.88      0.88      8620\n\n\u001b[0m"
+    }
+  },
+  "lcqmc": {}
+}

@@ -1,0 +1,101 @@
+{
+  "backend": "ollama",
+  "base_url": "http://192.168.0.112:11434",
+  "model": "qwen3:14b",
+  "results": {
+    "stock": {
+      "stats": {
+        "raw": {
+          "is_json": 50,
+          "has_required": 50,
+          "schema_valid": 50,
+          "total_latency": 32.565382099710405,
+          "request_errors": 0
+        },
+        "json_mode": {
+          "is_json": 50,
+          "has_required": 50,
+          "schema_valid": 50,
+          "total_latency": 31.76879920018837,
+          "request_errors": 0
+        },
+        "schema": {
+          "is_json": 50,
+          "has_required": 50,
+          "schema_valid": 50,
+          "total_latency": 23.406872600317,
+          "request_errors": 0
+        }
+      },
+      "fails": {
+        "raw": [],
+        "json_mode": [],
+        "schema": []
+      },
+      "n": 50
+    },
+    "order": {
+      "stats": {
+        "raw": {
+          "is_json": 50,
+          "has_required": 49,
+          "schema_valid": 40,
+          "total_latency": 40.07148519996554,
+          "request_errors": 0
+        },
+        "json_mode": {
+          "is_json": 50,
+          "has_required": 49,
+          "schema_valid": 40,
+          "total_latency": 39.38541400048416,
+          "request_errors": 0
+        },
+        "schema": {
+          "is_json": 50,
+          "has_required": 50,
+          "schema_valid": 50,
+          "total_latency": 33.51783559960313,
+          "request_errors": 0
+        }
+      },
+      "fails": {
+        "raw": [
+          {
+            "user": "给我 200 个鼠标，电话 13912345678",
+            "output": "{\"product\": \"鼠标\", \"quantity\": 200, \"user_phone\": \"13912345678\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+            "error": "schema: 200 is greater than the maximum of 100"
+          },
+          {
+            "user": "订 0 个苹果，13812345678",
+            "output": "{\"product\": \"苹果\", \"quantity\": 0, \"user_phone\": \"13812345678\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+            "error": "schema: 0 is less than the minimum of 1"
+          },
+          {
+            "user": "1000 瓶矿泉水，13755556666",
+            "output": "{\"product\": \"矿泉水\", \"quantity\": 1000, \"user_phone\": \"13755556666\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+            "error": "schema: 1000 is greater than the maximum of 100"
+          }
+        ],
+        "json_mode": [
+          {
+            "user": "给我 200 个鼠标，电话 13912345678",
+            "output": "{\"product\": \"鼠标\", \"quantity\": 200, \"user_phone\": \"13912345678\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+            "error": "schema: 200 is greater than the maximum of 100"
+          },
+          {
+            "user": "订 0 个苹果，13812345678",
+            "output": "{\"product\": \"苹果\", \"quantity\": 0, \"user_phone\": \"13812345678\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+            "error": "schema: 0 is less than the minimum of 1"
+          },
+          {
+            "user": "1000 瓶矿泉水，13755556666",
+            "output": "{\"product\": \"矿泉水\", \"quantity\": 1000, \"user_phone\": \"13755556666\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+            "error": "schema: 1000 is greater than the maximum of 100"
+          }
+        ],
+        "schema": []
+      },
+      "n": 50
+    }
+  }
+}

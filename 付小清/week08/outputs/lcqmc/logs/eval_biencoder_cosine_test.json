@@ -1,0 +1,12 @@
+{
+  "dataset": "lcqmc",
+  "model_type": "biencoder",
+  "loss": "cosine",
+  "split": "test",
+  "num_samples": 12500,
+  "accuracy": 0.82208,
+  "f1": 0.8220744202538193,
+  "f1_pos": 0.8230708035003977,
+  "threshold": 0.97,
+  "auc": 0.9047989248000001
+}

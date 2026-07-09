@@ -1,0 +1,210 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.preprocessing import LabelEncoder
+
+# 示例数据（实际可替换为IMDB等）
+data = pd.DataFrame({
+    'text': [
+        '这部电影太好看了', '非常糟糕，浪费时间', '演技精湛，故事动人',
+        '剧情无聊，很差劲', '强烈推荐，满分', '再也不会看了'
+    ],
+    'label': [1, 0, 1, 0, 1, 0]
+})
+
+# 划分训练/测试
+X_train, X_test, y_train, y_test = train_test_split(
+    data['text'], data['label'], test_size=0.3, random_state=42
+)
+
+# 标签编码（BERT等需要）
+le = LabelEncoder()
+y_train_enc = le.fit_transform(y_train)
+y_test_enc = le.transform(y_test)
+
+
+
+### 朴素贝叶斯
+
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score
+
+# 构建Pipeline
+nb_pipeline = Pipeline([
+    ('vec', CountVectorizer(max_features=5000)),  # 词频特征
+    ('clf', MultinomialNB(alpha=1.0))             # 平滑参数
+])
+
+# 训练
+nb_pipeline.fit(X_train, y_train)
+
+# 预测 & 评估
+y_pred = nb_pipeline.predict(X_test)
+print("Naive Bayes Accuracy:", accuracy_score(y_test, y_pred))
+
+
+
+## SVM
+from sklearn.svm import LinearSVC
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+# 构建Pipeline
+svm_pipeline = Pipeline([
+    ('tfidf', TfidfVectorizer(max_features=5000, ngram_range=(1,2))),  # 含二元词组
+    ('clf', LinearSVC(C=1.0, class_weight='balanced', random_state=42))
+])
+
+# 训练
+svm_pipeline.fit(X_train, y_train)
+
+# 预测 & 评估
+y_pred = svm_pipeline.predict(X_test)
+print("SVM Accuracy:", accuracy_score(y_test, y_pred))
+
+
+#### BERT #####
+import torch
+from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
+from torch.utils.data import Dataset
+
+# 自定义数据集类
+class TextDataset(Dataset):
+    def __init__(self, texts, labels, tokenizer, max_len=128):
+        self.texts = texts
+        self.labels = labels
+        self.tokenizer = tokenizer
+        self.max_len = max_len
+
+    def __len__(self):
+        return len(self.texts)
+
+    def __getitem__(self, idx):
+        text = str(self.texts[idx])
+        label = self.labels[idx]
+        encoding = self.tokenizer(
+            text,
+            truncation=True,
+            padding='max_length',
+            max_length=self.max_len,
+            return_tensors='pt'
+        )
+        return {
+            'input_ids': encoding['input_ids'].flatten(),
+            'attention_mask': encoding['attention_mask'].flatten(),
+            'labels': torch.tensor(label, dtype=torch.long)
+        }
+
+# 加载预训练模型和分词器（中文BERT）
+model_name = 'bert-base-chinese'
+tokenizer = BertTokenizer.from_pretrained(model_name)
+model = BertForSequenceClassification.from_pretrained(model_name, num_labels=2)
+
+# 准备数据
+train_dataset = TextDataset(X_train.tolist(), y_train_enc.tolist(), tokenizer)
+test_dataset = TextDataset(X_test.tolist(), y_test_enc.tolist(), tokenizer)
+
+# 训练参数（小数据下快速演示）
+training_args = TrainingArguments(
+    output_dir='./results',
+    num_train_epochs=3,
+    per_device_train_batch_size=2,
+    per_device_eval_batch_size=2,
+    warmup_steps=5,
+    weight_decay=0.01,
+    logging_dir='./logs',
+    logging_steps=1,
+    evaluation_strategy="epoch"
+)
+
+# 创建Trainer并训练
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=test_dataset
+)
+
+trainer.train()
+
+# 评估
+results = trainer.evaluate()
+print("BERT Accuracy:", results['eval_accuracy'])  # 需在TrainingArgs中加入metric
+
+
+
+
+##### LLM ####
+
+from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
+from peft import LoraConfig, get_peft_model, TaskType
+import torch
+
+# 以Qwen2-0.5B为例（可换为ChatGLM3-6B）
+model_name = "Qwen/Qwen2-0.5B-Instruct"
+tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype=torch.bfloat16,
+    device_map="auto",
+    trust_remote_code=True
+)
+
+# 配置LoRA
+lora_config = LoraConfig(
+    task_type=TaskType.CAUSAL_LM,
+    r=8,
+    lora_alpha=32,
+    lora_dropout=0.1,
+    target_modules=["q_proj", "v_proj"]  # 不同模型需调整
+)
+model = get_peft_model(model, lora_config)
+
+# 构造指令格式数据（将分类转为生成）
+def format_instruction(text, label=None):
+    prompt = f"判断以下评论的情感，只回答'正向'或'负向'：\n{text}\n情感："
+    if label is not None:
+        return prompt + ("正向" if label==1 else "负向")
+    return prompt
+
+# 训练集处理（需将文本转为input_ids，并计算labels）
+def tokenize_function(examples):
+    inputs = [format_instruction(t, l) for t, l in zip(examples['text'], examples['label'])]
+    model_inputs = tokenizer(inputs, truncation=True, padding='max_length', max_length=256)
+    # labels = input_ids（因果LM）
+    model_inputs['labels'] = model_inputs['input_ids'].copy()
+    return model_inputs
+
+# 假设有DataFrame train_df, test_df
+# from datasets import Dataset
+# train_dataset = Dataset.from_pandas(train_df).map(tokenize_function, batched=True)
+
+# 训练参数
+training_args = TrainingArguments(
+    output_dir="./llm_results",
+    num_train_epochs=3,
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=4,
+    logging_steps=10,
+    save_strategy="epoch",
+    learning_rate=2e-4,
+    fp16=True,
+)
+
+# Trainer训练
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    # eval_dataset=...
+)
+trainer.train()
+
+# 推理测试
+def predict(text):
+    prompt = format_instruction(text)
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    outputs = model.generate(**inputs, max_new_tokens=3)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)[-2:]  # 取"正向"/"负向"
+
+print("LLM预测结果:", predict("这部电影太棒了！"))

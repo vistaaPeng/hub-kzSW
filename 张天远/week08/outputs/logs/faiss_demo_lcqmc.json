@@ -1,0 +1,40 @@
+{
+  "dataset": "lcqmc",
+  "corpus_size": 15917,
+  "dim": 768,
+  "nlist": 200,
+  "n_queries": 200,
+  "k": 10,
+  "index_flat": {
+    "build_s": 0.04363393783569336,
+    "latency_ms": 5.6696,
+    "recall@10": 1.0
+  },
+  "index_ivf": [
+    {
+      "nprobe": 1,
+      "latency_ms": 0.0487,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 2,
+      "latency_ms": 0.059,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 5,
+      "latency_ms": 0.1091,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 10,
+      "latency_ms": 0.1961,
+      "recall@10": 1.0
+    },
+    {
+      "nprobe": 20,
+      "latency_ms": 2.043,
+      "recall@10": 1.0
+    }
+  ]
+}

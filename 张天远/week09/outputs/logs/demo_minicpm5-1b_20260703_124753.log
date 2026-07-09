@@ -1,0 +1,29 @@
+=== Fri Jul  3 12:56:44 CST 2026 demo_guided_choice.py ===
+======================================================================
+  Demo: guided_choice（枚举约束）
+  Model: minicpm5-1b   Choices: ['查股价', '查财报', '查新闻', '对比分析', '其他']
+======================================================================
+
+问题                              真值        裸 prompt 输出         guided 输出      
+------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/autodl-tmp/vllm_deployment/src/demo_guided_choice.py", line 139, in <module>
+    main()
+  File "/root/autodl-tmp/vllm_deployment/src/demo_guided_choice.py", line 102, in main
+    raw_out, raw_dt = run_without_guided(user_msg)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/vllm_deployment/src/demo_guided_choice.py", line 58, in run_without_guided
+    resp = client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/vllm_env/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/vllm_env/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1251, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/root/vllm_env/lib/python3.12/site-packages/openai/_base_client.py", line 1332, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/vllm_env/lib/python3.12/site-packages/openai/_base_client.py", line 1105, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'object': 'error', 'message': 'The model `minicpm5-1b` does not exist.', 'type': 'NotFoundError', 'param': None, 'code': 404}
