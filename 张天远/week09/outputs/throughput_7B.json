@@ -1,0 +1,23 @@
+{
+  "model": "/root/autodl-tmp/huggingface_cache/Qwen2.5-7B-Instruct/Qwen/Qwen2___5-7B-Instruct",
+  "model_name": "Qwen2.5-7B-Instruct",
+  "n": 20,
+  "max_tokens": 50,
+  "results": {
+    "serial": {
+      "time": 18.904590129852295,
+      "qps": 1.0579441216457763,
+      "tps": 52.89720608228882
+    },
+    "batch": {
+      "time": 5.399656772613525,
+      "qps": 3.703939128397537,
+      "tps": 185.19695641987687
+    },
+    "vllm": {
+      "time": 1.0791330337524414,
+      "qps": 18.53339613787423,
+      "tps": 926.6698068937116
+    }
+  }
+}

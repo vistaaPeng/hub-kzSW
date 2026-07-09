@@ -1,0 +1,28 @@
+{
+  "gpu": "NVIDIA GeForce GTX 1060 6GB",
+  "engine": "llama-cpp-python (Ollama 同款 llama.cpp 引擎)",
+  "gguf_model": "/mnt/e/DeepLearning/week9/pretrain_models/Qwen2-0.5B-GGUF/qwen2-0_5b-instruct-q4_k_m.gguf",
+  "n_prompts": 50,
+  "max_new_tokens": 100,
+  "results": {
+    "serial": {
+      "time": 150.0543999671936,
+      "gen_tokens": 3642,
+      "qps": 0.33321248834377065,
+      "tps": 24.271197650960254
+    },
+    "batch": {
+      "time": 56.48833680152893,
+      "gen_tokens": 3581,
+      "qps": 0.8851384698344789,
+      "tps": 63.39361720954538
+    },
+    "llamacpp": {
+      "time": 134.94760394096375,
+      "gen_tokens": 5000,
+      "qps": 0.37051417394467984,
+      "tps": 37.05141739446798,
+      "_note": "llama.cpp + GGUF Q4（Ollama 同款引擎，GTX 1060 可用）"
+    }
+  }
+}

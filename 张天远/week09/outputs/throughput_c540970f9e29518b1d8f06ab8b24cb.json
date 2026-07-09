@@ -1,0 +1,27 @@
+{
+  "model": "/root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d",
+  "model_name": "c540970f9e29518b1d8f06ab8b24cba66ad77b6d",
+  "n_prompts": 50,
+  "max_new_tokens": 100,
+  "batch_size": 8,
+  "results": {
+    "serial": {
+      "time": 35.47571134567261,
+      "gen_tokens": 3639,
+      "qps": 1.4094150082799985,
+      "tps": 102.5772243026183
+    },
+    "batch": {
+      "time": 8.99785327911377,
+      "gen_tokens": 3711,
+      "qps": 5.556881008058033,
+      "tps": 412.4317084180672
+    },
+    "vllm": {
+      "time": 0.7887911796569824,
+      "gen_tokens": 3342,
+      "qps": 63.388132739698285,
+      "tps": 4236.8627923214335
+    }
+  }
+}

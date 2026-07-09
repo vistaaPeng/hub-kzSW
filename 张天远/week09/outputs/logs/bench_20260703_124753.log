@@ -1,0 +1,149 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+======================================================================
+  Throughput Benchmark: c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+  50 prompts × max 100 new tokens
+======================================================================
+
+======================================================================
+  加载 transformers c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+======================================================================
+
+[A] transformers 串行（一次一条）...
+    进度 10/50
+    进度 20/50
+    进度 30/50
+    进度 40/50
+    进度 50/50
+
+[B] transformers batch=8（手动 padding）...
+    进度 batch 1/7
+    进度 batch 2/7
+    进度 batch 3/7
+    进度 batch 4/7
+    进度 batch 5/7
+    进度 batch 6/7
+    进度 batch 7/7
+
+======================================================================
+  加载 vLLM c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+======================================================================
+INFO 07-03 12:48:56 __init__.py:207] Automatically detected platform cuda.
+WARNING 07-03 12:48:56 config.py:2448] Casting torch.bfloat16 to torch.float16.
+INFO 07-03 12:49:03 config.py:549] This model supports multiple tasks: {'classify', 'reward', 'generate', 'score', 'embed'}. Defaulting to 'generate'.
+WARNING 07-03 12:49:03 cuda.py:95] To see benefits of async output processing, enable CUDA graph. Since, enforce-eager is enabled, async output processor cannot be used
+WARNING 07-03 12:49:03 config.py:685] Async output processing is not supported on the current platform type cuda.
+INFO 07-03 12:49:03 llm_engine.py:234] Initializing a V0 LLM engine (v0.7.3) with config: model='/root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d', speculative_config=None, tokenizer='/root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=/root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=False, chunked_prefill_enabled=False, use_async_output_proc=False, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[],"max_capture_size":0}, use_cached_outputs=False, 
+INFO 07-03 12:49:04 cuda.py:229] Using Flash Attention backend.
+INFO 07-03 12:49:04 model_runner.py:1110] Starting to load model /root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d...
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:01<00:00,  1.74s/it]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:01<00:00,  1.74s/it]
+
+INFO 07-03 12:49:06 model_runner.py:1115] Loading model weights took 0.9249 GB
+INFO 07-03 12:49:07 worker.py:267] Memory profiling takes 0.27 seconds
+INFO 07-03 12:49:07 worker.py:267] the current vLLM instance can use total_gpu_memory (23.64GiB) x gpu_memory_utilization (0.60) = 14.19GiB
+INFO 07-03 12:49:07 worker.py:267] model weights take 0.92GiB; non_torch_memory takes 0.00GiB; PyTorch activation peak memory takes 1.38GiB; the rest of the memory reserved for KV Cache is 11.88GiB.
+INFO 07-03 12:49:07 executor_base.py:111] # cuda blocks: 64869, # CPU blocks: 21845
+INFO 07-03 12:49:07 executor_base.py:116] Maximum concurrency for 2048 tokens per request: 506.79x
+INFO 07-03 12:49:10 llm_engine.py:436] init engine (profile, create kv cache, warmup model) took 3.92 seconds
+
+[C] vLLM 批处理（内置 continuous batching）...
+Processed prompts:   0%|          | 0/50 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   2%|▏         | 1/50 [00:00<00:14,  3.34it/s, est. speed input: 83.58 toks/s, output: 113.66 toks/s]Processed prompts:  24%|██▍       | 12/50 [00:00<00:01, 36.09it/s, est. speed input: 654.77 toks/s, output: 1169.36 toks/s]Processed prompts:  52%|█████▏    | 26/50 [00:00<00:00, 64.04it/s, est. speed input: 1105.93 toks/s, output: 2320.52 toks/s]Processed prompts:  74%|███████▍  | 37/50 [00:00<00:00, 54.44it/s, est. speed input: 1080.55 toks/s, output: 2623.59 toks/s]Processed prompts: 100%|██████████| 50/50 [00:00<00:00, 64.22it/s, est. speed input: 1661.99 toks/s, output: 4292.39 toks/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+======================================================================
+  结果汇总: c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+======================================================================
+模式                            总耗时         QPS       tokens/s    相对vLLM    
+--------------------------------------------------------------------------------
+[A] transformers 串行          35.48s      1.41        103       0.02×
+[B] transformers batch=8      9.00s      5.56        412       0.09×
+[C] vLLM 批处理                  0.79s     63.39       4237       1.00×
+
+JSON 结果保存：/root/autodl-tmp/vllm_deployment/outputs/throughput_c540970f9e29518b1d8f06ab8b24cb.json
+
+柱状图已保存：/root/autodl-tmp/vllm_deployment/outputs/throughput_c540970f9e29518b1d8f06ab8b24cb.png
+
+    vLLM 相对 transformers 串行加速：45.0×
+    vLLM 相对 transformers batch:    11.4×
+
+======================================================================
+  Throughput Benchmark: 4e9de7a0778dc1c362e983e6858f0e77542cbdca
+  50 prompts × max 100 new tokens
+======================================================================
+
+======================================================================
+  加载 transformers 4e9de7a0778dc1c362e983e6858f0e77542cbdca
+======================================================================
+
+[A] transformers 串行（一次一条）...
+    进度 10/50
+    进度 20/50
+    进度 30/50
+    进度 40/50
+    进度 50/50
+
+[B] transformers batch=8（手动 padding）...
+    进度 batch 1/7
+    进度 batch 2/7
+    进度 batch 3/7
+    进度 batch 4/7
+    进度 batch 5/7
+    进度 batch 6/7
+    进度 batch 7/7
+
+======================================================================
+  加载 vLLM 4e9de7a0778dc1c362e983e6858f0e77542cbdca
+======================================================================
+WARNING 07-03 12:50:19 config.py:2448] Casting torch.bfloat16 to torch.float16.
+INFO 07-03 12:50:25 config.py:549] This model supports multiple tasks: {'classify', 'reward', 'generate', 'score', 'embed'}. Defaulting to 'generate'.
+WARNING 07-03 12:50:25 cuda.py:95] To see benefits of async output processing, enable CUDA graph. Since, enforce-eager is enabled, async output processor cannot be used
+WARNING 07-03 12:50:25 config.py:685] Async output processing is not supported on the current platform type cuda.
+INFO 07-03 12:50:25 llm_engine.py:234] Initializing a V0 LLM engine (v0.7.3) with config: model='/root/autodl-tmp/huggingface_cache/hub/models--openbmb--MiniCPM5-1B/snapshots/4e9de7a0778dc1c362e983e6858f0e77542cbdca', speculative_config=None, tokenizer='/root/autodl-tmp/huggingface_cache/hub/models--openbmb--MiniCPM5-1B/snapshots/4e9de7a0778dc1c362e983e6858f0e77542cbdca', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=/root/autodl-tmp/huggingface_cache/hub/models--openbmb--MiniCPM5-1B/snapshots/4e9de7a0778dc1c362e983e6858f0e77542cbdca, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=False, chunked_prefill_enabled=False, use_async_output_proc=False, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[],"max_capture_size":0}, use_cached_outputs=False, 
+INFO 07-03 12:50:26 cuda.py:229] Using Flash Attention backend.
+INFO 07-03 12:50:26 model_runner.py:1110] Starting to load model /root/autodl-tmp/huggingface_cache/hub/models--openbmb--MiniCPM5-1B/snapshots/4e9de7a0778dc1c362e983e6858f0e77542cbdca...
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:03<00:00,  3.29s/it]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:03<00:00,  3.29s/it]
+
+INFO 07-03 12:50:30 model_runner.py:1115] Loading model weights took 2.0682 GB
+INFO 07-03 12:50:30 worker.py:267] Memory profiling takes 0.20 seconds
+INFO 07-03 12:50:30 worker.py:267] the current vLLM instance can use total_gpu_memory (23.64GiB) x gpu_memory_utilization (0.60) = 14.19GiB
+INFO 07-03 12:50:30 worker.py:267] model weights take 2.07GiB; non_torch_memory takes 0.00GiB; PyTorch activation peak memory takes 1.19GiB; the rest of the memory reserved for KV Cache is 10.93GiB.
+INFO 07-03 12:50:30 executor_base.py:111] # cuda blocks: 29834, # CPU blocks: 10922
+INFO 07-03 12:50:30 executor_base.py:116] Maximum concurrency for 2048 tokens per request: 233.08x
+INFO 07-03 12:50:30 llm_engine.py:436] init engine (profile, create kv cache, warmup model) took 0.69 seconds
+
+[C] vLLM 批处理（内置 continuous batching）...
+Processed prompts:   0%|          | 0/50 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   2%|▏         | 1/50 [00:00<00:42,  1.16it/s, est. speed input: 15.05 toks/s, output: 115.74 toks/s]Processed prompts: 100%|██████████| 50/50 [00:00<00:00, 57.82it/s, est. speed input: 981.82 toks/s, output: 5782.21 toks/s]
+
+======================================================================
+  结果汇总: 4e9de7a0778dc1c362e983e6858f0e77542cbdca
+======================================================================
+模式                            总耗时         QPS       tokens/s    相对vLLM    
+--------------------------------------------------------------------------------
+[A] transformers 串行          52.12s      0.96         96       0.02×
+[B] transformers batch=8      8.87s      5.63        563       0.10×
+[C] vLLM 批处理                  0.87s     57.16       5716       1.00×
+
+JSON 结果保存：/root/autodl-tmp/vllm_deployment/outputs/throughput_4e9de7a0778dc1c362e983e6858f0e.json
+
+柱状图已保存：/root/autodl-tmp/vllm_deployment/outputs/throughput_4e9de7a0778dc1c362e983e6858f0e.png
+
+    vLLM 相对 transformers 串行加速：59.6×
+    vLLM 相对 transformers batch:    10.1×
+
+======================================================================
+  多模型吞吐对比
+======================================================================
+模型                            vLLM QPS    vLLM tok/s    串行耗时        
+----------------------------------------------------------------------
+c540970f9e29518b1d8f06ab8b24cba66ad77b6d   63.39       4237     35.48s
+4e9de7a0778dc1c362e983e6858f0e77542cbdca   57.16       5716     52.12s
+
+======================================================================
+  关键机制：PagedAttention + continuous batching
+======================================================================
+[rank0]:[W703 12:50:33.145929302 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())

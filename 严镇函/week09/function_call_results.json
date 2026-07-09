@@ -1,0 +1,62 @@
+{
+  "order": {
+    "n": 50,
+    "stats": {
+      "raw": {
+        "is_json": 50,
+        "has_required": 50,
+        "schema_valid": 26,
+        "total_latency": 51.56051325798035
+      },
+      "response_format": {
+        "is_json": 50,
+        "has_required": 50,
+        "schema_valid": 26,
+        "total_latency": 52.694944858551025
+      },
+      "guided_json": {
+        "is_json": 50,
+        "has_required": 50,
+        "schema_valid": 50,
+        "total_latency": 52.985543966293335
+      }
+    },
+    "fails": {
+      "raw": [
+        {
+          "user": "7 本笔记本，18900001111",
+          "output": "{\n  \"product\": \"7 本笔记本\",\n  \"quantity\": 1,\n  \"user_phone\": \"1890001111\",\n  \"delivery_date\": \"2026-05-14\",\n  \"priority\": \"normal\",\n  \"payment_method\": \"",
+          "error": "schema: '1890001111' does not match '^1[3-9]\\\\d{9}$'"
+        },
+        {
+          "user": "3 瓶红酒，13677778888，wechat",
+          "output": "{\"product\": \"红酒\", \"quantity\": 3, \"user_phone\": \"13677778888\", \"delivery_date\": \"2026-05-13\", \"priority\": \"wechat\", \"payment_method\": \"wechat\"}",
+          "error": "schema: 'wechat' is not one of ['normal', 'express', 'urgent']"
+        },
+        {
+          "user": "给我 200 个鼠标，电话 13912345678",
+          "output": "{\"product\": \"鼠标\", \"quantity\": 200, \"user_phone\": \"13912345678\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+          "error": "schema: 200 is greater than the maximum of 100"
+        }
+      ],
+      "response_format": [
+        {
+          "user": "7 本笔记本，18900001111",
+          "output": "{\n  \"product\": \"7 本笔记本\",\n  \"quantity\": 1,\n  \"user_phone\": \"1890001111\",\n  \"delivery_date\": \"2026-05-14\",\n  \"priority\": \"normal\",\n  \"payment_method\": \"",
+          "error": "schema: '1890001111' does not match '^1[3-9]\\\\d{9}$'"
+        },
+        {
+          "user": "3 瓶红酒，13677778888，wechat",
+          "output": "{\"product\": \"红酒\", \"quantity\": 3, \"user_phone\": \"13677778888\", \"delivery_date\": \"2026-05-13\", \"priority\": \"wechat\", \"payment_method\": \"wechat\"}",
+          "error": "schema: 'wechat' is not one of ['normal', 'express', 'urgent']"
+        },
+        {
+          "user": "给我 200 个鼠标，电话 13912345678",
+          "output": "{\"product\": \"鼠标\", \"quantity\": 200, \"user_phone\": \"13912345678\", \"delivery_date\": \"2026-05-14\", \"priority\": \"normal\", \"payment_method\": \"alipay\"}",
+          "error": "schema: 200 is greater than the maximum of 100"
+        }
+      ],
+      "guided_json": []
+    }
+  }
+}
