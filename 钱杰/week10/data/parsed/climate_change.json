@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "filename": "climate_change.pdf",
+    "doc_type": "climate",
+    "title": "climate change"
+  },
+  "blocks": [
+    {
+      "block_type": "text",
+      "content": "气候变化与环境保护",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第一章：气候变化的基本概念",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "气候变化是指地球气候系统的长期变化，包括温度、降水、风向等要素的改变。近年来，全球气候变化日益明显，主要表现为全球变暖、极端天气事件增多等现象。",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "全球变暖的主要原因是人类活动导致的温室气体排放增加，特别是二氧化碳（CO2）、甲烷（CH4）和氧化亚氮（N2O）。",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第二章：气候变化的影响",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "气候变化对地球生态系统和人类社会产生了广泛影响：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "生态系统影响：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 冰川融化和海平面上升",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 生物多样性减少",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 生态系统失衡",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "人类社会影响：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 农业产量下降和粮食安全问题",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 水资源短缺",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 健康风险增加",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 自然灾害频发",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第三章：应对气候变化的措施",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "为了应对气候变化，国际社会采取了一系列措施：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "减少温室气体排放：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 发展可再生能源（太阳能、风能、水能等）",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 提高能源效率",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 推广电动汽车和公共交通",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 实施碳定价和碳交易",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "适应气候变化：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 建设防洪设施",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 发展抗旱作物",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 改善城市规划",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "国际合作：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 巴黎协定：全球气候协议",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 碳达峰和碳中和目标",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 技术转让和资金支持",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第四章：个人可以做什么",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "每个人都可以为应对气候变化做出贡献：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1. 节约能源：随手关灯、使用节能电器",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "2. 绿色出行：步行、骑行或乘坐公共交通",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "3. 减少浪费：垃圾分类、重复使用物品",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "4. 健康饮食：减少肉类消费、节约粮食",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "5. 关注环保：支持环保组织、传播环保知识",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第五章：未来展望",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "气候变化是人类面临的共同挑战，需要全球合作和长期努力。通过技术创新和社会变革，我们有能力减缓气候变化的影响，保护我们共同的地球家园。",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    }
+  ]
+}

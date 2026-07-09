@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "filename": "space_exploration.pdf",
+    "doc_type": "space",
+    "title": "space exploration"
+  },
+  "blocks": [
+    {
+      "block_type": "text",
+      "content": "太空探索与航天技术",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第一章：人类太空探索简史",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "人类对太空的探索始于20世纪中叶，经历了多个重要阶段：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1957年：苏联发射第一颗人造卫星斯普特尼克1号",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1961年：苏联宇航员尤里·加加林成为第一个进入太空的人类",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1969年：美国阿波罗11号成功登月，尼尔·阿姆斯特朗成为第一个踏上月球的人类",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1971年：苏联发射第一个空间站礼炮1号",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1981年：美国航天飞机哥伦比亚号首次发射",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1998年：国际空间站开始建设",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "2003年：中国神舟五号载人飞船成功发射",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第二章：主要航天技术",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "火箭技术：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 化学火箭：使用液体或固体燃料",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 电推进：使用电能加速离子",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 可重复使用火箭：降低发射成本",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "卫星技术：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 通信卫星：全球通信网络",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 气象卫星：天气预报和气候监测",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "- 导航卫星：GPS、北斗等导航系统",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 遥感卫星：地球资源监测和环境研究",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "空间站技术：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 长期载人空间研究",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 微重力实验平台",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 国际合作项目",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第三章：太空探索的科学价值",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "太空探索带来了许多科学发现：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 太阳系形成和演化的研究",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 地球气候和环境的监测",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 生命起源和宇宙生物学研究",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 基础物理和化学实验",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第四章：商业航天的兴起",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "近年来，商业航天发展迅速：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- SpaceX：可重复使用火箭和星链计划",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- Blue Origin：亚轨道旅游和重型火箭",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 卫星互联网：全球覆盖的高速网络",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 太空旅游：普通人进入太空的机会",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第五章：未来展望",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "未来的太空探索目标包括：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 重返月球和建立月球基地",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 载人火星任务",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 小行星采矿",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 深空探测任务",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "结语",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "太空探索不仅扩展了人类的知识边界，也推动了科技的进步和国际合作。",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    }
+  ]
+}

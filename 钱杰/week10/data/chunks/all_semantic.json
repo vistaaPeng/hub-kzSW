@@ -1,0 +1,731 @@
+[
+  {
+    "chunk_id": "ai_0000",
+    "content": "人工智能基础入门",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0001",
+    "content": "第一章：什么是人工智能\n人工智能（Artificial Intelligence，简称AI）是计算机科学的一个分支，致力于研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用\n系统。人工智能领域的研究包括机器人、语言识别、图像识别、自然语言处理和专家系统等。\n人工智能的发展历程可以分为三个阶段：\n1. 弱人工智能（Narrow AI）：只能执行特定任务的AI，如语音助手、图像识别等\n2. 强人工智能（General AI）：具备人类智能水平的AI，可以执行任何智力任务\n3. 超人工智能（Super AI）：超越人类智能的AI，目前仍处于理论阶段",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0002",
+    "content": "第二章：机器学习概述\n机器学习是人工智能的核心技术之一，它使计算机系统能够从数据中学习并改进性能，而无需明确编程。机器学习算法可以分为以下几类：\n监督学习：使用标记数据进行训练，如分类和回归\n无监督学习：从未标记数据中发现模式，如聚类和降维",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0003",
+    "content": "强化学习：通过与环境交互获得奖励来学习，如游戏AI",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0004",
+    "content": "第三章：深度学习基础\n深度学习是机器学习的一个子集，使用多层神经网络来模拟人脑的学习过程。深度学习在图像识别、语音识别、自然语言处理等领域取得了突破性进展。\n常用的深度学习架构包括：",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0005",
+    "content": "- 卷积神经网络（CNN）：主要用于图像和视频处理",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0006",
+    "content": "- 循环神经网络（RNN）：主要用于序列数据处理\n- Transformer：主要用于自然语言处理，如GPT、BERT等",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0007",
+    "content": "第四章：人工智能应用领域\n人工智能已经广泛应用于多个领域：\n1. 医疗健康：疾病诊断、药物研发、医疗影像分析\n2. 金融科技：风险评估、投资分析、智能客服\n3. 交通运输：自动驾驶、交通优化、物流管理\n4. 教育领域：智能辅导、个性化学习、教育评估\n5. 智能制造：质量检测、预测维护、生产优化",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0008",
+    "content": "第五章：人工智能的未来展望\n随着技术的不断进步，人工智能将在更多领域发挥重要作用。未来的发展趋势包括：",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0009",
+    "content": "- 边缘计算与AI的结合",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0010",
+    "content": "- 可解释AI的发展",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0011",
+    "content": "- AI与物联网的融合\n- 伦理和安全问题的关注\n结语",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "ai_0012",
+    "content": "人工智能正在改变我们的生活和工作方式，了解AI的基础知识有助于我们更好地适应这个快速变化的时代。",
+    "metadata": {
+      "doc_type": "ai",
+      "title": "ai basics",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "ai_basics.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0000",
+    "content": "气候变化与环境保护",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0001",
+    "content": "第一章：气候变化的基本概念\n气候变化是指地球气候系统的长期变化，包括温度、降水、风向等要素的改变。近年来，全球气候变化日益明显，主要表现为全球变暖、极端天气事件增多等现象。",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0002",
+    "content": "全球变暖的主要原因是人类活动导致的温室气体排放增加，特别是二氧化碳（CO2）、甲烷（CH4）和氧化亚氮（N2O）。",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0003",
+    "content": "第二章：气候变化的影响\n气候变化对地球生态系统和人类社会产生了广泛影响：\n生态系统影响：\n- 冰川融化和海平面上升\n- 生物多样性减少\n- 生态系统失衡\n人类社会影响：\n- 农业产量下降和粮食安全问题\n- 水资源短缺\n- 健康风险增加\n- 自然灾害频发",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0004",
+    "content": "第三章：应对气候变化的措施\n为了应对气候变化，国际社会采取了一系列措施：\n减少温室气体排放：\n- 发展可再生能源（太阳能、风能、水能等）\n- 提高能源效率\n- 推广电动汽车和公共交通\n- 实施碳定价和碳交易\n适应气候变化：\n- 建设防洪设施\n- 发展抗旱作物\n- 改善城市规划\n国际合作：\n- 巴黎协定：全球气候协议\n- 碳达峰和碳中和目标\n- 技术转让和资金支持",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0005",
+    "content": "第四章：个人可以做什么\n每个人都可以为应对气候变化做出贡献：\n1. 节约能源：随手关灯、使用节能电器\n2. 绿色出行：步行、骑行或乘坐公共交通\n3. 减少浪费：垃圾分类、重复使用物品\n4. 健康饮食：减少肉类消费、节约粮食\n5. 关注环保：支持环保组织、传播环保知识",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "climate_0006",
+    "content": "第五章：未来展望\n气候变化是人类面临的共同挑战，需要全球合作和长期努力。通过技术创新和社会变革，我们有能力减缓气候变化的影响，保护我们共同的地球家园。",
+    "metadata": {
+      "doc_type": "climate",
+      "title": "climate change",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "climate_change.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0000",
+    "content": "Python编程入门教程",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0001",
+    "content": "第一章：Python简介\nPython是一种高级、通用、解释型编程语言。它以简洁的语法和强大的功能著称，广泛应用于Web开发、数据分析、人工智能、科学计算等领域。\nPython的特点：\n- 语法简洁，易于学习和阅读\n- 跨平台，支持多种操作系统\n- 丰富的标准库和第三方库\n- 面向对象和函数式编程支持\n- 强大的社区支持",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0002",
+    "content": "第二章：Python基础语法\n变量和数据类型：\n- 整数（int）：如 1, 2, 3\n- 浮点数（float）：如 1.5, 2.0\n- 字符串（str）：如 \"Hello\", 'World'\n- 布尔值（bool）：True, False\n基本运算符：\n- 算术运算：+ - * / % ** //\n- 比较运算：== != > < >= <=\n- 逻辑运算：and or not",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0003",
+    "content": "第三章：控制结构\n条件语句：\nif condition:\nstatement\nelif condition:\nstatement\nelse:\nstatement\n循环语句：\nfor item in sequence:\nstatement\nwhile condition:\nstatement",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0004",
+    "content": "第四章：函数和模块\n定义函数：\ndef function_name(parameters):\nstatement\nreturn value\n模块导入：\nimport module_name\nfrom module_name import function_name",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0005",
+    "content": "第五章：数据结构\n列表（List）：有序、可变的元素集合\nmy_list = [1, 2, 3, 'hello']\n字典（Dictionary）：键值对的无序集合\nmy_dict = {'name': 'Alice', 'age': 25}\n集合（Set）：无序、不重复的元素集合\nmy_set = {1, 2, 3, 3, 4}",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0006",
+    "content": "第六章：面向对象编程\n类的定义：\nclass ClassName:\ndef __init__(self, parameters):\nself.attribute = value\ndef method(self, parameters):\nstatement\n对象创建：\nobj = ClassName(arguments)",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0007",
+    "content": "第七章：文件操作\n读取文件：\nwith open('file.txt', 'r') as f:\ncontent = f.read()\n写入文件：\nwith open('file.txt', 'w') as f:\nf.write(content)",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 3,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "python_0008",
+    "content": "第八章：异常处理\ntry:\nrisky_operation()\nexcept ExceptionType:\nhandle_exception()\nfinally:\ncleanup()\n结语\nPython是一门功能强大且易于学习的编程语言，掌握Python可以为你的编程之旅打下坚实的基础。",
+    "metadata": {
+      "doc_type": "python",
+      "title": "python programming",
+      "page_num": 3,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "python_programming.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0000",
+    "content": "太空探索与航天技术",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0001",
+    "content": "第一章：人类太空探索简史\n人类对太空的探索始于20世纪中叶，经历了多个重要阶段：\n1957年：苏联发射第一颗人造卫星斯普特尼克1号\n1961年：苏联宇航员尤里·加加林成为第一个进入太空的人类\n1969年：美国阿波罗11号成功登月，尼尔·阿姆斯特朗成为第一个踏上月球的人类\n1971年：苏联发射第一个空间站礼炮1号\n1981年：美国航天飞机哥伦比亚号首次发射\n1998年：国际空间站开始建设\n2003年：中国神舟五号载人飞船成功发射",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0002",
+    "content": "第二章：主要航天技术\n火箭技术：\n- 化学火箭：使用液体或固体燃料\n- 电推进：使用电能加速离子\n- 可重复使用火箭：降低发射成本\n卫星技术：\n- 通信卫星：全球通信网络\n- 气象卫星：天气预报和气候监测",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0003",
+    "content": "- 导航卫星：GPS、北斗等导航系统\n- 遥感卫星：地球资源监测和环境研究\n空间站技术：\n- 长期载人空间研究\n- 微重力实验平台\n- 国际合作项目",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0004",
+    "content": "第三章：太空探索的科学价值\n太空探索带来了许多科学发现：\n- 太阳系形成和演化的研究\n- 地球气候和环境的监测\n- 生命起源和宇宙生物学研究\n- 基础物理和化学实验",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 1,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0005",
+    "content": "第四章：商业航天的兴起\n近年来，商业航天发展迅速：\n- SpaceX：可重复使用火箭和星链计划\n- Blue Origin：亚轨道旅游和重型火箭\n- 卫星互联网：全球覆盖的高速网络\n- 太空旅游：普通人进入太空的机会",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  },
+  {
+    "chunk_id": "space_0006",
+    "content": "第五章：未来展望\n未来的太空探索目标包括：\n- 重返月球和建立月球基地\n- 载人火星任务\n- 小行星采矿\n- 深空探测任务\n结语\n太空探索不仅扩展了人类的知识边界，也推动了科技的进步和国际合作。",
+    "metadata": {
+      "doc_type": "space",
+      "title": "space exploration",
+      "page_num": 2,
+      "section": "",
+      "block_types": [
+        "title",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "is_ocr": false,
+      "strategy": "semantic",
+      "source_file": "space_exploration.pdf"
+    }
+  }
+]

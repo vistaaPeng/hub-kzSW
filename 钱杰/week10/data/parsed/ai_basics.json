@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "filename": "ai_basics.pdf",
+    "doc_type": "ai",
+    "title": "ai basics"
+  },
+  "blocks": [
+    {
+      "block_type": "text",
+      "content": "人工智能基础入门",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第一章：什么是人工智能",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "人工智能（Artificial Intelligence，简称AI）是计算机科学的一个分支，致力于研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "系统。人工智能领域的研究包括机器人、语言识别、图像识别、自然语言处理和专家系统等。",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "人工智能的发展历程可以分为三个阶段：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1. 弱人工智能（Narrow AI）：只能执行特定任务的AI，如语音助手、图像识别等",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "2. 强人工智能（General AI）：具备人类智能水平的AI，可以执行任何智力任务",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "3. 超人工智能（Super AI）：超越人类智能的AI，目前仍处于理论阶段",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第二章：机器学习概述",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "机器学习是人工智能的核心技术之一，它使计算机系统能够从数据中学习并改进性能，而无需明确编程。机器学习算法可以分为以下几类：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "监督学习：使用标记数据进行训练，如分类和回归",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "无监督学习：从未标记数据中发现模式，如聚类和降维",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "强化学习：通过与环境交互获得奖励来学习，如游戏AI",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第三章：深度学习基础",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "深度学习是机器学习的一个子集，使用多层神经网络来模拟人脑的学习过程。深度学习在图像识别、语音识别、自然语言处理等领域取得了突破性进展。",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "常用的深度学习架构包括：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "- 卷积神经网络（CNN）：主要用于图像和视频处理",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "- 循环神经网络（RNN）：主要用于序列数据处理",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- Transformer：主要用于自然语言处理，如GPT、BERT等",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第四章：人工智能应用领域",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "人工智能已经广泛应用于多个领域：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "1. 医疗健康：疾病诊断、药物研发、医疗影像分析",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "2. 金融科技：风险评估、投资分析、智能客服",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "3. 交通运输：自动驾驶、交通优化、物流管理",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "4. 教育领域：智能辅导、个性化学习、教育评估",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "5. 智能制造：质量检测、预测维护、生产优化",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第五章：人工智能的未来展望",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "随着技术的不断进步，人工智能将在更多领域发挥重要作用。未来的发展趋势包括：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "- 边缘计算与AI的结合",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "- 可解释AI的发展",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "- AI与物联网的融合",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 伦理和安全问题的关注",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "结语",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "人工智能正在改变我们的生活和工作方式，了解AI的基础知识有助于我们更好地适应这个快速变化的时代。",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "filename": "python_programming.pdf",
+    "doc_type": "python",
+    "title": "python programming"
+  },
+  "blocks": [
+    {
+      "block_type": "text",
+      "content": "Python编程入门教程",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第一章：Python简介",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "Python是一种高级、通用、解释型编程语言。它以简洁的语法和强大的功能著称，广泛应用于Web开发、数据分析、人工智能、科学计算等领域。",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "Python的特点：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 语法简洁，易于学习和阅读",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 跨平台，支持多种操作系统",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 丰富的标准库和第三方库",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 面向对象和函数式编程支持",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 强大的社区支持",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第二章：Python基础语法",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "变量和数据类型：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 整数（int）：如 1, 2, 3",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 浮点数（float）：如 1.5, 2.0",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 字符串（str）：如 \"Hello\", 'World'",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 布尔值（bool）：True, False",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "基本运算符：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 算术运算：+ - * / % ** //",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 比较运算：== != > < >= <=",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "- 逻辑运算：and or not",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第三章：控制结构",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "条件语句：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "if condition:",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "elif condition:",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "else:",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "循环语句：",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "for item in sequence:",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "while condition:",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第四章：函数和模块",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "定义函数：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "def function_name(parameters):",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "return value",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "模块导入：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "import module_name",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "from module_name import function_name",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第五章：数据结构",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "列表（List）：有序、可变的元素集合",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "my_list = [1, 2, 3, 'hello']",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "字典（Dictionary）：键值对的无序集合",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "my_dict = {'name': 'Alice', 'age': 25}",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "集合（Set）：无序、不重复的元素集合",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "my_set = {1, 2, 3, 3, 4}",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第六章：面向对象编程",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "类的定义：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "class ClassName:",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "def __init__(self, parameters):",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "self.attribute = value",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "def method(self, parameters):",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "statement",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "对象创建：",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "obj = ClassName(arguments)",
+      "page_num": 2,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第七章：文件操作",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "读取文件：",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "with open('file.txt', 'r') as f:",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "content = f.read()",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "写入文件：",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "with open('file.txt', 'w') as f:",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "f.write(content)",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "title",
+      "content": "第八章：异常处理",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "try:",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "risky_operation()",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "except ExceptionType:",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "handle_exception()",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "finally:",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "cleanup()",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "结语",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    },
+    {
+      "block_type": "text",
+      "content": "Python是一门功能强大且易于学习的编程语言，掌握Python可以为你的编程之旅打下坚实的基础。",
+      "page_num": 3,
+      "section_path": [],
+      "is_ocr": false
+    }
+  ]
+}
