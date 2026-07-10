@@ -1,0 +1,3438 @@
+{
+  "meta": {
+    "doc_id": "GB43854-2024",
+    "doc_title": "GB 43854-2024",
+    "doc_type": "标准",
+    "filename": "GB+43854-2024.pdf"
+  },
+  "source": "E:\\study\\week10 检索增强生成RAG\\homework\\data\\raw_pdf\\GB+43854-2024.pdf",
+  "blocks": [
+    {
+      "block_type": "text",
+      "content": "ICS43.",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "中华人民共和国国家标准",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "电动自行车用锂离子蓄电池安全技术规范",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2024-04-25发布",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "2024-04-25发布"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2024-11-01实施",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "2024-11-01实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "国家市场监督管理总局",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "国家市场监督管理总局"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "国家标准化管理委员会",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "国家标准化管理委员会"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "发布",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "发布"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "目  次",
+      "page_num": 2,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "目  次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "前言\n…………………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车用锂离子蓄电池安全技术规范",
+        "Safetytechnicalspecificationoflithium-ionbatteryforelectricbicycle",
+        "目  次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 范围",
+      "page_num": 2,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 规范性引用文件",
+      "page_num": 2,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 术语和定义",
+      "page_num": 2,
+      "section_path": [
+        "3 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "3 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 符号",
+      "page_num": 2,
+      "section_path": [
+        "4 符号"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "4 符号"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 安全要求",
+      "page_num": 2,
+      "section_path": [
+        "5 安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "5 安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 试验方法",
+      "page_num": 2,
+      "section_path": [
+        "6 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "6 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 型式试验",
+      "page_num": 2,
+      "section_path": [
+        "7 型式试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "7 型式试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录A (规范性) 导线阻燃性试验方法",
+      "page_num": 2,
+      "section_path": [
+        "附录A (规范性) 导线阻燃性试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………\n参考文献\n……………………………………………………………………………………………………",
+      "page_num": 2,
+      "section_path": [
+        "附录A (规范性) 导线阻燃性试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "前  言",
+      "page_num": 3,
+      "section_path": [
+        "附录A (规范性) 导线阻燃性试验方法",
+        "前  言"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "本文件按照GB/T1.\n1—2020《标准化工作导则 第1部分:标准化文件的结构和起草规则》的规定\n起草。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由中华人民共和国工业和信息化部提出并归口。",
+      "page_num": 3,
+      "section_path": [
+        "附录A (规范性) 导线阻燃性试验方法",
+        "前  言"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "电动自行车用锂离子蓄电池安全技术规范",
+      "page_num": 5,
+      "section_path": [
+        "附录A (规范性) 导线阻燃性试验方法",
+        "前  言",
+        "电动自行车用锂离子蓄电池安全技术规范"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 范围",
+      "page_num": 5,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "本文件规定了电动自行车用锂离子蓄电池单体电池和电池组的电气安全、机械安全和环境安全等\n要求,描述了相应的试验方法。\n本文件适用于符合GB17761规定的电动自行车用锂离子蓄电池单体电池和电池组(以下简称电\n池和电池组)。",
+      "page_num": 5,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 规范性引用文件",
+      "page_num": 5,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中,注日期的引用文\n件,仅该日期对应的版本适用于本文件;不注日期的引用文件,其最新版本(包括所有的修改单)适用于\n本文件。\nGB/T2423.\n4—2008 电工电子产品环境试验 第2部分:试验方法 试验Db:交变湿热(12h+\n12h循环)\nGB/T2423.\n18—2021 环境试验 第2部分:试验方法 试验Kb:盐雾,交变(氯化钠溶液)\nGB/T5169.\n5—2020 电工电子产品着火危险试验 第5部分:试验火焰 针焰试验方法 装置、\n确认试验方法和导则\nGB/T5169.",
+      "page_num": 5,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "16 电工电子产品着火危险试验 第16部分:试验火焰 50W 水平与垂直火焰试验",
+      "page_num": 5,
+      "section_path": [
+        "16 电工电子产品着火危险试验 第16部分:试验火焰 50W 水平与垂直火焰试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "方法\nGB/T17626.",
+      "page_num": 5,
+      "section_path": [
+        "16 电工电子产品着火危险试验 第16部分:试验火焰 50W 水平与垂直火焰试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电磁兼容 试验和测量技术 静电放电抗扰度试验",
+      "page_num": 5,
+      "section_path": [
+        "2 电磁兼容 试验和测量技术 静电放电抗扰度试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB17761 电动自行车安全技术规范\nGB/T36945—2018 电动自行车用锂离子蓄电池词汇",
+      "page_num": 5,
+      "section_path": [
+        "2 电磁兼容 试验和测量技术 静电放电抗扰度试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 术语和定义",
+      "page_num": 5,
+      "section_path": [
+        "3 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T36945—2018界定的以及下列术语和定义适用于本文件。\n3.\n额定容量 ratedcapacity\n在规定条件下测得,并由制造商标称的电池或电池组的容量值。\n[来源:GB/T36945—2018,4.\n6,有修改]\n3.\n单体电池 cell\n直接将化学能转化为电能的基本单元装置。\n注:包括电极、电解质、外壳和端子,并被设计成可充电。\n[来源:GB/T36945—2018,2.\n1,有修改]\n3.\n电池组 battery\n由一个或多个单体电池和外壳、端子及保护装置等必需的部件装配成的组合体。\n[来源:GB/T36945—2018,2.\n4,有修改]",
+      "page_num": 5,
+      "section_path": [
+        "3 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "3.\n热失控 thermalrunaway\n单体电池放热连锁反应引起电池温度不可控上升的现象。\n[来源:GB38031—2020,3.\n14]",
+      "page_num": 6,
+      "section_path": [
+        "3 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 符号",
+      "page_num": 6,
+      "section_path": [
+        "4 符号"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "下列符号适用于本文件。\nC2:2小时率额定容量(Ah)\nI2:2小时率放电电流,其数值等于0.\n5C2(A)",
+      "page_num": 6,
+      "section_path": [
+        "4 符号"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 安全要求",
+      "page_num": 6,
+      "section_path": [
+        "5 安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.",
+      "page_num": 6,
+      "section_path": [
+        "5 安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电池安全要求",
+      "page_num": 6,
+      "section_path": [
+        "1 电池安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "1 电池安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 过充电",
+      "page_num": 6,
+      "section_path": [
+        "1 过充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n3.\n1的试验方法测试,电池应不起火、不爆炸。\n5.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "1 过充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 过放电",
+      "page_num": 6,
+      "section_path": [
+        "2 过放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n3.\n2的试验方法测试,电池应不起火、不爆炸。\n5.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "2 过放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 外部短路",
+      "page_num": 6,
+      "section_path": [
+        "3 外部短路"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n3.\n3的试验方法测试,电池应不起火、不爆炸。\n5.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "3 外部短路"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 热滥用",
+      "page_num": 6,
+      "section_path": [
+        "4 热滥用"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n3.\n4的试验方法测试,电池应不起火、不爆炸。\n5.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "4 热滥用"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 针刺",
+      "page_num": 6,
+      "section_path": [
+        "5 针刺"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n3.\n5的试验方法测试,电池应不起火、不爆炸。\n5.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "5 针刺"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 标志",
+      "page_num": 6,
+      "section_path": [
+        "6 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池的醒目位置应清晰地标识至少下列标志:\na) 型号;\nb) 标称电压和额定容量;\nc) 正负极性,使用“正、负”字样,或“+、-”符号;\nd) 生产厂(或生产厂代码);\ne) 生产日期或批号。\n充电限制电压、放电终止电压等标志信息应在合适的载体上标明。\n5.",
+      "page_num": 6,
+      "section_path": [
+        "6 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电池组安全要求",
+      "page_num": 6,
+      "section_path": [
+        "2 电池组安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n2.",
+      "page_num": 6,
+      "section_path": [
+        "2 电池组安全要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电气安全",
+      "page_num": 6,
+      "section_path": [
+        "1 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n2.\n1.",
+      "page_num": 6,
+      "section_path": [
+        "1 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 静电放电",
+      "page_num": 6,
+      "section_path": [
+        "1 静电放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n1试验后,电池组的过充电保护、短路保护功能应正常。",
+      "page_num": 6,
+      "section_path": [
+        "1 静电放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n2.\n1.",
+      "page_num": 7,
+      "section_path": [
+        "1 静电放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 过充电",
+      "page_num": 7,
+      "section_path": [
+        "2 过充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n2的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n1.",
+      "page_num": 7,
+      "section_path": [
+        "2 过充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 过放电",
+      "page_num": 7,
+      "section_path": [
+        "3 过放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n3的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n1.",
+      "page_num": 7,
+      "section_path": [
+        "3 过放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 外部短路",
+      "page_num": 7,
+      "section_path": [
+        "4 外部短路"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n4的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n1.",
+      "page_num": 7,
+      "section_path": [
+        "4 外部短路"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 过流放电",
+      "page_num": 7,
+      "section_path": [
+        "5 过流放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n5的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n1.",
+      "page_num": 7,
+      "section_path": [
+        "5 过流放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 温度保护",
+      "page_num": 7,
+      "section_path": [
+        "6 温度保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n6的试验方法测试,电池组应不能充电,不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n1.",
+      "page_num": 7,
+      "section_path": [
+        "6 温度保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 绝缘电阻",
+      "page_num": 7,
+      "section_path": [
+        "7 绝缘电阻"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n1.\n7的试验方法测试,电池组应保证功能正常,并且电池组正负极同外壳之间的绝缘阻值应\n大于或等于20MΩ。\n5.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "7 绝缘电阻"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 机械安全",
+      "page_num": 7,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n2.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 挤压",
+      "page_num": 7,
+      "section_path": [
+        "1 挤压"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n2.\n1的试验方法测试,电池组应不起火、不爆炸。\n5.\n2.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "1 挤压"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 加速度冲击",
+      "page_num": 7,
+      "section_path": [
+        "2 加速度冲击"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n2.\n2的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "2 加速度冲击"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 振动",
+      "page_num": 7,
+      "section_path": [
+        "3 振动"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n2.\n3的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "3 振动"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 自由跌落",
+      "page_num": 7,
+      "section_path": [
+        "4 自由跌落"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n2.\n4的试验方法测试,电池组应不起火、不爆炸。\n5.\n2.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "4 自由跌落"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 提把强度",
+      "page_num": 7,
+      "section_path": [
+        "5 提把强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n2.\n5的试验方法测试,电池组提把应不断裂,提把与外壳连接处应不开裂、不脱落。\n5.\n2.",
+      "page_num": 7,
+      "section_path": [
+        "5 提把强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 环境安全",
+      "page_num": 7,
+      "section_path": [
+        "3 环境安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n2.\n3.",
+      "page_num": 7,
+      "section_path": [
+        "3 环境安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 低气压",
+      "page_num": 7,
+      "section_path": [
+        "1 低气压"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n3.\n1的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n3.",
+      "page_num": 7,
+      "section_path": [
+        "1 低气压"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 温度循环",
+      "page_num": 7,
+      "section_path": [
+        "2 温度循环"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n3.\n2的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。",
+      "page_num": 7,
+      "section_path": [
+        "2 温度循环"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.\n2.\n3.",
+      "page_num": 8,
+      "section_path": [
+        "2 温度循环"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 浸水",
+      "page_num": 8,
+      "section_path": [
+        "3 浸水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n3.\n3的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸。\n5.\n2.\n3.",
+      "page_num": 8,
+      "section_path": [
+        "3 浸水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 盐雾",
+      "page_num": 8,
+      "section_path": [
+        "4 盐雾"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n3.\n4的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸,电池组正负极同外壳之间的\n绝缘阻值应大于或等于1MΩ。\n5.\n2.\n3.",
+      "page_num": 8,
+      "section_path": [
+        "4 盐雾"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 湿热循环",
+      "page_num": 8,
+      "section_path": [
+        "5 湿热循环"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n3.\n5的试验方法测试,电池组应不泄漏、不破裂、不起火、不爆炸,电池组正负极同外壳之间的\n绝缘阻值应大于或等于1MΩ。\n5.\n2.\n3.",
+      "page_num": 8,
+      "section_path": [
+        "5 湿热循环"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 阻燃性",
+      "page_num": 8,
+      "section_path": [
+        "6 阻燃性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n3.",
+      "page_num": 8,
+      "section_path": [
+        "6 阻燃性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 的试验方法测试,电池组的非金属材料外壳应符合V-0 等级的要求;印制板应符合",
+      "page_num": 8,
+      "section_path": [
+        "6 的试验方法测试,电池组的非金属材料外壳应符合V-0 等级的要求;印制板应符合"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "V-1等级的要求;导线的绝缘不应有助于火焰的蔓延。\n5.\n2.",
+      "page_num": 8,
+      "section_path": [
+        "6 的试验方法测试,电池组的非金属材料外壳应符合V-0 等级的要求;印制板应符合"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 热扩散",
+      "page_num": 8,
+      "section_path": [
+        "4 热扩散"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n4.\n4的试验方法测试,电池组在发出热失控报警后5min内,应不起火、不爆炸。\n5.\n2.",
+      "page_num": 8,
+      "section_path": [
+        "4 热扩散"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 互认协同充电",
+      "page_num": 8,
+      "section_path": [
+        "5 互认协同充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组应具有与充电装置互认协同充电的功能。\n按6.\n4.\n5的试验方法测试,电池组充电应先与充电装置进行互认协同识别,通过后才能开始充电工作。\n5.\n2.",
+      "page_num": 8,
+      "section_path": [
+        "5 互认协同充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 数据采集",
+      "page_num": 8,
+      "section_path": [
+        "6 数据采集"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组在充电、放电过程中应至少实时采集以下数据:电池电压,电池组总电压、温度、电流。\n5.\n2.",
+      "page_num": 8,
+      "section_path": [
+        "6 数据采集"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 标志",
+      "page_num": 8,
+      "section_path": [
+        "7 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组的醒目部位应清晰和耐久地标识至少下列标志:\na) 生产厂;\nb) 产品名称与型号;\nc) 标称电压、额定容量、充电限制电压、放电终止电压、额定能量;\nd) 正负极性标志,使用“正、负”字样,或“+、-”符号;\ne) 生产日期或批号;\nf) 必要的安全警示说明,示例如下:\n请勿拆解、改装电池!\n破损或鼓胀请勿继续使用!\n请勿在允许的温度范围外充电或使用!\ng) 最大充电电流、最大放电电流、工作温度范围;\nh) 安全使用年限,内容为“电池组在正常使用条件下的安全使用年限为×年”;\n注1:除另有规定外,“×年”由企业根据该型号产品特性自行确定。\n注2:随着电池组不断充放电使用,安全性可能会下降,容量、内阻等指标也可能会发生变化。\ni)\n电池组唯一性编码,编码至少包含生产厂代码,且应为耐高温永久性标识。\n电池组a)~h)标识按6.\n4.\n7a)的方法试验后,信息应完整、清晰,且不应出现卷边。\n电池组耐高温永久性标识按6.\n4.\n7b)的方法试验后,标识信息应完整、清晰。",
+      "page_num": 8,
+      "section_path": [
+        "7 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 试验方法",
+      "page_num": 9,
+      "section_path": [
+        "6 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.",
+      "page_num": 9,
+      "section_path": [
+        "6 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 试验条件",
+      "page_num": 9,
+      "section_path": [
+        "1 试验条件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.",
+      "page_num": 9,
+      "section_path": [
+        "1 试验条件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 环境要求",
+      "page_num": 9,
+      "section_path": [
+        "1 环境要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "除非另有规定,试验应在以下环境进行:\n温度:(20±5)℃,相对湿度:不大于85%,大气压力:86kPa~106kPa。\n6.\n1.",
+      "page_num": 9,
+      "section_path": [
+        "1 环境要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 测量仪器和设备要求",
+      "page_num": 9,
+      "section_path": [
+        "2 测量仪器和设备要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "测量仪器和设备准确度应不低于以下规定:\na) 电压测量装置:±0.\n5%;\nb) 电流测量装置:±0.\n5%;\nc) 温度测量装置:±2 ℃;\nd) 时间测量装置:±1s;\ne) 尺寸测量装置:±1mm;\nf) 质量测量装置:±0.\n5%。\n6.\n1.",
+      "page_num": 9,
+      "section_path": [
+        "2 测量仪器和设备要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 单一故障条件",
+      "page_num": 9,
+      "section_path": [
+        "3 单一故障条件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "如果要求施加模拟故障或异常工作条件,应依次施加,一次模拟一个故障。对由模拟故障条件过程\n中直接导致的故障(如器件直接损坏)被认为是故障条件的一部分。\n当设置某单一故障时,这个单一故障包括任何元器件的失效。应通过检查电路板、电路图和元器件\n规格书来确定出合理可预见的故障条件。例如:\na) 半导体器件(如保护开关管)任意2个引脚的短路和开路;\nb) 限流器件(如保险丝)的短路、开路;\nc) 电容器的短路和开路;\nd) 限压器件的短路和开路。\n6.",
+      "page_num": 9,
+      "section_path": [
+        "3 单一故障条件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 样品准备",
+      "page_num": 9,
+      "section_path": [
+        "2 样品准备"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.",
+      "page_num": 9,
+      "section_path": [
+        "2 样品准备"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电池样品准备",
+      "page_num": 9,
+      "section_path": [
+        "1 电池样品准备"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n1.",
+      "page_num": 9,
+      "section_path": [
+        "1 电池样品准备"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 标准充电",
+      "page_num": 9,
+      "section_path": [
+        "1 标准充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "若企业未提供充电方法,电池采用以下方法进行充电。\n充电前,电池以I2(A)恒流放电至放电终止电压。在(23±2)℃试验环境下,以0.\n4I2(A)充电,当\n电池的端电压达到充电限制电压时,再转以恒压充电直至充电电流小于或等于0.\n04I2(A)为止,静置\n0.\n5h。\n6.\n2.\n1.",
+      "page_num": 9,
+      "section_path": [
+        "1 标准充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 标准放电",
+      "page_num": 9,
+      "section_path": [
+        "2 标准放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "在(23±2)℃试验环境下,电池按照6.\n2.\n1.\n1的方法充电结束后,以I2(A)电流恒流放电至放电终止\n电压。",
+      "page_num": 9,
+      "section_path": [
+        "2 标准放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.",
+      "page_num": 10,
+      "section_path": [
+        "2 标准放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电池组样品准备",
+      "page_num": 10,
+      "section_path": [
+        "2 电池组样品准备"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n2.",
+      "page_num": 10,
+      "section_path": [
+        "2 电池组样品准备"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 标准充电",
+      "page_num": 10,
+      "section_path": [
+        "1 标准充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "若企业未提供充电方法,电池组采用以下方法进行充电。\n充电前,电池组以I2(A)恒流放电至放电终止电压。在(23±2)℃试验环境下,以0.\n4I2(A)充\n电,当电池组的端电压达到充电限制电压时,再转以恒压充电直至充电电流小于或等于0.\n04I2(A)为\n止,静置0.\n5h。\n6.\n2.\n2.",
+      "page_num": 10,
+      "section_path": [
+        "1 标准充电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 标准放电",
+      "page_num": 10,
+      "section_path": [
+        "2 标准放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "在(23±2)℃试验环境下,电池组按照6.\n2.\n2.\n1的方法充电结束后,以I2(A)电流恒流放电至放电终\n止电压。\n6.\n2.\n2.",
+      "page_num": 10,
+      "section_path": [
+        "2 标准放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 I2(A)放电",
+      "page_num": 10,
+      "section_path": [
+        "3 I2(A)放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "在(23±2)℃环境中,电池组按6.\n2.\n2.\n1的方法充电后,以I2(A)电流恒流放电至放电终止电压,上\n述试验重复3次。记录电池组3次实际放电容量。\n电池组的实际放电容量应在3次内达到额定容量,否则不能作为型式试验的样品。\n6.",
+      "page_num": 10,
+      "section_path": [
+        "3 I2(A)放电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电池安全试验",
+      "page_num": 10,
+      "section_path": [
+        "3 电池安全试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n3.",
+      "page_num": 10,
+      "section_path": [
+        "3 电池安全试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 过充电试验",
+      "page_num": 10,
+      "section_path": [
+        "1 过充电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池按照6.\n2.\n1.\n1的试验方法充满电后,用直流电源以I2(A)电流,充电至1.\n5倍充电限制电压或\n总充电时间达到1.\n5h,停止充电,然后静置6h。\n6.\n3.",
+      "page_num": 10,
+      "section_path": [
+        "1 过充电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 过放电试验",
+      "page_num": 10,
+      "section_path": [
+        "2 过放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池按照6.\n2.\n1.\n1的试验方法充满电后,对电池以2I2(A)电流放电,共持续90min,然后静置1h。\n6.\n3.",
+      "page_num": 10,
+      "section_path": [
+        "2 过放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 外部短路试验",
+      "page_num": 10,
+      "section_path": [
+        "3 外部短路试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池按照6.\n2.\n1.\n1的试验方法充满电后,用外部电阻为(20±5)mΩ 的导体连接电池正负极端并保\n持1h,然后静置6h。\n6.\n3.",
+      "page_num": 10,
+      "section_path": [
+        "3 外部短路试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 热滥用试验",
+      "page_num": 10,
+      "section_path": [
+        "4 热滥用试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池按照6.\n2.\n1.\n1的试验方法充满电后,放入试验箱中,然后以(5±2)℃/min的温升速率进行升\n温,当箱内温度达到(130±2)℃后恒温,并保持60min。\n6.\n3.",
+      "page_num": 10,
+      "section_path": [
+        "4 热滥用试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 针刺试验",
+      "page_num": 10,
+      "section_path": [
+        "5 针刺试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池按照6.\n2.\n1.\n1的试验方法充满电后,用直径ϕ5 mm 的耐高温钢针(如钨钢,针尖的圆锥角为\n45°),以(25±5)mm/s的速度,从垂直于电池极板的方向贯穿电池的几何中心,钢针停留在电池中,并\n观察1h。\n6.\n3.",
+      "page_num": 10,
+      "section_path": [
+        "5 针刺试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 标志",
+      "page_num": 10,
+      "section_path": [
+        "6 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "目视检查电池的相关标志信息。",
+      "page_num": 10,
+      "section_path": [
+        "6 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.",
+      "page_num": 11,
+      "section_path": [
+        "6 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 电池组安全试验",
+      "page_num": 11,
+      "section_path": [
+        "4 电池组安全试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.",
+      "page_num": 11,
+      "section_path": [
+        "4 电池组安全试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电气安全",
+      "page_num": 11,
+      "section_path": [
+        "1 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "1 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 静电放电试验",
+      "page_num": 11,
+      "section_path": [
+        "1 静电放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,按照GB/T17626.\n2进行测试,对电池组每个端子进行\n4kV 接触放电测试(±4kV 各10次)和8kV 空气放电测试(±8kV 各10次)。\n对电池组施加(充电限制电压+5V)的充电电压至电池组保护,恢复后,将电池组正负极端子用外\n部电阻为(20±5)mΩ 的导体连接至电池组保护。\n6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "1 静电放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 过充电试验",
+      "page_num": 11,
+      "section_path": [
+        "2 过充电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,用直流电源以制造商规定的最大充电电流充电,共持续\n2h。\n试验应在电池组正常工作条件和充电保护元器件(充电回路保护开关管、保险丝等)单一故障条件\n下分别进行。\n6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "2 过充电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 过放电试验",
+      "page_num": 11,
+      "section_path": [
+        "3 过放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,对电池组以2I2(A)电流放电,共持续90min,然后静置\n1h。\n6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "3 过放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 外部短路试验",
+      "page_num": 11,
+      "section_path": [
+        "4 外部短路试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,用外部电阻为(20±5)mΩ 的导体连接电池组正负极\n端,当电池组电压低于0.\n2V 或者短路时间达到1h,停止试验,然后静置6h。\n试验应在电池组正常工作条件和放电保护元器件(放电回路保护开关管、保险丝等)的单一故障条\n件下分别进行。\n6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "4 外部短路试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 过流放电试验",
+      "page_num": 11,
+      "section_path": [
+        "5 过流放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,用制造商规定的最大放电电流的1.\n5倍放电,共持续\n2h。\n试验应在电池组正常工作条件和放电保护元器件(放电回路保护开关管、保险丝等)单一故障条件\n下分别进行。\n6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "5 过流放电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 温度保护试验",
+      "page_num": 11,
+      "section_path": [
+        "6 温度保护试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n2的试验方法放完电后,在制造商规定的最高充电温度或55 ℃(取两者较高的温\n度)加5 ℃的环境下放置8h,然后用制造商规定的最大充电电流进行充电,并保持10 min,然后静置\n6h。\n电池组按照6.\n2.\n2.\n2的试验方法放完电后,在制造商规定的最低充电温度或0 ℃(取两者较低的温\n度)再降5 ℃的环境下放置16h,然后用制造商规定的最大充电电流进行充电,并保持10min,然后静\n置6h。\n6.\n4.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "6 温度保护试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 绝缘电阻试验",
+      "page_num": 11,
+      "section_path": [
+        "7 绝缘电阻试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,用绝缘电阻测量设备,施加直流电压500V,测试电池组\n正极与外壳、负极与外壳之间的绝缘电阻值。\n注:外壳易触及部分为绝缘材料的,用金属箔覆盖。",
+      "page_num": 11,
+      "section_path": [
+        "7 绝缘电阻试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| X向 |  | Y向 |  | Z向 |  |\n| --- | --- | --- | --- | --- | --- |\n| 频率 Hz | 功率谱密度 (PSD) g2/Hz | 频率 Hz | 功率谱密度 (PSD) g2/Hz | 频率 Hz | 功率谱密度 (PSD) g2/Hz |\n| 5 | 0.00814 | 5 | 0.00337 | 5 | 0.06560 |\n| 7 | 0.06822 | 7 | 0.00699 | 7 | 0.19700 |\n| 17 | 0.00654 | 15 | 0.00316 | 17 | 0.05342 |",
+      "page_num": 12,
+      "section_path": [
+        "7 绝缘电阻试验"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "X向",
+          null,
+          "Y向",
+          null,
+          "Z向",
+          null
+        ],
+        [
+          "频率\nHz",
+          "功率谱密度\n(PSD)\ng2/Hz",
+          "频率\nHz",
+          "功率谱密度\n(PSD)\ng2/Hz",
+          "频率\nHz",
+          "功率谱密度\n(PSD)\ng2/Hz"
+        ],
+        [
+          "5",
+          "0.00814",
+          "5",
+          "0.00337",
+          "5",
+          "0.06560"
+        ],
+        [
+          "7",
+          "0.06822",
+          "7",
+          "0.00699",
+          "7",
+          "0.19700"
+        ],
+        [
+          "17",
+          "0.00654",
+          "15",
+          "0.00316",
+          "17",
+          "0.05342"
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.",
+      "page_num": 12,
+      "section_path": [
+        "7 绝缘电阻试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 机械安全",
+      "page_num": 12,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.\n2.",
+      "page_num": 12,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 挤压试验",
+      "page_num": 12,
+      "section_path": [
+        "1 挤压试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,放置在一侧是钢制平板,一侧是钢制异形板(如图1所\n示)的中间。异形板的半圆柱形挤压头的半径为75mm,半圆柱体的长度大于被挤压电池的尺寸,但不\n超过1m。\n挤压方向为X 轴方向和Y 轴方向(车辆行驶方向为X 轴方向,另一垂直于行驶方向的水平方向为\nY 轴方向),每个电池组只接受1次挤压。\n挤压速度为(5±1)mm/s,当挤压至电池组原尺寸的70%,或挤压力达到30kN 时保持5min,之后\n撤除挤压力,并观察1h。\n单位为毫米\n图1 异形板示意图\n6.\n4.\n2.",
+      "page_num": 12,
+      "section_path": [
+        "1 挤压试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 加速度冲击试验",
+      "page_num": 12,
+      "section_path": [
+        "2 加速度冲击试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,直接安装或借助于刚性试验夹具安装在试验设备台面\n上。在电池组3个互相垂直的方向上各承受6次等值的冲击(3次正方向,3次负方向),至少要保证\n1个方向与水平面垂直。\n每个电池组应经受峰值加速度150g、脉冲持续时间6ms的半正弦波冲击。\n测试结束静置1h后,进行1次标准放电和标准充电。\n6.\n4.\n2.",
+      "page_num": 12,
+      "section_path": [
+        "2 加速度冲击试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 振动试验",
+      "page_num": 12,
+      "section_path": [
+        "3 振动试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,直接安装或借助于刚性试验夹具安装在试验设备台面\n上,按表1规定振动谱进行随机振动测试,X 轴、Y 轴和Z 轴方向各进行12h振动,振动顺序为Z→Y→\nX(车辆行驶方向为X 轴方向,另一垂直于行驶方向的水平方向为Y 轴方向),测试结束静置1h后,进\n行1次标准放电和标准充电。\n表1 随机振动测试谱\nX 向\nY 向\nZ 向\n频率\nHz\n功率谱密度(PSD)\n2/Hz\n频率\nHz\n功率谱密度(PSD)\n2/Hz\n频率\nHz\n功率谱密度(PSD)\n2/Hz\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.",
+      "page_num": 12,
+      "section_path": [
+        "3 振动试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| X向 |  | Y向 |  | Z向 |  |\n| --- | --- | --- | --- | --- | --- |\n| 频率 Hz | 功率谱密度 (PSD) g2/Hz | 频率 Hz | 功率谱密度 (PSD) g2/Hz | 频率 Hz | 功率谱密度 (PSD) g2/Hz |\n| 28 | 0.02555 | 31 | 0.00115 | 40 | 0.02470 |\n| 97 | 0.00123 | 84 | 0.00232 | 46 | 0.03794 |\n| 135 | 0.00151 | 250 | 0.00033 | 60 | 0.04553 |\n| 222 | 0.00111 | 400 | 0.00053 | 70 | 0.04149 |\n| 310 | 0.00064 | 500 | 0.00132 | 300 | 0.00297 |\n| 500 | 0.00035 | — | — | 413 | 0.00364 |\n| — | — | — | — | 500 | 0.00253 |\n| X向功率谱密度均方根 为 gY向功率谱密度均方根为 gZ向功率谱密度均方根为 g (RMS) 1.09 , 0.68 , 2.53 |  |  |  |  |  |",
+      "page_num": 13,
+      "section_path": [
+        "3 振动试验"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "X向",
+          null,
+          "Y向",
+          null,
+          "Z向",
+          null
+        ],
+        [
+          "频率\nHz",
+          "功率谱密度\n(PSD)\ng2/Hz",
+          "频率\nHz",
+          "功率谱密度\n(PSD)\ng2/Hz",
+          "频率\nHz",
+          "功率谱密度\n(PSD)\ng2/Hz"
+        ],
+        [
+          "28",
+          "0.02555",
+          "31",
+          "0.00115",
+          "40",
+          "0.02470"
+        ],
+        [
+          "97",
+          "0.00123",
+          "84",
+          "0.00232",
+          "46",
+          "0.03794"
+        ],
+        [
+          "135",
+          "0.00151",
+          "250",
+          "0.00033",
+          "60",
+          "0.04553"
+        ],
+        [
+          "222",
+          "0.00111",
+          "400",
+          "0.00053",
+          "70",
+          "0.04149"
+        ],
+        [
+          "310",
+          "0.00064",
+          "500",
+          "0.00132",
+          "300",
+          "0.00297"
+        ],
+        [
+          "500",
+          "0.00035",
+          "—",
+          "—",
+          "413",
+          "0.00364"
+        ],
+        [
+          "—",
+          "—",
+          "—",
+          "—",
+          "500",
+          "0.00253"
+        ],
+        [
+          "X向功率谱密度均方根 为 gY向功率谱密度均方根为 gZ向功率谱密度均方根为 g\n(RMS) 1.09 , 0.68 , 2.53",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "表1 随机振动测试谱(续)\nX 向\nY 向\nZ 向\n频率\nHz\n功率谱密度(PSD)\n2/Hz\n频率\nHz\n功率谱密度(PSD)\n2/Hz\n频率\nHz\n功率谱密度(PSD)\n2/Hz\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\n0.\nX 向功率谱密度均方根(RMS)为1.\n09g,Y 向功率谱密度均方根为0.\n68g,Z 向功率谱密度均方根为2.\n53g\n6.\n4.\n2.",
+      "page_num": 13,
+      "section_path": [
+        "3 振动试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 自由跌落试验",
+      "page_num": 13,
+      "section_path": [
+        "4 自由跌落试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,由高度(电池组最低点高度)1000mm 的位置自由跌落\n到混凝土平面上,方形电池组的6个表面方向、圆柱形电池组为轴向及两个垂直的径向(均为正反两个\n方向)各1次共6次,每两次之间的时间间隔为(3±1)min,测试结束后静置4h。\n注:试验过程中混凝土平面需不开裂。\n6.\n4.\n2.",
+      "page_num": 13,
+      "section_path": [
+        "4 自由跌落试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 提把强度试验",
+      "page_num": 13,
+      "section_path": [
+        "5 提把强度试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "针对带有提把的电池组,在电池组提把中间75mm 的长度上,10s内均匀施加至4倍电池组重量\n的力,保持位置不动,持续1min。\n注:当提把长度不足75mm 时,以其最大长度施加力。\n6.\n4.",
+      "page_num": 13,
+      "section_path": [
+        "5 提把强度试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 环境安全",
+      "page_num": 13,
+      "section_path": [
+        "3 环境安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.\n3.",
+      "page_num": 13,
+      "section_path": [
+        "3 环境安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 低气压试验",
+      "page_num": 13,
+      "section_path": [
+        "1 低气压试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,放置在真空箱中,逐渐减少其箱内气压至不大于11.\n6kPa,并\n保持6h。\n6.\n4.\n3.",
+      "page_num": 13,
+      "section_path": [
+        "1 低气压试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 温度循环试验",
+      "page_num": 13,
+      "section_path": [
+        "2 温度循环试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,在温度为(72±2)℃的环境下存放6h,然后在温度为\n(-40±2)℃的环境下存放6h,两个温度之间的转换时间不超过30min,按以上步骤循环进行,共循环\n10次。然后将电池组在温度为(20±5)℃的环境下存放24h。\n6.\n4.\n3.",
+      "page_num": 13,
+      "section_path": [
+        "2 温度循环试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 浸水试验",
+      "page_num": 13,
+      "section_path": [
+        "3 浸水试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,浸没在温度为(20±5)℃的水槽中(以水淹没电池组最上\n端为准)48h,然后取出静置4h。",
+      "page_num": 13,
+      "section_path": [
+        "3 浸水试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 触发对象电能 E ( ) Wh | 加热装置最大功率 P ( ) W |\n| --- | --- |\n| <80 | 30~200 |\n| ≥80 | 100~300 |",
+      "page_num": 14,
+      "section_path": [
+        "3 浸水试验"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "触发对象电能 E\n( )\nWh",
+          "加热装置最大功率 P\n( )\nW"
+        ],
+        [
+          "<80",
+          "30~200"
+        ],
+        [
+          "≥80",
+          "100~300"
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.\n3.",
+      "page_num": 14,
+      "section_path": [
+        "3 浸水试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 盐雾试验",
+      "page_num": 14,
+      "section_path": [
+        "4 盐雾试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,按照GB/T2423.\n18—2021中试验方法3进行测试。试\n验后观察2h,然后进行1次标准放电和标准充电。然后用直流电压500V,测试电池组正极与外壳之\n间、负极与外壳之间的绝缘电阻值。\n6.\n4.\n3.",
+      "page_num": 14,
+      "section_path": [
+        "4 盐雾试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 湿热循环试验",
+      "page_num": 14,
+      "section_path": [
+        "5 湿热循环试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1的试验方法充满电后,置于交变温度环境中,按照GB/T2423.\n4—2008执行试\n验方法2,最高温度为65 ℃,循环5次。试验后观察2h,然后进行1次标准放电和标准充电。然后用\n直流电压500V,测试电池组正极与外壳之间、负极与外壳之间的绝缘电阻值。\n6.\n4.\n3.",
+      "page_num": 14,
+      "section_path": [
+        "5 湿热循环试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 阻燃性试验",
+      "page_num": 14,
+      "section_path": [
+        "6 阻燃性试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组的非金属材料外壳、印制板按照GB/T5169.\n16进行测试;导线按照附录A 进行测试。\n6.\n4.",
+      "page_num": 14,
+      "section_path": [
+        "6 阻燃性试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 热扩散试验",
+      "page_num": 14,
+      "section_path": [
+        "4 热扩散试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.\n4.",
+      "page_num": 14,
+      "section_path": [
+        "4 热扩散试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 触发方法",
+      "page_num": 14,
+      "section_path": [
+        "1 触发方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "推荐加热或过充作为热扩散试验的可选方法,可选择其中一种方法,但选择的方法应能触发单体电\n池发生热失控。\n6.\n4.\n4.",
+      "page_num": 14,
+      "section_path": [
+        "1 触发方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 触发对象",
+      "page_num": 14,
+      "section_path": [
+        "2 触发对象"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组按照6.\n2.\n2.\n1进行标准充电后,选择电池组内靠近中心位置,或者被其他单体电池包围的一\n个单体电池作为触发对象。\n6.\n4.\n4.",
+      "page_num": 14,
+      "section_path": [
+        "2 触发对象"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 加热触发",
+      "page_num": 14,
+      "section_path": [
+        "3 加热触发"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "加热触发热失控方法:使用平面状或者棒状加热装置,并且其表面覆盖陶瓷或绝缘层。对于尺寸与\n单体电池相同的块状加热装置,可用该加热装置代替其中一个单体电池,与触发对象的表面直接接触;\n对于薄膜加热装置,则将其始终附着在触发对象的表面,加热装置的加热面积应不大于单体电池的表面\n积;将加热装置的加热面与单体电池表面直接接触,加热装置的位置与6.\n4.\n4.\n5中规定的温度传感器的\n位置相对应;安装完成后,在24h内启动加热装置,以加热装置的最大功率对触发对象进行加热;加热\n装置的功率要求见表2,必要时可增加加热功率,确保触发对象发生热失控;当触发对象发生热失控时\n停止加热。\n表2 加热装置的功率要求\n触发对象电能(E)\nWh\n加热装置最大功率(P)\n<80\n30~200\n≥80\n100~300",
+      "page_num": 14,
+      "section_path": [
+        "3 加热触发"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.\n4.",
+      "page_num": 15,
+      "section_path": [
+        "3 加热触发"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 过充触发",
+      "page_num": 15,
+      "section_path": [
+        "4 过充触发"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "过充触发热失控方法:以电池能持续工作的最大电流对触发对象进行恒流充电,直至其发生热失控\n或触发对象的荷电状态达到3倍的电池额定容量;过充触发要求在触发对象上连接额外的导线以实现\n过充,电池组中其他的单体电池不应过充;如果未发生热失控,继续观察1h。\n6.\n4.\n4.",
+      "page_num": 15,
+      "section_path": [
+        "4 过充触发"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 监控点布置方案",
+      "page_num": 15,
+      "section_path": [
+        "5 监控点布置方案"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按如下方案操作。\na) 检测电压或温度,应使用原始的电路或追加新增的测试用电路。温度数据的采样间隔应小于\n1s,准确度要求为±2 ℃。\nb) 加热触发时,温度传感器布置在远离热传导的一侧,即安装在加热装置的对侧(如图2所示)。\nc) 过充触发时,温度传感器布置在单体电池表面与正负极等距,且离正负极最近的位置。\na) 硬壳及软包电池\nb) 圆柱形电池-Ⅰ\nc) 圆柱形电池-Ⅱ\n标引序号说明:\n1———加热装置;\n2———加热装置(电阻丝);\n3———温度传感器。\n图2 加热触发时温度传感器的布置位置示意图\n6.\n4.\n4.",
+      "page_num": 15,
+      "section_path": [
+        "5 监控点布置方案"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 电池热失控触发判定条件",
+      "page_num": 15,
+      "section_path": [
+        "6 电池热失控触发判定条件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "判定条件如下:\na) 触发对象产生电压降,且下降值超过初始电压的25%;\nb) 监测点温度达到制造商规定的最高工作温度;\nc) 监测点的速率dT/dt≥1 ℃/s,且持续3s以上。\n当a)和c)或者b)和c)发生时,判定触发对象发生热失控。\n6.\n4.\n4.",
+      "page_num": 15,
+      "section_path": [
+        "6 电池热失控触发判定条件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 记录",
+      "page_num": 15,
+      "section_path": [
+        "7 记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "记录电池组发出热失控报警至起火或爆炸的时间,以及单体电池热失控触发后1h内电池组的状\n态。如电池组未发生起火、爆炸,认为电池组通过热扩散试验。",
+      "page_num": 15,
+      "section_path": [
+        "7 记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 组号 | 检验项目 |  | 要求 | 试验方法 | 样品编号 |\n| --- | --- | --- | --- | --- | --- |\n| 1 | 电池 | 标志 | 5.1.6 | 6.3.6 | 1#~10# |\n|  |  | 过充电 | 5.1.1 | 6.3.1 | 1#、2# |\n|  |  | 过放电 | 5.1.2 | 6.3.2 | 3#、4# |\n|  |  | 外部短路 | 5.1.3 | 6.3.3 | 5#、6# |\n|  |  | 热滥用 | 5.1.4 | 6.3.4 | 7#、8# |\n|  |  | 针刺 | 5.1.5 | 6.3.5 | 9#、10# |",
+      "page_num": 16,
+      "section_path": [
+        "7 记录"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "组号",
+          "检验项目",
+          null,
+          "要求",
+          "试验方法",
+          "样品编号"
+        ],
+        [
+          "1",
+          "电池",
+          "标志",
+          "5.1.6",
+          "6.3.6",
+          "1#~10#"
+        ],
+        [
+          null,
+          null,
+          "过充电",
+          "5.1.1",
+          "6.3.1",
+          "1#、2#"
+        ],
+        [
+          null,
+          null,
+          "过放电",
+          "5.1.2",
+          "6.3.2",
+          "3#、4#"
+        ],
+        [
+          null,
+          null,
+          "外部短路",
+          "5.1.3",
+          "6.3.3",
+          "5#、6#"
+        ],
+        [
+          null,
+          null,
+          "热滥用",
+          "5.1.4",
+          "6.3.4",
+          "7#、8#"
+        ],
+        [
+          null,
+          null,
+          "针刺",
+          "5.1.5",
+          "6.3.5",
+          "9#、10#"
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.",
+      "page_num": 16,
+      "section_path": [
+        "7 记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 互认协同充电试验",
+      "page_num": 16,
+      "section_path": [
+        "5 互认协同充电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池组与充电装置互认协同充电功能测试方法如下:\na) 使用不匹配充电装置给电池组充电,观察电池组的工作状态;或\nb) 根据产品说明书的明示,使用通信模拟器模拟通信协议,观察电池组的工作状态。\n6.\n4.",
+      "page_num": 16,
+      "section_path": [
+        "5 互认协同充电试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 数据采集试验",
+      "page_num": 16,
+      "section_path": [
+        "6 数据采集试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按照制造商提供的通信方式或上位机,进行数据采集验证。\n6.\n4.",
+      "page_num": 16,
+      "section_path": [
+        "6 数据采集试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 标志",
+      "page_num": 16,
+      "section_path": [
+        "7 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按照如下方法进行标志试验。\na) 检查电池组的5.\n2.\n6a)~h)相关标志信息,并使用一块蘸有水的棉布擦拭15s,然后再用一块\n蘸有浓度为75%(体积分数)乙醇的棉布擦拭15s。\nb) 检查电池组的5.\n2.\n6i)标志信息,并将耐高温永久性标识放入(950±10)℃的加热炉,在此试验\n温度下保持0.\n5h。然后取出试样,将其在空气中自然冷却至室温。",
+      "page_num": 16,
+      "section_path": [
+        "7 标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 型式试验",
+      "page_num": 16,
+      "section_path": [
+        "7 型式试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "7.",
+      "page_num": 16,
+      "section_path": [
+        "7 型式试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 试验规定",
+      "page_num": 16,
+      "section_path": [
+        "1 试验规定"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "当发生下列情况之一时,应进行型式试验:\n———新产品鉴定或产品的改型设计、结构、工艺、材料有较大变动后的生产定型时;\n———产品停止生产半年以上又恢复生产或批量生产时;\n———合同环境下用户提出要求时。\n试验使用的样品的制造期限不应超过3个月,型式试验的样品应是经出厂检验合格的产品,且与交\n付产品保持一致。型式试验的样品与交付产品均不得使用梯次利用电池。\n7.",
+      "page_num": 16,
+      "section_path": [
+        "1 试验规定"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 试验样本和试验程序",
+      "page_num": 16,
+      "section_path": [
+        "2 试验样本和试验程序"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "在无特殊要求时,进行型式试验的样本,应从出厂检验合格的产品中随机抽取。\n型式试验项目、程序按表3规定;样品数量:电池10只,样品编号为1#~10#;电池组12 组,样品\n编号为1#~12#。\n注:试验过程中电池组需要正常通信,以保证可以充电和放电。\n表3 型式试验项目、程序\n组号\n检验项目\n要求\n试验方法\n样品编号\n电池\n标志\n5.\n1.\n6.\n3.\n1#~10#\n过充电\n5.\n1.\n6.\n3.\n1#、2#\n过放电\n5.\n1.\n6.\n3.\n3#、4#\n外部短路\n5.\n1.\n6.\n3.\n5#、6#\n热滥用\n5.\n1.\n6.\n3.\n7#、8#\n针刺\n5.\n1.\n6.\n3.\n9#、10#",
+      "page_num": 16,
+      "section_path": [
+        "2 试验样本和试验程序"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 组号 | 检验项目 |  | 要求 | 试验方法 | 样品编号 |\n| --- | --- | --- | --- | --- | --- |\n| 2 | 电池组 | 标志 | 5.2.7 | 6.4.7 | 1#~12# |\n|  |  | I 放电 2(A) | 6.2.2.3 | 6.2.2.3 | 1#~12# |\n|  |  | 静电放电 | 5.2.1.1 | 6.4.1.1 | 2#、3#、9# |\n|  |  | 过放电 | 5.2.1.3 | 6.4.1.3 | 2# |\n|  |  | 过充电 | 5.2.1.2 | 6.4.1.2 | 2# |\n|  |  | 温度保护 | 5.2.1.6 | 6.4.1.6 | 3# |\n|  |  | 外部短路 | 5.2.1.4 | 6.4.1.4 | 3# |\n|  |  | 互认协同充电 | 5.2.5 | 6.4.5 | 4# |\n|  |  | 数据采集 | 5.2.6 | 6.4.6 | 4# |\n|  |  | 绝缘电阻 | 5.2.1.7 | 6.4.1.7 | 5# |\n|  |  | 挤压 | 5.2.2.1 | 6.4.2.1 | 4#、5# |\n|  |  | 加速度冲击 | 5.2.2.2 | 6.4.2.2 | 6# |\n|  |  | 振动 | 5.2.2.3 | 6.4.2.3 | 7# |\n|  |  | 自由跌落 | 5.2.2.4 | 6.4.2.4 | 8# |\n|  |  | 提把强度 | 5.2.2.5 | 6.4.2.5 | 6# |\n|  |  | 阻燃性 a | 5.2.3.6 | 6.4.3.6 | 2#~3# |\n|  |  | 低气压 | 5.2.3.1 | 6.4.3.1 | 9# |\n|  |  | 过流放电 | 5.2.1.5 | 6.4.1.5 | 9# |\n|  |  | 温度循环 | 5.2.3.2 | 6.4.3.2 | 10# |\n|  |  | 浸水 | 5.2.3.3 | 6.4.3.3 | 7# |\n|  |  | 盐雾 | 5.2.3.4 | 6.4.3.4 | 11# |\n|  |  | 湿热循环 | 5.2.3.5 | 6.4.3.5 | 12# |\n|  |  | 热扩散 | 5.2.4 | 6.4.4 | 1# |\n| 注 同一编号样品的试验 按表中项目列出的先后顺序执行 : , 。 |  |  |  |  |  |\n| 可使用与壳体 印制板 导线材料一致的测试样件 a 、 、 。 |  |  |  |  |  |",
+      "page_num": 17,
+      "section_path": [
+        "2 试验样本和试验程序"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "组号",
+          "检验项目",
+          null,
+          "要求",
+          "试验方法",
+          "样品编号"
+        ],
+        [
+          "2",
+          "电池组",
+          "标志",
+          "5.2.7",
+          "6.4.7",
+          "1#~12#"
+        ],
+        [
+          null,
+          null,
+          "I 放电\n2(A)",
+          "6.2.2.3",
+          "6.2.2.3",
+          "1#~12#"
+        ],
+        [
+          null,
+          null,
+          "静电放电",
+          "5.2.1.1",
+          "6.4.1.1",
+          "2#、3#、9#"
+        ],
+        [
+          null,
+          null,
+          "过放电",
+          "5.2.1.3",
+          "6.4.1.3",
+          "2#"
+        ],
+        [
+          null,
+          null,
+          "过充电",
+          "5.2.1.2",
+          "6.4.1.2",
+          "2#"
+        ],
+        [
+          null,
+          null,
+          "温度保护",
+          "5.2.1.6",
+          "6.4.1.6",
+          "3#"
+        ],
+        [
+          null,
+          null,
+          "外部短路",
+          "5.2.1.4",
+          "6.4.1.4",
+          "3#"
+        ],
+        [
+          null,
+          null,
+          "互认协同充电",
+          "5.2.5",
+          "6.4.5",
+          "4#"
+        ],
+        [
+          null,
+          null,
+          "数据采集",
+          "5.2.6",
+          "6.4.6",
+          "4#"
+        ],
+        [
+          null,
+          null,
+          "绝缘电阻",
+          "5.2.1.7",
+          "6.4.1.7",
+          "5#"
+        ],
+        [
+          null,
+          null,
+          "挤压",
+          "5.2.2.1",
+          "6.4.2.1",
+          "4#、5#"
+        ],
+        [
+          null,
+          null,
+          "加速度冲击",
+          "5.2.2.2",
+          "6.4.2.2",
+          "6#"
+        ],
+        [
+          null,
+          null,
+          "振动",
+          "5.2.2.3",
+          "6.4.2.3",
+          "7#"
+        ],
+        [
+          null,
+          null,
+          "自由跌落",
+          "5.2.2.4",
+          "6.4.2.4",
+          "8#"
+        ],
+        [
+          null,
+          null,
+          "提把强度",
+          "5.2.2.5",
+          "6.4.2.5",
+          "6#"
+        ],
+        [
+          null,
+          null,
+          "阻燃性\na",
+          "5.2.3.6",
+          "6.4.3.6",
+          "2#~3#"
+        ],
+        [
+          null,
+          null,
+          "低气压",
+          "5.2.3.1",
+          "6.4.3.1",
+          "9#"
+        ],
+        [
+          null,
+          null,
+          "过流放电",
+          "5.2.1.5",
+          "6.4.1.5",
+          "9#"
+        ],
+        [
+          null,
+          null,
+          "温度循环",
+          "5.2.3.2",
+          "6.4.3.2",
+          "10#"
+        ],
+        [
+          null,
+          null,
+          "浸水",
+          "5.2.3.3",
+          "6.4.3.3",
+          "7#"
+        ],
+        [
+          null,
+          null,
+          "盐雾",
+          "5.2.3.4",
+          "6.4.3.4",
+          "11#"
+        ],
+        [
+          null,
+          null,
+          "湿热循环",
+          "5.2.3.5",
+          "6.4.3.5",
+          "12#"
+        ],
+        [
+          null,
+          null,
+          "热扩散",
+          "5.2.4",
+          "6.4.4",
+          "1#"
+        ],
+        [
+          "注 同一编号样品的试验 按表中项目列出的先后顺序执行\n: , 。",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "可使用与壳体 印制板 导线材料一致的测试样件\na 、 、 。",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "表3 型式试验项目、程序(续)\n组号\n检验项目\n要求\n试验方法\n样品编号\n电池组\n标志\n5.\n2.\n6.\n4.",
+      "page_num": 17,
+      "section_path": [
+        "2 试验样本和试验程序"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 #~12 #",
+      "page_num": 17,
+      "section_path": [
+        "1 #~12 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "I2(A)放电\n6.\n2.\n2.\n6.\n2.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "1 #~12 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 #~12 #",
+      "page_num": 17,
+      "section_path": [
+        "1 #~12 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "静电放电\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "1 #~12 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 #、3 #、9 #",
+      "page_num": 17,
+      "section_path": [
+        "2 #、3 #、9 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "过放电\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "2 #、3 #、9 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 #",
+      "page_num": 17,
+      "section_path": [
+        "2 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "过充电\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "2 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 #",
+      "page_num": 17,
+      "section_path": [
+        "2 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "温度保护\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "2 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 #",
+      "page_num": 17,
+      "section_path": [
+        "3 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "外部短路\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "3 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 #",
+      "page_num": 17,
+      "section_path": [
+        "3 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "互认协同充电\n5.\n2.\n6.\n4.",
+      "page_num": 17,
+      "section_path": [
+        "3 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 #",
+      "page_num": 17,
+      "section_path": [
+        "4 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "数据采集\n5.\n2.\n6.\n4.",
+      "page_num": 17,
+      "section_path": [
+        "4 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 #",
+      "page_num": 17,
+      "section_path": [
+        "4 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "绝缘电阻\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "4 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 #",
+      "page_num": 17,
+      "section_path": [
+        "5 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "挤压\n5.\n2.\n2.\n6.\n4.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "5 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 #、5 #",
+      "page_num": 17,
+      "section_path": [
+        "4 #、5 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "加速度冲击\n5.\n2.\n2.\n6.\n4.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "4 #、5 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 #",
+      "page_num": 17,
+      "section_path": [
+        "6 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "振动\n5.\n2.\n2.\n6.\n4.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "6 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 #",
+      "page_num": 17,
+      "section_path": [
+        "7 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "自由跌落\n5.\n2.\n2.\n6.\n4.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "7 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 #",
+      "page_num": 17,
+      "section_path": [
+        "8 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "提把强度\n5.\n2.\n2.\n6.\n4.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "8 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 #",
+      "page_num": 17,
+      "section_path": [
+        "6 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "阻燃性a\n5.\n2.\n3.\n6.\n4.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "6 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 #~3 #",
+      "page_num": 17,
+      "section_path": [
+        "2 #~3 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "低气压\n5.\n2.\n3.\n6.\n4.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "2 #~3 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "9 #",
+      "page_num": 17,
+      "section_path": [
+        "9 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "过流放电\n5.\n2.\n1.\n6.\n4.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "9 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "9 #",
+      "page_num": 17,
+      "section_path": [
+        "9 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "温度循环\n5.\n2.\n3.\n6.\n4.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "9 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "10 #",
+      "page_num": 17,
+      "section_path": [
+        "10 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "浸水\n5.\n2.\n3.\n6.\n4.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "10 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 #",
+      "page_num": 17,
+      "section_path": [
+        "7 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "盐雾\n5.\n2.\n3.\n6.\n4.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "7 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "11 #",
+      "page_num": 17,
+      "section_path": [
+        "11 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "湿热循环\n5.\n2.\n3.\n6.\n4.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "11 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "12 #",
+      "page_num": 17,
+      "section_path": [
+        "12 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "热扩散\n5.\n2.\n6.\n4.",
+      "page_num": 17,
+      "section_path": [
+        "12 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 #",
+      "page_num": 17,
+      "section_path": [
+        "1 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "注:同一编号样品的试验,按表中项目列出的先后顺序执行。\na 可使用与壳体、印制板、导线材料一致的测试样件。\n7.",
+      "page_num": 17,
+      "section_path": [
+        "1 #"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 试验判据",
+      "page_num": 17,
+      "section_path": [
+        "3 试验判据"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "所有样品型式试验项目合格,则判定产品型式试验合格。",
+      "page_num": 17,
+      "section_path": [
+        "3 试验判据"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 A\n(规范性)\n导线阻燃性试验方法\nA.",
+      "page_num": 18,
+      "section_path": [
+        "3 试验判据"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 目的",
+      "page_num": 18,
+      "section_path": [
+        "1 目的"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按GB/T5169.\n5—2020的规定来检验导线是否合格。\n就本文件而言,采用GB/T5169.\n5—2020 的内容并作如下修改。\nA.",
+      "page_num": 18,
+      "section_path": [
+        "1 目的"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 施加火焰时间",
+      "page_num": 18,
+      "section_path": [
+        "2 施加火焰时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T5169.\n5—2020第7章,施加试验火焰的时间如下:\na) 第一个样品:10s;\nb) 第二个样品:60s;\nc) 第三个样品:120s。\nA.",
+      "page_num": 18,
+      "section_path": [
+        "2 施加火焰时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 试验程序",
+      "page_num": 18,
+      "section_path": [
+        "3 试验程序"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T5169.\n5—2020第9章:\na) 9.\n3增加下列内容:\n支撑起燃烧器,使其轴线与垂直方向成45°。导线与垂直方向也保持45°,而其轴线所在垂直\n平面与燃烧器所在垂直平面成正交。\nb) 9.\n4用下列内容代替:\n试验在3个样品上进行。\nA.",
+      "page_num": 18,
+      "section_path": [
+        "3 试验程序"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 观察和测量",
+      "page_num": 18,
+      "section_path": [
+        "4 观察和测量"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T5169.\n5—2020第10章,本段最后一句用下列内容代替:\n燃烧持续时间是指从试验火焰移开瞬间一直到任何火焰熄灭时的间隔时间。\nA.",
+      "page_num": 18,
+      "section_path": [
+        "4 观察和测量"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 试验结果的评定",
+      "page_num": 18,
+      "section_path": [
+        "5 试验结果的评定"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T5169.\n5—2020第11章,用下列条文代替:\n试验期间,绝缘材料的任何燃烧应稳定且无明显的蔓延,GB/T5169.\n5—2020中5.\n6.\n2规定的标准\n铺底层没有起燃。在试验火焰移开后,任何火焰应在30s内自行熄灭。",
+      "page_num": 18,
+      "section_path": [
+        "5 试验结果的评定"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "参 考 文 献\n[1] GB31241—2022 便携式电子产品用锂离子电池和电池组 安全技术规范\n[2] GB38031—2020 电动汽车用动力蓄电池安全要求",
+      "page_num": 19,
+      "section_path": [
+        "5 试验结果的评定"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    }
+  ]
+}

@@ -1,0 +1,6390 @@
+{
+  "meta": {
+    "doc_id": "GB17761-2024",
+    "doc_title": "GB17761-2024《d电动自行车安全技术规范》",
+    "doc_type": "标准",
+    "filename": "GB17761-2024《d电动自行车安全技术规范》.pdf"
+  },
+  "source": "E:\\study\\week10 检索增强生成RAG\\homework\\data\\raw_pdf\\GB17761-2024《d电动自行车安全技术规范》.pdf",
+  "blocks": [
+    {
+      "block_type": "text",
+      "content": "ICS43.",
+      "page_num": 1,
+      "section_path": [],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "中华人民共和国国家标准",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "代替GB17761—2018",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "电动自行车安全技术规范",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "Safetytechnicalspecificationforelectricbicycle",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2024-12-31发布",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "2024-12-31发布"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2025-09-01实施",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "2025-09-01实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "国家市场监督管理总局",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "国家市场监督管理总局"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "国家标准化管理委员会",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "国家标准化管理委员会"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "发布",
+      "page_num": 1,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "发布"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "[扫描页，OCR 失败，内容跳过]",
+      "page_num": 2,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "发布"
+      ],
+      "is_ocr": true,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "目  次",
+      "page_num": 3,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "目  次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "前言\n…………………………………………………………………………………………………………\n引言\n…………………………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "中华人民共和国国家标准",
+        "电动自行车安全技术规范",
+        "Safetytechnicalspecificationforelectricbicycle",
+        "目  次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 范围",
+      "page_num": 3,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 规范性引用文件",
+      "page_num": 3,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 术语、定义和缩略语",
+      "page_num": 3,
+      "section_path": [
+        "3 术语、定义和缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\n3.",
+      "page_num": 3,
+      "section_path": [
+        "3 术语、定义和缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 术语和定义",
+      "page_num": 3,
+      "section_path": [
+        "1 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………\n3.",
+      "page_num": 3,
+      "section_path": [
+        "1 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 缩略语",
+      "page_num": 3,
+      "section_path": [
+        "2 缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "2 缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 通用要求",
+      "page_num": 3,
+      "section_path": [
+        "4 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "4 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 整车标志",
+      "page_num": 3,
+      "section_path": [
+        "5 整车标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………\n5.",
+      "page_num": 3,
+      "section_path": [
+        "5 整车标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 铭牌",
+      "page_num": 3,
+      "section_path": [
+        "1 铭牌"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………\n5.",
+      "page_num": 3,
+      "section_path": [
+        "1 铭牌"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 整车编码",
+      "page_num": 3,
+      "section_path": [
+        "2 整车编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n5.",
+      "page_num": 3,
+      "section_path": [
+        "2 整车编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电动机编码",
+      "page_num": 3,
+      "section_path": [
+        "3 电动机编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………\n5.",
+      "page_num": 3,
+      "section_path": [
+        "3 电动机编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 号牌安装位置",
+      "page_num": 3,
+      "section_path": [
+        "4 号牌安装位置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\n5.",
+      "page_num": 3,
+      "section_path": [
+        "4 号牌安装位置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 产品合格证",
+      "page_num": 3,
+      "section_path": [
+        "5 产品合格证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "5 产品合格证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 安全要求和试验方法",
+      "page_num": 3,
+      "section_path": [
+        "6 安全要求和试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "6 安全要求和试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 整车安全",
+      "page_num": 3,
+      "section_path": [
+        "1 整车安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "1 整车安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 机械安全",
+      "page_num": 3,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电气安全",
+      "page_num": 3,
+      "section_path": [
+        "3 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "3 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 防火阻燃",
+      "page_num": 3,
+      "section_path": [
+        "4 防火阻燃"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "4 防火阻燃"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 塑料占比",
+      "page_num": 3,
+      "section_path": [
+        "5 塑料占比"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "5 塑料占比"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 北斗定位功能",
+      "page_num": 3,
+      "section_path": [
+        "6 北斗定位功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "6 北斗定位功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 通信与动态安全监测",
+      "page_num": 3,
+      "section_path": [
+        "7 通信与动态安全监测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "7 通信与动态安全监测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 防篡改",
+      "page_num": 3,
+      "section_path": [
+        "8 防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "8 防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "9 使用说明书",
+      "page_num": 3,
+      "section_path": [
+        "9 使用说明书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………\n6.",
+      "page_num": 3,
+      "section_path": [
+        "9 使用说明书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "10 头盔",
+      "page_num": 3,
+      "section_path": [
+        "10 头盔"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "10 头盔"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 企业质量保证能力和产品一致性",
+      "page_num": 3,
+      "section_path": [
+        "7 企业质量保证能力和产品一致性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………\n7.",
+      "page_num": 3,
+      "section_path": [
+        "7 企业质量保证能力和产品一致性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 通用要求",
+      "page_num": 3,
+      "section_path": [
+        "1 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\n7.",
+      "page_num": 3,
+      "section_path": [
+        "1 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 企业生产能力",
+      "page_num": 3,
+      "section_path": [
+        "2 企业生产能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\n7.",
+      "page_num": 3,
+      "section_path": [
+        "2 企业生产能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 企业检测能力",
+      "page_num": 3,
+      "section_path": [
+        "3 企业检测能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\n7.",
+      "page_num": 3,
+      "section_path": [
+        "3 企业检测能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 企业质量控制能力",
+      "page_num": 3,
+      "section_path": [
+        "4 企业质量控制能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………\n7.",
+      "page_num": 3,
+      "section_path": [
+        "4 企业质量控制能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 检验规则",
+      "page_num": 3,
+      "section_path": [
+        "5 检验规则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "5 检验规则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 标准的实施",
+      "page_num": 3,
+      "section_path": [
+        "8 标准的实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "8 标准的实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录A (规范性) 机械强度试验",
+      "page_num": 3,
+      "section_path": [
+        "附录A (规范性) 机械强度试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………",
+      "page_num": 3,
+      "section_path": [
+        "附录A (规范性) 机械强度试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录B (资料性) 北斗模块性能",
+      "page_num": 4,
+      "section_path": [
+        "附录B (资料性) 北斗模块性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………\nB.",
+      "page_num": 4,
+      "section_path": [
+        "附录B (资料性) 北斗模块性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 名词解释",
+      "page_num": 4,
+      "section_path": [
+        "1 名词解释"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\nB.",
+      "page_num": 4,
+      "section_path": [
+        "1 名词解释"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 定位检测环境",
+      "page_num": 4,
+      "section_path": [
+        "2 定位检测环境"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\nB.",
+      "page_num": 4,
+      "section_path": [
+        "2 定位检测环境"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 北斗模块性能",
+      "page_num": 4,
+      "section_path": [
+        "3 北斗模块性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………",
+      "page_num": 4,
+      "section_path": [
+        "3 北斗模块性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录C (资料性) 电动自行车管理平台功能示例",
+      "page_num": 4,
+      "section_path": [
+        "附录C (资料性) 电动自行车管理平台功能示例"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "附录C (资料性) 电动自行车管理平台功能示例"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 总则",
+      "page_num": 4,
+      "section_path": [
+        "1 总则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "1 总则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 注册与信息录入",
+      "page_num": 4,
+      "section_path": [
+        "2 注册与信息录入"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "2 注册与信息录入"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 定位、预警及反馈",
+      "page_num": 4,
+      "section_path": [
+        "3 定位、预警及反馈"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "3 定位、预警及反馈"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 数据分析与报告",
+      "page_num": 4,
+      "section_path": [
+        "4 数据分析与报告"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "4 数据分析与报告"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 系统安全与隐私保护",
+      "page_num": 4,
+      "section_path": [
+        "5 系统安全与隐私保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "5 系统安全与隐私保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 兼容与交互",
+      "page_num": 4,
+      "section_path": [
+        "6 兼容与交互"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………\nC.",
+      "page_num": 4,
+      "section_path": [
+        "6 兼容与交互"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 接口与数据调阅",
+      "page_num": 4,
+      "section_path": [
+        "7 接口与数据调阅"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………",
+      "page_num": 4,
+      "section_path": [
+        "7 接口与数据调阅"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录D (资料性) 防篡改检查方法示例",
+      "page_num": 4,
+      "section_path": [
+        "附录D (资料性) 防篡改检查方法示例"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………\nD.",
+      "page_num": 4,
+      "section_path": [
+        "附录D (资料性) 防篡改检查方法示例"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 概述",
+      "page_num": 4,
+      "section_path": [
+        "1 概述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………\nD.",
+      "page_num": 4,
+      "section_path": [
+        "1 概述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 对特定的操作方法进行检查",
+      "page_num": 4,
+      "section_path": [
+        "2 对特定的操作方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………\nD.",
+      "page_num": 4,
+      "section_path": [
+        "2 对特定的操作方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 对解码器解速方法进行检查",
+      "page_num": 4,
+      "section_path": [
+        "3 对解码器解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………\nD.",
+      "page_num": 4,
+      "section_path": [
+        "3 对解码器解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 对更换控制器方法进行检查",
+      "page_num": 4,
+      "section_path": [
+        "4 对更换控制器方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………\nD.",
+      "page_num": 4,
+      "section_path": [
+        "4 对更换控制器方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 对联网解速方法进行检查",
+      "page_num": 4,
+      "section_path": [
+        "5 对联网解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………\nD.",
+      "page_num": 4,
+      "section_path": [
+        "5 对联网解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 对借助外置“云盒”解速方法进行检查",
+      "page_num": 4,
+      "section_path": [
+        "6 对借助外置“云盒”解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………",
+      "page_num": 4,
+      "section_path": [
+        "6 对借助外置“云盒”解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录E (规范性) 电动自行车主要技术参数设置",
+      "page_num": 4,
+      "section_path": [
+        "附录E (规范性) 电动自行车主要技术参数设置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………\nE.",
+      "page_num": 4,
+      "section_path": [
+        "附录E (规范性) 电动自行车主要技术参数设置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 整车主要技术参数",
+      "page_num": 4,
+      "section_path": [
+        "1 整车主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………\nE.",
+      "page_num": 4,
+      "section_path": [
+        "1 整车主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电池主要技术参数",
+      "page_num": 4,
+      "section_path": [
+        "2 电池主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………\nE.",
+      "page_num": 4,
+      "section_path": [
+        "2 电池主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电动机主要技术参数",
+      "page_num": 4,
+      "section_path": [
+        "3 电动机主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………\nE.",
+      "page_num": 4,
+      "section_path": [
+        "3 电动机主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 控制器的主要技术参数",
+      "page_num": 4,
+      "section_path": [
+        "4 控制器的主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………",
+      "page_num": 4,
+      "section_path": [
+        "4 控制器的主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "附录F (资料性) 企业质量控制能力",
+      "page_num": 4,
+      "section_path": [
+        "附录F (资料性) 企业质量控制能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "附录F (资料性) 企业质量控制能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 总述",
+      "page_num": 4,
+      "section_path": [
+        "1 总述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "1 总述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 文件记录",
+      "page_num": 4,
+      "section_path": [
+        "2 文件记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "2 文件记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 关键件及控制",
+      "page_num": 4,
+      "section_path": [
+        "3 关键件及控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "3 关键件及控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 生产过程控制",
+      "page_num": 4,
+      "section_path": [
+        "4 生产过程控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "………………………………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "4 生产过程控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 成品检验",
+      "page_num": 4,
+      "section_path": [
+        "5 成品检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "5 成品检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 产品的变更及一致性控制",
+      "page_num": 4,
+      "section_path": [
+        "6 产品的变更及一致性控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………………………………………………………\nF.",
+      "page_num": 4,
+      "section_path": [
+        "6 产品的变更及一致性控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 追溯及处理措施",
+      "page_num": 4,
+      "section_path": [
+        "7 追溯及处理措施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………………………………………………………………………\n参考文献\n……………………………………………………………………………………………………",
+      "page_num": 4,
+      "section_path": [
+        "7 追溯及处理措施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "前  言",
+      "page_num": 5,
+      "section_path": [
+        "7 追溯及处理措施",
+        "前  言"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "本文件按照GB/T1.\n1—2020《标准化工作导则 第1部分:标准化文件的结构和起草规则》的规定\n起草。\n本文件代替GB17761—2018《电动自行车安全技术规范》,与GB17761—2018相比,除结构调整和\n编辑性改动外,主要技术变化如下:\n———更改了整车质量要求和试验方法(见6.\n1.\n3,2018年版的6.\n1.\n3);\n———更改了脚踏骑行功能要求和试验方法(见6.\n1.\n4,2018年版的6.\n1.\n4、7.\n2.\n4);\n———更改了电动机功率限值试验方法(见6.\n3.\n3,2018年版的6.\n3.\n3、7.\n4.\n3);\n———更改了材料阻燃试验要求和方法(见6.\n4,2018年版的6.\n5、7.\n6);\n———增加了塑料占比要求和试验方法(见6.\n5);\n———增加了北斗定位、通信和动态安全监测要求(见6.\n6、6.\n7);\n———更改了防篡改要求和检查方法(见6.\n8,2018年版的6.\n3.\n4.\n3、7.\n4.\n4.\n3);\n———增加了企业质量保证能力和产品一致性要求和方法(见第7章);\n———更改了仅具有电助力功能的电动自行车的要求(见6.\n1.\n5、6.\n1.\n7、6.\n2.\n3.\n2及6.\n3.\n3等,2018年版\n的6.\n1.\n5、6.\n1.\n7、6.\n2.\n3.\n2、6.\n3.\n3);\n———删除了电气强度要求和试验方法(见2018年版的6.\n3.\n1.\n3、7.\n4.\n1.\n3);\n———删除了无线电骚扰特性(见2018年版的6.\n6、7.\n7)。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由中华人民共和国工业和信息化部提出并归口。\n本文件及其所代替文件的历次版本发布情况为:\n———1999年首次发布为GB17761—1999,2018年第一次修订:\n———本次为第二次修订。",
+      "page_num": 5,
+      "section_path": [
+        "7 追溯及处理措施",
+        "前  言"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "引  言",
+      "page_num": 6,
+      "section_path": [
+        "7 追溯及处理措施",
+        "前  言",
+        "引  言"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "本文件为电动自行车安全技术规范,标准化对象是电动自行车。\n本文件编制过程中,既考虑电动自行车使用者的安全、权益,同时也考虑未使用电动自行车的群体\n(例如:自行车使用者、行人、机动车驾驶者等)的安全、权益。对于有更高性能需求的使用者,考虑电动\n轻便摩托车等其他交通工具。\n对于技术指标超出本文件规定的电动两轮车辆,可能适用GB24155、GB7258、GB/T5359.\n1、\nGB20073等其他标准。",
+      "page_num": 6,
+      "section_path": [
+        "7 追溯及处理措施",
+        "前  言",
+        "引  言"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "电动自行车安全技术规范",
+      "page_num": 7,
+      "section_path": [
+        "7 追溯及处理措施",
+        "前  言",
+        "引  言",
+        "电动自行车安全技术规范"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 范围",
+      "page_num": 7,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "本文件规定了电动自行车的整车标志、整车安全、机械安全、电气安全、防火阻燃、塑料占比、北斗定\n位功能、通信与动态安全监测、防篡改、使用说明书、企业质量保证能力和产品一致性等技术要求,描述\n了相应的试验方法。\n本文件适用于电动自行车。",
+      "page_num": 7,
+      "section_path": [
+        "1 范围"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 规范性引用文件",
+      "page_num": 7,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中,注日期的引用文\n件,仅该日期对应的版本适用于本文件;不注日期的引用文件,其最新版本(包括所有的修改单)适用于\n本文件。\nGB/T755—2019 旋转电机 定额和性能\nGB811 摩托车、电动自行车乘员头盔\nGB/T3565.\n1—2022 自行车安全要求 第1部分:术语和定义\nGB3565.\n2—2022 自行车安全要求 第2部分:城市和旅行用自行车、青少年自行车、山地自行车\n与竞赛自行车的要求\nGB/T3565.\n4—2022 自行车安全要求 第4部分:车闸试验方法\nGB/T4208—2017 外壳防护等级(IP代码)\nGB/T5169.",
+      "page_num": 7,
+      "section_path": [
+        "2 规范性引用文件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "16 电工电子产品着火危险试验 第16部分:试验火焰50 W 水平与垂直火焰试验",
+      "page_num": 7,
+      "section_path": [
+        "16 电工电子产品着火危险试验 第16部分:试验火焰50 W 水平与垂直火焰试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "方法\nGB/T5296.",
+      "page_num": 7,
+      "section_path": [
+        "16 电工电子产品着火危险试验 第16部分:试验火焰50 W 水平与垂直火焰试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 消费品使用说明 第1部分:总则",
+      "page_num": 7,
+      "section_path": [
+        "1 消费品使用说明 第1部分:总则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T5454 纺织品 燃烧性能试验 氧指数法\nGB/T5455 纺织品 燃烧性能 垂直方向损毁长度、阴燃和续燃时间的测定\nGB/T12742 自行车检测设备和器具技术条件\nGB/T18284 快速响应矩阵码\nGB/T18380.",
+      "page_num": 7,
+      "section_path": [
+        "1 消费品使用说明 第1部分:总则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "12 电缆和光缆在火焰条件下的燃烧试验 第12部分:单根绝缘电线电缆火焰垂直",
+      "page_num": 7,
+      "section_path": [
+        "12 电缆和光缆在火焰条件下的燃烧试验 第12部分:单根绝缘电线电缆火焰垂直"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "蔓延试验 1kW 预混合型火焰试验方法\nGB/T18380.",
+      "page_num": 7,
+      "section_path": [
+        "12 电缆和光缆在火焰条件下的燃烧试验 第12部分:单根绝缘电线电缆火焰垂直"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "22 电缆和光缆在火焰条件下的燃烧试验 第22部分:单根绝缘细电线电缆火焰垂",
+      "page_num": 7,
+      "section_path": [
+        "22 电缆和光缆在火焰条件下的燃烧试验 第22部分:单根绝缘细电线电缆火焰垂"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "直蔓延试验 扩散型火焰试验方法\nGB/T31887.\n1—2019 自行车 照明和回复反射装置 第1部分:照明和光信号装置\nGB/T31887.",
+      "page_num": 7,
+      "section_path": [
+        "22 电缆和光缆在火焰条件下的燃烧试验 第22部分:单根绝缘细电线电缆火焰垂"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 自行车 照明和回复反射装置 第2部分:回复反射装置",
+      "page_num": 7,
+      "section_path": [
+        "2 自行车 照明和回复反射装置 第2部分:回复反射装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB38262—2019 客车内饰材料的燃烧特性\nGB/T40302 塑料 立式软薄试样与小火焰源接触的燃烧性能测定\nGB42295—2022 电动自行车电气安全要求\nGB42296 电动自行车用充电器安全技术要求\nGB43854 电动自行车用锂离子蓄电池安全技术规范\nQB/T1880 自行车 车架",
+      "page_num": 7,
+      "section_path": [
+        "2 自行车 照明和回复反射装置 第2部分:回复反射装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 术语、定义和缩略语",
+      "page_num": 8,
+      "section_path": [
+        "3 术语、定义和缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "3.",
+      "page_num": 8,
+      "section_path": [
+        "3 术语、定义和缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 术语和定义",
+      "page_num": 8,
+      "section_path": [
+        "1 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "GB/T3565.\n1—2022界定的以及下列术语和定义适用于本文件。\n3.\n1.\n电动自行车 electricbicycle\n以车载电池为能源,实现电驱动或/和电助力功能的两轮自行车。\n3.\n1.\n装配完整的电动自行车 fullyassembledelectricbicycle\n配备有所必需的全部部件(含电池及使用说明书中明示的所有配件,但不含外置的充电器、头盔)的\n电动自行车(3.\n1.\n1)。\n3.\n1.\n电驱动 electricdrive\n驱动电能来源于车载电池,仅以电动机输出动力的驱动方式。\n3.\n1.\n电助力 electricaid\n由人力和电动机的动力按输出比例组成的驱动方式。\n3.\n1.\n生产日期 manufactureddate\n制造日期\n车辆制造完成的日期。\n3.\n1.\n北斗卫星导航系统 BeiDounavigationsatellitesystem;BDS\n由中国研制建设和管理的为用户提供实时三维位置、速度和时间等信息的全球卫星导航系统。\n注1:本文件中简称北斗。\n注2:北斗提供的服务包括基本导航服务、短报文通信服务、星基增强服务、国际搜救服务和精密单点定位服务等。\n[来源:GB/T39267—2020,2.\n1.\n11,有修改]\n3.\n1.\n北斗独立定位 BeiDouindependentpositioning\n仅使用北斗卫星导航系统,不依赖其他卫星导航系统实现卫星导航、定位、授时等功能。\n3.",
+      "page_num": 8,
+      "section_path": [
+        "1 术语和定义"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 缩略语",
+      "page_num": 8,
+      "section_path": [
+        "2 缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "下列缩略语适用于本文件。\nPDOP:位置精度因子(PositionDilutionofPrecision)\n4G:第四代移动通信技术(the4thGenerationmobilecommunicationtechnology)\n5G:第五代移动通信技术(the5thGenerationmobilecommunicationtechnology)",
+      "page_num": 8,
+      "section_path": [
+        "2 缩略语"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 通用要求",
+      "page_num": 8,
+      "section_path": [
+        "4 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "4.",
+      "page_num": 8,
+      "section_path": [
+        "4 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 在正常使用、合理可预见的误用以及故障情况下,电动自行车应不会发生危险。危险包括但不限",
+      "page_num": 8,
+      "section_path": [
+        "1 在正常使用、合理可预见的误用以及故障情况下,电动自行车应不会发生危险。危险包括但不限"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "于以下情形:\na) 产生的热量造成材料变质、起火或人员烫伤;",
+      "page_num": 8,
+      "section_path": [
+        "1 在正常使用、合理可预见的误用以及故障情况下,电动自行车应不会发生危险。危险包括但不限"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "b) 在充电、行驶、停放等过程中引起燃烧、爆炸、触电等;\nc) 因整车或部件发生断裂、松动、变形及运动干涉等情形而导致的人身伤害。\n4.",
+      "page_num": 9,
+      "section_path": [
+        "1 在正常使用、合理可预见的误用以及故障情况下,电动自行车应不会发生危险。危险包括但不限"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电动自行车的软件和硬件均应具有防篡改设计,防止擅自改装或改动最高车速、电机功率、电",
+      "page_num": 9,
+      "section_path": [
+        "2 电动自行车的软件和硬件均应具有防篡改设计,防止擅自改装或改动最高车速、电机功率、电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "压等。\n4.",
+      "page_num": 9,
+      "section_path": [
+        "2 电动自行车的软件和硬件均应具有防篡改设计,防止擅自改装或改动最高车速、电机功率、电"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 除另有规定外,本文件所用的检测设备和器具应符合GB/T12742等相关标准的规定。",
+      "page_num": 9,
+      "section_path": [
+        "3 除另有规定外,本文件所用的检测设备和器具应符合GB/T12742等相关标准的规定。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "检测电气装置的仪表(耐电压测试仪、绝缘电阻测试仪除外),其准确度等级应不低于1级;直流电\n源的波纹系数应不大于5%。\n试验时车载电池组的容量应不小于其额定容量的90%。\n如涉及骑行相关试验,例如6.\n1.\n1、6.\n1.\n2、6.\n1.\n8等,试验条件为:\na) 道路试验环境:温度为-5 ℃~35 ℃,风速不大于3m/s,试验避免在雨、雪天气时进行;\nb) 试验路面:平坦的沥青或混凝土路面,路面应坚硬,无松软的尘土或砾石,干燥路面与轮胎之间\n的最小摩擦系数为0.\n5;\nc) 车速检测设备:准确度±2%,分辨率0.\n1km/h;\nd) 骑行者的质量为75kg,不足时配重至75kg;\ne) 试验车为装配完整的电动自行车;\nf) 轮胎应按标注在外胎上的最大推荐压力充足气,压力偏差为±10kPa。",
+      "page_num": 9,
+      "section_path": [
+        "3 除另有规定外,本文件所用的检测设备和器具应符合GB/T12742等相关标准的规定。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 整车标志",
+      "page_num": 9,
+      "section_path": [
+        "5 整车标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "5.",
+      "page_num": 9,
+      "section_path": [
+        "5 整车标志"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 铭牌",
+      "page_num": 9,
+      "section_path": [
+        "1 铭牌"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "铭牌应使用中文标明以下信息:产品名称、型号、制造商名称或商标、生产日期/制造日期、电池类\n型等。\n注1:产品名称,如电动自行车、电助力自行车等。\n注2:电池类型,如铅酸蓄电池、锰酸锂电池、磷酸锰铁锂电池、磷酸亚铁锂电池、钠离子电池等。\n铭牌还应标明建议使用年限,格式为“本车建议使用年限为×年”。\n注3:电动自行车建议使用年限由生产企业在综合考虑车辆主要零部件及电气线路使用寿命、老化速度等多种因\n素基础上确定。\n用于城市物流、商业租赁等经营性活动的电动自行车,应在铭牌上标注“商用”或字符“○\n商”。\n铭牌上标明的内容应规范、清晰、耐久且易于识别。\n使用一块蘸有水的棉布擦拭铭牌15s,然后再用一块蘸有浓度为75%(体积分数)酒精的棉布擦拭\n15s。试验后,信息应完整、清晰,且不应出现卷边。\n5.",
+      "page_num": 9,
+      "section_path": [
+        "1 铭牌"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 整车编码",
+      "page_num": 9,
+      "section_path": [
+        "2 整车编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "在电动自行车车架本体不可分隔的前管或中接头醒目部位表面,应永久性地标上每辆电动自行车\n唯一的整车编码。\n注1:车架本体,是指构成车架的本体材料,如果编码刻制在其他材料上再焊接到车架上就不属于车架本体。\n注2:不可分隔部位,如减震车架的后部与前部是可分隔的,此后部即为可分隔部位。\n整车编码采用15位全数字代码结构,共有4部分组成,从左至右依次是企业代码、车种代码、生产\n年份代码、生产流水号代码,见图1。",
+      "page_num": 9,
+      "section_path": [
+        "2 整车编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "X1 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 X14 X15\n企业代码\n车种代码\n生产年份代码\n生产流水号代码\n标引符号说明:\nX1~X4———企业代码;\nX5\n———车种代码,用2表示仅具有电驱动功能的电动自行车,用3表示仅具有电助力功能的电动自行车,用4\n表示同时具有电驱动功能和电助力功能的电动自行车;但用于城市物流、商业租赁等经营性活动的仅\n具有电驱动功能、仅具有电助力功能、同时具有电驱动功能和电助力功能的3种电动自行车的车种代\n码分别为7、8、9;\nX6~X7———生产年份代码,以公元纪年的后两位表示,由企业根据电动自行车的生产年份自行分配;\nX8~X15———生产流水号代码,由企业自行分配的产品流水号。\n图1 整车编码\n整车编码刻制不应影响电动自行车强度且易于观察和读取,不易磨损和腐蚀损坏,永久保持。整车\n编码可排成一行或两行,但不应沿着圆周方向。\n刻制整车编码的部件不应采用打磨、挖补、垫片等方式处理,从上方或前方观察时打刻区域周边足\n够大面积的表面不宜有任何覆盖物;如有覆盖物,该覆盖物的表面应明确标示“整车编码”字样,且覆盖\n物在不使用任何专用工具的情况下能直接取下、揭开及复原,以方便地观察到足够大的包括打刻区域的\n表面。\n如果在整车编码刻制区域使用油漆、涂料、镀层等材料,在刻制前后均应符合刻制的字体高度大于\n或等于4mm,清晰可见。\n整车编码应采用耐高温永久性标识。将刻制区域的样品放入(950±10)℃的加热炉,在此试验温度\n下保持0.\n5h。然后取出试样,将其在空气中自然冷却至室温。试验后整车编码应清晰可见。\n如果自行车车架本体使用了不耐高温的材料,例如铝合金、镁合金等材料,应在整车车架上刻制编\n码的同时,在距离编码边缘5cm 内应使用耐高温材料刻制相同编码,并固定在车架上。\n5.",
+      "page_num": 10,
+      "section_path": [
+        "2 整车编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电动机编码",
+      "page_num": 10,
+      "section_path": [
+        "3 电动机编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动机编码至少应包括电动机功率和额定电压的信息,并应永久性地刻制在电动机外壳上,且应易\n于观察、读取。\n5.",
+      "page_num": 10,
+      "section_path": [
+        "3 电动机编码"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 号牌安装位置",
+      "page_num": 10,
+      "section_path": [
+        "4 号牌安装位置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车后部应具有方便安装号牌的位置,其上应有2个安装孔且中心间距应为80mm。\n5.",
+      "page_num": 10,
+      "section_path": [
+        "4 号牌安装位置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 产品合格证",
+      "page_num": 10,
+      "section_path": [
+        "5 产品合格证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "产品合格证应使用中文清晰标明产品名称、型号、制造商或商标、生产厂及地址、生产日期/制造日\n期、整车编码、电动机编码、驱动方式(电驱动和/或电助力)、最高设计车速、整车质量、电动机功率与额\n定电压、电池类型、长/宽/高、前后轮中心距、铭牌固定位置、整车编码位置、建议使用年限、其他信息,是\n否用于城市物流或商业租赁等经营性活动,以及整车照片等。\n注:其他信息例如中国强制性产品认证(CCC)证书编号等。",
+      "page_num": 10,
+      "section_path": [
+        "5 产品合格证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 试验条件 | 试验速度 km/h | 使用的车辆 | 最大校正的制动距离 m |\n| --- | --- | --- | --- |\n| 干态 | 25 | 双闸 | 7 |\n|  |  | 单后闸 | 15 |\n| 湿态 | 16 | 双闸 | 5 |\n|  |  | 单后闸 | 10 |",
+      "page_num": 11,
+      "section_path": [
+        "5 产品合格证"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "试验条件",
+          "试验速度\nkm/h",
+          "使用的车辆",
+          "最大校正的制动距离\nm"
+        ],
+        [
+          "干态",
+          "25",
+          "双闸",
+          "7"
+        ],
+        [
+          null,
+          null,
+          "单后闸",
+          "15"
+        ],
+        [
+          "湿态",
+          "16",
+          "双闸",
+          "5"
+        ],
+        [
+          null,
+          null,
+          "单后闸",
+          "10"
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "上述信息应在产品合格证中使用二维码表示,二维码应符合GB/T18284的规定。",
+      "page_num": 11,
+      "section_path": [
+        "5 产品合格证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 安全要求和试验方法",
+      "page_num": 11,
+      "section_path": [
+        "6 安全要求和试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.",
+      "page_num": 11,
+      "section_path": [
+        "6 安全要求和试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 整车安全",
+      "page_num": 11,
+      "section_path": [
+        "1 整车安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "1 整车安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 车速限值",
+      "page_num": 11,
+      "section_path": [
+        "1 车速限值"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "1 车速限值"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 车速限值要求",
+      "page_num": 11,
+      "section_path": [
+        "1 车速限值要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车车速限值符合下列要求。\na) 使用电驱动功能行驶时,最高车速不应超过最高设计车速,且最高设计车速不应超过\n25km/h;如果车速超过25km/h,电动机不应提供动力输出。\n注:连续下坡行驶等情况下,车速可能会超过25km/h。\nb) 使用电助力功能行驶时,如果车速超过25km/h,电动机不应提供动力输出。\n6.\n1.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "1 车速限值要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 车速限值试验方法",
+      "page_num": 11,
+      "section_path": [
+        "2 车速限值试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按下列规定进行试验。\na) 电驱动功能的电动自行车车速限值测试:检查说明书,确认最高设计车速是否超过25km/h;\n将试验车从静止开始加速行驶,调速转把应保持在最大开度,试验车行驶速度到达最高速\n度,并保持该最大速度,通过2m 的测试区间,记录通过该测试区间的速度值;试验往返进行2\n次,取平均值,比较该平均值是否小于说明书中规定的最高设计车速。调速转把应保持在最大\n开度,使用动力装置辅助驱动被测车辆速度达到并维持在24.\n5km/h~25.\n5km/h之间,测量\n电动机驱动电流是否降为0A。\nb) 电助力功能的电动自行车车速限值测试:将试验车驱动轮与转鼓接触,电池组输出端电路串联\n电流表;使用电助力功能,将试验车的驱动轮车速调至25km/h;记录此时的工作电流,是否小\n于或等于在驱动轮上无扭矩输出时的电流。\n对于同时具有电驱动功能和电助力功能的电动自行车,以上a)、b)两个试验都要进行。\n6.\n1.",
+      "page_num": 11,
+      "section_path": [
+        "2 车速限值试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 制动性能",
+      "page_num": 11,
+      "section_path": [
+        "2 制动性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车的制动性能应符合表1的要求,在相应的制动距离内平稳安全地停住。\n表1 制动试验速度与制动距离\n试验条件\n试验速度\nkm/h\n使用的车辆\n最大校正的制动距离\n干态\n双闸\n单后闸\n湿态\n双闸\n单后闸\n按GB/T3565.\n4—2022中4.\n6.\n3描述的方法进行试验,但骑行者的质量按4.\n3d)的规定。",
+      "page_num": 11,
+      "section_path": [
+        "2 制动性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.",
+      "page_num": 12,
+      "section_path": [
+        "2 制动性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 整车质量",
+      "page_num": 12,
+      "section_path": [
+        "3 整车质量"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "使用铅酸蓄电池的装配完整的电动自行车整车质量应小于或等于63kg,其他类型的装配完整的\n电动自行车的整车质量应小于或等于55kg。\n将装配完整的电动自行车放置在称重仪器上,测量其质量。\n6.\n1.",
+      "page_num": 12,
+      "section_path": [
+        "3 整车质量"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 脚踏骑行功能",
+      "page_num": 12,
+      "section_path": [
+        "4 脚踏骑行功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n4.",
+      "page_num": 12,
+      "section_path": [
+        "4 脚踏骑行功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 脚踏骑行要求",
+      "page_num": 12,
+      "section_path": [
+        "1 脚踏骑行要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "可使用电助力功能的电动自行车应具有脚踏骑行装置,并符合下列要求:\na) 应具有脚踏动力装置;\nb) 脚踏骑行一周,车辆向前行驶距离应大于或等于2.\n7m;\nc) 两曲柄外侧面最大距离应小于或等于300mm;\nd) 鞍座前端在水平方向位置不应超过中轴中心线。\n仅具有电驱动功能的电动自行车,可设置脚踏骑行装置,也可不设置脚踏骑行装置。如设置,则应\n满足上述a)~d)的要求。\n6.\n1.\n4.",
+      "page_num": 12,
+      "section_path": [
+        "1 脚踏骑行要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 脚踏骑行试验方法",
+      "page_num": 12,
+      "section_path": [
+        "2 脚踏骑行试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "通过以下方法进行试验:\na) 检查是否有脚踏动力装置;\nb) 车辆放置在平坦地面上,断开车辆电源,将一侧曲柄拨至垂直向上位置,在地面上标记车轮外\n缘与地面接触点;仅采用脚踏方式驱动车辆沿直线前进,待同侧曲柄旋转一周回到垂直向上位\n置时再次在地面上标记车轮外缘与地面接触点,测量两点间距离;\nc) 使用通用长度类量具测量两曲柄外侧面最大距离;\nd) 鞍座前端在水平方向位置通过以下方法检验:\n试验车前后车轮着地,车身垂直于支承面;在试验车的纵向中心面上,选取鞍座前边缘与水平\n面成30°的座垫交点,为鞍座前端,见图2。沿鞍座前端、中轴中心线各拉一与地面的垂直\n线,目测鞍座前端与中轴中心线水平方向位置关系。如鞍管可调节,应将鞍管调节到最少插入\n深度处进行测量。\n图2 鞍座前端、后端示意图\n6.\n1.",
+      "page_num": 12,
+      "section_path": [
+        "2 脚踏骑行试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 尺寸限值",
+      "page_num": 12,
+      "section_path": [
+        "5 尺寸限值"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n5.",
+      "page_num": 12,
+      "section_path": [
+        "5 尺寸限值"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 尺寸限值要求",
+      "page_num": 12,
+      "section_path": [
+        "1 尺寸限值要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车的尺寸限值应符合下列要求。\na) 整车高度(除后视镜及后视镜连接杆外)小于或等于1100mm;车体宽度(除车把、脚蹬、后视\n镜及后视镜连接杆外)小于或等于400mm;前后轮中心距小于或等于1250mm;鞍座高度大\n于或等于635mm。仅具有电助力功能的电动自行车的整车高度、前后轮中心距限值要求不\n适用。",
+      "page_num": 12,
+      "section_path": [
+        "1 尺寸限值要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "注:为保证行车安全,鼓励电动自行车安装后视镜。\nb) 鞍座长度小于或等于350mm。\nc) 后轮上方的衣架平坦部分最大宽度小于或等于175mm。后衣架应为金属材质的条、管等材\n料制成的平面或近似平面结构,厚度不超过40mm,可采用金属条加强与车身的固定,但后衣\n架本身及金属加固条均不应被外观件所包覆,且后衣架平坦部分的高度应明显低于鞍座底部\n高度。如尾灯附着在后衣架上,不应对后衣架两侧的主体金属结构造成遮挡。\n6.\n1.\n5.",
+      "page_num": 13,
+      "section_path": [
+        "1 尺寸限值要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 尺寸限值试验方法",
+      "page_num": 13,
+      "section_path": [
+        "2 尺寸限值试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "尺寸限值按下列规定测量。\na) 尺寸:\n1) 整车高度:试验车的前后车轮着地,车身垂直于支承面,测量试验车支承面与车把部位最\n高处的距离(除后视镜及后视镜连接杆外);\n2) 车体宽度:采用长度类量具测量(除车把、脚蹬、后视镜及后视镜连接杆外);\n3) 前、后轮中心距:将前、后轮中心面调整平行,用长度类量具测量前轴中心与后轴中心之间\n的距离;\n4) 鞍座高度:将试验车的前后车轮着地,车身垂直于支承面,采用量具测量鞍座与支承面的\n最大垂直高度。如果鞍管可调节,则将鞍管调节到最少插入深度处,再进行测量。\nb) 鞍座长度:\n1) 试验车前后车轮着地,车身垂直于支承面;在试验车的纵向中心线上,选取鞍座前后边缘\n与水平面成30°的鞍座交点,为鞍座前端和后端(见图2),并做标记;沿座垫表面,用量具\n测量座垫前端、后端的距离;\n2) 对安装两个及以上鞍座的车型,应检测每个鞍座长度尺寸,累加后得到总鞍座长度应小于\n或等于350mm;\n3) 除后衣架外,电动自行车鞍座后部平面或近似平面的结构,在车身纵向方向的长度计入鞍\n座总长度;\n4) 对安装后衣架的车型,如将后衣架拆除后,存在平面或近似平面的结构,则其在车身纵向\n方向的长度也应计入鞍座总长度;\n5) 用于安装鞍座的车体底座在车身纵向方向的长度不超过400mm,且不应向前后延伸(用\n于安装鞍座的车体底座,是指位于鞍座下方的、用外观件包覆或拼接形成的基本完整的车\n体轮廓,起始位置大约在搁脚板或中轴后方,向后一直延伸至整车尾部。在测量时,应从\n用于安装鞍座的车体底座最前端位置量起,直至整车尾最后端为止,与车体设计为一体的\n车架、车灯、挡泥板等部件也应计入车体底座长度,但不包括后衣架、平叉和车轮部分。对\n于难以确定车体底座最前端位置的,应以鞍座最前端作为测量起点)。\nc) 衣架宽度:\n采用长度类量具测量和检查。\n6.\n1.",
+      "page_num": 13,
+      "section_path": [
+        "2 尺寸限值试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 结构",
+      "page_num": 13,
+      "section_path": [
+        "6 结构"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n6.",
+      "page_num": 13,
+      "section_path": [
+        "6 结构"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 脚蹬间隙",
+      "page_num": 13,
+      "section_path": [
+        "1 脚蹬间隙"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "具有脚踏骑行功能的电动自行车的脚蹬间隙应符合GB3565.\n2—2022中4.\n13.\n2对城市和旅行用自\n行车的要求。\n按GB3565.\n2—2022中4.\n13.\n2规定的方法进行检测。",
+      "page_num": 13,
+      "section_path": [
+        "1 脚蹬间隙"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n6.",
+      "page_num": 14,
+      "section_path": [
+        "1 脚蹬间隙"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 突出物",
+      "page_num": 14,
+      "section_path": [
+        "2 突出物"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "以突出物形式存在,能导致伤害使用者的管和刚性部件应加以防护。突出物末端保护物的尺寸和\n形状没有明确规定,但应给出一个合适的形状避免发生身体伤害。螺栓会构成刺伤的风险,其超出内螺\n纹配合部分的突出物长度不应大于螺栓外径尺寸。\n通过目视和测量的方法进行检查。\n6.\n1.\n6.",
+      "page_num": 14,
+      "section_path": [
+        "2 突出物"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 防碰擦",
+      "page_num": 14,
+      "section_path": [
+        "3 防碰擦"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车的不动件不应与运动件相碰擦。\n采用触摸、目视方法进行检查。\n6.\n1.",
+      "page_num": 14,
+      "section_path": [
+        "3 防碰擦"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 车速提示音",
+      "page_num": 14,
+      "section_path": [
+        "7 车速提示音"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n7.",
+      "page_num": 14,
+      "section_path": [
+        "7 车速提示音"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 车速提示音要求",
+      "page_num": 14,
+      "section_path": [
+        "1 车速提示音要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "仅具有电驱动功能的电动自行车应有车速提示音,并应符合下列要求:\na) 当行驶车速达到22km/h时持续发出提示音;\nb) 提示音声压级范围为52dB(A)~65dB(A)。\n注:车速提示音推荐采用自行车车铃音,推荐单次发音周期为3s,单次发音时间约为700ms。\n6.\n1.\n7.",
+      "page_num": 14,
+      "section_path": [
+        "1 车速提示音要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 车速提示音试验方法",
+      "page_num": 14,
+      "section_path": [
+        "2 车速提示音试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n7.\n2.",
+      "page_num": 14,
+      "section_path": [
+        "2 车速提示音试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 提示音的车速值",
+      "page_num": 14,
+      "section_path": [
+        "1 提示音的车速值"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "将试验车放置测试场地并使驱动轮离地,接通电路,调节车速至提示音鸣响,用测速表测量驱动轮\n的转速,按公式(1)计算起始鸣响时车速值。\nv=60×π×D ×n\n…………………………(1)\n式中:\nv ———车速,单位为千米每小时(km/h);\nD ———驱动轮直径,单位为米(m);\nn ———驱动轮转速,单位为转每分(r/min)。\n6.\n1.\n7.\n2.",
+      "page_num": 14,
+      "section_path": [
+        "1 提示音的车速值"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 提示音声压级",
+      "page_num": 14,
+      "section_path": [
+        "2 提示音声压级"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "提示音声压级按下列规定测量。\na) 测试环境:\n1) 测试场地为表面干燥的由混凝土、沥青或具有高反射能力的硬材料(不包括压实泥土或其\n他天然材料)构成的平坦地面;场地内划出一呈长方形的测试区域,长方形四边距试验车\n外廓(不包括车把)至少3m,在此范围内无影响声级计读数的障碍物存在;声级计传声器\n离道路边缘的距离应不小于1m;\n2) 测试时除测试人员和骑行者外,在测试区域内不得有其他人员;测试人员和骑行者的位置\n不得影响仪表读数;\n3) 测试在室内或室外进行,在室外进行时需无雨、无雪且风速不大于3m/s;测试时排除阵\n风对声级计读数的影响;\n4) 测试过程中,背景噪声(A 计权声级)不高于50dB(A)。\nb) 试验方法:",
+      "page_num": 14,
+      "section_path": [
+        "2 提示音声压级"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "1) 声学测量仪器:声压级的测量采用一级精度的声级计进行;\n2) 将试验车放置测试场地并使驱动轮离地,在车辆左右两侧垂直于车身中心距离2m,高度\n为1.\n2m 处分别放置声级计进行测量;\n3) 接通电路调节车速至提示音响,分别读取声级计的最大读数,并计算出左右两侧声级计的\n读数平均值(保留整数位)。\n6.\n1.",
+      "page_num": 15,
+      "section_path": [
+        "2 提示音声压级"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 淋水涉水",
+      "page_num": 15,
+      "section_path": [
+        "8 淋水涉水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n8.",
+      "page_num": 15,
+      "section_path": [
+        "8 淋水涉水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 淋水涉水要求",
+      "page_num": 15,
+      "section_path": [
+        "1 淋水涉水要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n1.\n8.\n2规定的淋水涉水试验方法进行试验,试验后,电动自行车应能正常骑行,各电器部件功能\n正常,绝缘电阻值应大于或等于1MΩ。\n6.\n1.\n8.",
+      "page_num": 15,
+      "section_path": [
+        "1 淋水涉水要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 淋水涉水试验方法",
+      "page_num": 15,
+      "section_path": [
+        "2 淋水涉水试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n1.\n8.\n2.",
+      "page_num": 15,
+      "section_path": [
+        "2 淋水涉水试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 淋水",
+      "page_num": 15,
+      "section_path": [
+        "1 淋水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "淋水按下列规定进行试验:\na) 将试验车车身垂直于支承面,使驱动轮离地,试验前接通电路;\nb) 采用符合GB/T4208—2017中IPX3规定的喷头洒水装置,流量为10L/min±0.\n5L/min,持\n续时间10min,向试验车作全方位的喷淋洒水(自来水)。\n注意,淋水试验后,应在5min内进行涉水试验。\n6.\n1.\n8.\n2.",
+      "page_num": 15,
+      "section_path": [
+        "1 淋水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 涉水",
+      "page_num": 15,
+      "section_path": [
+        "2 涉水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "该项试验在水深100mm 的水池中进行,将电动自行车以15km/h的速度行驶500m。如果水池\n长度不能满足规定的连续行驶时间,可往返进行,但总行驶时间(包括在水池外的时间)应小于10min。\n6.\n1.\n8.\n2.",
+      "page_num": 15,
+      "section_path": [
+        "2 涉水"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 试验后测量",
+      "page_num": 15,
+      "section_path": [
+        "3 试验后测量"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "涉水试验后,检查电动自行车是否能正常骑行,各电器部件功能是否正常;同时在5min内对试验\n车进行绝缘电阻测量。断开电池电路,将500V 绝缘电阻测试仪一端连接试验车线路的正极或负极,将\n另一端依次接车架、车把和电动机的外壳,测量试验车绝缘电阻。\n6.\n1.",
+      "page_num": 15,
+      "section_path": [
+        "3 试验后测量"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "9 数据存储功能",
+      "page_num": 15,
+      "section_path": [
+        "9 数据存储功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用于城市物流、商业租赁等经营性活动的电动自行车,应存储最近20次停车前1min内每秒时间\n间隔的位置、行驶速度信息。行驶速度为电动自行车电动机转速换算所得速度。\n通过企业专用的软件或上位机检查验证是否符合。\n6.",
+      "page_num": 15,
+      "section_path": [
+        "9 数据存储功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 机械安全",
+      "page_num": 15,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.",
+      "page_num": 15,
+      "section_path": [
+        "2 机械安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 车架/前叉组合件",
+      "page_num": 15,
+      "section_path": [
+        "1 车架/前叉组合件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n1.",
+      "page_num": 15,
+      "section_path": [
+        "1 车架/前叉组合件"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 振动强度",
+      "page_num": 15,
+      "section_path": [
+        "1 振动强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "将车架/前叉组合件安装在专用振动试验机上,按QB/T1880描述的城市和旅行用电动自行车试\n验方法进行车架/前叉组合件振动强度试验。\n试验后,车架/前叉组合件各部位不应有可见裂纹、破损、明显变形和松动。",
+      "page_num": 15,
+      "section_path": [
+        "1 振动强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n1.",
+      "page_num": 16,
+      "section_path": [
+        "1 振动强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 冲击试验(重物落下)",
+      "page_num": 16,
+      "section_path": [
+        "2 冲击试验(重物落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n1.\n2.",
+      "page_num": 16,
+      "section_path": [
+        "2 冲击试验(重物落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 要求",
+      "page_num": 16,
+      "section_path": [
+        "1 要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n2.\n1.\n2.\n2规定的试验方法进行试验后,组合件应无可见的裂纹或损坏,减震装置的任何零件应\n无分离,两轮轴中心线之间的距离(轮基)的永久变形应小于或等于40mm。\n6.\n2.\n1.\n2.",
+      "page_num": 16,
+      "section_path": [
+        "1 要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 试验方法",
+      "page_num": 16,
+      "section_path": [
+        "2 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "该试验应在车架/前叉组合件上进行。有些车架如果拆下一根管子就能由男车改变为女车,则应拆\n下这根管子再进行试验。两轴中心线之间的距离应予以测定。前叉上应装一只滚轮,其质量应小于或\n等于1kg,其尺寸应与附录A 中图A.",
+      "page_num": 16,
+      "section_path": [
+        "2 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 所示一致。车架/前叉组合件应垂直地夹紧在后轴刚性支承",
+      "page_num": 16,
+      "section_path": [
+        "1 所示一致。车架/前叉组合件应垂直地夹紧在后轴刚性支承"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "上,如附录A 中图A.\n1所示。\n以能量为80J的冲击力,例如采用22.\n5kg的重锤从360mm 高度垂直落下,进行冲击试验。\n如果车架装有减震前叉,则组合件在试验时应使前叉处于无负荷状态的自由长度。如果减震弹簧\n可被锁住,应被锁住在无负荷的长度。对装有后减震装置的车架,将该减震装置紧固在相当于有一个\n75kg质量的骑行者骑坐在试验车上一样;如果减震装置不允许锁紧,则可采用同样尺寸的实心连接代\n替减震前叉或后减震装置,两端的连接方式与减震前叉或后减震装置相同。\n6.\n2.\n1.",
+      "page_num": 16,
+      "section_path": [
+        "1 所示一致。车架/前叉组合件应垂直地夹紧在后轴刚性支承"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 冲击强度(车架/前叉组合件落下)",
+      "page_num": 16,
+      "section_path": [
+        "3 冲击强度(车架/前叉组合件落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n1.\n3.",
+      "page_num": 16,
+      "section_path": [
+        "3 冲击强度(车架/前叉组合件落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 要求",
+      "page_num": 16,
+      "section_path": [
+        "1 要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按6.\n2.\n1.\n3.\n2规定的试验方法进行试验后,组合件应无可见的裂纹或损坏,组合件及减震系统的任\n何部分应无分离现象。\n6.\n2.\n1.\n3.",
+      "page_num": 16,
+      "section_path": [
+        "1 要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 试验方法",
+      "page_num": 16,
+      "section_path": [
+        "2 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "该试验应在6.\n2.\n1.\n2中所用的车架/前叉和滚轮组合件上进行。\n组合件应支承在后轴上,这样可使它能绕后轴在垂直平面内作自由转动。前叉应搁置在一平钢砧\n上,使车架处于其正常使用位置。鞍管上应紧固一质量为70kg的重物,并使其重心置于离立管上端\n75mm 处之立管轴线上。将组合件绕后轴转动,使70kg重物的重心垂直置于后轴的上方,然后让组\n合件自由落下冲击在钢砧上(见附录A 中图A.\n2)。\n该试验应重复冲击两次。\n对电池组安装在车架上的试验车,则应包含这个部件进行试验。如这样影响试验的正常进行,可去\n掉电池组后在相应部位加相应配重。\n如果车架装有减震前叉,则组合件在试验时应使前叉处于无负荷状态的自由长度。如果减震弹簧\n可被锁住,应被锁住在无负荷的长度。对装有后减震装置的车架,将该减震装置紧固在相当于有一个\n75kg质量的骑行者骑坐在试验车上一样;如果减震装置不允许锁紧,则可采用同样尺寸的实心连接代\n替弹簧和减震器,两端的连接方式应与弹簧和减震器相同。\n6.\n2.",
+      "page_num": 16,
+      "section_path": [
+        "2 试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 把立管和鞍管(适用时)",
+      "page_num": 16,
+      "section_path": [
+        "2 把立管和鞍管(适用时)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n2.",
+      "page_num": 16,
+      "section_path": [
+        "2 把立管和鞍管(适用时)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 把立管安全线",
+      "page_num": 16,
+      "section_path": [
+        "1 把立管安全线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "把立管上应有一个永久性标记,清楚地表示把立管插入前叉立管的最少深度,或者用一个可靠的永\n久性装置来保证其最少插入深度。插入标记或插入深度从把立管末端量起应不小于管径的2.\n5倍,且\n在标记下面至少应有一个管径长度的管子材料没有切槽。插入标记不应损伤把立管的强度。",
+      "page_num": 16,
+      "section_path": [
+        "1 把立管安全线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "目测检查把立管是否有安全线标记或装置,并测量安全线位置。\n6.\n2.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "1 把立管安全线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 把立管弯曲强度",
+      "page_num": 17,
+      "section_path": [
+        "2 把立管弯曲强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用一夹具将把立管夹紧在最少插入深度处(见6.\n2.\n2.\n1),对套在把横管上的施力装置施加一个\n力,其方向向前并与把立管的轴线成45°角,见附录A 中图A.\n3。\n如果把立管发生屈服,则它应能弯曲到与把立管的轴线成45°角而不断裂,并能支承不小于1600N\n的力。\n试验后,把立管不应发生断裂。\n6.\n2.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "2 把立管弯曲强度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 鞍管安全线",
+      "page_num": 17,
+      "section_path": [
+        "3 鞍管安全线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "鞍管上应有一个永久性的标记,它清楚地表示鞍管插入车架的最少深度。该标记从鞍管的(全直径\n处)底部量起应不低于鞍管直径的两倍高度,且标记不应损伤鞍管的强度。\n目测检查鞍管是否有安全线标记,并测量安全线位置。\n6.\n2.",
+      "page_num": 17,
+      "section_path": [
+        "3 鞍管安全线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 反射器、照明和鸣号装置",
+      "page_num": 17,
+      "section_path": [
+        "3 反射器、照明和鸣号装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n2.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "3 反射器、照明和鸣号装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 反射器",
+      "page_num": 17,
+      "section_path": [
+        "1 反射器"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应装有后反射器、侧反射器,具有脚踏骑行功能的电动自行车还应有脚蹬反射器。反射\n器的类型、颜色和安装应符合GB3565.\n2—2022中4.\n20.\n4的规定;侧反射器无法按照GB3565.\n2—2022\n中4.\n20.\n4要求安装的,应安装在电动自行车两侧。反射器光学要求应符合GB/T31887.\n2的规定。\n目测检查试验车是否按规定安装反射器。反射器的光学要求按GB/T31887.\n2的规定进行测量。\n6.\n2.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "1 反射器"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 照明",
+      "page_num": 17,
+      "section_path": [
+        "2 照明"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应装有前灯(近光灯)和后灯,仅具有电助力功能的电动自行车不适用。前灯(近光灯)\n和后灯应分别符合GB/T31887.\n1—2019中4.\n5、4.\n3的要求。仅具有电助力功能的电动自行车如安装\n前灯(近光灯)或后灯,也应分别满足GB/T31887.\n1—2019中4.\n5、4.\n3的要求。\n目测检查是否安装前灯(近光灯)和后灯,并按照GB/T31887.\n1—2019中4.\n5、4.\n3进行检测。\n注:为保证行车安全,鼓励安装符合GB/T31887.\n1—2019中4.\n7的转向灯。\n6.\n2.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "2 照明"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 鸣号装置",
+      "page_num": 17,
+      "section_path": [
+        "3 鸣号装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应装有鸣号装置,鸣号装置的声压级应为75dB(A)~100dB(A)。\n目测检查试验车是否安装鸣号装置,检查鸣号装置是否有效。\n测试环境同6.\n1.\n7.\n2.\n2a);声级计传声器放置在试验车的正前方距离车身2m,高度1.\n2m 处,读取\n声级计示值,重复测量三次,取其算术平均值。\n6.",
+      "page_num": 17,
+      "section_path": [
+        "3 鸣号装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电气安全",
+      "page_num": 17,
+      "section_path": [
+        "3 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n3.",
+      "page_num": 17,
+      "section_path": [
+        "3 电气安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电气装置",
+      "page_num": 17,
+      "section_path": [
+        "1 电气装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n3.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "1 电气装置"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 导线布线",
+      "page_num": 17,
+      "section_path": [
+        "1 导线布线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "导线布线应符合GB42295—2022中4.\n3.\n1的要求。\n6.\n3.\n1.",
+      "page_num": 17,
+      "section_path": [
+        "1 导线布线"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 短路保护",
+      "page_num": 17,
+      "section_path": [
+        "2 短路保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车的充电线路和电池组输出端中应分别装有熔断器或断路器保护装置,其规格、参数应符",
+      "page_num": 17,
+      "section_path": [
+        "2 短路保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "合使用说明书或其他明示的规定。\n检查在试验车充电线路中是否装有熔断器或断路器保护装置,电池组输出端电路中是否接入熔断\n器或断路器保护装置。\n检查熔断器或断路器的规格、参数是否符合使用说明书或其他明示的规定。\n6.\n3.",
+      "page_num": 18,
+      "section_path": [
+        "2 短路保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 控制系统",
+      "page_num": 18,
+      "section_path": [
+        "2 控制系统"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n3.\n2.",
+      "page_num": 18,
+      "section_path": [
+        "2 控制系统"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 制动断电功能",
+      "page_num": 18,
+      "section_path": [
+        "1 制动断电功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "当电动自行车电驱动行驶制动时,其电气控制系统应具有使电动机断电的功能。\n将电池组充满电,串联一个直流电流表,安装到试验车上。驱动电动机运转,然后握闸制动,观察直\n流电流表的电流是否减小为小于或等于在驱动轮上无扭矩输出时的电流(空载电流),确认3s内驱动\n电动机是否断电。\n6.\n3.\n2.",
+      "page_num": 18,
+      "section_path": [
+        "1 制动断电功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 过流保护功能",
+      "page_num": 18,
+      "section_path": [
+        "2 过流保护功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车的电气控制系统应具有过流保护功能。\n对于具有电驱动功能的电动自行车,将电池组充满电,串联一个直流电流表,安装到试验车上。给\n电动机逐渐加载至控制系统的输入电流值不再增大时,记录此电流值(即限流值),判断是否符合使用说\n明书或其他明示的规定。\n对于仅具有电助力功能的电动自行车,控制系统明示的过流保护值应不大于蓄电池系统的最大放\n电的电流值。\n6.\n3.\n2.",
+      "page_num": 18,
+      "section_path": [
+        "2 过流保护功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 防失控功能",
+      "page_num": 18,
+      "section_path": [
+        "3 防失控功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "对于具有电驱动功能的电动自行车,其电气控制系统应具有防失控保护功能。\n将电池组充满电,串联一个直流电流表,安装到试验车上。调节调速转把至最大开度,电动机正常\n运行,当速度指令线或调速指令的负极断开时,观察电路是否断流。\n6.\n3.",
+      "page_num": 18,
+      "section_path": [
+        "3 防失控功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电动机",
+      "page_num": 18,
+      "section_path": [
+        "3 电动机"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n3.\n3.",
+      "page_num": 18,
+      "section_path": [
+        "3 电动机"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电动机额定连续输出功率",
+      "page_num": 18,
+      "section_path": [
+        "1 电动机额定连续输出功率"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动机(可带有无法采用非破坏性方式与电动机分离的减速装置)固定安装于测功机测试台架\n上,连接直流电源以及标准试验控制器,逐渐增加电动机负载至电动机转速达到额定转速;以此状态运\n行,按GB/T755—2019中4.\n2.\n1规定,使电动机达到热稳定状态。\n测量此时电动机的输出功率,应小于或等于400 W。\n注1:标准试验控制器是指额定输入电压与电动机额定电压相匹配,输出电压相位角与电动机相位角一致,输出电\n压幅值无限制(与输入电压一致)、无限速措施,最大工作电流为25A 的控制器。\n注2:允许使用与电动机配套的控制器代替标准试验控制器,但需符合标准试验控制器的技术要求,采用电助力模\n式的需调整为电驱动模式。\n注3:额定转速指电动机驱动电动自行车以25km/h运行时对应的转速。带有变速器的车辆,需将减速比调至最\n低(即最高速状态)。\n6.\n3.\n3.",
+      "page_num": 18,
+      "section_path": [
+        "1 电动机额定连续输出功率"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电动机低速运行转矩",
+      "page_num": 18,
+      "section_path": [
+        "2 电动机低速运行转矩"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "将电动机、驱动轮以及两者之间的整套减速和传动系统(如果有)固定安装于测试台架上,测功机与\n驱动轮连接,接通直流电源、标准试验控制器以及电动机,保持电动机额定电压,逐渐增加负载,直至驱\n动轮降至车速10km/h对应的转速。仅具有电助力功能的电动自行车不适用。",
+      "page_num": 18,
+      "section_path": [
+        "2 电动机低速运行转矩"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "保持此转速5min,测量此时驱动轮转矩T,应小于或等于低速转矩限值Tn。\n其中Tn 按公式(2)计算。\nTn =F·r\n…………………………(2)\n式中:\nTn ———转矩,单位为牛米(N·m);\n———驱动力常数,数值为270,单位为牛(N);\n———驱动轮半径,单位为米(m)。\n6.\n3.\n3.",
+      "page_num": 19,
+      "section_path": [
+        "2 电动机低速运行转矩"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电动机空载反电动势",
+      "page_num": 19,
+      "section_path": [
+        "3 电动机空载反电动势"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "将被测电动机(内置离合器的应确保离合器始终保持在接合状态)安装于具有旋转驱动功能的测试\n台架上,驱动被测电动机运行至额定转速,并保持该转速。采用准确度不低于0.\n5%的交流峰值电压测\n量设备,分别测量并记录被测试电动机三根引出线中每两线之间的电压峰值,并取这三个测量值的平均\n值作为空载反电动势的数值。仅具有电助力功能的电动自行车不适用。\n电动机在额定转速时的空载反电动势数值应大于或等于车辆电池组标称电压的90%。\n6.\n3.\n3.",
+      "page_num": 19,
+      "section_path": [
+        "3 电动机空载反电动势"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 电动机电感值差异系数",
+      "page_num": 19,
+      "section_path": [
+        "4 电动机电感值差异系数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "使用精度不低于±1%的电感测量设备,与电动机三根中引出线中的任意两线连接,缓慢但连续地\n朝同一方向转动电动机转子,每转动电角度30°(对应的机械角度为30°除以极对数)暂停一次,记录3次\n电动机转子处在该位置时电感测量设备的读数并取平均值,记为该角度的电感值。将以上操作重复n\n次(n 取12)后,按公式(3)、公式(4)及公式(5)计算所有电感值的平均值、标准差和差异系数。仅具有\n电助力功能的电动自行车不适用。\n平均值L 计算公式:\nL =∑\nLi\n…………………………(3)\n标准差σ 计算公式:\nσ= ∑\ni=1\n(Li -L)\nn-1\n…………………………(4)\n差异系数cv 计算公式:\ncv=σ\n…………………………(5)\n式中:\nL ———电感值的平均值,单位为微亨(μH);\ni ———测量不同角度电感值的序号;\nn ———测量不同角度电感值的总次数;\nLi———第i次操作的电感值,单位为微亨(μH);\nσ ———电感值的标准差,单位为微亨(μH);\ncv———电感值的差异系数。\n电动机电感值的差异系数cv 应小于或等于10%。\n6.\n3.",
+      "page_num": 19,
+      "section_path": [
+        "4 电动机电感值差异系数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 充电器",
+      "page_num": 19,
+      "section_path": [
+        "4 充电器"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车的充电器应符合GB42296的要求。\n电动自行车用充电器不应设计、制造及使用车载形式。\n注:车载形式充电器一般是指交流/直流转换部分安装在车体上的充电器。无线充电器不认为是车载形式充电器。",
+      "page_num": 19,
+      "section_path": [
+        "4 充电器"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n3.",
+      "page_num": 20,
+      "section_path": [
+        "4 充电器"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 电池和电池组",
+      "page_num": 20,
+      "section_path": [
+        "5 电池和电池组"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车用锂离子电池和电池组应满足GB43854的要求。\n电动自行车用其他电化学体系的电池和电池组安全性应符合其相应的强制性标准的要求。\n电动自行车的电池组标示的标称电压通常可选择为24V、36V 或48V,标示值不应超过48V。\n注:标称电压是指用以标志或识别电池组电化学体系的适当的电压近似值。例如,对于标称电压为48V 的铅酸电\n池组,对应的最大输出电压通常约为59V 左右。\n电动自行车的电池组最大输出电压应小于或等于60V。\n通过检查标识以及必要的测试来检验电池和电池组是否满足要求。电池组达到满电状态后静置\n2h,测量电池组电压作为电池组最大输出电压。\n6.",
+      "page_num": 20,
+      "section_path": [
+        "5 电池和电池组"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 防火阻燃",
+      "page_num": 20,
+      "section_path": [
+        "4 防火阻燃"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n4.",
+      "page_num": 20,
+      "section_path": [
+        "4 防火阻燃"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 防火阻燃要求",
+      "page_num": 20,
+      "section_path": [
+        "1 防火阻燃要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车所用非金属材料防火阻燃性能满足以下要求。\na) 所有电气回路及其连接的电气部件(如充电回路、电气开关、短路保护装置、电源连接器、接插\n件等,导线除外)所含非金属材料的燃烧性能,应符合GB/T5169.\n16中V-0级的要求。\nb) 弹性软垫材料(如座椅内填充发泡材料等)应符合GB38262—2019中表2弹性软垫材料的燃\n烧特性要求。\nc) 纺织品类非金属材料(如座椅包布等)的续燃时间应≤15s,阴燃时间应≤30s,损毁长度应\n≤200mm;氧指数应≥26.\n0%。\nd) 皮革类非金属材料(如座椅包覆皮革等)应符合GB38262—2019中表2皮革材料(座椅用)的\n燃烧特性要求。\ne) 与电池组直接接触的非金属材料(如电池仓等)的燃烧性能等级应符合GB/T5169.\n16中V-0\n级的要求。\nf) 所有电气回路导线垂直火焰蔓延应≤425mm。\ng) 其他非金属材料(如装饰性部件、挡泥板等,但轮胎除外)的燃烧性能应符合GB/T5169.\n16中\nV-1级的要求。对于易弯曲的薄试样以及有超过1个遇火蜷缩但不起燃的试样,其燃烧性能\n应符合GB/T40302中VTM-1级的要求。\n6.\n4.",
+      "page_num": 20,
+      "section_path": [
+        "1 防火阻燃要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 防火阻燃试验方法",
+      "page_num": 20,
+      "section_path": [
+        "2 防火阻燃试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "非金属材料防火阻燃性能按下述方法进行试验。\na) 所有电气回路及其连接的电气部件(导线除外)所含非金属材料的燃烧性能按照\nGB/T5169.",
+      "page_num": 20,
+      "section_path": [
+        "2 防火阻燃试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "16 规定的垂直燃烧试验方法进行试验。",
+      "page_num": 20,
+      "section_path": [
+        "16 规定的垂直燃烧试验方法进行试验。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "b) 弹性软垫材料按照GB38262—2019规定的方法进行试验。\nc) 纺织品类非金属材料的续燃时间、阴燃时间和损毁长度按照GB/T5455规定的方法进行试\n验,氧指数按照GB/T5454的方法进行试验。\nd) 皮革类非金属材料按照GB38262—2019规定的方法进行试验。\ne) 与电池组直接接触的非金属材料的燃烧性能按照GB/T5169.\n16规定的垂直燃烧试验方法进\n行试验。\nf) 对于标称截面积≥0.\n5mm",
+      "page_num": 20,
+      "section_path": [
+        "16 规定的垂直燃烧试验方法进行试验。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 的所有电气导线按照GB18380.",
+      "page_num": 20,
+      "section_path": [
+        "2 的所有电气导线按照GB18380."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "12的规定的方法进行试验;对于\n标称截面积<0.\n5mm",
+      "page_num": 20,
+      "section_path": [
+        "2 的所有电气导线按照GB18380."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 的所有电气导线按照GB18380.",
+      "page_num": 20,
+      "section_path": [
+        "2 的所有电气导线按照GB18380."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "22规定的方法进行试验。垂直火焰蔓\n延为火焰在单根电缆表面产生的炭化部分上、下起始点之间的距离。",
+      "page_num": 20,
+      "section_path": [
+        "2 的所有电气导线按照GB18380."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "g) 其他非金属材料燃烧性能按照GB/T 5169.16 规定的垂直燃烧试验方法进行试验、\nGB/T40302 规定的垂直燃烧试验方法进行试验;对于易弯曲的薄试样以及有超过1个遇火\n蜷缩但不起燃的试样,其燃烧性能按照GB/T40302规定的方法进行试验。\n上述试验首选实物样品,或者采用实物制作样条,如实物不符合样条制备要求,采用同种材质定制\n样条。\n6.",
+      "page_num": 21,
+      "section_path": [
+        "2 的所有电气导线按照GB18380."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 塑料占比",
+      "page_num": 21,
+      "section_path": [
+        "5 塑料占比"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n5.",
+      "page_num": 21,
+      "section_path": [
+        "5 塑料占比"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 塑料占比要求",
+      "page_num": 21,
+      "section_path": [
+        "1 塑料占比要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车使用的塑料的总质量不应超过整车质量的5.\n5%。\n注1:塑料是由单体原料通过加聚或缩聚反应聚合而成的高分子化合物,如丙烯腈、丁二烯、苯乙烯的三元共聚物\n(ABS),聚乙烯(PE),聚丙烯(PP),聚氯乙烯(PVC),聚苯乙烯(PS)等。\n注2:导体绝缘材料(包括导线绝缘层)、电线接插件、闸线保护层、转把与把套、空气开关、北斗模块、轮胎、后视镜\n外壳、印刷电路板、电子元器件、发光元件、挡泥板(前后总质量不大于300g时适用)等不计入塑料质量。\n注3:电池组外壳(包括提手、把手)计入塑料质量,铅酸蓄电池模块/模组外壳不计入塑料质量。\n6.\n5.",
+      "page_num": 21,
+      "section_path": [
+        "1 塑料占比要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 塑料占比试验方法",
+      "page_num": 21,
+      "section_path": [
+        "2 塑料占比试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "通过测量装配完整的电动自行车中的全部塑料质量,并计算在整车质量中的占比。\n对于塑料与其他材料共同制成的复合材料部件,可采用物理或化学的方式进行分离、区分或分\n辨,只计算塑料部分。\n6.",
+      "page_num": 21,
+      "section_path": [
+        "2 塑料占比试验方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 北斗定位功能",
+      "page_num": 21,
+      "section_path": [
+        "6 北斗定位功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n6.",
+      "page_num": 21,
+      "section_path": [
+        "6 北斗定位功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 北斗模块的安装",
+      "page_num": 21,
+      "section_path": [
+        "1 北斗模块的安装"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用于城市物流、商业租赁等经营性活动的电动自行车,应具有北斗模块,且应安装于电动自行车不\n易损坏的固定部件中,并具备防拆卸、防篡改功能。采用通用工具、剪线、跳线等方式验证防拆卸、防篡\n改功能。\n对于其他类型的电动自行车,应设计有北斗模块,销售时由消费者选择是否保留。\n6.\n6.",
+      "page_num": 21,
+      "section_path": [
+        "1 北斗模块的安装"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 信号接收及处理",
+      "page_num": 21,
+      "section_path": [
+        "2 信号接收及处理"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "北斗模块应支持北斗独立定位,至少能接收处理北斗B1C和B2a信号。\n注1:B1C是指北斗卫星导航系统中心频率为1575.",
+      "page_num": 21,
+      "section_path": [
+        "2 信号接收及处理"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "42 MHz、带宽为32.",
+      "page_num": 21,
+      "section_path": [
+        "42 MHz、带宽为32."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "736 MHz的导航信号,B2a是指北斗卫星",
+      "page_num": 21,
+      "section_path": [
+        "736 MHz的导航信号,B2a是指北斗卫星"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "导航系统中心频率为1176.",
+      "page_num": 21,
+      "section_path": [
+        "736 MHz的导航信号,B2a是指北斗卫星"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "45 MHz、带宽为20.",
+      "page_num": 21,
+      "section_path": [
+        "45 MHz、带宽为20."
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "46 MHz的导航信号。",
+      "page_num": 21,
+      "section_path": [
+        "46 MHz的导航信号。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "北斗模块接收处理北斗B1C和B2a信号的检查试验方法为:采用卫星信号模拟器输出模拟信号进\n行检测,设置模拟器仅输出北斗全频点信号,信号输出功率电平为-130dBm,通过连接软件查看被测\n设备收到的卫星信号种类是否包含B1C 和B2a,在确认收到B1C 和B2a信号时,计算30s内定位精\n度,当定位精度不超过30m(95%置信度)时,确认被测设备接收到的B1C和B2a信号真实有效。\n注2:北斗模块的一般性能见附录B。\n6.\n6.",
+      "page_num": 21,
+      "section_path": [
+        "46 MHz的导航信号。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 定位及异常状态检测",
+      "page_num": 21,
+      "section_path": [
+        "3 定位及异常状态检测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "北斗模块应具备定位信息的采集功能,定位信息包括:\na) 经度、纬度;\nb) 速度;\nc) 定位时间。\n北斗模块应具备北斗定位功能异常自检功能。",
+      "page_num": 21,
+      "section_path": [
+        "3 定位及异常状态检测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "通过以下方法进行试验:\n采用实际卫星信号或利用信号转发器将实际卫星信号引入实验室内进行检测,检测应在卫星星座\nPDOP≤4的情况下进行,并模拟信号采集异常状态(包括北斗模块故障、无法采集卫星信号等),通过电\n动自行车厂商提供的连接工具检测电动自行车是否具有定位及异常状态检测功能。\n6.",
+      "page_num": 22,
+      "section_path": [
+        "3 定位及异常状态检测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 通信与动态安全监测",
+      "page_num": 22,
+      "section_path": [
+        "7 通信与动态安全监测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n7.",
+      "page_num": 22,
+      "section_path": [
+        "7 通信与动态安全监测"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 通信功能",
+      "page_num": 22,
+      "section_path": [
+        "1 通信功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应具有4G 或5G 公网通信模块,或其他类似功能的通信模块。通信模块应安装于电动\n自行车不易损坏的固定部件中,且应具备防拆卸、防篡改功能。\n注:根据我国无线电管理有关规定,可能需要对无线电发射模块或整车进行无线电发射设备型号核准。\n通过检查验证通信功能是否符合要求。\n采用通用工具、剪线、跳线等方式验证通信模块的防拆卸、防篡改功能。\n6.\n7.",
+      "page_num": 22,
+      "section_path": [
+        "1 通信功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 动态安全监测功能",
+      "page_num": 22,
+      "section_path": [
+        "2 动态安全监测功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应具备向企业等建设的信息管理平台发送以下动态安全监测信息的功能:\na) 单体电池电压信息;\nb) 电池组总电压、温度、电流信息;\nc) 电池组异常电压(电池组电压超过电池组最大输出电压3V);\nd) 电池组异常温度(温度超过制造商规定的温度5 ℃,制造商未规定温度则取80 ℃);\ne) 北斗定位信息;\nf) 北斗定位功能异常信息;\ng) 通过电动机转速换算出的速度异常(行驶速度超出最高设计时速0.\n5km/h,且持续时间超过\n15s)。\n对于使用无机电解液电池的电动自行车,a)、b)、c)、d)不适用。\n信息管理平台功能示例见附录C。\n注1:对于使用锂离子电池的电动自行车,a)、b)信息见GB43854。\n注2:e)、f)见6.\n6.\n3。\n注3:信息管理平台需遵守我国关于个人信息保护和数据安全的相关法律法规。\n注4:个人敏感信息的采集和传输需遵守个人信息保护相关法律法规。\n通过检查以及通过电动自行车厂商提供的测试工具进行检测。\n6.\n7.",
+      "page_num": 22,
+      "section_path": [
+        "2 动态安全监测功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 信息发送频次",
+      "page_num": 22,
+      "section_path": [
+        "3 信息发送频次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车启动状态(车辆电源开关闭合状态)或充电状态下,6.\n7.\n2中a)、b)、e)信息发送的时间间\n隔应不超过30s;其他状态下,6.\n7.\n2中a)、b)、e)信息发送的时间间隔应不超过60min;\n出现6.\n7.\n2中c)、d)、f)、g)所列的异常情况时,应在60s内发送首次异常情况信息,之后每两次发\n送的时间间隔应不超过30s。\n通过以下方法进行试验:\n通过检查以及通过电动自行车厂商提供的测试工具进行验证。\n采用实际北斗卫星信号或利用信号转发器将实际北斗卫星信号引入实验室内进行检测,检测应在\n北斗卫星星座PDOP≤4的情况下进行,通过电动自行车厂商提供的测试工具,分别采集电动自行车启\n动状态、充电状态和非启动状态下的正常发送信息不低于2次,检查2次发送信息的内容和时间间隔是",
+      "page_num": 22,
+      "section_path": [
+        "3 信息发送频次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "否符合要求。通过电动自行车厂商提供的测试工具检测在定位装置无法采集动态位置信息和速度超过\n电动自行车最高设计时速2种异常情况下,检查发送信息的内容、首次发送时间和2次发送信息的时间\n间隔是否符合要求。\n6.",
+      "page_num": 23,
+      "section_path": [
+        "3 信息发送频次"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 防篡改",
+      "page_num": 23,
+      "section_path": [
+        "8 防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n8.",
+      "page_num": 23,
+      "section_path": [
+        "8 防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电池组防篡改",
+      "page_num": 23,
+      "section_path": [
+        "1 电池组防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n8.\n1.",
+      "page_num": 23,
+      "section_path": [
+        "1 电池组防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 电池组防篡改要求",
+      "page_num": 23,
+      "section_path": [
+        "1 电池组防篡改要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车电池组防篡改符合下列要求。\na) 电动自行车不应预留扩展车载电池的接口或线路。\nb) 电动自行车不应有外设电池组托架。\nc) 应具有充电互认协同功能,电池组与充电器/充电设施充电时应识别以下信息并且匹配后方可\n充电:\n1) 铅酸蓄电池组:\n———电池组种类(铅酸蓄电池组);\n———电池组最大输出电压(即充电限制电压);\n———充电器/充电设施输出电压。\n充电器/充电设施与电池组种类匹配、电压匹配方能充电。\n2) 锂离子电池组:\n———电池组种类(锂离子电池组,以及电池材料体系);\n———电池组品牌、型号、充电限制电压,或电池组唯一性编码;\n———充电器/充电设施品牌、型号、输出电压。\n电池组与充电器/充电设施种类匹配、电压匹配、型号匹配、协议握手成功方能充电。\n3) 其他类型电池组应识别相应信息并匹配后方能充电,使用有机电解液的电池组(如钠离子\n电池组)参考锂离子电池组、使用无机电解液的电池组(如镍氢电池组、锌镍电池组)参考\n铅酸蓄电池组。\nd) 应具有放电互认协同功能,电池组与整车或控制器应识别以下信息并且匹配后方能骑行:\n1) 铅酸蓄电池组:\n———电池组种类(铅酸蓄电池组);\n———电池组电压(车辆测得的实时电压);\n———车辆额定输入电压范围。\n电池组与车辆种类匹配、电压匹配方能骑行。\n2) 锂离子电池组:\n———电池组种类(锂离子电池组,以及电池材料体系);\n———电池组电压(车辆测得的实时电压);\n———车辆额定输入电压范围;\n———电池组唯一性编码;\n———整车编码。\n车辆与电池组种类匹配、电压匹配、编码匹配、协议握手成功方能骑行。\n3) 其他类型电池组应识别相应信息并匹配后方能骑行,使用有机电解液的电池组参考锂离\n子电池组(如钠离子电池组)、使用无机电解液的电池组参考铅酸蓄电池组(如镍氢电池\n组、锌镍电池组)。",
+      "page_num": 23,
+      "section_path": [
+        "1 电池组防篡改要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n8.\n1.",
+      "page_num": 24,
+      "section_path": [
+        "1 电池组防篡改要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电池组防篡改检查方法",
+      "page_num": 24,
+      "section_path": [
+        "2 电池组防篡改检查方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按以下方法检查电池组防篡改:\na) 检查相关部位是否有接口或末端裸露的线路;\nb) 检查相关部位是否有外设电池组托架;\nc) 使用不同类型电池组连接充电器并验证,铅酸蓄电池组、锂离子电池组分别进行测试验证。使\n用不同型号充电器对同一型号电池组进行测试;使用不同品牌、不同型号电池组连接同一型号\n充电器进行测试;\nd) 使用不同类型、不同型号电池组接入整车或控制器并测试是否放电,或根据产品说明书的明\n示,使用通信模拟器模拟通信协议,观察电动自行车的工作状态。\n注:允许通信协议包含更多要求,例如识别制造商。\n6.\n8.",
+      "page_num": 24,
+      "section_path": [
+        "2 电池组防篡改检查方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 控制器防篡改",
+      "page_num": 24,
+      "section_path": [
+        "2 控制器防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "6.\n8.\n2.",
+      "page_num": 24,
+      "section_path": [
+        "2 控制器防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 控制器防篡改要求",
+      "page_num": 24,
+      "section_path": [
+        "1 控制器防篡改要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车具备如下控制器防篡改功能。\na) 不应设计为通过剪线、跳线等方式进行修改。\nb) 不应兼容多种电压模式,例如不应同时兼容标称电压为36V、48V 或60V 模式。\nc) 不应通过升压电路将输入电压提高后用于驱动电动机。\nd) 应能识别电池组电压。\ne) 应具有过压锁定功能。\nf) 限流装置不应留后门。\ng) 应具有启动时和运行过程中自动监测蓄电池输出电压、仪表速度(电机转速换算车速)、电动机\n电流的功能;当蓄电池输出电压超过限值60V 时,不应向电机供电。\nh) 不应通过以下方式(不限于以下方式)进行改装,具体示例见附录D:\n1) 特定操作方法;\n2) 解码器;\n3) 更换控制器;\n4) 物联网技术;\n5) 借助外置云盒等。\ni) 不应通过上述未列举到的方法篡改控制器。\n6.\n8.\n2.",
+      "page_num": 24,
+      "section_path": [
+        "1 控制器防篡改要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 控制器防篡改检查方法",
+      "page_num": 24,
+      "section_path": [
+        "2 控制器防篡改检查方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "防篡改检查包括但不限于下列方法。\na) 检查整车各部位有无可篡改的限速装置,如:通过接插件插拔、剪断多余线路等方式判定。\nb) 检查控制器是否具备多电压控制以及电压提升功能。\nc) 通过查看电路图、实物等方式检查。\nd) 检查控制器电池组电压识别功能。\ne) 将控制器与直流电源连接,将电源电压调至高于电池组最大输出电压3V,持续5s,检查控制\n器是否锁定无法工作。\nf) 检查限流装置。\ng) 将电动自行车进行正常启动、行驶、加速到25km/h等操作,观察或检查监测数据。\nh) 通过以下方法检查是否可篡改:",
+      "page_num": 24,
+      "section_path": [
+        "2 控制器防篡改检查方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "1) 通过按键或旋钮等方式检查;\n2) 查看是否有相关引出线、接口和解码器等;\n3) 使用螺钉旋具、夹扭钳等工具进行非破坏性操作,检查控制器是否能被拆开、拆卸;控制器\n装配结合面及其紧固螺钉是否采用胶固封;\n4) 查看是否有相关平台后台软件;\n5) 查看是否预留连接线或相关接口。\ni) 查看是否有其他篡改方式。\n6.\n8.",
+      "page_num": 25,
+      "section_path": [
+        "2 控制器防篡改检查方法"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 限速器防篡改",
+      "page_num": 25,
+      "section_path": [
+        "3 限速器防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应具备限速器防篡改功能。\n通过检查确认。\n注:限速功能可能由独立的装置实现,也可能集成在控制器内。\n6.",
+      "page_num": 25,
+      "section_path": [
+        "3 限速器防篡改"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "9 使用说明书",
+      "page_num": 25,
+      "section_path": [
+        "9 使用说明书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "每辆电动自行车出厂和销售时应附有使用说明书,使用说明书的编写应符合GB/T5296.\n1的规\n定,并至少包括以下涉及安全的内容。\na) 说明书封面上标明要求使用者在仔细阅读使用说明书、了解电动自行车的性能之前,不要使用\n电动自行车,以及请用户妥善保存使用说明书。\nb) 提示使用者遵守交通法规,注意行车安全的警示语。如:\n1) 严禁16周岁以下人员驾驶电动自行车上道路行驶;\n2) 电动自行车应在非机动车道内行驶,最高时速不应超过15km/h;在没有非机动车道的道\n路上,应靠车行道的右侧行驶;\n3) 告诫不要将电动自行车借给不会操纵的人员行驶,以免发生伤害;\n4) 电动自行车应按法律法规规定搭载人员或物品;\n5) 骑行时佩戴符合GB811规定的电动自行车乘员头盔;\n6) 雨、雪天骑行,制动距离会延长,注意减速慢行;暴雨等恶劣天气,尽量避免出行;\n7) 电动自行车不要加装车篷、伞具、防雨罩等影响安全骑行的装置、设备等。\nc) 提示使用者注意电动自行车使用安全的警示语。如:\n1) 电动自行车不要停放在建筑门厅、疏散楼梯、走道和安全出口处;\n2) 电动自行车不要在居住建筑内充电和停放,充电时应远离可燃物,充电时间不宜过长;\n3) 电池组的正确使用和保养方法;废旧电池组不可擅自进行拆解;\n4) 充电器的安全使用方法和警示用语;更换充电器时,应和电池组型号匹配;\n5) 有关水洗的注意事项;\n6) 调整车把或鞍座时,应注意不得露出把立管、鞍管的安全线标记(适用时)。\nd) 骑行前的检查,若有异常请及时进行维修或找专业维修。如:\n1) 电源电路、灯光照明电路等状态;\n2) 前、后闸能否正常工作;\n3) 车把及前后轮的紧固状态;\n4) 轮胎的气压;\n5) 反射器是否破损或污染。\ne) 对使用者明示的回收要求信息。如:",
+      "page_num": 25,
+      "section_path": [
+        "9 使用说明书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "1) 回收服务网点查询方式;\n2) 便民更换、回收服务模式;\n3) 废旧锂电池组不当处置风险。\nf) 需明示的电动自行车相关信息:\n1) 图示整车编码打刻位置;\n2) 电动自行车的整车示意简图、电池组安装图和电气原理图,并标明熔断器或短路保护装置\n的规格、参数;\n3) 附录E中的主要技术参数。\n检查有无使用说明书,并检查使用说明书的内容是否符合要求。\n6.",
+      "page_num": 26,
+      "section_path": [
+        "9 使用说明书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "10 头盔",
+      "page_num": 26,
+      "section_path": [
+        "10 头盔"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车应随车配备符合GB811规定的电动自行车乘员头盔。\n检查电动自行车说明书中是否列出随车配备的符合GB811规定的电动自行车头盔型号清单。\n注:销售时,允许配备以上清单中任一型号的头盔。",
+      "page_num": 26,
+      "section_path": [
+        "10 头盔"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 企业质量保证能力和产品一致性",
+      "page_num": 26,
+      "section_path": [
+        "7 企业质量保证能力和产品一致性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "7.",
+      "page_num": 26,
+      "section_path": [
+        "7 企业质量保证能力和产品一致性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 通用要求",
+      "page_num": 26,
+      "section_path": [
+        "1 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应具有与电动自行车整车产能相匹配的整车及车架(含前叉、后平叉、车把等,下同)的生\n产能力、检测能力和质量控制能力。车架的生产一般包括金属料件切割、弯曲、焊接、电泳等工艺流程。\n7.",
+      "page_num": 26,
+      "section_path": [
+        "1 通用要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 企业生产能力",
+      "page_num": 26,
+      "section_path": [
+        "2 企业生产能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "7.\n2.",
+      "page_num": 26,
+      "section_path": [
+        "2 企业生产能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 基本要求",
+      "page_num": 26,
+      "section_path": [
+        "1 基本要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应直接具有或间接具有与电动自行车整车产能相匹配的符合质量要求的车架生产能\n力,其中间接具有的方式包括以下一种或几种:\na) 生产企业的分公司具有;\nb) 持有生产企业70%以上股份的母公司具有;\nc) 生产企业持股70%以上的子公司具有;\nd) 与生产企业同时被同一母公司持股70%以上的企业具有。\n同一车架供应企业同时向多家整车生产企业供应车架时,其车架生产能力应能覆盖所有被供货的\n整车生产企业的车架需求之和,方能认为产能匹配。\n切割、弯曲、焊接、电泳等工艺流程仅在适用时进行考核。生产企业也可采用能达到相同或类似车\n架加工效果的其他工艺流程,但车架生产能力应与生产企业的整车产能匹配。\n7.\n2.",
+      "page_num": 26,
+      "section_path": [
+        "1 基本要求"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 焊接",
+      "page_num": 26,
+      "section_path": [
+        "2 焊接"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应具有与整车生产能力相匹配的气体保护焊接设备,其中焊接机器人在所有焊接设备中\n占比应超过70%,焊接机器人复位精度应小于0.\n1mm。\n查看焊接相关项目/工艺设计、建设、验收文件,设备规格书等资料,并进行现场查看、核实,测算设\n备加工能力与企业整车生产能力的匹配性。\n7.\n2.",
+      "page_num": 26,
+      "section_path": [
+        "2 焊接"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电泳工艺",
+      "page_num": 26,
+      "section_path": [
+        "3 电泳工艺"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应具有与整车生产能力相匹配的车架、前叉、后平叉、车把等主要零部件电泳工艺设备,其",
+      "page_num": 26,
+      "section_path": [
+        "3 电泳工艺"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 检验项目 |  | 要求 章条号 | 试验方法 章条号 | 型式 试验 | 生产一致性检验 |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  | 例行 检验 | 确认 检验 |\n| 整车标志 | 铭牌 | 5.1 | 5.1 | √ | √ | √ |\n|  | 整车编码 | 5.2 | 5.2 | √ | √ | √ |\n|  | 电动机编码 | 5.3 | 5.3 | √ | √ | √ |\n|  | 号牌安装位置 | 5.4 | 5.4 | √ | √ | √ |\n|  | 产品合格证 | 5.5 | 5.5 | √ | √ | √ |",
+      "page_num": 27,
+      "section_path": [
+        "3 电泳工艺"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "检验项目",
+          null,
+          "要求\n章条号",
+          "试验方法\n章条号",
+          "型式\n试验",
+          "生产一致性检验",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "例行\n检验",
+          "确认\n检验"
+        ],
+        [
+          "整车标志",
+          "铭牌",
+          "5.1",
+          "5.1",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          "整车编码",
+          "5.2",
+          "5.2",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          "电动机编码",
+          "5.3",
+          "5.3",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          "号牌安装位置",
+          "5.4",
+          "5.4",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          "产品合格证",
+          "5.5",
+          "5.5",
+          "√",
+          "√",
+          "√"
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "中电泳工艺悬挂链轨道承载力应不低于60kg,阴极电泳电源功率应不低于200kW,电泳槽容积应不\n低于40m\n3,电泳线体长度应不低于300m。\n查看电泳相关项目/工艺设计、建设、验收文件,设备规格书等资料,并进行现场查看、核实,测算设\n备加工能力与企业整车生产能力的匹配性。\n7.\n2.",
+      "page_num": 27,
+      "section_path": [
+        "3 电泳工艺"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 工件传送",
+      "page_num": 27,
+      "section_path": [
+        "4 工件传送"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应具有与整车生产能力相匹配的工件自动化传送带或吊挂输送系统。\n查看吊挂输送系统相关项目/工艺设计、建设、验收文件,设备规格书等资料,并进行现场查看、核\n实,测算传送能力与企业整车生产能力的匹配性。\n7.",
+      "page_num": 27,
+      "section_path": [
+        "4 工件传送"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 企业检测能力",
+      "page_num": 27,
+      "section_path": [
+        "3 企业检测能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应具有符合表2中例行检验和确认检验项目的检测能力。\n7.",
+      "page_num": 27,
+      "section_path": [
+        "3 企业检测能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 企业质量控制能力",
+      "page_num": 27,
+      "section_path": [
+        "4 企业质量控制能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业应建立从关键件采购、生产过程控制至出厂检验的质量保证能力,以确保批量生产的产品\n持续符合标准的要求。宜满足附录F对企业质量控制能力的要求。\n7.",
+      "page_num": 27,
+      "section_path": [
+        "4 企业质量控制能力"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 检验规则",
+      "page_num": 27,
+      "section_path": [
+        "5 检验规则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "7.\n5.",
+      "page_num": 27,
+      "section_path": [
+        "5 检验规则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 型式试验",
+      "page_num": 27,
+      "section_path": [
+        "1 型式试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "有下列情况之一时,应进行型式试验:\na) 新产品定型鉴定或在产产品转厂生产的定型鉴定;\nb) 正常批量生产中,在结构材料工艺有较大改变;\nc) 产品停产一年后恢复生产;\nd) 行业主管部门或国家有关市场监督管理部门提出型式试验要求。\n型式试验项目按表2的规定进行。\n7.\n5.",
+      "page_num": 27,
+      "section_path": [
+        "1 型式试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 生产一致性检验",
+      "page_num": 27,
+      "section_path": [
+        "2 生产一致性检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产一致性检验包括例行检验和确认检验。\n例行检验和确认检验项目按表2的规定进行。\n表2 型式试验、生产一致性检验(例行检验和定期确认检验)项目、要求及方法\n检验项目\n要求\n章条号\n试验方法\n章条号\n型式\n试验\n生产一致性检验\n例行\n检验\n确认\n检验\n整车标志\n铭牌\n5.\n5.\n整车编码\n5.\n5.\n电动机编码\n5.\n5.\n号牌安装位置\n5.\n5.\n产品合格证\n5.\n5.",
+      "page_num": 27,
+      "section_path": [
+        "2 生产一致性检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 检验项目 |  |  | 要求 章条号 | 试验方法 章条号 | 型式 试验 | 生产一致性检验 |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  | 例行 检验 | 确认 检验 |\n| 整车安全 | 车速限值 |  | 6.1.1.1 | 6.1.1.2 | √ | — | √ |\n|  | 制动性能 |  | 6.1.2 | 6.1.2 | √ | — | √ |\n|  | 整车质量 |  | 6.1.3 | 6.1.3 | √ | — | √ |\n|  | 脚踏骑行功能 |  | 6.1.4.1 | 6.1.4.2 | √ | — | √ |\n|  | 尺寸限值 |  | 6.1.5.1 | 6.1.5.2 | √ | — | √ |\n|  | 结构 | 脚蹬间隙 | 6.1.6.1 | 6.1.6.1 | √ | — | √ |\n|  |  | 突出物 | 6.1.6.2 | 6.1.6.2 | √ | — | √ |\n|  |  | 防碰擦 | 6.1.6.3 | 6.1.6.3 | √ | — | √ |\n|  | 车速提示音 | 提示音的车速值 | 6.1.7.1a) | 6.1.7.2.1 | √ | — | √ |\n|  |  | 提示音声压级 | 6.1.7.1b) | 6.1.7.2.2 | √ | — | √ |\n|  | 淋水涉水 |  | 6.1.8.1 | 6.1.8.2 | √ | — | √ |\n|  | 数据存储功能 |  | 6.1.9 | 6.1.9 | √ | — | √ |\n| 机械安全 | 车架 前叉 / 组合件 | 振动强度 | 6.2.1.1 | 6.2.1.1 | √ | — | √ |\n|  |  | 冲击试验 重物落下 ( ) | 6.2.1.2.1 | 6.2.1.2.2 | √ | — | √ |\n|  |  | 冲击强度 车架 前叉 ( / 组合件落下 ) | 6.2.1.3.1 | 6.2.1.3.2 | √ | — | √ |\n|  | 把 立 管 和 鞍管 | 把立管安全线 | 6.2.2.1 | 6.2.2.1 | √ | — | √ |\n|  |  | 把立管弯曲强度 | 6.2.2.2 | 6.2.2.2 | √ | — | √* |\n|  |  | 鞍管安全线 | 6.2.2.3 | 6.2.2.3 | √ | √ | √ |\n|  | 反射器 照 、 明 和 鸣 号 装置 | 反射器 | 6.2.3.1 | 6.2.3.1 | √ | — | √* |\n|  |  | 照明 | 6.2.3.2 | 6.2.3.2 | √ | — | √* |\n|  |  | 鸣号装置 | 6.2.3.3 | 6.2.3.3 | √ | — | √* |\n| 电气安全 | 电气装置 | 导线布线 | 6.3.1.1 | 6.3.1.1 | √ | — | √ |\n|  |  | 短路保护 | 6.3.1.2 | 6.3.1.2 | √ | — | √ |\n|  | 控制系统 | 制动断电功能 | 6.3.2.1 | 6.3.2.1 | √ | √ | √ |\n|  |  | 过流保护功能 | 6.3.2.2 | 6.3.2.2 | √ | — | √ |\n|  |  | 防失控功能 | 6.3.2.3 | 6.3.2.3 | √ | — | √ |\n|  | 电动机 | 电动机额定连续输出功率 | 6.3.3.1 | 6.3.3.1 | √ | — | √ |\n|  |  | 电动机低速运行转矩 | 6.3.3.2 | 6.3.3.2 | √ | — | √ |\n|  |  | 电动机空载反电动势 | 6.3.3.3 | 6.3.3.3 | √ | — | √ |\n|  |  | 电动机电感值差异系数 | 6.3.3.4 | 6.3.3.4 | √ | — | √ |\n|  | 充电器 |  | 6.3.4 | 6.3.4 | √ | — | * |\n|  | 电池和电池组 |  | 6.3.5 | 6.3.5 | √ | — | * |",
+      "page_num": 28,
+      "section_path": [
+        "2 生产一致性检验"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "检验项目",
+          null,
+          null,
+          "要求\n章条号",
+          "试验方法\n章条号",
+          "型式\n试验",
+          "生产一致性检验",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "例行\n检验",
+          "确认\n检验"
+        ],
+        [
+          "整车安全",
+          "车速限值",
+          null,
+          "6.1.1.1",
+          "6.1.1.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "制动性能",
+          null,
+          "6.1.2",
+          "6.1.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "整车质量",
+          null,
+          "6.1.3",
+          "6.1.3",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "脚踏骑行功能",
+          null,
+          "6.1.4.1",
+          "6.1.4.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "尺寸限值",
+          null,
+          "6.1.5.1",
+          "6.1.5.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "结构",
+          "脚蹬间隙",
+          "6.1.6.1",
+          "6.1.6.1",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "突出物",
+          "6.1.6.2",
+          "6.1.6.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "防碰擦",
+          "6.1.6.3",
+          "6.1.6.3",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "车速提示音",
+          "提示音的车速值",
+          "6.1.7.1a)",
+          "6.1.7.2.1",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "提示音声压级",
+          "6.1.7.1b)",
+          "6.1.7.2.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "淋水涉水",
+          null,
+          "6.1.8.1",
+          "6.1.8.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "数据存储功能",
+          null,
+          "6.1.9",
+          "6.1.9",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          "机械安全",
+          "车架 前叉\n/\n组合件",
+          "振动强度",
+          "6.2.1.1",
+          "6.2.1.1",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "冲击试验 重物落下\n( )",
+          "6.2.1.2.1",
+          "6.2.1.2.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "冲击强度 车架 前叉\n( /\n组合件落下\n)",
+          "6.2.1.3.1",
+          "6.2.1.3.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "把 立 管 和\n鞍管",
+          "把立管安全线",
+          "6.2.2.1",
+          "6.2.2.1",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "把立管弯曲强度",
+          "6.2.2.2",
+          "6.2.2.2",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          null,
+          "鞍管安全线",
+          "6.2.2.3",
+          "6.2.2.3",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          "反射器 照\n、\n明 和 鸣 号\n装置",
+          "反射器",
+          "6.2.3.1",
+          "6.2.3.1",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          null,
+          "照明",
+          "6.2.3.2",
+          "6.2.3.2",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          null,
+          "鸣号装置",
+          "6.2.3.3",
+          "6.2.3.3",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          "电气安全",
+          "电气装置",
+          "导线布线",
+          "6.3.1.1",
+          "6.3.1.1",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "短路保护",
+          "6.3.1.2",
+          "6.3.1.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "控制系统",
+          "制动断电功能",
+          "6.3.2.1",
+          "6.3.2.1",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "过流保护功能",
+          "6.3.2.2",
+          "6.3.2.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "防失控功能",
+          "6.3.2.3",
+          "6.3.2.3",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "电动机",
+          "电动机额定连续输出功率",
+          "6.3.3.1",
+          "6.3.3.1",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "电动机低速运行转矩",
+          "6.3.3.2",
+          "6.3.3.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "电动机空载反电动势",
+          "6.3.3.3",
+          "6.3.3.3",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          null,
+          "电动机电感值差异系数",
+          "6.3.3.4",
+          "6.3.3.4",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "充电器",
+          null,
+          "6.3.4",
+          "6.3.4",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          "电池和电池组",
+          null,
+          "6.3.5",
+          "6.3.5",
+          "√",
+          "—",
+          "*"
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "表2 型式试验、生产一致性检验(例行检验和定期确认检验)项目、要求及方法(续)\n检验项目\n要求\n章条号\n试验方法\n章条号\n型式\n试验\n生产一致性检验\n例行\n检验\n确认\n检验\n整车安全\n车速限值\n6.\n1.\n1.\n6.\n1.\n1.\n制动性能\n6.\n1.\n6.\n1.\n整车质量\n6.\n1.\n6.\n1.\n脚踏骑行功能\n6.\n1.\n4.\n6.\n1.\n4.\n尺寸限值\n6.\n1.\n5.\n6.\n1.\n5.\n结构\n脚蹬间隙\n6.\n1.\n6.\n6.\n1.\n6.\n突出物\n6.\n1.\n6.\n6.\n1.\n6.\n防碰擦\n6.\n1.\n6.\n6.\n1.\n6.\n车速提示音\n提示音的车速值\n6.\n1.\n7.\n1a)\n6.\n1.\n7.\n2.\n提示音声压级\n6.\n1.\n7.\n1b)\n6.\n1.\n7.\n2.\n淋水涉水\n6.\n1.\n8.\n6.\n1.\n8.\n数据存储功能\n6.\n1.\n6.\n1.\n机械安全\n车架/前叉\n组合件\n把立管和\n鞍管\n反射器、照\n明和鸣号\n装置\n振动强度\n6.\n2.\n1.\n6.\n2.\n1.\n冲击试验(重物落下)\n6.\n2.\n1.\n2.\n6.\n2.\n1.\n2.\n冲击强度(车架/前叉\n组合件落下)\n6.\n2.\n1.\n3.\n6.\n2.\n1.\n3.\n把立管安全线\n6.\n2.\n2.\n6.\n2.\n2.\n把立管弯曲强度\n6.\n2.\n2.\n6.\n2.\n2.\n√*\n鞍管安全线\n6.\n2.\n2.\n6.\n2.\n2.\n反射器\n6.\n2.\n3.\n6.\n2.\n3.\n√*\n照明\n6.\n2.\n3.\n6.\n2.\n3.\n√*\n鸣号装置\n6.\n2.\n3.\n6.\n2.\n3.\n√*\n电气安全\n电气装置\n导线布线\n6.\n3.\n1.\n6.\n3.\n1.\n短路保护\n6.\n3.\n1.\n6.\n3.\n1.\n控制系统\n制动断电功能\n6.\n3.\n2.\n6.\n3.\n2.\n过流保护功能\n6.\n3.\n2.\n6.\n3.\n2.\n防失控功能\n6.\n3.\n2.\n6.\n3.\n2.\n电动机\n电动机额定连续输出功率\n6.\n3.\n3.\n6.\n3.\n3.\n电动机低速运行转矩\n6.\n3.\n3.\n6.\n3.\n3.\n电动机空载反电动势\n6.\n3.\n3.\n6.\n3.\n3.\n电动机电感值差异系数\n6.\n3.\n3.\n6.\n3.\n3.\n充电器\n6.\n3.\n6.\n3.\n电池和电池组\n6.\n3.\n6.\n3.",
+      "page_num": 28,
+      "section_path": [
+        "2 生产一致性检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "table",
+      "content": "| 检验项目 |  | 要求 章条号 | 试验方法 章条号 | 型式 试验 | 生产一致性检验 |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  | 例行 检验 | 确认 检验 |\n| 防火阻燃 | 防火阻燃要求 | 6.4.1a) | 6.4.2a) | √ | — | √* |\n|  |  | 6.4.1b) | 6.4.2b) | √ | — | * |\n|  |  | 6.4.1c) | 6.4.2c) | √ | — | * |\n|  |  | 6.4.1d) | 6.4.2d) | √ | — | * |\n|  |  | 6.4.1e) | 6.4.2e) | √ | — | * |\n|  |  | 6.4.1f) | 6.4.2f) | √ | — | √* |\n|  |  | 6.4.1g) | 6.4.2g) | √ | — | √* |\n| 塑料占比 |  | 6.5.1 | 6.5.2 | √ | — | √ |\n| 北斗定位 功能 | 北斗模块的安装 | 6.6.1 | 6.6.1 | √ | — | * |\n|  | 信号接收及处理 | 6.6.2 | 6.6.2 | √ | — | * |\n|  | 定位及异常状态检测 | 6.6.3 | 6.6.3 | √ | — | * |\n| 通信与动态 安全监测 | 通信功能 | 6.7.1 | 6.7.1 | √ | √ | √ |\n|  | 动态安全监测功能 | 6.7.2 | 6.7.2 | √ | — | √* |\n|  | 信息发送频次 | 6.7.3 | 6.7.3 | √ | — | √* |\n| 防篡改 | 电池组防篡改 | 6.8.1.1 | 6.8.1.2 | √ | — | √* |\n|  | 控制器防篡改 | 6.8.2.1 | 6.8.2.2 | √ | — | √ |\n|  | 限速器防篡改 | 6.8.3 | 6.8.3 | √ | — | √ |\n| 使用说明书 |  | 6.9 | 6.9 | √ | √ | √ |\n| 头盔 |  | 6.10 | 6.10 | √ | √ | √ |\n| 注1 例行检验为生产企业 检验 : 100% 。 注2 例行检验和定期确认检验项目中标 的项目 由生产企业自有检测设备完成 其中定期确认检验项目中 : “√” , , 标 的项目 可以委托有资质的外部实验室进行试验 表示不适用的检验项目 “*” , ;“—” 。 |  |  |  |  |  |  |",
+      "page_num": 29,
+      "section_path": [
+        "2 生产一致性检验"
+      ],
+      "is_ocr": false,
+      "raw_table": [
+        [
+          "检验项目",
+          null,
+          "要求\n章条号",
+          "试验方法\n章条号",
+          "型式\n试验",
+          "生产一致性检验",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "例行\n检验",
+          "确认\n检验"
+        ],
+        [
+          "防火阻燃",
+          "防火阻燃要求",
+          "6.4.1a)",
+          "6.4.2a)",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          null,
+          "6.4.1b)",
+          "6.4.2b)",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          null,
+          "6.4.1c)",
+          "6.4.2c)",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          null,
+          "6.4.1d)",
+          "6.4.2d)",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          null,
+          "6.4.1e)",
+          "6.4.2e)",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          null,
+          "6.4.1f)",
+          "6.4.2f)",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          null,
+          "6.4.1g)",
+          "6.4.2g)",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          "塑料占比",
+          null,
+          "6.5.1",
+          "6.5.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          "北斗定位\n功能",
+          "北斗模块的安装",
+          "6.6.1",
+          "6.6.1",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          "信号接收及处理",
+          "6.6.2",
+          "6.6.2",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          null,
+          "定位及异常状态检测",
+          "6.6.3",
+          "6.6.3",
+          "√",
+          "—",
+          "*"
+        ],
+        [
+          "通信与动态\n安全监测",
+          "通信功能",
+          "6.7.1",
+          "6.7.1",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          null,
+          "动态安全监测功能",
+          "6.7.2",
+          "6.7.2",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          "信息发送频次",
+          "6.7.3",
+          "6.7.3",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          "防篡改",
+          "电池组防篡改",
+          "6.8.1.1",
+          "6.8.1.2",
+          "√",
+          "—",
+          "√*"
+        ],
+        [
+          null,
+          "控制器防篡改",
+          "6.8.2.1",
+          "6.8.2.2",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          null,
+          "限速器防篡改",
+          "6.8.3",
+          "6.8.3",
+          "√",
+          "—",
+          "√"
+        ],
+        [
+          "使用说明书",
+          null,
+          "6.9",
+          "6.9",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          "头盔",
+          null,
+          "6.10",
+          "6.10",
+          "√",
+          "√",
+          "√"
+        ],
+        [
+          "注1 例行检验为生产企业 检验\n: 100% 。\n注2 例行检验和定期确认检验项目中标 的项目 由生产企业自有检测设备完成 其中定期确认检验项目中\n: “√” , ,\n标 的项目 可以委托有资质的外部实验室进行试验 表示不适用的检验项目\n“*” , ;“—” 。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "block_type": "text",
+      "content": "表2 型式试验、生产一致性检验(例行检验和定期确认检验)项目、要求及方法(续)\n检验项目\n要求\n章条号\n试验方法\n章条号\n型式\n试验\n生产一致性检验\n例行\n检验\n确认\n检验\n防火阻燃\n防火阻燃要求\n6.\n4.\n1a)\n6.\n4.\n2a)\n√*\n6.\n4.\n1b)\n6.\n4.\n2b)\n6.\n4.\n1c)\n6.\n4.\n2c)\n6.\n4.\n1d)\n6.\n4.\n2d)\n6.\n4.\n1e)\n6.\n4.\n2e)\n6.\n4.\n1f)\n6.\n4.\n2f)\n√*\n6.\n4.\n1g)\n6.\n4.\n2g)\n√*\n塑料占比\n6.\n5.\n6.\n5.\n北斗定位\n功能\n北斗模块的安装\n6.\n6.\n6.\n6.\n信号接收及处理\n6.\n6.\n6.\n6.\n定位及异常状态检测\n6.\n6.\n6.\n6.\n通信与动态\n安全监测\n通信功能\n6.\n7.\n6.\n7.\n动态安全监测功能\n6.\n7.\n6.\n7.\n√*\n信息发送频次\n6.\n7.\n6.\n7.\n√*\n防篡改\n电池组防篡改\n6.\n8.\n1.\n6.\n8.\n1.\n√*\n控制器防篡改\n6.\n8.\n2.\n6.\n8.\n2.\n限速器防篡改\n6.\n8.\n6.\n8.\n使用说明书\n6.\n6.\n头盔\n6.\n6.\n注1:例行检验为生产企业100%检验。\n注2:例行检验和定期确认检验项目中标“√”的项目,由生产企业自有检测设备完成,其中定期确认检验项目中\n标“*”的项目,可以委托有资质的外部实验室进行试验;“—”表示不适用的检验项目。",
+      "page_num": 29,
+      "section_path": [
+        "2 生产一致性检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 标准的实施",
+      "page_num": 29,
+      "section_path": [
+        "8 标准的实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "对于本文件实施之日前出厂或者进口的产品,自本文件实施之日起3个月后开始实施。",
+      "page_num": 29,
+      "section_path": [
+        "8 标准的实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 A\n(规范性)\n机械强度试验\n本附录规定了冲击试验(重物落下)、冲击试验(车架/前叉组合件落下)、把立管的弯曲试验等机械\n强度试验中的尺寸、结构、试验布置等要求,见图A.\n1~图A.\n3。\n单位为毫米\n图A.",
+      "page_num": 30,
+      "section_path": [
+        "8 标准的实施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 冲击试验(重物落下)",
+      "page_num": 30,
+      "section_path": [
+        "1 冲击试验(重物落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "单位为毫米\n图A.",
+      "page_num": 31,
+      "section_path": [
+        "1 冲击试验(重物落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 冲击试验(车架/前叉组合件落下)",
+      "page_num": 31,
+      "section_path": [
+        "2 冲击试验(车架/前叉组合件落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "图A.",
+      "page_num": 31,
+      "section_path": [
+        "2 冲击试验(车架/前叉组合件落下)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 把立管的弯曲试验",
+      "page_num": 31,
+      "section_path": [
+        "3 把立管的弯曲试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 B\n(资料性)\n北斗模块性能\nB.",
+      "page_num": 32,
+      "section_path": [
+        "3 把立管的弯曲试验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 名词解释",
+      "page_num": 32,
+      "section_path": [
+        "1 名词解释"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "B.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "1 名词解释"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 冷启动首次定位时间",
+      "page_num": 32,
+      "section_path": [
+        "1 冷启动首次定位时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用户设备在星历、历书、概略时间和概略位置未知的状态下,从开机到首次正常定位所需的时间。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "1 冷启动首次定位时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 重捕获时间",
+      "page_num": 32,
+      "section_path": [
+        "2 重捕获时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用户设备在接收的导航信号短时失锁后,从信号恢复到重新捕获导航信号并正常定位所需的时间。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "2 重捕获时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 冷启动捕获灵敏度",
+      "page_num": 32,
+      "section_path": [
+        "3 冷启动捕获灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用户设备在冷启动条件下,捕获导航信号并正常定位所需的最低信号电平。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "3 冷启动捕获灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 热启动捕获灵敏度",
+      "page_num": 32,
+      "section_path": [
+        "4 热启动捕获灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用户设备在热启动条件下,捕获导航信号并正常定位所需的最低信号电平。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "4 热启动捕获灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 重捕获灵敏度",
+      "page_num": 32,
+      "section_path": [
+        "5 重捕获灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用户设备在接收的导航信号短时失锁后,从信号恢复到重新捕获导航信号并正常定位所需的最低\n信号电平。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "5 重捕获灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 跟踪灵敏度",
+      "page_num": 32,
+      "section_path": [
+        "6 跟踪灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "用户设备在正常定位后,能继续保持对导航信号的跟踪和定位所需的最低信号电平。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "6 跟踪灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 定位精度",
+      "page_num": 32,
+      "section_path": [
+        "7 定位精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "观测位置值与真实位置值之差的统计值。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "7 定位精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "8 测速精度",
+      "page_num": 32,
+      "section_path": [
+        "8 测速精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "观测的速度与真实速度之差的统计值。\nB.\n1.",
+      "page_num": 32,
+      "section_path": [
+        "8 测速精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "9 历书",
+      "page_num": 32,
+      "section_path": [
+        "9 历书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "导航电文中用于确定导航卫星概略位置的参数。\nB.",
+      "page_num": 32,
+      "section_path": [
+        "9 历书"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 定位检测环境",
+      "page_num": 32,
+      "section_path": [
+        "2 定位检测环境"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "应具备接收实际卫星信号并进行电动自行车整车运行状态下检测的实验室条件,实际卫星信号接\n收测试点位应设置在周边无显著电磁信号干扰,且周围环视高度角10°以上无障碍物,远离水面的\n地方。",
+      "page_num": 32,
+      "section_path": [
+        "2 定位检测环境"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "B.",
+      "page_num": 33,
+      "section_path": [
+        "2 定位检测环境"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 北斗模块性能",
+      "page_num": 33,
+      "section_path": [
+        "3 北斗模块性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "B.\n3.",
+      "page_num": 33,
+      "section_path": [
+        "3 北斗模块性能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 定位时间",
+      "page_num": 33,
+      "section_path": [
+        "1 定位时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "B.\n3.\n1.",
+      "page_num": 33,
+      "section_path": [
+        "1 定位时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 冷启动首次定位时间",
+      "page_num": 33,
+      "section_path": [
+        "1 冷启动首次定位时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "冷启动首次定位时间≤60s。\n通过以下方法进行试验:\n采用卫星信号模拟器输出模拟信号进行检测,设置模拟器仅输出北斗全频点信号,通过设置模拟器\n历书使电动自行车内置北斗模块的原始历书失效,输出功率电平为-130dBm,通过连接工具设置北斗\n模块以1Hz的数据输出频率连续记录输出的定位数据,找出首次连续10次输出三维定位误差不超过\n30m(95%置信度)的定位数据的时刻,按照公式(B.\n1)、公式(B.\n2)及公式(B.\n3)计算水平、高程和定位精\n度,计算从北斗模块开机到上述10个输出时刻中第1个时刻的时间间隔,即为冷启动首次定位时间。\n定位误差数据处理步骤如下:\na) 计算水平定位误差和垂直定位误差:\nΔl,\ni =\n(N0 -Ni)",
+      "page_num": 33,
+      "section_path": [
+        "1 冷启动首次定位时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 + (E0 -Ei)",
+      "page_num": 33,
+      "section_path": [
+        "2 + (E0 -Ei)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "……………………(B.\n1)\nΔh,\ni =|Ui -U0|\n…………………………(B.\n2)\n式中:\nΔl,\niΔh,\ni  ———分别为水平定位误差、垂直定位误差,单位为米(m);\n———参加统计的定位结果样本序号;\nN0,E0,U0 ———分别为已知点在站心地平坐标系下北、东、高坐标,单位为米(m);\nNi,Ei,Ui ———分别为已知点在站心地平坐标系下北、东、高坐标,单位为米(m)。\nb) 计算所有定位点的三维定位误差ΔSj:\nΔSj = Δl,",
+      "page_num": 33,
+      "section_path": [
+        "2 + (E0 -Ei)"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 +Δh,",
+      "page_num": 33,
+      "section_path": [
+        "2 +Δh,"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "…………………………(B.\n3)\nB.\n3.\n1.",
+      "page_num": 33,
+      "section_path": [
+        "2 +Δh,"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 重捕获时间",
+      "page_num": 33,
+      "section_path": [
+        "2 重捕获时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "重捕获时间≤5s。\n通过以下方法进行试验:\n采用卫星信号模拟器输出模拟信号进行检测,设置模拟器仅输出北斗全频点信号,设置仿真速度为\n25km/h的运动用户轨迹,输出的各颗卫星的各通道信号电平为-130dBm,每次播发所有北斗卫星-\n频点。在电动自行车正常定位状态下,通过模拟器短时中断卫星信号60s后,恢复卫星信号,通过连接\n工具设置北斗模块以1Hz的数据输出频率连续记录输出的定位数据,找出自卫星信号恢复后,首次连\n续10次输出三维定位误差不超过30m(95%置信度)的定位数据的时刻,按照公式(B.\n1)、公式(B.\n2)及\n公式(B.\n3)计算水平、高程和定位精度,计算从卫星信号恢复到上述10个输出时刻中第1个时刻的时间\n间隔,即为重捕获时间。\nB.\n3.",
+      "page_num": 33,
+      "section_path": [
+        "2 重捕获时间"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 灵敏度",
+      "page_num": 33,
+      "section_path": [
+        "2 灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车所采用的北斗模块灵敏度符合以下要求:\n———冷启动捕获灵敏度≤-140dBm;\n———热启动捕获灵敏度≤-143dBm;\n———热启动重捕获灵敏度≤-145dBm;\n———跟踪灵敏度≤-150dBm。\n冷启动捕获灵敏度通过以下方法进行试验:",
+      "page_num": 33,
+      "section_path": [
+        "2 灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "设置模拟器仅输出北斗全频点信号,设置仿真速度≤2m/s的直线运动用户轨迹。每次设置模拟\n器输出的各颗卫星的每一通道信号电平从模块不能捕获信号的状态开始,以1dB步进增加,若模块的\n技术文件声明的捕获灵敏度小于规定的量值时,可从模块声称的捕获灵敏度量值低2dB 的电平值开\n始。在模拟器输出信号的每个电平值下,模块在冷启动状态下开机,测试模块能否在300s内以1 Hz\n的数据输出频率连续10次输出三维定位误差<30m 的定位数据,模块满足该定位要求的最低电平值\n应符合冷启动捕获灵敏度的要求。\n用同样方法,分别在模块热启动和重捕获状态下进行热启动捕获灵敏度和热启动重捕获灵敏度\n测试。\n跟踪灵敏度通过以下方法进行试验:\n采用模拟器进行测试,设置模拟器仅输出北斗全频点信号,设置仿真速度≤2m/s的直线运动用户\n轨迹。在模块正常定位的情况下,设置模拟器输出的各颗卫星的各通道信号电平以1dB步进降低。在\n模拟器输出信号的每个电平值下,测试模块能否在300s内,并以1Hz的数据输出频率连续10次输出\n三维定位误差<30m 的定位数据(三维定位误差计算公式参见B.\n3.\n1.\n1),模块满足该定位要求的最低\n电平值需符合跟踪灵敏度的要求。\nB.\n3.",
+      "page_num": 34,
+      "section_path": [
+        "2 灵敏度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 精度",
+      "page_num": 34,
+      "section_path": [
+        "3 精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "B.\n3.\n3.",
+      "page_num": 34,
+      "section_path": [
+        "3 精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 定位精度",
+      "page_num": 34,
+      "section_path": [
+        "1 定位精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "定位精度:水平≤10m(95%置信度);高程≤15m(95%置信度)。\n通过以下方法进行试验:\n采用信号转发器将实际卫星信号引入实验室内进行检测,信号转发器接收天线架设在坐标已知的\n点位上,点位精度应优于0.\n1m,检测应在北斗卫星星座PDOP≤4的情况下进行,通过连接工具获取\n1次/s的定位结果,记录连续1h的定位结果,按照公式(B.\n1)、公式(B.\n2)及公式(B.\n3)计算水平、高程和\n定位精度,统计有效定位点历元总数n,将有效的定位点按三维定位误差从小到大排序,取第n×95%\n个点的水平定位误差和垂直定位误差作为该应用模式下的水平定位精度和垂直定位精度,检查是否符\n合要求。\nB.\n3.\n3.",
+      "page_num": 34,
+      "section_path": [
+        "1 定位精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 测速精度",
+      "page_num": 34,
+      "section_path": [
+        "2 测速精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "测速精度:≤0.\n2m/s(95%置信度)。\n通过以下方法进行试验:\n采用卫星信号模拟器输出模拟信号进行检测,设置模拟器仅输出北斗全频点信号和用户直线运动\n轨迹,输出射频仿真信号,设置模拟信号输出功率电平为-130dBm,设定初始速度为10km/h,按照固\n定的加速度持续加速,加速时间≥5min,当速度达到25km/h时维持匀速5min。通过连接工具,按\n1Hz的频率获得北斗模块输出的速度数据,以模拟器仿真的速度作为标准,按照公式(B.\n4)、公式(B.\n5)\n计算速度误差,检查是否符合要求。\n数据处理步骤如下:\na) 统计测速结果历元总数,与仿真数据进行比对计算测速误差:\nΔvj = Δv\nX,j +Δv\nY,j +Δv\nZ,j (\nj=1,…,M )\n………………(B.\n4)\n式中:\nΔvj       ———测速误差,单位为米每秒(m/s);\n———参加统计的测速结果样本序号;\nΔvX,j,ΔvY,j,ΔvZ,j ———X、Y、Z 方向测速误差分量,单位为米每秒(m/s);\n———参加统计的测速结果样本总数。",
+      "page_num": 34,
+      "section_path": [
+        "2 测速精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "X、Y、Z 方向测速误差分量计算方式见公式(B.\n5):\nΔva,j =|v'\na,j-va,j|\n…………………………(B.\n5)\n式中:\nΔva,j———a 方向速度误差分量,单位为米每秒(m/s);\n———取值为X、Y、Z;\nv'\na,j\n———被测设备解算出来的第j 个a 方向速度分量,单位为米每秒(m/s);\nva,j\n———仿真的第j 个a 方向速度分量,单位为米每秒(m/s)。\nb) 将测速误差按照从小到大的顺序排列,取第n×95%个数据作为标准单点定位速度精度。",
+      "page_num": 35,
+      "section_path": [
+        "2 测速精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 C\n(资料性)\n电动自行车管理平台功能示例\nC.",
+      "page_num": 36,
+      "section_path": [
+        "2 测速精度"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 总则",
+      "page_num": 36,
+      "section_path": [
+        "1 总则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动自行车管理平台功能宜包含注册与信息录入、定位、预警、反馈、数据分析与报告、隐私保护、兼\n容与交互、接口与数据调阅等功能。\nC.",
+      "page_num": 36,
+      "section_path": [
+        "1 总则"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 注册与信息录入",
+      "page_num": 36,
+      "section_path": [
+        "2 注册与信息录入"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n2.",
+      "page_num": 36,
+      "section_path": [
+        "2 注册与信息录入"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 用户注册与认证",
+      "page_num": 36,
+      "section_path": [
+        "1 用户注册与认证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "平台可提供用户注册功能,支持手机号、邮箱或第三方账号登录,并通过实名认证确保用户信息真\n实有效。\nC.\n2.",
+      "page_num": 36,
+      "section_path": [
+        "1 用户注册与认证"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 生产出厂和销售信息",
+      "page_num": 36,
+      "section_path": [
+        "2 生产出厂和销售信息"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n2.\n2.",
+      "page_num": 36,
+      "section_path": [
+        "2 生产出厂和销售信息"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 平台宜提供车辆生产检验合格出厂时的以下信息:",
+      "page_num": 36,
+      "section_path": [
+        "1 平台宜提供车辆生产检验合格出厂时的以下信息:"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "a) 车辆合格证照片;\nb) 刻制的整车编码1∶1还原照片一张(采用等比例扫描、等比例拍摄等方式,形成的记录有整车\n编码打刻特征的电子影像);\nc) 车辆占照片三分之二以上能完整反映外观形状的左前方45°照片、右后方45°照片、车头朝左\n正侧面照片各一张。\nC.\n2.\n2.",
+      "page_num": 36,
+      "section_path": [
+        "1 平台宜提供车辆生产检验合格出厂时的以下信息:"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 平台宜提供销售商上传车辆销售发票照片功能,并记录销售时间。",
+      "page_num": 36,
+      "section_path": [
+        "2 平台宜提供销售商上传车辆销售发票照片功能,并记录销售时间。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n2.\n2.",
+      "page_num": 36,
+      "section_path": [
+        "2 平台宜提供销售商上传车辆销售发票照片功能,并记录销售时间。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 平台按照政府管理部门的要求及时传输信息。",
+      "page_num": 36,
+      "section_path": [
+        "3 平台按照政府管理部门的要求及时传输信息。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.",
+      "page_num": 36,
+      "section_path": [
+        "3 平台按照政府管理部门的要求及时传输信息。"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 定位、预警及反馈",
+      "page_num": 36,
+      "section_path": [
+        "3 定位、预警及反馈"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n3.",
+      "page_num": 36,
+      "section_path": [
+        "3 定位、预警及反馈"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 车辆定位追踪",
+      "page_num": 36,
+      "section_path": [
+        "1 车辆定位追踪"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "实时追踪车辆位置,提供历史轨迹查询功能。\nC.\n3.",
+      "page_num": 36,
+      "section_path": [
+        "1 车辆定位追踪"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 安全防盗功能",
+      "page_num": 36,
+      "section_path": [
+        "2 安全防盗功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "具备远程锁定、报警、轨迹追踪等防盗功能,确保车辆安全。\nC.\n3.",
+      "page_num": 36,
+      "section_path": [
+        "2 安全防盗功能"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 维修保养记录",
+      "page_num": 36,
+      "section_path": [
+        "3 维修保养记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "记录车辆的维修和保养历史,提醒用户定期维护和检查。\nC.\n3.",
+      "page_num": 36,
+      "section_path": [
+        "3 维修保养记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 电池管理",
+      "page_num": 36,
+      "section_path": [
+        "4 电池管理"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "对电池和电池组进行动态安全检测,提供电池健康度评估,以及电池寿命预测。\nC.\n3.",
+      "page_num": 36,
+      "section_path": [
+        "4 电池管理"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 异常状态提醒",
+      "page_num": 36,
+      "section_path": [
+        "5 异常状态提醒"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "根据道路交通安全法律法规等,对用户非法加装改装电池、篡改车速控制、卫星定位失效等违法违\n规异常情况进行预警或提醒。",
+      "page_num": 36,
+      "section_path": [
+        "5 异常状态提醒"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n3.",
+      "page_num": 37,
+      "section_path": [
+        "5 异常状态提醒"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 政策法规更新",
+      "page_num": 37,
+      "section_path": [
+        "6 政策法规更新"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "及时更新并通知用户最新的电动自行车管理政策和法规。\nC.\n3.",
+      "page_num": 37,
+      "section_path": [
+        "6 政策法规更新"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 用户预警、反馈与支持",
+      "page_num": 37,
+      "section_path": [
+        "7 用户预警、反馈与支持"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "能将预警信息通过手机应用程序、车辆终端、短信等渠道送达用户;设立用户反馈渠道,提供在线客\n服支持,解答用户疑问。\nC.",
+      "page_num": 37,
+      "section_path": [
+        "7 用户预警、反馈与支持"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 数据分析与报告",
+      "page_num": 37,
+      "section_path": [
+        "4 数据分析与报告"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "根据用户使用数据,提供个性化报告和改进建议。\nC.",
+      "page_num": 37,
+      "section_path": [
+        "4 数据分析与报告"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 系统安全与隐私保护",
+      "page_num": 37,
+      "section_path": [
+        "5 系统安全与隐私保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n5.",
+      "page_num": 37,
+      "section_path": [
+        "5 系统安全与隐私保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 系统安全",
+      "page_num": 37,
+      "section_path": [
+        "1 系统安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "采取措施确保平台数据安全,平台符合信息安全相关标准。\nC.\n5.",
+      "page_num": 37,
+      "section_path": [
+        "1 系统安全"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 隐私保护",
+      "page_num": 37,
+      "section_path": [
+        "2 隐私保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "采取加密措施保护用户隐私,平台符合隐私保护相关标准。\nC.",
+      "page_num": 37,
+      "section_path": [
+        "2 隐私保护"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 兼容与交互",
+      "page_num": 37,
+      "section_path": [
+        "6 兼容与交互"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n6.",
+      "page_num": 37,
+      "section_path": [
+        "6 兼容与交互"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 多平台兼容性",
+      "page_num": 37,
+      "section_path": [
+        "1 多平台兼容性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "平台宜兼容主流操作系统和设备,包括但不限于计算机、智能手机、平板等。\nC.\n6.",
+      "page_num": 37,
+      "section_path": [
+        "1 多平台兼容性"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 交互界面设计",
+      "page_num": 37,
+      "section_path": [
+        "2 交互界面设计"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "界面宜简洁直观,易于操作,提供良好的用户体验。\nC.",
+      "page_num": 37,
+      "section_path": [
+        "2 交互界面设计"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 接口与数据调阅",
+      "page_num": 37,
+      "section_path": [
+        "7 接口与数据调阅"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "C.\n7.",
+      "page_num": 37,
+      "section_path": [
+        "7 接口与数据调阅"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 合作伙伴接入",
+      "page_num": 37,
+      "section_path": [
+        "1 合作伙伴接入"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "允许第三方服务提供商接入,如保险公司、维修点等,为用户提供一站式服务。\nC.\n7.",
+      "page_num": 37,
+      "section_path": [
+        "1 合作伙伴接入"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 政府监管数据调阅",
+      "page_num": 37,
+      "section_path": [
+        "2 政府监管数据调阅"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "对于政府监管需要调阅的数据能方便快捷的调阅。\nC.\n7.",
+      "page_num": 37,
+      "section_path": [
+        "2 政府监管数据调阅"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 政府监管数据上传",
+      "page_num": 37,
+      "section_path": [
+        "3 政府监管数据上传"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "按照规定格式上传监管所需数据至政府监管平台。",
+      "page_num": 37,
+      "section_path": [
+        "3 政府监管数据上传"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 D\n(资料性)\n防篡改检查方法示例\nD.",
+      "page_num": 38,
+      "section_path": [
+        "3 政府监管数据上传"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 概述",
+      "page_num": 38,
+      "section_path": [
+        "1 概述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "本附录列举了常见的防篡改检查方法示例。\nD.",
+      "page_num": 38,
+      "section_path": [
+        "1 概述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 对特定的操作方法进行检查",
+      "page_num": 38,
+      "section_path": [
+        "2 对特定的操作方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "D.\n2.",
+      "page_num": 38,
+      "section_path": [
+        "2 对特定的操作方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 通过捏刹车和转动调速把检查",
+      "page_num": 38,
+      "section_path": [
+        "1 通过捏刹车和转动调速把检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "整车通电,关闭电门锁的状态下,同时转动调速把到底和捏住刹车保持10s以上,在保持状态下打\n开电门锁,继续保持同时转动调速把到底和捏住刹车10s以上,松开刹车和调速把,对比操作前后电机\n的转速变化。\nD.\n2.",
+      "page_num": 38,
+      "section_path": [
+        "1 通过捏刹车和转动调速把检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 通过遥控器按键操作检查",
+      "page_num": 38,
+      "section_path": [
+        "2 通过遥控器按键操作检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "长按遥控器上的按键,当听到语音器响起后,对比操作前后电机的转速变化,并检查是否可超速\n行驶。\nD.",
+      "page_num": 38,
+      "section_path": [
+        "2 通过遥控器按键操作检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 对解码器解速方法进行检查",
+      "page_num": 38,
+      "section_path": [
+        "3 对解码器解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "检查解码器能实现整车速度的大幅度提高、关闭车速提示音发音装置的鸣响等功能。整车连接解\n码器,按解码器操作说明操作,对比操作前后车速提示音、最高车速变化。\n解码器常见有下列2种:\na) 解码器内部储存有一套电动自行车控制完整程序;\nb) 电动自行车控制器内部本身就存在多种控制逻辑程序,解码器用于实现对控制器控制逻辑程\n序切换。\n解码器检查方法示例:\na) 对于第一种解码器,将整车控制器线路与解码器引出线连接好,再通过遥控器按键,将解码器\n内部的储存程序导入到控制器内部,检查电动自行车控制程序是否被篡改,并检查是否可超速\n行驶;\nb) 对于第二种解码器(通常是一种遥控装置),通过遥控装置按键向电动自行车发送控制信号,检\n查控制器内部是否切换了控制程序,可重复多次操作,检查控制程序是否被篡改,并检查是否\n可超速行驶。\nD.",
+      "page_num": 38,
+      "section_path": [
+        "3 对解码器解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 对更换控制器方法进行检查",
+      "page_num": 38,
+      "section_path": [
+        "4 对更换控制器方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "如果只能靠破坏、割开电动自行车外壳或借助专用工具才能拆下控制器的,即认为控制器是充分固\n定的且不易拆卸。\n注:专用工具是指如内六角螺丝扳手等一般家庭不大可能有的工具。硬币、螺丝刀和设计来旋转方形或六角螺母\n的工具不算专用工具。\nD.",
+      "page_num": 38,
+      "section_path": [
+        "4 对更换控制器方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 对联网解速方法进行检查",
+      "page_num": 38,
+      "section_path": [
+        "5 对联网解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "手机连接车辆,在调试模式写入篡改代码,对比操作前后车速提示音、最高车速变化。具体操作示",
+      "page_num": 38,
+      "section_path": [
+        "5 对联网解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "例如下:\na) 检查车辆状态,安装电池组,给车辆进行通电,用原厂配置的感应卡(钥匙)刷车辆前端感应\n区,仪表盘显示亮起,通过操作右侧车把位置的“- +”按钮,仪表盘显示A 、L 、E 三个模式;\nb) 打开手机蓝牙,通过厂家应用程序(APP)将车辆连网,通过激活码与车辆进行匹配,匹配成功\n后车辆通过操作右侧车把位置的“- +”按钮,检查仪表盘显示模式是否变为A、L、E、S四个\n模式,并检查是否可超速行驶。\n检查车辆是否具备恢复解码设置和远程控制限速装置功能。\nD.",
+      "page_num": 39,
+      "section_path": [
+        "5 对联网解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 对借助外置“云盒”解速方法进行检查",
+      "page_num": 39,
+      "section_path": [
+        "6 对借助外置“云盒”解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "连接网络盒子调试端口,调试注入篡改代码,对比操作前后车速提示音、最高车速变化。具体操作\n示例如下:\n在电动自行车前部找到“云盒”连接线,拔掉接插口,然后将外置“云盒”的连接线插入接插口完成连\n接,检查方法与D.\n4相同。",
+      "page_num": 39,
+      "section_path": [
+        "6 对借助外置“云盒”解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 E\n(规范性)\n电动自行车主要技术参数设置\nE.",
+      "page_num": 40,
+      "section_path": [
+        "6 对借助外置“云盒”解速方法进行检查"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 整车主要技术参数",
+      "page_num": 40,
+      "section_path": [
+        "1 整车主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "外形尺寸:长×宽×高\nmm×mm×mm\n前后轮中心距\nmm\n整车质量\nkg\n最高设计车速\nkm/h\n续行里程\nkm\n百公里电耗\nkWh/100km\n载重量\nkg\nE.",
+      "page_num": 40,
+      "section_path": [
+        "1 整车主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 电池主要技术参数",
+      "page_num": 40,
+      "section_path": [
+        "2 电池主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电池类型\n容量\nAh\n标称电压\nE.",
+      "page_num": 40,
+      "section_path": [
+        "2 电池主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 电动机主要技术参数",
+      "page_num": 40,
+      "section_path": [
+        "3 电动机主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "电动机型式\n标称功率\n额定转速\nr/min\n额定电压\nE.",
+      "page_num": 40,
+      "section_path": [
+        "3 电动机主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 控制器的主要技术参数",
+      "page_num": 40,
+      "section_path": [
+        "4 控制器的主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "欠压保护值\n过流保护值",
+      "page_num": 40,
+      "section_path": [
+        "4 控制器的主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "附 录 F\n(资料性)\n企业质量控制能力\nF.",
+      "page_num": 41,
+      "section_path": [
+        "4 控制器的主要技术参数"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 总述",
+      "page_num": 41,
+      "section_path": [
+        "1 总述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "生产企业宜控制产品的一致性,建立并依据质量保证能力持续生产合格产品。工厂宜配备必要的\n生产设备、检验试验仪器设备以满足稳定生产符合标准要求产品的需要;宜配备相应的人力资源,确保\n从事对产品认证质量有影响的工作人员具备必要的能力;宜建立并保持适宜的产品生产、检验试验、储\n存等必备的环境和设施。\nF.",
+      "page_num": 41,
+      "section_path": [
+        "1 总述"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "2 文件记录",
+      "page_num": 41,
+      "section_path": [
+        "2 文件记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "工厂宜建立文件化的规定,确保批量生产的产品持续满足标准要求;至少包括生产产品过程中必要\n的试验或相关检查的内容、方法、频次、偏差范围、结果分析、记录及保存的文件化的规定。产品设计标\n准或规范宜不低于标准要求。对可能影响产品一致性的主要内容,工厂宜有必要的图纸、样板、关键件\n清单、工艺文件、作业指导书等设计文件,并确保文件的持续有效性。\nF.",
+      "page_num": 41,
+      "section_path": [
+        "2 文件记录"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "3 关键件及控制",
+      "page_num": 41,
+      "section_path": [
+        "3 关键件及控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "依据标准识别关键零部件、原材料以及关键件的制造过程、装配过程、检验过程并确定其控制要求。\n对于不在工厂现场进行的必要的试验或相关检查以及控制的关键零部件、原材料和关键制造过程、装配\n过程、检验过程宜明确控制的实际部门和所在地点。对于采购关键件的质量特性,工厂宜选择适当的控\n制方式以确保持续满足关键件的技术要求,以及最终产品满足标准的要求。生产企业宜明确采购要\n求,并确定关键零部件的进货检验和确认检验要求,如管材、反射器、照明和鸣号装置的机械安全要\n求,导线、电动机、充电器与电池组的电气安全要求,防火阻燃要求,以及北斗定位功能、通信功能和电池\n组、控制器、限速器防篡改的功能要求等。\nF.",
+      "page_num": 41,
+      "section_path": [
+        "3 关键件及控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "4 生产过程控制",
+      "page_num": 41,
+      "section_path": [
+        "4 生产过程控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "识别关键工序,且关键工序的控制宜确保生产产品满足标准的要求和持续生产产品的一致性;识别\n对产品有影响的生产环境条件,并保证生产产品的工作环境持续满足要求;识别必要的过程参数并对其\n进行监视、测量;保持对生产设备的维护保养制度,确保设备的能力持续满足生产要求;识别必要的生产\n阶断,对产品及其特性进行检查、监视、测量,以确保产品与标准的符合性及产品一致性。生产企业宜明\n确首件检验、过程检验以及必要的过程参数和监视测量的过程控制要求,如电池防篡改、防速度篡改、提\n示音的车速值、导线布线安装/短路保护等要求。\nF.",
+      "page_num": 41,
+      "section_path": [
+        "4 生产过程控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "5 成品检验",
+      "page_num": 41,
+      "section_path": [
+        "5 成品检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "工厂宜建立并保持文件化的程序,对最终产品的例行检验和/或确认检验进行控制,宜包括检验频\n次、项目、内容、方法、判定等。工厂宜实施并保存相关检验记录。对于委托外部机构进行的检验,工厂\n宜确保外部机构的能力满足检验要求,并保存相关能力的评价结果,如实验室认可证明等。成品检验宜\n至少包括:铭牌、标识、产品合格证、车速限值、整车质量、淋水涉水、车架/前叉、把立管弯曲强度、反射器\n安装、反射器光学、耐高温、温度异常报警、温度保护、短路保护、充电口错接保护、以及保护装置失效断\n电等项目。",
+      "page_num": 41,
+      "section_path": [
+        "5 成品检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "F.",
+      "page_num": 42,
+      "section_path": [
+        "5 成品检验"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "6 产品的变更及一致性控制",
+      "page_num": 42,
+      "section_path": [
+        "6 产品的变更及一致性控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "对可能影响产品一致性及产品与标准的符合性的变更(如工艺、生产条件、关键件和产品结构等)进\n行控制,保存相关变更和一致性控制的记录。\nF.",
+      "page_num": 42,
+      "section_path": [
+        "6 产品的变更及一致性控制"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "7 追溯及处理措施",
+      "page_num": 42,
+      "section_path": [
+        "7 追溯及处理措施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "关键零部件检验,整车完成检查、年度整车车辆一致性试验等生产过程各个环节的出现不一致时的\n追溯处理措施及记录;以及整车和关键零部件检验产生与产品质量相关不合格时的追溯处理措施及\n记录。",
+      "page_num": 42,
+      "section_path": [
+        "7 追溯及处理措施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "参 考 文 献\n[1] GB/T5359.",
+      "page_num": 43,
+      "section_path": [
+        "7 追溯及处理措施"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "title",
+      "content": "1 摩托车和轻便摩托车术语 第1部分:车辆类型",
+      "page_num": 43,
+      "section_path": [
+        "1 摩托车和轻便摩托车术语 第1部分:车辆类型"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    },
+    {
+      "block_type": "text",
+      "content": "[2] GB7258 机动车运行安全技术条件\n[3] GB20073 摩托车和轻便摩托车制动性能要求及试验方法\n[4] GB24155 电动摩托车和电动轻便摩托车安全要求\n[5] GB/T39267—2020 北斗卫星导航术语",
+      "page_num": 43,
+      "section_path": [
+        "1 摩托车和轻便摩托车术语 第1部分:车辆类型"
+      ],
+      "is_ocr": false,
+      "raw_table": null
+    }
+  ]
+}
