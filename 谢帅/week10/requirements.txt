@@ -1,0 +1,29 @@
+# PDF 解析
+pdfplumber>=0.10.0
+pymupdf>=1.23.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+# 可选重排模型
+sentence-transformers>=2.6.0
+# 向量检索
+faiss-cpu>=1.7.4
+# 关键词检索
+rank_bm25>=0.2.2
+jieba>=0.42.1
+# LLM/Embedding（DashScope OpenAI 兼容接口）
+openai>=1.30.0,<2.0.0
+# 评估（RAGAS 0.2 + langchain 0.3 为兼容组合；新版 langchain-community 会破坏 ragas 导入）
+ragas==0.2.15
+datasets>=2.18.0
+langchain==0.3.27
+langchain-core==0.3.75
+langchain-community==0.3.30
+langchain-openai==0.2.14
+# HTTP 服务
+fastapi>=0.110.0
+uvicorn>=0.29.0
+# 工具
+numpy>=1.24.0
+requests>=2.31.0
+tqdm>=4.66.0
+pandas>=2.0.0
