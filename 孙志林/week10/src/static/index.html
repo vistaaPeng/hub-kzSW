@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG 上市公司年报问答系统</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .header { text-align: center; color: white; margin-bottom: 30px; }
+        .header h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; }
+        .header p { opacity: 0.9; font-size: 14px; }
+        .card { background: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.15); overflow: hidden; }
+        .filters { display: flex; gap: 12px; padding: 20px 24px; background: #f8f9fa; border-bottom: 1px solid #e9ecef; flex-wrap: wrap; }
+        .filter-group { display: flex; align-items: center; gap: 8px; }
+        .filter-group label { font-size: 13px; color: #666; font-weight: 500; }
+        .filter-group select { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; background: white; cursor: pointer; min-width: 120px; }
+        .chat-area { padding: 24px; min-height: 400px; }
+        .message { margin-bottom: 20px; }
+        .message.user .msg-content { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 16px 16px 4px 16px; }
+        .message.assistant .msg-content { background: #f1f3f4; color: #333; border-radius: 16px 16px 16px 4px; }
+        .msg-content { padding: 16px 20px; line-height: 1.7; font-size: 15px; }
+        .msg-content p { margin-bottom: 8px; }
+        .msg-content p:last-child { margin-bottom: 0; }
+        .sources { margin-top: 12px; padding: 12px; background: #fff3e0; border-radius: 8px; font-size: 12px; color: #e65100; }
+        .sources-title { font-weight: 600; margin-bottom: 6px; }
+        .sources ul { list-style: none; }
+        .sources li { margin-bottom: 4px; }
+        .input-area { padding: 20px 24px; border-top: 1px solid #e9ecef; display: flex; gap: 12px; }
+        .input-area input { flex: 1; padding: 14px 20px; border: 1px solid #ddd; border-radius: 12px; font-size: 15px; outline: none; transition: border-color 0.3s; }
+        .input-area input:focus { border-color: #667eea; }
+        .input-area button { padding: 14px 32px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+        .input-area button:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4); }
+        .input-area button:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .loading { display: flex; align-items: center; gap: 8px; color: #666; font-size: 14px; }
+        .spinner { width: 20px; height: 20px; border: 2px solid #ddd; border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .error { color: #dc3545; font-size: 14px; text-align: center; padding: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 RAG 上市公司年报问答系统</h1>
+            <p>基于检索增强生成技术，智能回答关于上市公司年度报告的问题</p>
+        </div>
+
+        <div class="card">
+            <div class="filters">
+                <div class="filter-group">
+                    <label>股票代码:</label>
+                    <select id="stock-select">
+                        <option value="">全部</option>
+                        <option value="600519">600519 贵州茅台</option>
+                        <option value="000858">000858 五粮液</option>
+                        <option value="300750">300750 宁德时代</option>
+                        <option value="002415">002415 海康威视</option>
+                        <option value="601318">601318 中国平安</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>年份:</label>
+                    <select id="year-select">
+                        <option value="">全部</option>
+                        <option value="2023">2023年</option>
+                        <option value="2022">2022年</option>
+                        <option value="2021">2021年</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="chat-area" id="chat-area">
+                <div class="message assistant">
+                    <div class="msg-content">
+                        <p>您好！我是您的财务分析助手，专门回答关于中国上市公司年度报告的问题。</p>
+                        <p>您可以问我：</p>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li>贵州茅台2023年营业收入是多少？</li>
+                            <li>宁德时代2022年净利润同比增长多少？</li>
+                            <li>五粮液2023年研发费用投入多少？</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="query-input" placeholder="请输入您的问题..." autocomplete="off">
+                <button id="submit-btn">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatArea = document.getElementById('chat-area');
+        const queryInput = document.getElementById('query-input');
+        const submitBtn = document.getElementById('submit-btn');
+        const stockSelect = document.getElementById('stock-select');
+        const yearSelect = document.getElementById('year-select');
+
+        async function sendQuery() {
+            const query = queryInput.value.trim();
+            if (!query) return;
+
+            const stock = stockSelect.value;
+            const year = yearSelect.value;
+
+            appendMessage('user', query);
+            queryInput.value = '';
+            submitBtn.disabled = true;
+
+            const loadingEl = document.createElement('div');
+            loadingEl.className = 'message assistant';
+            loadingEl.innerHTML = '<div class="msg-content"><div class="loading"><div class="spinner"></div>正在检索并生成回答...</div></div>';
+            chatArea.appendChild(loadingEl);
+            scrollToBottom();
+
+            try {
+                const response = await fetch('/api/query', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query, stock, year })
+                });
+
+                const data = await response.json();
+
+                chatArea.removeChild(loadingEl);
+
+                if (data.error) {
+                    appendMessage('assistant', `<div class="error">查询失败：${data.error}</div>`);
+                } else {
+                    let content = data.answer;
+                    if (data.sources && data.sources.length > 0) {
+                        content += `\n\n<div class="sources"><div class="sources-title">参考来源：</div><ul>`;
+                        data.sources.forEach(src => {
+                            content += `<li>${src.source}</li>`;
+                        });
+                        content += '</ul></div>';
+                    }
+                    appendMessage('assistant', content);
+                }
+            } catch (error) {
+                chatArea.removeChild(loadingEl);
+                appendMessage('assistant', `<div class="error">网络错误：${error.message}</div>`);
+            } finally {
+                submitBtn.disabled = false;
+            }
+        }
+
+        function appendMessage(role, content) {
+            const msgEl = document.createElement('div');
+            msgEl.className = `message ${role}`;
+            msgEl.innerHTML = `<div class="msg-content">${content}</div>`;
+            chatArea.appendChild(msgEl);
+            scrollToBottom();
+        }
+
+        function scrollToBottom() {
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        submitBtn.addEventListener('click', sendQuery);
+        queryInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendQuery();
+        });
+    </script>
+</body>
+</html>
