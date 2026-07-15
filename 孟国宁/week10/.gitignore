@@ -1,0 +1,19 @@
+# ── API 密钥 ──
+.env
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── 下载的模型（可重新下载） ──
+models/
+
+# ── 构建的向量索引（可重新构建） ──
+vectorstore/
+
+# ── 评测结果 ──
+evaluation/results/
