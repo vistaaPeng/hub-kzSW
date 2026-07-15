@@ -1,0 +1,947 @@
+[
+  {
+    "chunk_id": "00_disclaimer.md_000",
+    "content": "# 系统免责声明",
+    "metadata": {
+      "source": "00_disclaimer.md",
+      "section": "系统免责声明",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "00_disclaimer.md_001",
+    "content": "## 重要提示\n\n本系统为**深度学习课程作业演示项目**，基于自建医学科普知识库提供问答服务。\n\n**本系统不能替代专业医疗诊断、治疗或急救决策。**\n\n如有身体不适，请及时前往正规医疗机构就诊，遵医嘱治疗。",
+    "metadata": {
+      "source": "00_disclaimer.md",
+      "section": "重要提示",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "00_disclaimer.md_002",
+    "content": "## 系统能力边界\n\n- 仅根据知识库中的科普内容回答常见问题\n- 不提供个体化诊断、用药剂量或治疗方案\n- 不处理急重症识别与急救指导\n- 知识库内容仅供学习演示，可能不完整或滞后",
+    "metadata": {
+      "source": "00_disclaimer.md",
+      "section": "系统能力边界",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "00_disclaimer.md_003",
+    "content": "## 适用场景\n\n- 了解常见疾病的症状与就医建议\n- 学习基础医学科普知识\n- 演示 RAG 检索增强生成技术",
+    "metadata": {
+      "source": "00_disclaimer.md",
+      "section": "适用场景",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "01_common_cold.md_000",
+    "content": "# 感冒（急性上呼吸道感染）",
+    "metadata": {
+      "source": "01_common_cold.md",
+      "section": "感冒（急性上呼吸道感染）",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "01_common_cold.md_001",
+    "content": "## 概述\n\n感冒是由病毒感染引起的上呼吸道炎症，是最常见的急性呼吸道疾病。常见病毒包括鼻病毒、冠状病毒、流感病毒等。全年均可发病，冬春季高发。",
+    "metadata": {
+      "source": "01_common_cold.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "01_common_cold.md_002",
+    "content": "## 主要症状\n\n- 鼻塞、流涕、打喷嚏\n- 咽痛、咽干\n- 咳嗽，可为干咳或有少量痰\n- 低热或中等程度发热（通常 < 39°C）\n- 头痛、全身酸痛、乏力\n- 症状通常 7-10 天自行缓解",
+    "metadata": {
+      "source": "01_common_cold.md",
+      "section": "主要症状",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "01_common_cold.md_003",
+    "content": "## 诊断要点\n\n1. 急性起病，以上呼吸道症状为主\n2. 体检可见咽部充血，扁桃体可无肿大\n3. 血常规通常正常或白细胞偏低，淋巴细胞比例可升高\n4. 需与流感、过敏性鼻炎、急性咽炎等鉴别",
+    "metadata": {
+      "source": "01_common_cold.md",
+      "section": "诊断要点",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "01_common_cold.md_004",
+    "content": "## 治疗与护理\n\n- 休息、多饮水、保持室内空气流通\n- 对症治疗：退热（对乙酰氨基酚、布洛芬）、缓解鼻塞（生理盐水冲洗）\n- 不推荐常规使用抗生素（病毒性感染）\n- 避免劳累，注意保暖",
+    "metadata": {
+      "source": "01_common_cold.md",
+      "section": "治疗与护理",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "01_common_cold.md_005",
+    "content": "## 何时就医\n\n- 高热持续超过 3 天（> 39°C）\n- 呼吸困难、胸痛\n- 症状持续超过 10 天无好转\n- 婴幼儿、老年人、孕妇、免疫力低下者",
+    "metadata": {
+      "source": "01_common_cold.md",
+      "section": "何时就医",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_000",
+    "content": "# 高血压",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "高血压",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_001",
+    "content": "## 概述\n\n高血压是指在未使用降压药的情况下，非同日 3 次测量，收缩压 ≥ 140 mmHg 和/或舒张压 ≥ 90 mmHg。是心脑血管疾病最重要的危险因素。",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_002",
+    "content": "## 主要症状\n\n高血压早期常无明显症状，被称为\"沉默的杀手\"。部分患者可出现：\n\n- 头痛（尤其枕部胀痛），晨起明显\n- 头晕、耳鸣\n- 心悸、胸闷\n- 视力模糊\n- 鼻出血",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "主要症状",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_003",
+    "content": "## 诊断标准\n\n| 分类 | 收缩压 (mmHg) | 舒张压 (mmHg) |\n|------|--------------|--------------|\n| 正常血压 | < 120 | < 80 |\n| 正常高值 | 120-139 | 80-89 |\n| 高血压 1 级 | 140-159 | 90-99 |\n| 高血压 2 级 | 160-179 | 100-109 |\n| 高血压 3 级 | ≥ 180 | ≥ 110 |",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "诊断标准",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_004",
+    "content": "## 危险因素\n\n- 遗传因素、高盐饮食、肥胖、缺乏运动\n- 长期精神紧张、过量饮酒、吸烟\n- 年龄增长、睡眠呼吸暂停",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "危险因素",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_005",
+    "content": "## 治疗原则\n\n- 生活方式干预：低盐饮食（每日 < 5g）、减重、规律运动、戒烟限酒\n- 药物治疗：需医生评估后选择，常用类包括 ACEI、ARB、钙通道阻滞剂、利尿剂等\n- 目标：一般患者 < 140/90 mmHg，合并糖尿病或肾病者 < 130/80 mmHg",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "治疗原则",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "02_hypertension.md_006",
+    "content": "## 并发症\n\n脑卒中、冠心病、心力衰竭、肾功能损害、视网膜病变。",
+    "metadata": {
+      "source": "02_hypertension.md",
+      "section": "并发症",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_000",
+    "content": "# 糖尿病",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "糖尿病",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_001",
+    "content": "## 概述\n\n糖尿病是一组以高血糖为特征的代谢性疾病。1 型为胰岛素绝对缺乏，2 型为胰岛素抵抗伴分泌不足。我国 2 型糖尿病占 90% 以上。",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_002",
+    "content": "## 主要症状（\"三多一少\"）\n\n- 多饮：口渴明显，饮水量增多\n- 多尿：尿量增多，夜尿频繁\n- 多食：食欲亢进，易饥饿\n- 体重减少：不明原因体重下降\n\n其他症状：乏力、视力模糊、皮肤瘙痒、伤口愈合慢、反复感染。",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "主要症状（\"三多一少\"）",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_003",
+    "content": "## 诊断标准（满足任一条）\n\n- 空腹血糖 ≥ 7.0 mmol/L\n- 餐后 2 小时血糖 ≥ 11.1 mmol/L\n- 糖化血红蛋白（HbA1c）≥ 6.5%\n- 有典型症状 + 随机血糖 ≥ 11.1 mmol/L",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "诊断标准（满足任一条）",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_004",
+    "content": "## 分型\n\n- **1 型糖尿病**：青少年多见，起病急，需终身胰岛素治疗\n- **2 型糖尿病**：中老年多见，与肥胖、生活方式密切相关\n- **妊娠糖尿病**：妊娠期首次发现",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "分型",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_005",
+    "content": "## 治疗原则\n\n- 饮食控制：控制总热量，低糖低脂，定时定量\n- 运动：每周至少 150 分钟中等强度有氧运动\n- 药物治疗：口服降糖药或胰岛素，需个体化方案\n- 血糖监测：空腹 4.4-7.0，餐后 2h < 10.0 mmol/L",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "治疗原则",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "03_diabetes.md_006",
+    "content": "## 并发症\n\n急性：酮症酸中毒、高渗性昏迷。慢性：糖尿病肾病、视网膜病变、神经病变、足病。",
+    "metadata": {
+      "source": "03_diabetes.md",
+      "section": "并发症",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_000",
+    "content": "# 胃炎",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "胃炎",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_001",
+    "content": "## 概述\n\n胃炎是胃黏膜的炎症，分为急性和慢性。急性胃炎起病急，慢性胃炎病程长、反复发作。常见诱因包括幽门螺杆菌感染、非甾体抗炎药、酒精、应激等。",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_002",
+    "content": "## 主要症状\n\n- 上腹部疼痛或不适，餐后加重或缓解（因人而异）\n- 腹胀、嗳气、反酸\n- 恶心、呕吐\n- 食欲减退\n- 慢性胃炎可无明显症状，仅表现为消化不良",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "主要症状",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_003",
+    "content": "## 诊断要点\n\n- 胃镜检查是诊断金标准，可观察黏膜充血、水肿、糜烂等\n- 幽门螺杆菌检测（呼气试验、粪便抗原、胃镜活检）\n- 需与消化性溃疡、胃癌、功能性消化不良鉴别",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "诊断要点",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_004",
+    "content": "## 治疗原则\n\n- 去除诱因：戒烟酒、避免刺激性食物、停用损伤胃黏膜的药物\n- 幽门螺杆菌阳性者：四联根除方案（质子泵抑制剂 + 两种抗生素 + 铋剂）\n- 抑酸治疗：质子泵抑制剂（奥美拉唑等）\n- 胃黏膜保护剂",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "治疗原则",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_005",
+    "content": "## 饮食建议\n\n- 规律进食，少食多餐\n- 避免辛辣、过酸、过烫食物\n- 避免空腹饮酒和浓茶咖啡",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "饮食建议",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "04_gastritis.md_006",
+    "content": "## 何时就医\n\n- 呕血、黑便\n- 持续剧烈腹痛\n- 体重明显下降\n- 吞咽困难",
+    "metadata": {
+      "source": "04_gastritis.md",
+      "section": "何时就医",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_000",
+    "content": "# 冠心病（冠状动脉粥样硬化性心脏病）",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "冠心病（冠状动脉粥样硬化性心脏病）",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_001",
+    "content": "## 概述\n\n冠心病是冠状动脉狭窄或闭塞导致心肌缺血缺氧的心脏病，是我国居民死因首位之一。主要病理基础是冠状动脉粥样硬化斑块形成。",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_002",
+    "content": "## 主要症状",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "主要症状",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_003",
+    "content": "### 心绞痛（典型表现）\n\n- 胸骨后或心前区压榨性、紧缩性疼痛\n- 可放射至左肩、左臂内侧、颈部、下颌\n- 劳累、情绪激动、寒冷时诱发\n- 持续数分钟，休息或含服硝酸甘油可缓解",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "心绞痛（典型表现）",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_004",
+    "content": "### 心肌梗死（急症）\n\n- 剧烈胸痛持续 > 30 分钟，硝酸甘油不缓解\n- 伴大汗、恶心、呼吸困难、濒死感\n- **需立即拨打 120 急救**",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "心肌梗死（急症）",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_005",
+    "content": "### 其他表现\n\n- 胸闷、气短、心悸\n- 部分患者（尤其老年人、糖尿病患者）可表现为无痛性心肌梗死",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "其他表现",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_006",
+    "content": "## 危险因素\n\n高血压、高血脂、糖尿病、吸烟、肥胖、缺乏运动、家族史、年龄（男性 > 45 岁，女性 > 55 岁）。",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "危险因素",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_007",
+    "content": "## 诊断方法\n\n心电图、运动负荷试验、冠状动脉 CT 血管造影（CTA）、冠状动脉造影（金标准）、心肌酶谱（心梗时升高）。",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "诊断方法",
+      "chunk_index": 7
+    }
+  },
+  {
+    "chunk_id": "05_coronary_heart_disease.md_008",
+    "content": "## 治疗原则\n\n- 生活方式：戒烟、低盐低脂饮食、规律运动\n- 药物治疗：抗血小板（阿司匹林）、他汀类降脂、β 受体阻滞剂、硝酸酯类\n- 介入治疗：经皮冠状动脉介入治疗（PCI，支架植入）\n- 外科手术：冠状动脉旁路移植术（搭桥）",
+    "metadata": {
+      "source": "05_coronary_heart_disease.md",
+      "section": "治疗原则",
+      "chunk_index": 8
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_000",
+    "content": "# 肺炎",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "肺炎",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_001",
+    "content": "## 概述\n\n肺炎是肺泡和肺间质的炎症，可由细菌、病毒、支原体等引起。社区获得性肺炎（CAP）是最常见类型。",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_002",
+    "content": "## 主要症状\n\n- 发热：多为高热（39-40°C），伴寒战\n- 咳嗽：初期干咳，后咳脓痰（铁锈色痰提示肺炎链球菌）\n- 胸痛：深呼吸或咳嗽时加重\n- 呼吸困难、气促\n- 全身乏力、食欲减退",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "主要症状",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_003",
+    "content": "## 诊断要点\n\n- 胸部 X 线或 CT：肺部片状浸润影\n- 血常规：白细胞升高，中性粒细胞比例增高（细菌性）\n- 痰培养、血培养明确病原菌\n- 血气分析评估缺氧程度",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "诊断要点",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_004",
+    "content": "## 常见病原体\n\n- 细菌：肺炎链球菌、金黄色葡萄球菌、肺炎克雷伯菌\n- 病毒：流感病毒、新冠病毒\n- 非典型：支原体、衣原体（多见于青少年）",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "常见病原体",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_005",
+    "content": "## 治疗原则\n\n- 细菌性肺炎：抗生素治疗，根据病原学选择\n- 病毒性肺炎：对症支持，重症可用抗病毒药\n- 氧疗：血氧饱和度 < 93% 时吸氧\n- 止咳化痰、补液、营养支持",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "治疗原则",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "06_pneumonia.md_006",
+    "content": "## 何时就医\n\n- 高热持续不退\n- 呼吸困难加重\n- 老年人、儿童、免疫力低下者一旦怀疑肺炎应立即就医",
+    "metadata": {
+      "source": "06_pneumonia.md",
+      "section": "何时就医",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_000",
+    "content": "# 偏头痛",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "偏头痛",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_001",
+    "content": "## 概述\n\n偏头痛是一种常见的原发性头痛，多为反复发作的单侧搏动性头痛，可伴恶心、呕吐、畏光、畏声。女性患病率约为男性的 3 倍。",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "概述",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_002",
+    "content": "## 主要症状\n\n- 单侧头痛（约 60%），也可双侧\n- 搏动性、跳痛性质\n- 中度至重度疼痛\n- 活动可加重头痛\n- 伴恶心、呕吐\n- 畏光（怕光）、畏声（怕吵）\n- 部分患者有先兆：视觉闪光、视野缺损、感觉异常，持续 5-60 分钟",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "主要症状",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_003",
+    "content": "## 诱发因素\n\n- 睡眠不足或过多、饥饿、压力、情绪波动\n- 特定食物：奶酪、巧克力、红酒\n- 月经周期（女性）\n- 强光、噪音、气味刺激",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "诱发因素",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_004",
+    "content": "## 诊断要点\n\n- 主要依靠病史，需排除继发性头痛\n- 符合 ICHD-3 诊断标准：至少 5 次发作，每次 4-72 小时\n- 严重或突发头痛需做头颅 CT/MRI 排除器质性病变",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "诊断要点",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_005",
+    "content": "## 治疗",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "治疗",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_006",
+    "content": "### 急性期\n\n- 轻中度：布洛芬、对乙酰氨基酚\n- 中重度：曲普坦类药物（如舒马曲普坦）\n- 尽早用药，发作初期效果最佳",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "急性期",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "07_migraine.md_007",
+    "content": "### 预防性治疗（频繁发作 ≥ 4 次/月）\n\n- β 受体阻滞剂（普萘洛尔）、抗癫痫药（丙戊酸钠、托吡酯）\n- 钙通道阻滞剂（氟桂利嗪）\n- 记录头痛日记，识别并避免诱因",
+    "metadata": {
+      "source": "07_migraine.md",
+      "section": "预防性治疗（频繁发作 ≥ 4 次/月）",
+      "chunk_index": 7
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_000",
+    "content": "# 症状指南：发热",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "症状指南：发热",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_001",
+    "content": "## 发热的定义\n\n腋温 > 37.3°C、口温 > 37.5°C、肛温 > 38.0°C 可视为发热。",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "发热的定义",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_002",
+    "content": "## 按热度分级\n\n| 分级 | 体温 |\n|------|------|\n| 低热 | 37.3 - 38.0°C |\n| 中等热 | 38.1 - 39.0°C |\n| 高热 | 39.1 - 41.0°C |\n| 超高热 | > 41.0°C |",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "按热度分级",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_003",
+    "content": "## 可能病因分析",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "可能病因分析",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_004",
+    "content": "### 低热 + 鼻塞流涕咽痛 → 普通感冒\n病毒性上呼吸道感染，通常自限，对症处理。",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "低热 + 鼻塞流涕咽痛 → 普通感冒",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_005",
+    "content": "### 高热 + 寒战 + 咳嗽咳痰 → 肺炎\n需就医，可能需要抗生素和影像学检查。",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "高热 + 寒战 + 咳嗽咳痰 → 肺炎",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_006",
+    "content": "### 高热 + 头痛全身酸痛 → 流感\n流感病毒感染，抗病毒药（奥司他韦）在 48 小时内使用效果最佳。",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "高热 + 头痛全身酸痛 → 流感",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_007",
+    "content": "### 持续低热 + 盗汗消瘦 → 需排查结核等\n长期不明原因低热应就医做系统检查。",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "持续低热 + 盗汗消瘦 → 需排查结核等",
+      "chunk_index": 7
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_008",
+    "content": "### 儿童发热注意事项\n- 3 个月以下婴儿发热 ≥ 38°C 应立即就医\n- 高热惊厥：体温快速上升时可能发生，需紧急处理",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "儿童发热注意事项",
+      "chunk_index": 8
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_009",
+    "content": "## 家庭处理\n\n- 多饮水，物理降温（温水擦浴）\n- 退热药：对乙酰氨基酚或布洛芬（按说明书剂量）\n- 观察伴随症状变化",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "家庭处理",
+      "chunk_index": 9
+    }
+  },
+  {
+    "chunk_id": "08_symptom_fever.md_010",
+    "content": "## 必须就医的情况\n\n- 体温 > 39°C 持续 3 天以上\n- 伴呼吸困难、意识改变、皮疹\n- 婴幼儿、老人、孕妇发热\n- 免疫力低下者（化疗、艾滋病等）",
+    "metadata": {
+      "source": "08_symptom_fever.md",
+      "section": "必须就医的情况",
+      "chunk_index": 10
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_000",
+    "content": "# 症状指南：头痛",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "症状指南：头痛",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_001",
+    "content": "## 头痛的常见类型",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "头痛的常见类型",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_002",
+    "content": "### 紧张性头痛\n- 双侧头部压迫感、紧箍感\n- 轻中度，不影响日常活动\n- 与压力、疲劳、颈肩肌肉紧张相关\n- 处理：休息、按摩、非处方止痛药",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "紧张性头痛",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_003",
+    "content": "### 偏头痛\n- 单侧搏动性疼痛，中重度\n- 伴恶心、畏光畏声\n- 可有视觉先兆\n- 处理：暗室休息，曲普坦类或 NSAIDs",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "偏头痛",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_004",
+    "content": "### 丛集性头痛\n- 单侧眼眶周围剧烈疼痛\n- 每天发作数次，持续 15 分钟至 3 小时\n- 伴同侧流泪、鼻塞\n- 需专科治疗",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "丛集性头痛",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_005",
+    "content": "## 危险头痛信号（需立即就医）\n\n以下情况可能提示严重疾病，**不要自行处理，立即就医**：\n\n1. **突发雷击样头痛**：数秒内达到最剧烈程度 → 警惕蛛网膜下腔出血\n2. **伴发热 + 颈项强直**：脖子僵硬 → 警惕脑膜炎\n3. **伴肢体无力、言语不清、视物模糊** → 警惕脑卒中\n4. **头痛性质突然改变**（与以往不同）\n5. **50 岁后首次出现严重头痛**\n6. **头痛伴意识障碍、抽搐**\n7. **癌症或免疫缺陷患者新发头痛**\n8. **咳嗽、用力时头痛剧烈加重**",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "危险头痛信号（需立即就医）",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "09_symptom_headache.md_006",
+    "content": "## 头痛问诊要点\n\n就医时向医生说明：\n- 疼痛部位、性质（胀痛/刺痛/搏动性）\n- 持续时间、发作频率\n- 诱发和缓解因素\n- 伴随症状（发热、呕吐、视力变化）\n- 用药史和既往头痛史",
+    "metadata": {
+      "source": "09_symptom_headache.md",
+      "section": "头痛问诊要点",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_000",
+    "content": "# 症状指南：咳嗽",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "症状指南：咳嗽",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_001",
+    "content": "## 咳嗽的分类",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "咳嗽的分类",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_002",
+    "content": "### 按时间分类\n\n| 类型 | 持续时间 |\n|------|---------|\n| 急性咳嗽 | < 3 周 |\n| 亚急性咳嗽 | 3-8 周 |\n| 慢性咳嗽 | > 8 周 |",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "按时间分类",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_003",
+    "content": "## 可能病因分析",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "可能病因分析",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_004",
+    "content": "### 急性咳嗽（< 3 周）\n\n- **感冒/流感**：伴鼻塞、咽痛、发热，自限性\n- **急性支气管炎**：咳嗽伴咳痰，多由病毒感染\n- **肺炎**：咳嗽 + 高热 + 胸痛 + 呼吸困难",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "急性咳嗽（< 3 周）",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_005",
+    "content": "### 亚急性咳嗽（3-8 周）\n\n- 感染后咳嗽：感冒痊愈后咳嗽持续，逐渐自行缓解\n- 需排除哮喘、鼻后滴漏",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "亚急性咳嗽（3-8 周）",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_006",
+    "content": "### 慢性咳嗽（> 8 周）常见四大原因\n\n1. **咳嗽变异性哮喘**：干咳为主，夜间和清晨加重\n2. **鼻后滴漏综合征**：鼻炎、鼻窦炎导致分泌物倒流刺激咽喉\n3. **胃食管反流**：平卧时加重，伴反酸烧心\n4. **嗜酸性粒细胞性支气管炎**",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "慢性咳嗽（> 8 周）常见四大原因",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_007",
+    "content": "## 痰液性状提示\n\n- **白色稀痰**：病毒感染、慢性支气管炎\n- **黄色脓痰**：细菌感染\n- **铁锈色痰**：肺炎链球菌肺炎\n- **粉红色泡沫痰**：急性左心衰竭（急症）\n- **血丝痰**：支气管扩张、肺结核、肺癌（需就医）",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "痰液性状提示",
+      "chunk_index": 7
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_008",
+    "content": "## 家庭护理\n\n- 多饮水，保持气道湿润\n- 蜂蜜（1 岁以上）可缓解咳嗽\n- 避免烟雾、粉尘刺激\n- 慎用止咳药，痰多时不宜强力镇咳",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "家庭护理",
+      "chunk_index": 8
+    }
+  },
+  {
+    "chunk_id": "10_symptom_cough.md_009",
+    "content": "## 何时就医\n\n- 咳嗽超过 3 周不缓解\n- 咳血或痰中带血\n- 伴呼吸困难、胸痛、高热\n- 夜间咳嗽严重影响睡眠\n- 消瘦、盗汗",
+    "metadata": {
+      "source": "10_symptom_cough.md",
+      "section": "何时就医",
+      "chunk_index": 9
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_000",
+    "content": "# 症状指南：胸痛",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "症状指南：胸痛",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_001",
+    "content": "## 重要提示\n\n胸痛可能是多种疾病的表现，其中**部分为危及生命的急症**。无法自行判断时，应优先就医。",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "重要提示",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_002",
+    "content": "## 高危胸痛（立即拨打 120）",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "高危胸痛（立即拨打 120）",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_003",
+    "content": "### 急性心肌梗死\n- 胸骨后压榨性剧痛，持续 > 30 分钟\n- 放射至左肩、左臂、下颌\n- 伴大汗、恶心、濒死感\n- 硝酸甘油不能缓解",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "急性心肌梗死",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_004",
+    "content": "### 主动脉夹层\n- 突发撕裂样剧痛，难以忍受\n- 疼痛可沿夹层方向转移（胸 → 背 → 腹）\n- 两侧血压不对称\n- 高血压病史者风险高",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "主动脉夹层",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_005",
+    "content": "### 肺栓塞\n- 突发胸痛 + 呼吸困难\n- 可伴咯血、低氧\n- 长期卧床、手术、口服避孕药为危险因素",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "肺栓塞",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_006",
+    "content": "### 张力性气胸\n- 突发一侧胸痛 + 严重呼吸困难\n- 气管偏向健侧",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "张力性气胸",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_007",
+    "content": "## 中等风险胸痛",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "中等风险胸痛",
+      "chunk_index": 7
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_008",
+    "content": "### 心绞痛\n- 劳累后胸骨后闷痛，休息后缓解\n- 持续数分钟\n- 含服硝酸甘油有效",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "心绞痛",
+      "chunk_index": 8
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_009",
+    "content": "### 胸膜炎\n- 深呼吸、咳嗽时胸痛加重\n- 常伴发热",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "胸膜炎",
+      "chunk_index": 9
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_010",
+    "content": "### 胃食管反流\n- 胸骨后烧灼感\n- 餐后或平卧时加重\n- 伴反酸",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "胃食管反流",
+      "chunk_index": 10
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_011",
+    "content": "## 低风险胸痛\n\n- 肌肉拉伤：局部压痛，活动相关\n- 肋软骨炎：胸壁局限性压痛\n- 焦虑相关：刺痛，位置游走，与情绪相关",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "低风险胸痛",
+      "chunk_index": 11
+    }
+  },
+  {
+    "chunk_id": "11_symptom_chest_pain.md_012",
+    "content": "## 就医时提供的信息\n\n- 疼痛性质（压榨/刺痛/烧灼/撕裂）\n- 持续时间、诱发和缓解因素\n- 伴随症状（出汗、呼吸困难、咯血）\n- 既往心脏病、高血压、糖尿病史",
+    "metadata": {
+      "source": "11_symptom_chest_pain.md",
+      "section": "就医时提供的信息",
+      "chunk_index": 12
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_000",
+    "content": "# 症状指南：腹痛",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "症状指南：腹痛",
+      "chunk_index": 0
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_001",
+    "content": "## 腹痛部位与可能病因",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "腹痛部位与可能病因",
+      "chunk_index": 1
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_002",
+    "content": "### 上腹部\n\n- **胃痛/胃炎/消化性溃疡**：上腹正中或偏左，餐后加重或空腹时加重\n- **胆囊炎/胆石症**：右上腹疼痛，可放射至右肩，高脂饮食后诱发\n- **胰腺炎**：上腹持续性剧痛，向背部放射，伴呕吐",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "上腹部",
+      "chunk_index": 2
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_003",
+    "content": "### 脐周\n\n- **肠炎**：脐周隐痛或绞痛，伴腹泻\n- **肠梗阻**：阵发性绞痛，伴呕吐、停止排气排便",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "脐周",
+      "chunk_index": 3
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_004",
+    "content": "### 下腹部\n\n- **阑尾炎**：初期脐周痛，后转移至右下腹，McBurney 点压痛\n- **泌尿系结石**：腰腹部绞痛，向会阴放射，伴血尿\n- **妇科疾病**：痛经、宫外孕（急症）、卵巢囊肿扭转",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "下腹部",
+      "chunk_index": 4
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_005",
+    "content": "## 急腹症信号（立即就医）\n\n以下情况提示可能需要急诊手术或紧急处理：\n\n1. 剧烈腹痛持续不缓解\n2. 腹部僵硬（板状腹）\n3. 伴高热、休克表现（面色苍白、出冷汗、血压下降）\n4. 呕血、便血、黑便\n5. 腹痛伴停止排气排便（肠梗阻）\n6. 育龄女性腹痛伴停经（排除宫外孕）",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "急腹症信号（立即就医）",
+      "chunk_index": 5
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_006",
+    "content": "## 常见功能性腹痛\n\n- **肠易激综合征（IBS）**：腹痛伴排便习惯改变，排便后缓解\n- 与压力、饮食相关，无器质性病变",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "常见功能性腹痛",
+      "chunk_index": 6
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_007",
+    "content": "## 家庭观察要点\n\n- 记录疼痛部位、性质、时间\n- 观察有无发热、呕吐、腹泻\n- 暂禁食禁水（怀疑急腹症时）\n- 不要自行服用强效止痛药（可能掩盖病情）",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "家庭观察要点",
+      "chunk_index": 7
+    }
+  },
+  {
+    "chunk_id": "12_symptom_abdominal_pain.md_008",
+    "content": "## 就诊科室\n\n- 普通腹痛 → 消化内科\n- 右下腹痛 → 普外科（排除阑尾炎）\n- 腰痛血尿 → 泌尿外科\n- 女性下腹痛 → 妇科",
+    "metadata": {
+      "source": "12_symptom_abdominal_pain.md",
+      "section": "就诊科室",
+      "chunk_index": 8
+    }
+  }
+]
